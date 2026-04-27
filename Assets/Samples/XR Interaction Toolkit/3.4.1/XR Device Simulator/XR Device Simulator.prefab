@@ -102,7 +102,7 @@ MonoBehaviour:
   m_MouseScrollRotateSensitivity: 0.05
   m_MouseYRotateInvert: 0
   m_DesiredCursorLockMode: 1
-  m_DeviceSimulatorUI: {fileID: 7662076761675301960, guid: ead42e0472b7547fbba6c229aeaf37d3, type: 3}
+  m_DeviceSimulatorUI: {fileID: 0}
   m_GripAmount: 1
   m_TriggerAmount: 1
   m_HMDIsTracked: 1
