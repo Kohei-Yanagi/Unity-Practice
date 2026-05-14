@@ -50,6 +50,7 @@ public class GameLauncher : MonoBehaviour, INetworkRunnerCallbacks
         else
         {
             Debug.LogError($"Fusion Start Failed: {result.ShutdownReason}");
+            Debug.LogError($"Error Message: {result.ErrorMessage}");
         }
     }
 
