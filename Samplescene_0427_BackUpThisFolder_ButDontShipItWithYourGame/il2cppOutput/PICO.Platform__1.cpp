@@ -1410,7 +1410,7 @@ struct __StaticArrayInitTypeSizeU3D14525_t21C6840BC5451915D15F496D84BA06369DA7D8
 };
 #pragma pack(pop, tp)
 #pragma pack(push, tp, 1)
-struct __StaticArrayInitTypeSizeU3D5304_t14ED881F485E4EBAC0FC884984A635911B15A453 
+struct __StaticArrayInitTypeSizeU3D4152_t0AA65CE9C25B97E03551D160C19F15DCD2C3D393 
 {
 	union
 	{
@@ -1420,7 +1420,7 @@ struct __StaticArrayInitTypeSizeU3D5304_t14ED881F485E4EBAC0FC884984A635911B15A45
 			{
 			};
 		};
-		uint8_t __StaticArrayInitTypeSizeU3D5304_t14ED881F485E4EBAC0FC884984A635911B15A453__padding[5304];
+		uint8_t __StaticArrayInitTypeSizeU3D4152_t0AA65CE9C25B97E03551D160C19F15DCD2C3D393__padding[4152];
 	};
 };
 #pragma pack(pop, tp)
@@ -2576,7 +2576,7 @@ struct List_1_t68B676CB2F1554E5228FD7A20B97B490395C7E2C_StaticFields
 struct U3CPrivateImplementationDetailsU3E_t4051246AB34A3F912D5AFAB9CB5024E79A4F69CA_StaticFields
 {
 	__StaticArrayInitTypeSizeU3D14525_t21C6840BC5451915D15F496D84BA06369DA7D816 ___0B5D8BF547124A156FEF3BF0BC417E189CE5794BC4ED1249ED8A3F241446A13B;
-	__StaticArrayInitTypeSizeU3D5304_t14ED881F485E4EBAC0FC884984A635911B15A453 ___604A45348B8E5E02E7B1DF94EEEEBCB7A62CBFD4B078CF492F42BF72D0097DBA;
+	__StaticArrayInitTypeSizeU3D4152_t0AA65CE9C25B97E03551D160C19F15DCD2C3D393 ___68E9FA553A4F3EE3AAAAF54499979F13AF034973FD3E9E691D09ED5B46E8EA87;
 };
 struct CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_StaticFields
 {
@@ -4014,48 +4014,48 @@ inline void List_1_AddWithResize_m79A9BF770BEF9C06BE40D5401E55E375F2726CC4 (List
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 78244
+// Method Definition Index: 88298
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InviteOptions__ctor_m4B2F4C0CB259222234C82EF5E80D82F622964A14 (InviteOptions_tCA8DAB33AEDA057BB28A09AB412CD57B8F901AB3* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/Presence.cs:472>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/Presence.cs:472>
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/Presence.cs:474>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/Presence.cs:474>
 		intptr_t L_0;
 		L_0 = CLIB_ppf_InviteOptions_Create_m604079C34E3186E4DF7573430F2F5D34136433B5(NULL);
 		__this->___Handle = L_0;
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/Presence.cs:475>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/Presence.cs:475>
 		return;
 	}
 }
-// Method Definition Index: 78245
+// Method Definition Index: 88299
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InviteOptions_AddSuggestedUser_mE82F8F7A27993F1FFD81E9818AC27CF8CE1C7AAF (InviteOptions_tCA8DAB33AEDA057BB28A09AB412CD57B8F901AB3* __this, String_t* ___0_ele, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/Presence.cs:480>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/Presence.cs:480>
 		intptr_t L_0 = __this->___Handle;
 		String_t* L_1 = ___0_ele;
 		CLIB_ppf_InviteOptions_AddSuggestedUser_m51C192B47F585F818906109B46F71D4DFE3DA0FC(L_0, L_1, NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/Presence.cs:481>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/Presence.cs:481>
 		return;
 	}
 }
-// Method Definition Index: 78246
+// Method Definition Index: 88300
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InviteOptions_ClearSuggestedUsers_mD71C7C4A91F1E7EFF94D1F7C5BFAAFDF1A59E339 (InviteOptions_tCA8DAB33AEDA057BB28A09AB412CD57B8F901AB3* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/Presence.cs:485>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/Presence.cs:485>
 		intptr_t L_0 = __this->___Handle;
 		CLIB_ppf_InviteOptions_ClearSuggestedUsers_m05DD1EE49437A8611632AB550AAEC725E48F2140(L_0, NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/Presence.cs:486>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/Presence.cs:486>
 		return;
 	}
 }
-// Method Definition Index: 78247
+// Method Definition Index: 88301
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t InviteOptions_op_Explicit_m3837D7527DBAF736AC307065EBCEC72367A58BB3 (InviteOptions_tCA8DAB33AEDA057BB28A09AB412CD57B8F901AB3* ___0_options, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/Presence.cs:492>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/Presence.cs:492>
 		InviteOptions_tCA8DAB33AEDA057BB28A09AB412CD57B8F901AB3* L_0 = ___0_options;
 		if (L_0)
 		{
@@ -4074,7 +4074,7 @@ IL_0009:
 		return L_2;
 	}
 }
-// Method Definition Index: 78248
+// Method Definition Index: 88302
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InviteOptions_Finalize_mFBFDDFE8346B8177C74CB9B9422B18B50DCC7CE3 (InviteOptions_tCA8DAB33AEDA057BB28A09AB412CD57B8F901AB3* __this, const RuntimeMethod* method) 
 {
 	{
@@ -4083,14 +4083,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InviteOptions_Finalize_mFBFDDFE8346B8177
 
 FINALLY_000d:
 			{
-				//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/Presence.cs:498>
+				//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/Presence.cs:498>
 				Object_Finalize_mC98C96301CCABFE00F1A7EF8E15DF507CACD42B2(__this, NULL);
 				return;
 			}
 		});
 		try
 		{
-			//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/Presence.cs:497>
+			//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/Presence.cs:497>
 			intptr_t L_0 = __this->___Handle;
 			CLIB_ppf_InviteOptions_Destroy_mC357627BD08F074811189C4189B1C6107ABD44EF(L_0, NULL);
 			goto IL_0014;
@@ -4103,7 +4103,7 @@ FINALLY_000d:
 
 IL_0014:
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/Presence.cs:498>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/Presence.cs:498>
 		return;
 	}
 }
@@ -4124,7 +4124,7 @@ extern "C" int32_t CDECL ReversePInvokeWrapper_RtcService_InnerAudioProcessor_m6
 
 	return returnValue;
 }
-// Method Definition Index: 78249
+// Method Definition Index: 88303
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t RtcService_InitRtcEngine_m8CFD3447FE5884ADA7E671B54C3474DE6492E5FC (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4135,7 +4135,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t RtcService_InitRtcEngine_m8CFD3447FE5
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/RTC.cs:38>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/RTC.cs:38>
 		il2cpp_codegen_runtime_class_init_inline(Application_tDB03BE91CDF0ACA614A5E0B67CFB77C44EB19B21_il2cpp_TypeInfo_var);
 		int32_t L_0;
 		L_0 = Application_get_platform_m59EF7D6155D18891B24767F83F388160B1FF2138(NULL);
@@ -4153,19 +4153,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t RtcService_InitRtcEngine_m8CFD3447FE5
 		}
 	}
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/RTC.cs:40>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/RTC.cs:40>
 		Permission_RequestUserPermission_mF9CF3A21AAF34B311137C4D00B3AD6A6C2694242(_stringLiteral6D2C56060B3F7353031AD314517C27945CC39748, NULL);
 	}
 
 IL_001f:
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/RTC.cs:43>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/RTC.cs:43>
 		int32_t L_2;
 		L_2 = CLIB_ppf_Rtc_InitRtcEngine_m20BB8DD19DDA0DE689AED5FDFCC401E17A2B0DFF(NULL);
 		return L_2;
 	}
 }
-// Method Definition Index: 78250
+// Method Definition Index: 88304
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_t25E59609375A87704F09DB2AA51B13C8D17A44DF* RtcService_GetToken_m228DA2D75D8BE8DA4496774D60FD83E05C575A0A (String_t* ___0_roomId, String_t* ___1_userId, int32_t ___2_ttl, Dictionary_2_tFA4E3C6BBA632C5BEEBB77A03650502241C2D607* ___3_privileges, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4190,7 +4190,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_t25E59609375A87704F09DB2AA51B13C8D17A4
 	KeyValuePair_2_t3B924E448F08153464BEA8D03A541C9BC936424A V_2;
 	memset((&V_2), 0, sizeof(V_2));
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/RTC.cs:58>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/RTC.cs:58>
 		il2cpp_codegen_runtime_class_init_inline(CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_il2cpp_TypeInfo_var);
 		bool L_0 = ((CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_StaticFields*)il2cpp_codegen_static_fields_for(CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_il2cpp_TypeInfo_var))->___Initialized;
 		if (L_0)
@@ -4199,37 +4199,37 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_t25E59609375A87704F09DB2AA51B13C8D17A4
 		}
 	}
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/RTC.cs:60>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/RTC.cs:60>
 		il2cpp_codegen_runtime_class_init_inline(CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_il2cpp_TypeInfo_var);
 		String_t* L_1 = ((CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_StaticFields*)il2cpp_codegen_static_fields_for(CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_il2cpp_TypeInfo_var))->___NotInitializedError;
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2(L_1, NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/RTC.cs:61>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/RTC.cs:61>
 		return (Task_1_t25E59609375A87704F09DB2AA51B13C8D17A44DF*)NULL;
 	}
 
 IL_0013:
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/RTC.cs:64>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/RTC.cs:64>
 		RtcGetTokenOptions_t6535D1FCF515A08D5CCDE76F7BF9FBEB6B42F6D0* L_2 = (RtcGetTokenOptions_t6535D1FCF515A08D5CCDE76F7BF9FBEB6B42F6D0*)il2cpp_codegen_object_new(RtcGetTokenOptions_t6535D1FCF515A08D5CCDE76F7BF9FBEB6B42F6D0_il2cpp_TypeInfo_var);
 		RtcGetTokenOptions__ctor_mCA91FB23D9E95538924CA5A36D7A0060A0DA1F12(L_2, NULL);
 		V_0 = L_2;
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/RTC.cs:65>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/RTC.cs:65>
 		RtcGetTokenOptions_t6535D1FCF515A08D5CCDE76F7BF9FBEB6B42F6D0* L_3 = V_0;
 		String_t* L_4 = ___0_roomId;
 		NullCheck(L_3);
 		RtcGetTokenOptions_SetRoomId_mEC2981B140C843025675715E718FA4BBBCAF5465(L_3, L_4, NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/RTC.cs:66>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/RTC.cs:66>
 		RtcGetTokenOptions_t6535D1FCF515A08D5CCDE76F7BF9FBEB6B42F6D0* L_5 = V_0;
 		String_t* L_6 = ___1_userId;
 		NullCheck(L_5);
 		RtcGetTokenOptions_SetUserId_mAC8EC85CB4D28EE5124B3DF53DCB4DA5AB3D8A74(L_5, L_6, NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/RTC.cs:67>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/RTC.cs:67>
 		RtcGetTokenOptions_t6535D1FCF515A08D5CCDE76F7BF9FBEB6B42F6D0* L_7 = V_0;
 		int32_t L_8 = ___2_ttl;
 		NullCheck(L_7);
 		RtcGetTokenOptions_SetTtl_m4EBA04258BF46009456989FA5C35B0C5E3CA85C0(L_7, L_8, NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/RTC.cs:68>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/RTC.cs:68>
 		Dictionary_2_tFA4E3C6BBA632C5BEEBB77A03650502241C2D607* L_9 = ___3_privileges;
 		if (!L_9)
 		{
@@ -4237,7 +4237,7 @@ IL_0013:
 		}
 	}
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/RTC.cs:70>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/RTC.cs:70>
 		Dictionary_2_tFA4E3C6BBA632C5BEEBB77A03650502241C2D607* L_10 = ___3_privileges;
 		NullCheck(L_10);
 		Enumerator_tA829CFCA6EB6821F225A3ADB1DFE03AC172EBA69 L_11;
@@ -4262,11 +4262,11 @@ FINALLY_0061:
 
 IL_003a_1:
 			{
-				//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/RTC.cs:70>
+				//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/RTC.cs:70>
 				KeyValuePair_2_t3B924E448F08153464BEA8D03A541C9BC936424A L_12;
 				L_12 = Enumerator_get_Current_mDE9C73F49F1A0AACB90F99DEB8FDC16508F49543_inline((&V_1), Enumerator_get_Current_mDE9C73F49F1A0AACB90F99DEB8FDC16508F49543_RuntimeMethod_var);
 				V_2 = L_12;
-				//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/RTC.cs:72>
+				//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/RTC.cs:72>
 				RtcGetTokenOptions_t6535D1FCF515A08D5CCDE76F7BF9FBEB6B42F6D0* L_13 = V_0;
 				int32_t L_14;
 				L_14 = KeyValuePair_2_get_Key_m371FAFC80DB00656F29F2E3A607A15D8F1A4D9A2_inline((&V_2), KeyValuePair_2_get_Key_m371FAFC80DB00656F29F2E3A607A15D8F1A4D9A2_RuntimeMethod_var);
@@ -4278,7 +4278,7 @@ IL_003a_1:
 
 IL_0056_1:
 			{
-				//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/RTC.cs:70>
+				//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/RTC.cs:70>
 				bool L_16;
 				L_16 = Enumerator_MoveNext_m424B03CFB200058B8CE11047A5D7B6C0EEF5BE36((&V_1), Enumerator_MoveNext_m424B03CFB200058B8CE11047A5D7B6C0EEF5BE36_RuntimeMethod_var);
 				if (L_16)
@@ -4298,7 +4298,7 @@ IL_0056_1:
 
 IL_006f:
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/RTC.cs:76>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/RTC.cs:76>
 		RtcGetTokenOptions_t6535D1FCF515A08D5CCDE76F7BF9FBEB6B42F6D0* L_17 = V_0;
 		intptr_t L_18;
 		L_18 = RtcGetTokenOptions_op_Explicit_m6C383C66020E9B97450516BA56A4804EE11AF49E(L_17, NULL);
@@ -4309,7 +4309,7 @@ IL_006f:
 		return L_20;
 	}
 }
-// Method Definition Index: 78251
+// Method Definition Index: 88305
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t RtcService_JoinRoom_m3782263B9253042E21F4A5AF8605338E63532B79 (String_t* ___0_roomId, String_t* ___1_userId, String_t* ___2_token, int32_t ___3_roomProfileType, bool ___4_isAutoSubscribeAudio, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4319,35 +4319,35 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t RtcService_JoinRoom_m3782263B9253042E
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/RTC.cs:112>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/RTC.cs:112>
 		RtcRoomOptions_t32BE3A203D53066A2AC79CE37F297BBEB4E42B2A* L_0 = (RtcRoomOptions_t32BE3A203D53066A2AC79CE37F297BBEB4E42B2A*)il2cpp_codegen_object_new(RtcRoomOptions_t32BE3A203D53066A2AC79CE37F297BBEB4E42B2A_il2cpp_TypeInfo_var);
 		RtcRoomOptions__ctor_m753D1C11608C22036A76D99B3C862D89B347E274(L_0, NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/RTC.cs:113>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/RTC.cs:113>
 		RtcRoomOptions_t32BE3A203D53066A2AC79CE37F297BBEB4E42B2A* L_1 = L_0;
 		String_t* L_2 = ___0_roomId;
 		NullCheck(L_1);
 		RtcRoomOptions_SetRoomId_m1EC97F209EAB97E51EF3EEAFD8C6D62B6CAD2ED6(L_1, L_2, NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/RTC.cs:114>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/RTC.cs:114>
 		RtcRoomOptions_t32BE3A203D53066A2AC79CE37F297BBEB4E42B2A* L_3 = L_1;
 		String_t* L_4 = ___1_userId;
 		NullCheck(L_3);
 		RtcRoomOptions_SetUserId_m33FD3B38340AF5C0F0A57BFB514C5DA81BFE10BC(L_3, L_4, NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/RTC.cs:115>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/RTC.cs:115>
 		RtcRoomOptions_t32BE3A203D53066A2AC79CE37F297BBEB4E42B2A* L_5 = L_3;
 		String_t* L_6 = ___2_token;
 		NullCheck(L_5);
 		RtcRoomOptions_SetToken_mE7CAA2DC3B2B75013EDE6C974339572E0CEC7CC0(L_5, L_6, NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/RTC.cs:116>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/RTC.cs:116>
 		RtcRoomOptions_t32BE3A203D53066A2AC79CE37F297BBEB4E42B2A* L_7 = L_5;
 		int32_t L_8 = ___3_roomProfileType;
 		NullCheck(L_7);
 		RtcRoomOptions_SetRoomProfileType_m45350524D2610FA5CD5C4D5723EEA2A2FCF5E0F2(L_7, L_8, NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/RTC.cs:117>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/RTC.cs:117>
 		RtcRoomOptions_t32BE3A203D53066A2AC79CE37F297BBEB4E42B2A* L_9 = L_7;
 		bool L_10 = ___4_isAutoSubscribeAudio;
 		NullCheck(L_9);
 		RtcRoomOptions_SetIsAutoSubscribeAudio_m0A6C2D07889202383FE2627313F63E081CA25531(L_9, L_10, NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/RTC.cs:118>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/RTC.cs:118>
 		intptr_t L_11;
 		L_11 = RtcRoomOptions_op_Explicit_mF71D4601FAFEA41A4EA24DBF479115F06149B7CB(L_9, NULL);
 		int32_t L_12;
@@ -4355,19 +4355,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t RtcService_JoinRoom_m3782263B9253042E
 		return L_12;
 	}
 }
-// Method Definition Index: 78252
+// Method Definition Index: 88306
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t RtcService_JoinRoom2_m216395D3F7BD023C56D707C947FF624FAADC4984 (RtcRoomOptions_t32BE3A203D53066A2AC79CE37F297BBEB4E42B2A* ___0_joinRoomOptions, bool ___1_leaveIfInRoom, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/RTC.cs:137>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/RTC.cs:137>
 		RtcRoomOptions_t32BE3A203D53066A2AC79CE37F297BBEB4E42B2A* L_0 = ___0_joinRoomOptions;
 		intptr_t L_1;
 		L_1 = RtcRoomOptions_op_Explicit_mF71D4601FAFEA41A4EA24DBF479115F06149B7CB(L_0, NULL);
 		int32_t L_2;
 		L_2 = CLIB_ppf_Rtc_JoinRoom_m4E5EC93A0D7A396D28CA13001EF6E6E5A49CF0B2(L_1, NULL);
 		V_0 = L_2;
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/RTC.cs:138>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/RTC.cs:138>
 		bool L_3 = ___1_leaveIfInRoom;
 		if (!L_3)
 		{
@@ -4382,13 +4382,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t RtcService_JoinRoom2_m216395D3F7BD023
 		}
 	}
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/RTC.cs:140>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/RTC.cs:140>
 		RtcRoomOptions_t32BE3A203D53066A2AC79CE37F297BBEB4E42B2A* L_5 = ___0_joinRoomOptions;
 		NullCheck(L_5);
 		String_t* L_6 = L_5->___RoomId;
 		int32_t L_7;
 		L_7 = RtcService_LeaveRoom_m24F28302428DEE9794E878DBA9C441164D93269E(L_6, NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/RTC.cs:141>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/RTC.cs:141>
 		RtcRoomOptions_t32BE3A203D53066A2AC79CE37F297BBEB4E42B2A* L_8 = ___0_joinRoomOptions;
 		intptr_t L_9;
 		L_9 = RtcRoomOptions_op_Explicit_mF71D4601FAFEA41A4EA24DBF479115F06149B7CB(L_8, NULL);
@@ -4399,12 +4399,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t RtcService_JoinRoom2_m216395D3F7BD023
 
 IL_002c:
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/RTC.cs:144>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/RTC.cs:144>
 		int32_t L_11 = V_0;
 		return L_11;
 	}
 }
-// Method Definition Index: 78253
+// Method Definition Index: 88307
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t RtcService_JoinRoomWithRetry_m8CE086D7FBD84EE07092E134826E2E56A2DCB77D (String_t* ___0_roomId, String_t* ___1_userId, String_t* ___2_token, int32_t ___3_roomProfileType, bool ___4_isAutoSubscribeAudio, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4416,43 +4416,43 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t RtcService_JoinRoomWithRetry_m8CE086D
 	RtcRoomOptions_t32BE3A203D53066A2AC79CE37F297BBEB4E42B2A* V_0 = NULL;
 	int32_t V_1 = 0;
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/RTC.cs:175>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/RTC.cs:175>
 		RtcRoomOptions_t32BE3A203D53066A2AC79CE37F297BBEB4E42B2A* L_0 = (RtcRoomOptions_t32BE3A203D53066A2AC79CE37F297BBEB4E42B2A*)il2cpp_codegen_object_new(RtcRoomOptions_t32BE3A203D53066A2AC79CE37F297BBEB4E42B2A_il2cpp_TypeInfo_var);
 		RtcRoomOptions__ctor_m753D1C11608C22036A76D99B3C862D89B347E274(L_0, NULL);
 		V_0 = L_0;
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/RTC.cs:176>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/RTC.cs:176>
 		RtcRoomOptions_t32BE3A203D53066A2AC79CE37F297BBEB4E42B2A* L_1 = V_0;
 		String_t* L_2 = ___0_roomId;
 		NullCheck(L_1);
 		RtcRoomOptions_SetRoomId_m1EC97F209EAB97E51EF3EEAFD8C6D62B6CAD2ED6(L_1, L_2, NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/RTC.cs:177>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/RTC.cs:177>
 		RtcRoomOptions_t32BE3A203D53066A2AC79CE37F297BBEB4E42B2A* L_3 = V_0;
 		String_t* L_4 = ___1_userId;
 		NullCheck(L_3);
 		RtcRoomOptions_SetUserId_m33FD3B38340AF5C0F0A57BFB514C5DA81BFE10BC(L_3, L_4, NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/RTC.cs:178>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/RTC.cs:178>
 		RtcRoomOptions_t32BE3A203D53066A2AC79CE37F297BBEB4E42B2A* L_5 = V_0;
 		String_t* L_6 = ___2_token;
 		NullCheck(L_5);
 		RtcRoomOptions_SetToken_mE7CAA2DC3B2B75013EDE6C974339572E0CEC7CC0(L_5, L_6, NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/RTC.cs:179>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/RTC.cs:179>
 		RtcRoomOptions_t32BE3A203D53066A2AC79CE37F297BBEB4E42B2A* L_7 = V_0;
 		int32_t L_8 = ___3_roomProfileType;
 		NullCheck(L_7);
 		RtcRoomOptions_SetRoomProfileType_m45350524D2610FA5CD5C4D5723EEA2A2FCF5E0F2(L_7, L_8, NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/RTC.cs:180>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/RTC.cs:180>
 		RtcRoomOptions_t32BE3A203D53066A2AC79CE37F297BBEB4E42B2A* L_9 = V_0;
 		bool L_10 = ___4_isAutoSubscribeAudio;
 		NullCheck(L_9);
 		RtcRoomOptions_SetIsAutoSubscribeAudio_m0A6C2D07889202383FE2627313F63E081CA25531(L_9, L_10, NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/RTC.cs:181>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/RTC.cs:181>
 		RtcRoomOptions_t32BE3A203D53066A2AC79CE37F297BBEB4E42B2A* L_11 = V_0;
 		intptr_t L_12;
 		L_12 = RtcRoomOptions_op_Explicit_mF71D4601FAFEA41A4EA24DBF479115F06149B7CB(L_11, NULL);
 		int32_t L_13;
 		L_13 = CLIB_ppf_Rtc_JoinRoom_m4E5EC93A0D7A396D28CA13001EF6E6E5A49CF0B2(L_12, NULL);
 		V_1 = L_13;
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/RTC.cs:182>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/RTC.cs:182>
 		int32_t L_14 = V_1;
 		if ((!(((uint32_t)L_14) == ((uint32_t)((int32_t)-2)))))
 		{
@@ -4460,11 +4460,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t RtcService_JoinRoomWithRetry_m8CE086D
 		}
 	}
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/RTC.cs:184>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/RTC.cs:184>
 		String_t* L_15 = ___0_roomId;
 		int32_t L_16;
 		L_16 = RtcService_LeaveRoom_m24F28302428DEE9794E878DBA9C441164D93269E(L_15, NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/RTC.cs:185>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/RTC.cs:185>
 		RtcRoomOptions_t32BE3A203D53066A2AC79CE37F297BBEB4E42B2A* L_17 = V_0;
 		intptr_t L_18;
 		L_18 = RtcRoomOptions_op_Explicit_mF71D4601FAFEA41A4EA24DBF479115F06149B7CB(L_17, NULL);
@@ -4475,56 +4475,56 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t RtcService_JoinRoomWithRetry_m8CE086D
 
 IL_004e:
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/RTC.cs:188>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/RTC.cs:188>
 		int32_t L_20 = V_1;
 		return L_20;
 	}
 }
-// Method Definition Index: 78254
+// Method Definition Index: 88308
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t RtcService_LeaveRoom_m24F28302428DEE9794E878DBA9C441164D93269E (String_t* ___0_roomId, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/RTC.cs:205>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/RTC.cs:205>
 		String_t* L_0 = ___0_roomId;
 		int32_t L_1;
 		L_1 = CLIB_ppf_Rtc_LeaveRoom_m97EBB2B10B3323F2917A661B3FC3899C778F0092(L_0, NULL);
 		return L_1;
 	}
 }
-// Method Definition Index: 78255
+// Method Definition Index: 88309
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RtcService_SetAudioPlaybackDevice_m16BCB06A9BD80AE60C9181430DCE925E2458ED24 (int32_t ___0_device, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/RTC.cs:214>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/RTC.cs:214>
 		int32_t L_0 = ___0_device;
 		CLIB_ppf_Rtc_SetAudioPlaybackDevice_mD1332D4C61830FC5FA37D79D79B7AAE9A4B29444(L_0, NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/RTC.cs:215>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/RTC.cs:215>
 		return;
 	}
 }
-// Method Definition Index: 78256
+// Method Definition Index: 88310
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RtcService_RoomPauseAllSubscribedStream_mA94FB050D8FC17E8BBDC40153AB89AA22D25662E (String_t* ___0_roomId, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/RTC.cs:223>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/RTC.cs:223>
 		String_t* L_0 = ___0_roomId;
 		CLIB_ppf_Rtc_RoomPauseAllSubscribedStream_m34D0AD40880E89C0C1370213858B61D7D06055E8(L_0, 0, NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/RTC.cs:224>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/RTC.cs:224>
 		return;
 	}
 }
-// Method Definition Index: 78257
+// Method Definition Index: 88311
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RtcService_RoomResumeAllSubscribedStream_m3619DFCD75324DAE2705D69847131F278F5A3EE4 (String_t* ___0_roomId, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/RTC.cs:232>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/RTC.cs:232>
 		String_t* L_0 = ___0_roomId;
 		CLIB_ppf_Rtc_RoomResumeAllSubscribedStream_m8DAEA8FA957F0E6CCC78DCAD0F482BFAECAECFF5(L_0, 0, NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/RTC.cs:233>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/RTC.cs:233>
 		return;
 	}
 }
-// Method Definition Index: 78258
+// Method Definition Index: 88312
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t RtcService_InnerAudioProcessor_m663C1AC6BC552D87E0EF075932933D89EA182C22 (intptr_t ___0_ptr, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4535,7 +4535,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t RtcService_InnerAudioProcessor_m663C1
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/RTC.cs:242>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/RTC.cs:242>
 		ProcessAudioFrameFunction_tA63B392DEA3AFF4C8FD9068F4A056EBB4F21E8A5* L_0 = ((RtcService_t22C275834C979544290EE8B61C467477647BD1BF_StaticFields*)il2cpp_codegen_static_fields_for(RtcService_t22C275834C979544290EE8B61C467477647BD1BF_il2cpp_TypeInfo_var))->___audioProcessor;
 		if (!L_0)
 		{
@@ -4543,7 +4543,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t RtcService_InnerAudioProcessor_m663C1
 		}
 	}
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/RTC.cs:244>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/RTC.cs:244>
 		ProcessAudioFrameFunction_tA63B392DEA3AFF4C8FD9068F4A056EBB4F21E8A5* L_1 = ((RtcService_t22C275834C979544290EE8B61C467477647BD1BF_StaticFields*)il2cpp_codegen_static_fields_for(RtcService_t22C275834C979544290EE8B61C467477647BD1BF_il2cpp_TypeInfo_var))->___audioProcessor;
 		intptr_t L_2 = ___0_ptr;
 		RtcAudioFrame_t300062CFB69D590AAC05453E8CB2D5F3DDED8B59* L_3 = (RtcAudioFrame_t300062CFB69D590AAC05453E8CB2D5F3DDED8B59*)il2cpp_codegen_object_new(RtcAudioFrame_t300062CFB69D590AAC05453E8CB2D5F3DDED8B59_il2cpp_TypeInfo_var);
@@ -4556,11 +4556,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t RtcService_InnerAudioProcessor_m663C1
 
 IL_0018:
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/RTC.cs:247>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/RTC.cs:247>
 		return 0;
 	}
 }
-// Method Definition Index: 78259
+// Method Definition Index: 88313
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RtcService_RegisterLocalAudioProcessor_m58CB81757B963E0FC677025F0277A87159AB3D96 (ProcessAudioFrameFunction_tA63B392DEA3AFF4C8FD9068F4A056EBB4F21E8A5* ___0_processor, int32_t ___1_channel, int32_t ___2_sampleRate, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4572,21 +4572,21 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RtcService_RegisterLocalAudioProcessor_m
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/RTC.cs:263>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/RTC.cs:263>
 		ProcessAudioFrameFunction_tA63B392DEA3AFF4C8FD9068F4A056EBB4F21E8A5* L_0 = ___0_processor;
 		((RtcService_t22C275834C979544290EE8B61C467477647BD1BF_StaticFields*)il2cpp_codegen_static_fields_for(RtcService_t22C275834C979544290EE8B61C467477647BD1BF_il2cpp_TypeInfo_var))->___audioProcessor = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&((RtcService_t22C275834C979544290EE8B61C467477647BD1BF_StaticFields*)il2cpp_codegen_static_fields_for(RtcService_t22C275834C979544290EE8B61C467477647BD1BF_il2cpp_TypeInfo_var))->___audioProcessor), (void*)L_0);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/RTC.cs:264>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/RTC.cs:264>
 		RtcProcessAudioFrameFunction_t91998EE2CD7760356A3A9E75620AEB591C1F2344* L_1 = (RtcProcessAudioFrameFunction_t91998EE2CD7760356A3A9E75620AEB591C1F2344*)il2cpp_codegen_object_new(RtcProcessAudioFrameFunction_t91998EE2CD7760356A3A9E75620AEB591C1F2344_il2cpp_TypeInfo_var);
 		RtcProcessAudioFrameFunction__ctor_m55F453E056A84CA415A7E8B7CF428BF0A7901A50(L_1, NULL, (intptr_t)((void*)RtcService_InnerAudioProcessor_m663C1AC6BC552D87E0EF075932933D89EA182C22_RuntimeMethod_var), NULL);
 		int32_t L_2 = ___1_channel;
 		int32_t L_3 = ___2_sampleRate;
 		CLIB_ppf_Rtc_RegisterLocalAudioProcessor_mF40BE44B52397C73F3E98736217222546F1FE166(L_1, L_2, L_3, NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/RTC.cs:265>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/RTC.cs:265>
 		return;
 	}
 }
-// Method Definition Index: 78260
+// Method Definition Index: 88314
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RtcService_EnableAudioPropertiesReport_m962D3D000DFE783E1EEFE59EF0A84D218C73D8E6 (int32_t ___0_interval, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4596,191 +4596,191 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RtcService_EnableAudioPropertiesReport_m
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/RTC.cs:276>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/RTC.cs:276>
 		RtcAudioPropertyOptions_t5E394E488DDCF996DB82E9326E71B465A4D6D23E* L_0 = (RtcAudioPropertyOptions_t5E394E488DDCF996DB82E9326E71B465A4D6D23E*)il2cpp_codegen_object_new(RtcAudioPropertyOptions_t5E394E488DDCF996DB82E9326E71B465A4D6D23E_il2cpp_TypeInfo_var);
 		RtcAudioPropertyOptions__ctor_m5D01ABC1098566CAD6A7000775D6CA381D70509F(L_0, NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/RTC.cs:277>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/RTC.cs:277>
 		RtcAudioPropertyOptions_t5E394E488DDCF996DB82E9326E71B465A4D6D23E* L_1 = L_0;
 		int32_t L_2 = ___0_interval;
 		NullCheck(L_1);
 		RtcAudioPropertyOptions_SetInterval_m8075C50D77C3347FB74433C8D73FBA38E3416005(L_1, L_2, NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/RTC.cs:278>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/RTC.cs:278>
 		intptr_t L_3;
 		L_3 = RtcAudioPropertyOptions_op_Explicit_mAA54B25B681E9C597F68538D3339153E5748FB9A(L_1, NULL);
 		CLIB_ppf_Rtc_EnableAudioPropertiesReport_m97025C0A2787682A37CEEFC30F7DBB89D5831533(L_3, NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/RTC.cs:279>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/RTC.cs:279>
 		return;
 	}
 }
-// Method Definition Index: 78261
+// Method Definition Index: 88315
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RtcService_PublishRoom_mEE5D6786FF2EC07CFD59375E9ADC60E33D2D8E86 (String_t* ___0_roomId, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/RTC.cs:291>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/RTC.cs:291>
 		String_t* L_0 = ___0_roomId;
 		CLIB_ppf_Rtc_RoomPublishStream_m999BF20CA150068F21BB66C40AD84A9768BC2033(L_0, 1, NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/RTC.cs:292>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/RTC.cs:292>
 		return;
 	}
 }
-// Method Definition Index: 78262
+// Method Definition Index: 88316
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RtcService_UnPublishRoom_m34592A5C3B59C5C1ACAA0BE0C9D7CAFAB3E362F7 (String_t* ___0_roomId, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/RTC.cs:300>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/RTC.cs:300>
 		String_t* L_0 = ___0_roomId;
 		CLIB_ppf_Rtc_RoomUnPublishStream_m00FEBEC578FA2194B9E8A8B48FBFB928E5FDB138(L_0, 1, NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/RTC.cs:301>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/RTC.cs:301>
 		return;
 	}
 }
-// Method Definition Index: 78263
+// Method Definition Index: 88317
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RtcService_DestroyRoom_m6D553521DCD3D2A943F0B1DFF20B9AA4978913B9 (String_t* ___0_roomId, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/RTC.cs:309>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/RTC.cs:309>
 		String_t* L_0 = ___0_roomId;
 		CLIB_ppf_Rtc_DestroyRoom_m9624553A2D673BC8441668054A0456836613D50D(L_0, NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/RTC.cs:310>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/RTC.cs:310>
 		return;
 	}
 }
-// Method Definition Index: 78264
+// Method Definition Index: 88318
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RtcService_StartAudioCapture_mF0DA2F73E5B7E3FBDF12FF883391C4EF15CB852D (const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/RTC.cs:317>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/RTC.cs:317>
 		CLIB_ppf_Rtc_StartAudioCapture_m8700CD4674A20317315792FF01A293DC9EE03B5D(NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/RTC.cs:318>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/RTC.cs:318>
 		return;
 	}
 }
-// Method Definition Index: 78265
+// Method Definition Index: 88319
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RtcService_StopAudioCapture_mCBE5DADCBEA31AB76D2BF7E2B2D70929C9D535A7 (const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/RTC.cs:325>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/RTC.cs:325>
 		CLIB_ppf_Rtc_StopAudioCapture_m9314204AA68DEC851FD5F446DB4E65B1B7DCC67E(NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/RTC.cs:326>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/RTC.cs:326>
 		return;
 	}
 }
-// Method Definition Index: 78266
+// Method Definition Index: 88320
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RtcService_SetCaptureVolume_mEE326C6BADAE50B581A2C44B44411165A62A71AB (int32_t ___0_volume, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/RTC.cs:334>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/RTC.cs:334>
 		int32_t L_0 = ___0_volume;
 		CLIB_ppf_Rtc_SetCaptureVolume_mF57DFC4F22BF53E417A49455A3FB35D4E80CFC73(0, L_0, NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/RTC.cs:335>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/RTC.cs:335>
 		return;
 	}
 }
-// Method Definition Index: 78267
+// Method Definition Index: 88321
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RtcService_SetPlaybackVolume_m677C38B515B81C488FA486F7F5D6446D49D07C3A (int32_t ___0_volume, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/RTC.cs:343>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/RTC.cs:343>
 		int32_t L_0 = ___0_volume;
 		CLIB_ppf_Rtc_SetPlaybackVolume_m5C43C4FF094E1034EA128BF265E10B7055C65A8D(L_0, NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/RTC.cs:344>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/RTC.cs:344>
 		return;
 	}
 }
-// Method Definition Index: 78268
+// Method Definition Index: 88322
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RtcService_SetEarMonitorMode_mD8D611AF6E8068A2B4F53FC96CEF69ECDBD5AEA1 (int32_t ___0_mode, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/RTC.cs:355>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/RTC.cs:355>
 		int32_t L_0 = ___0_mode;
 		CLIB_ppf_Rtc_SetEarMonitorMode_m3A40312D08EF057E864EC56020773481AB184F0C(L_0, NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/RTC.cs:356>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/RTC.cs:356>
 		return;
 	}
 }
-// Method Definition Index: 78269
+// Method Definition Index: 88323
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RtcService_SetEarMonitorVolume_mA72A4B6C43B754BDBA6A66FD0F24F4ED0A990575 (int32_t ___0_volume, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/RTC.cs:364>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/RTC.cs:364>
 		int32_t L_0 = ___0_volume;
 		CLIB_ppf_Rtc_SetEarMonitorVolume_m18A7BBD03541E7EFF142C6F976D002BBB9D61AE4(L_0, NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/RTC.cs:365>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/RTC.cs:365>
 		return;
 	}
 }
-// Method Definition Index: 78270
+// Method Definition Index: 88324
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RtcService_MuteLocalAudio_m17017BE2D4274302111347DD1B88ADF2C13659E4 (int32_t ___0_rtcMuteState, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/RTC.cs:378>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/RTC.cs:378>
 		int32_t L_0 = ___0_rtcMuteState;
 		CLIB_ppf_Rtc_MuteLocalAudio_m77706FE3988E9393BACD03870F2641AD938DDA7E(L_0, NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/RTC.cs:379>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/RTC.cs:379>
 		return;
 	}
 }
-// Method Definition Index: 78271
+// Method Definition Index: 88325
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RtcService_UpdateToken_mD860DBD249EF4448F974954FAACF64A18D9B3C11 (String_t* ___0_roomId, String_t* ___1_token, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/RTC.cs:394>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/RTC.cs:394>
 		String_t* L_0 = ___0_roomId;
 		String_t* L_1 = ___1_token;
 		CLIB_ppf_Rtc_UpdateToken_mF6E21D718D5EA93B515E07C2DFFCCFD96985EDBB(L_0, L_1, NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/RTC.cs:395>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/RTC.cs:395>
 		return;
 	}
 }
-// Method Definition Index: 78272
+// Method Definition Index: 88326
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RtcService_SetAudioScenario_m8DEFD5F7961B4DEEBF89509DBD6A23A62D75231F (int32_t ___0_scenarioType, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/RTC.cs:410>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/RTC.cs:410>
 		int32_t L_0 = ___0_scenarioType;
 		CLIB_ppf_Rtc_SetAudioScenario_mC636AA2606FA3F31BE8BF487B8B05CA8E88B0EA1(L_0, NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/RTC.cs:411>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/RTC.cs:411>
 		return;
 	}
 }
-// Method Definition Index: 78273
+// Method Definition Index: 88327
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RtcService_RoomSetRemoteAudioPlaybackVolume_m981CA20823E8E0F250AA964F9EB9DB0E26BEBAE0 (String_t* ___0_roomId, String_t* ___1_userId, int32_t ___2_volume, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/RTC.cs:421>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/RTC.cs:421>
 		String_t* L_0 = ___0_roomId;
 		String_t* L_1 = ___1_userId;
 		int32_t L_2 = ___2_volume;
 		CLIB_ppf_Rtc_RoomSetRemoteAudioPlaybackVolume_m7433C4EC934EE144B19D75B7AE556CC89EFCF6EB(L_0, L_1, L_2, NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/RTC.cs:422>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/RTC.cs:422>
 		return;
 	}
 }
-// Method Definition Index: 78274
+// Method Definition Index: 88328
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RtcService_RoomSubscribeStream_m41B409CF7ECD851EA659A244FBF8A5A4EE3E22E9 (String_t* ___0_roomId, String_t* ___1_userId, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/RTC.cs:431>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/RTC.cs:431>
 		String_t* L_0 = ___0_roomId;
 		String_t* L_1 = ___1_userId;
 		CLIB_ppf_Rtc_RoomSubscribeStream_mC7D8349F283518760FF8D7C1068651DF3B7DC779(L_0, L_1, 1, NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/RTC.cs:432>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/RTC.cs:432>
 		return;
 	}
 }
-// Method Definition Index: 78275
+// Method Definition Index: 88329
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RtcService_RoomUnSubscribeStream_m0DE28E1583C633D45193390228BBFF756158F3BC (String_t* ___0_roomId, String_t* ___1_userId, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/RTC.cs:441>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/RTC.cs:441>
 		String_t* L_0 = ___0_roomId;
 		String_t* L_1 = ___1_userId;
 		CLIB_ppf_Rtc_RoomUnsubscribeStream_m3C9352F9B827AC824A03C96E5FFA327C8D8CBF7F(L_0, L_1, 1, NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/RTC.cs:442>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/RTC.cs:442>
 		return;
 	}
 }
-// Method Definition Index: 78276
+// Method Definition Index: 88330
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int64_t RtcService_SendRoomBinaryMessage_m6B48B971DEB3A71493C99BCFB41A5E379BF32910 (String_t* ___0_roomId, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___1_message, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4791,12 +4791,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int64_t RtcService_SendRoomBinaryMessage_m6B4
 	}
 	PtrManager_t833E3E357C817D8CBC5DE7472FDF5AB9C13F2BA2* V_0 = NULL;
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/RTC.cs:454>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/RTC.cs:454>
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_0 = ___1_message;
 		PtrManager_t833E3E357C817D8CBC5DE7472FDF5AB9C13F2BA2* L_1 = (PtrManager_t833E3E357C817D8CBC5DE7472FDF5AB9C13F2BA2*)il2cpp_codegen_object_new(PtrManager_t833E3E357C817D8CBC5DE7472FDF5AB9C13F2BA2_il2cpp_TypeInfo_var);
 		PtrManager__ctor_m7BEAACAEBEE05EF15116C986BAB9A1DA2002A478(L_1, L_0, NULL);
 		V_0 = L_1;
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/RTC.cs:455>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/RTC.cs:455>
 		String_t* L_2 = ___0_roomId;
 		PtrManager_t833E3E357C817D8CBC5DE7472FDF5AB9C13F2BA2* L_3 = V_0;
 		NullCheck(L_3);
@@ -4805,19 +4805,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int64_t RtcService_SendRoomBinaryMessage_m6B4
 		NullCheck(L_5);
 		int64_t L_6;
 		L_6 = CLIB_ppf_Rtc_SendRoomBinaryMessage_m3ED7D7134269914FE9FC7EB789C89658EB6FDA8F(L_2, L_4, ((int32_t)(((RuntimeArray*)L_5)->max_length)), NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/RTC.cs:456>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/RTC.cs:456>
 		PtrManager_t833E3E357C817D8CBC5DE7472FDF5AB9C13F2BA2* L_7 = V_0;
 		NullCheck(L_7);
 		PtrManager_Free_mF57A82180453684532E9C29833A96C28D8BA7D05(L_7, NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/RTC.cs:457>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/RTC.cs:457>
 		return L_6;
 	}
 }
-// Method Definition Index: 78277
+// Method Definition Index: 88331
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int64_t RtcService_SendRoomMessage_m0F9CD695740455C83F22DF58630C01BEFD2982B1 (String_t* ___0_roomId, String_t* ___1_message, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/RTC.cs:470>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/RTC.cs:470>
 		String_t* L_0 = ___0_roomId;
 		String_t* L_1 = ___1_message;
 		int64_t L_2;
@@ -4825,7 +4825,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int64_t RtcService_SendRoomMessage_m0F9CD6957
 		return L_2;
 	}
 }
-// Method Definition Index: 78278
+// Method Definition Index: 88332
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int64_t RtcService_SendUserBinaryMessage_mCB97BBCAF6EB8A7A76CFD407B45A5F956DBC6606 (String_t* ___0_roomId, String_t* ___1_userId, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___2_message, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4836,12 +4836,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int64_t RtcService_SendUserBinaryMessage_mCB9
 	}
 	PtrManager_t833E3E357C817D8CBC5DE7472FDF5AB9C13F2BA2* V_0 = NULL;
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/RTC.cs:484>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/RTC.cs:484>
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_0 = ___2_message;
 		PtrManager_t833E3E357C817D8CBC5DE7472FDF5AB9C13F2BA2* L_1 = (PtrManager_t833E3E357C817D8CBC5DE7472FDF5AB9C13F2BA2*)il2cpp_codegen_object_new(PtrManager_t833E3E357C817D8CBC5DE7472FDF5AB9C13F2BA2_il2cpp_TypeInfo_var);
 		PtrManager__ctor_m7BEAACAEBEE05EF15116C986BAB9A1DA2002A478(L_1, L_0, NULL);
 		V_0 = L_1;
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/RTC.cs:485>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/RTC.cs:485>
 		String_t* L_2 = ___0_roomId;
 		String_t* L_3 = ___1_userId;
 		PtrManager_t833E3E357C817D8CBC5DE7472FDF5AB9C13F2BA2* L_4 = V_0;
@@ -4851,19 +4851,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int64_t RtcService_SendUserBinaryMessage_mCB9
 		NullCheck(L_6);
 		int64_t L_7;
 		L_7 = CLIB_ppf_Rtc_SendUserBinaryMessage_m822EB94F0C78D74D76EF162C90ADA3F3B56E936F(L_2, L_3, L_5, ((int32_t)(((RuntimeArray*)L_6)->max_length)), NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/RTC.cs:486>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/RTC.cs:486>
 		PtrManager_t833E3E357C817D8CBC5DE7472FDF5AB9C13F2BA2* L_8 = V_0;
 		NullCheck(L_8);
 		PtrManager_Free_mF57A82180453684532E9C29833A96C28D8BA7D05(L_8, NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/RTC.cs:487>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/RTC.cs:487>
 		return L_7;
 	}
 }
-// Method Definition Index: 78279
+// Method Definition Index: 88333
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int64_t RtcService_SendUserMessage_mF5F9172924B7BD1084FEBA1582271B8D6EB53AB3 (String_t* ___0_roomId, String_t* ___1_userId, String_t* ___2_message, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/RTC.cs:500>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/RTC.cs:500>
 		String_t* L_0 = ___0_roomId;
 		String_t* L_1 = ___1_userId;
 		String_t* L_2 = ___2_message;
@@ -4872,7 +4872,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int64_t RtcService_SendUserMessage_mF5F917292
 		return L_3;
 	}
 }
-// Method Definition Index: 78280
+// Method Definition Index: 88334
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t RtcService_SendStreamSyncInfo_mB9BAEBCD9D9DA8646BD489926006E0DE1FA1EBBF (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___0_data, int32_t ___1_repeatCount, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4885,29 +4885,29 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t RtcService_SendStreamSyncInfo_mB9BAEB
 	RtcStreamSyncInfoOptions_t4FA264B6AF6AD36A00CA65401EA64107AD7E7073* V_0 = NULL;
 	PtrManager_t833E3E357C817D8CBC5DE7472FDF5AB9C13F2BA2* V_1 = NULL;
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/RTC.cs:523>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/RTC.cs:523>
 		RtcStreamSyncInfoOptions_t4FA264B6AF6AD36A00CA65401EA64107AD7E7073* L_0 = (RtcStreamSyncInfoOptions_t4FA264B6AF6AD36A00CA65401EA64107AD7E7073*)il2cpp_codegen_object_new(RtcStreamSyncInfoOptions_t4FA264B6AF6AD36A00CA65401EA64107AD7E7073_il2cpp_TypeInfo_var);
 		RtcStreamSyncInfoOptions__ctor_m9D86B190CCE9ADF893542CCB8FEB7EEF4309CE7E(L_0, NULL);
 		V_0 = L_0;
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/RTC.cs:524>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/RTC.cs:524>
 		RtcStreamSyncInfoOptions_t4FA264B6AF6AD36A00CA65401EA64107AD7E7073* L_1 = V_0;
 		int32_t L_2 = ___1_repeatCount;
 		NullCheck(L_1);
 		RtcStreamSyncInfoOptions_SetRepeatCount_mEC362A0008CECC40F6C5B3DE011BC44DBE66256B(L_1, L_2, NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/RTC.cs:525>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/RTC.cs:525>
 		RtcStreamSyncInfoOptions_t4FA264B6AF6AD36A00CA65401EA64107AD7E7073* L_3 = V_0;
 		NullCheck(L_3);
 		RtcStreamSyncInfoOptions_SetStreamIndex_m76FF4534D8271C81C0263995DC0554961184DA34(L_3, 0, NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/RTC.cs:526>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/RTC.cs:526>
 		RtcStreamSyncInfoOptions_t4FA264B6AF6AD36A00CA65401EA64107AD7E7073* L_4 = V_0;
 		NullCheck(L_4);
 		RtcStreamSyncInfoOptions_SetStreamType_m75AF0A32A37BC87F68C105FB7DA0E3737C3BF977(L_4, 0, NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/RTC.cs:527>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/RTC.cs:527>
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_5 = ___0_data;
 		PtrManager_t833E3E357C817D8CBC5DE7472FDF5AB9C13F2BA2* L_6 = (PtrManager_t833E3E357C817D8CBC5DE7472FDF5AB9C13F2BA2*)il2cpp_codegen_object_new(PtrManager_t833E3E357C817D8CBC5DE7472FDF5AB9C13F2BA2_il2cpp_TypeInfo_var);
 		PtrManager__ctor_m7BEAACAEBEE05EF15116C986BAB9A1DA2002A478(L_6, L_5, NULL);
 		V_1 = L_6;
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/RTC.cs:528>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/RTC.cs:528>
 		PtrManager_t833E3E357C817D8CBC5DE7472FDF5AB9C13F2BA2* L_7 = V_1;
 		NullCheck(L_7);
 		intptr_t L_8 = L_7->___ptr;
@@ -4918,15 +4918,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t RtcService_SendStreamSyncInfo_mB9BAEB
 		L_11 = RtcStreamSyncInfoOptions_op_Explicit_m36286E8D49E4A5A299A71C763E9421343B2E71FC(L_10, NULL);
 		int32_t L_12;
 		L_12 = CLIB_ppf_Rtc_SendStreamSyncInfo_mA91C187D432205B5CE0234D1EB60B7B78A216F69(L_8, ((int32_t)(((RuntimeArray*)L_9)->max_length)), L_11, NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/RTC.cs:529>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/RTC.cs:529>
 		PtrManager_t833E3E357C817D8CBC5DE7472FDF5AB9C13F2BA2* L_13 = V_1;
 		NullCheck(L_13);
 		PtrManager_Free_mF57A82180453684532E9C29833A96C28D8BA7D05(L_13, NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/RTC.cs:530>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/RTC.cs:530>
 		return L_12;
 	}
 }
-// Method Definition Index: 78281
+// Method Definition Index: 88335
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RtcService_SetOnTokenWillExpire_m62284B70EA146FC1268F6E0243E124A3FA4BE2C2 (Handler_tE2837A49F6F6E0632D5E94EF3412C338F6526C86* ___0_handler, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4936,15 +4936,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RtcService_SetOnTokenWillExpire_m62284B7
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/RTC.cs:542>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/RTC.cs:542>
 		Handler_tE2837A49F6F6E0632D5E94EF3412C338F6526C86* L_0 = ___0_handler;
 		il2cpp_codegen_runtime_class_init_inline(Looper_t55865921F88FD546B4F2DA0211A39072EB73A4A8_il2cpp_TypeInfo_var);
 		Looper_RegisterNotifyHandler_mED8ACEA4DA0157458B4890037F5D56902EB21015(((int32_t)10219), L_0, NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/RTC.cs:543>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/RTC.cs:543>
 		return;
 	}
 }
-// Method Definition Index: 78282
+// Method Definition Index: 88336
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RtcService_SetOnRoomMessageReceived_mEE234847995A8A3C887B54A99AAFDD4F4829726A (Handler_t063B85C34774FF958AF1A957B4854AF1D6B23888* ___0_handler, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4954,15 +4954,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RtcService_SetOnRoomMessageReceived_mEE2
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/RTC.cs:551>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/RTC.cs:551>
 		Handler_t063B85C34774FF958AF1A957B4854AF1D6B23888* L_0 = ___0_handler;
 		il2cpp_codegen_runtime_class_init_inline(Looper_t55865921F88FD546B4F2DA0211A39072EB73A4A8_il2cpp_TypeInfo_var);
 		Looper_RegisterNotifyHandler_mED8ACEA4DA0157458B4890037F5D56902EB21015(((int32_t)10217), L_0, NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/RTC.cs:552>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/RTC.cs:552>
 		return;
 	}
 }
-// Method Definition Index: 78283
+// Method Definition Index: 88337
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RtcService_SetOnRoomBinaryMessageReceived_m8C37D1A4BB4B2077B0E81EE85A6979972DA3E3B3 (Handler_t1549946AE7DD631785DEE828E599E4CC5F232986* ___0_handler, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4972,15 +4972,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RtcService_SetOnRoomBinaryMessageReceive
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/RTC.cs:560>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/RTC.cs:560>
 		Handler_t1549946AE7DD631785DEE828E599E4CC5F232986* L_0 = ___0_handler;
 		il2cpp_codegen_runtime_class_init_inline(Looper_t55865921F88FD546B4F2DA0211A39072EB73A4A8_il2cpp_TypeInfo_var);
 		Looper_RegisterNotifyHandler_mED8ACEA4DA0157458B4890037F5D56902EB21015(((int32_t)10223), L_0, NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/RTC.cs:561>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/RTC.cs:561>
 		return;
 	}
 }
-// Method Definition Index: 78284
+// Method Definition Index: 88338
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RtcService_SetOnUserMessageReceived_mFAFA95CA10E70EEB1C25B601A057639160BB4725 (Handler_t32B3FC4A52987EC7404B0AC82BD702C403DB3C40* ___0_handler, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -4990,15 +4990,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RtcService_SetOnUserMessageReceived_mFAF
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/RTC.cs:569>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/RTC.cs:569>
 		Handler_t32B3FC4A52987EC7404B0AC82BD702C403DB3C40* L_0 = ___0_handler;
 		il2cpp_codegen_runtime_class_init_inline(Looper_t55865921F88FD546B4F2DA0211A39072EB73A4A8_il2cpp_TypeInfo_var);
 		Looper_RegisterNotifyHandler_mED8ACEA4DA0157458B4890037F5D56902EB21015(((int32_t)10218), L_0, NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/RTC.cs:570>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/RTC.cs:570>
 		return;
 	}
 }
-// Method Definition Index: 78285
+// Method Definition Index: 88339
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RtcService_SetOnUserBinaryMessageReceived_mAEC374611130A9795BDADB88687F21FCACB6033D (Handler_t1549946AE7DD631785DEE828E599E4CC5F232986* ___0_handler, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5008,15 +5008,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RtcService_SetOnUserBinaryMessageReceive
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/RTC.cs:578>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/RTC.cs:578>
 		Handler_t1549946AE7DD631785DEE828E599E4CC5F232986* L_0 = ___0_handler;
 		il2cpp_codegen_runtime_class_init_inline(Looper_t55865921F88FD546B4F2DA0211A39072EB73A4A8_il2cpp_TypeInfo_var);
 		Looper_RegisterNotifyHandler_mED8ACEA4DA0157458B4890037F5D56902EB21015(((int32_t)10226), L_0, NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/RTC.cs:579>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/RTC.cs:579>
 		return;
 	}
 }
-// Method Definition Index: 78286
+// Method Definition Index: 88340
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RtcService_SetOnRoomMessageSendResult_m3103B58648CC5E3B2A647D4BA6A1B458AED9D734 (Handler_t19833D1404BED864BD881EC7D6947C4BE818F739* ___0_handler, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5026,15 +5026,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RtcService_SetOnRoomMessageSendResult_m3
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/RTC.cs:587>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/RTC.cs:587>
 		Handler_t19833D1404BED864BD881EC7D6947C4BE818F739* L_0 = ___0_handler;
 		il2cpp_codegen_runtime_class_init_inline(Looper_t55865921F88FD546B4F2DA0211A39072EB73A4A8_il2cpp_TypeInfo_var);
 		Looper_RegisterNotifyHandler_mED8ACEA4DA0157458B4890037F5D56902EB21015(((int32_t)10230), L_0, NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/RTC.cs:588>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/RTC.cs:588>
 		return;
 	}
 }
-// Method Definition Index: 78287
+// Method Definition Index: 88341
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RtcService_SetOnUserMessageSendResult_mEA4292387F7F798D1666C9F86445A62AF4DC2872 (Handler_t19833D1404BED864BD881EC7D6947C4BE818F739* ___0_handler, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5044,15 +5044,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RtcService_SetOnUserMessageSendResult_mE
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/RTC.cs:596>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/RTC.cs:596>
 		Handler_t19833D1404BED864BD881EC7D6947C4BE818F739* L_0 = ___0_handler;
 		il2cpp_codegen_runtime_class_init_inline(Looper_t55865921F88FD546B4F2DA0211A39072EB73A4A8_il2cpp_TypeInfo_var);
 		Looper_RegisterNotifyHandler_mED8ACEA4DA0157458B4890037F5D56902EB21015(((int32_t)10228), L_0, NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/RTC.cs:597>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/RTC.cs:597>
 		return;
 	}
 }
-// Method Definition Index: 78288
+// Method Definition Index: 88342
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RtcService_SetOnUserPublishStream_m908893F7D093DD75C6CDE3E9AFF3674D4A89F5B1 (Handler_tD0453CC0FF093CB47FCC2768A008B81EA8988C7F* ___0_handler, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5062,15 +5062,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RtcService_SetOnUserPublishStream_m90889
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/RTC.cs:605>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/RTC.cs:605>
 		Handler_tD0453CC0FF093CB47FCC2768A008B81EA8988C7F* L_0 = ___0_handler;
 		il2cpp_codegen_runtime_class_init_inline(Looper_t55865921F88FD546B4F2DA0211A39072EB73A4A8_il2cpp_TypeInfo_var);
 		Looper_RegisterNotifyHandler_mED8ACEA4DA0157458B4890037F5D56902EB21015(((int32_t)10231), L_0, NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/RTC.cs:606>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/RTC.cs:606>
 		return;
 	}
 }
-// Method Definition Index: 78289
+// Method Definition Index: 88343
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RtcService_SetOnUserUnPublishStream_m6980E54D537145F7C13FB389F0A937607FB84236 (Handler_t7B5EC3663F375895202BECAC07552A9F3DCD971D* ___0_handler, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5080,15 +5080,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RtcService_SetOnUserUnPublishStream_m698
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/RTC.cs:614>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/RTC.cs:614>
 		Handler_t7B5EC3663F375895202BECAC07552A9F3DCD971D* L_0 = ___0_handler;
 		il2cpp_codegen_runtime_class_init_inline(Looper_t55865921F88FD546B4F2DA0211A39072EB73A4A8_il2cpp_TypeInfo_var);
 		Looper_RegisterNotifyHandler_mED8ACEA4DA0157458B4890037F5D56902EB21015(((int32_t)10232), L_0, NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/RTC.cs:615>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/RTC.cs:615>
 		return;
 	}
 }
-// Method Definition Index: 78290
+// Method Definition Index: 88344
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RtcService_SetOnStreamSyncInfoReceived_m9E62FAF704FE413C97F03895963B9CC279A52CFB (Handler_t4BEE9C610174E243B1AA20525A10BBD66E21BDF5* ___0_handler, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5098,15 +5098,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RtcService_SetOnStreamSyncInfoReceived_m
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/RTC.cs:623>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/RTC.cs:623>
 		Handler_t4BEE9C610174E243B1AA20525A10BBD66E21BDF5* L_0 = ___0_handler;
 		il2cpp_codegen_runtime_class_init_inline(Looper_t55865921F88FD546B4F2DA0211A39072EB73A4A8_il2cpp_TypeInfo_var);
 		Looper_RegisterNotifyHandler_mED8ACEA4DA0157458B4890037F5D56902EB21015(((int32_t)10220), L_0, NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/RTC.cs:624>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/RTC.cs:624>
 		return;
 	}
 }
-// Method Definition Index: 78291
+// Method Definition Index: 88345
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RtcService_SetOnJoinRoomResultCallback_mA19906E0C26C51CBBC166A1C232E1F6DBCE01238 (Handler_tAFF89B31CBE84C07A66A39AC220981DEC2B648C7* ___0_handler, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5116,15 +5116,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RtcService_SetOnJoinRoomResultCallback_m
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/RTC.cs:632>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/RTC.cs:632>
 		Handler_tAFF89B31CBE84C07A66A39AC220981DEC2B648C7* L_0 = ___0_handler;
 		il2cpp_codegen_runtime_class_init_inline(Looper_t55865921F88FD546B4F2DA0211A39072EB73A4A8_il2cpp_TypeInfo_var);
 		Looper_RegisterNotifyHandler_mED8ACEA4DA0157458B4890037F5D56902EB21015(((int32_t)10201), L_0, NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/RTC.cs:633>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/RTC.cs:633>
 		return;
 	}
 }
-// Method Definition Index: 78292
+// Method Definition Index: 88346
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RtcService_SetOnLeaveRoomResultCallback_m19E57F1CC4F83730B63EBCC0DF1D1EBAEB891813 (Handler_t53CDA67D66BFBB13CE74EC8B6623D88EB60E6CAE* ___0_handler, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5134,15 +5134,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RtcService_SetOnLeaveRoomResultCallback_
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/RTC.cs:641>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/RTC.cs:641>
 		Handler_t53CDA67D66BFBB13CE74EC8B6623D88EB60E6CAE* L_0 = ___0_handler;
 		il2cpp_codegen_runtime_class_init_inline(Looper_t55865921F88FD546B4F2DA0211A39072EB73A4A8_il2cpp_TypeInfo_var);
 		Looper_RegisterNotifyHandler_mED8ACEA4DA0157458B4890037F5D56902EB21015(((int32_t)10202), L_0, NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/RTC.cs:642>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/RTC.cs:642>
 		return;
 	}
 }
-// Method Definition Index: 78293
+// Method Definition Index: 88347
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RtcService_SetOnUserJoinRoomResultCallback_m1EA0B7C739EC23115E11B223D0C3D81B31953D34 (Handler_t560A0AAA9073BD8BEBEA299A0C30C715A673E10D* ___0_handler, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5152,15 +5152,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RtcService_SetOnUserJoinRoomResultCallba
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/RTC.cs:650>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/RTC.cs:650>
 		Handler_t560A0AAA9073BD8BEBEA299A0C30C715A673E10D* L_0 = ___0_handler;
 		il2cpp_codegen_runtime_class_init_inline(Looper_t55865921F88FD546B4F2DA0211A39072EB73A4A8_il2cpp_TypeInfo_var);
 		Looper_RegisterNotifyHandler_mED8ACEA4DA0157458B4890037F5D56902EB21015(((int32_t)10204), L_0, NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/RTC.cs:651>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/RTC.cs:651>
 		return;
 	}
 }
-// Method Definition Index: 78294
+// Method Definition Index: 88348
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RtcService_SetOnUserLeaveRoomResultCallback_m8DA5A2E2CDD523B29E2CED9FC32794ACD350C6B7 (Handler_t163FC6326170437BFF25564AF32923B777FDDE24* ___0_handler, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5170,15 +5170,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RtcService_SetOnUserLeaveRoomResultCallb
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/RTC.cs:659>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/RTC.cs:659>
 		Handler_t163FC6326170437BFF25564AF32923B777FDDE24* L_0 = ___0_handler;
 		il2cpp_codegen_runtime_class_init_inline(Looper_t55865921F88FD546B4F2DA0211A39072EB73A4A8_il2cpp_TypeInfo_var);
 		Looper_RegisterNotifyHandler_mED8ACEA4DA0157458B4890037F5D56902EB21015(((int32_t)10203), L_0, NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/RTC.cs:660>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/RTC.cs:660>
 		return;
 	}
 }
-// Method Definition Index: 78295
+// Method Definition Index: 88349
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RtcService_SetOnRoomStatsCallback_m186B41016E002BFA46E347E778091F95EF732E41 (Handler_t75AD0D0BA45ACBB20855ADA2457EB304BF32C5B9* ___0_handler, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5188,15 +5188,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RtcService_SetOnRoomStatsCallback_m186B4
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/RTC.cs:669>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/RTC.cs:669>
 		Handler_t75AD0D0BA45ACBB20855ADA2457EB304BF32C5B9* L_0 = ___0_handler;
 		il2cpp_codegen_runtime_class_init_inline(Looper_t55865921F88FD546B4F2DA0211A39072EB73A4A8_il2cpp_TypeInfo_var);
 		Looper_RegisterNotifyHandler_mED8ACEA4DA0157458B4890037F5D56902EB21015(((int32_t)10200), L_0, NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/RTC.cs:670>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/RTC.cs:670>
 		return;
 	}
 }
-// Method Definition Index: 78296
+// Method Definition Index: 88350
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RtcService_SetOnWarnCallback_m43D4E89F6FE8D46AF1A682AC9B947E7DBA694687 (Handler_t51AE26B34C94E80FFE0A43298E5E7BCF0085B456* ___0_handler, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5206,15 +5206,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RtcService_SetOnWarnCallback_m43D4E89F6F
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/RTC.cs:695>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/RTC.cs:695>
 		Handler_t51AE26B34C94E80FFE0A43298E5E7BCF0085B456* L_0 = ___0_handler;
 		il2cpp_codegen_runtime_class_init_inline(Looper_t55865921F88FD546B4F2DA0211A39072EB73A4A8_il2cpp_TypeInfo_var);
 		Looper_RegisterNotifyHandler_mED8ACEA4DA0157458B4890037F5D56902EB21015(((int32_t)10206), L_0, NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/RTC.cs:696>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/RTC.cs:696>
 		return;
 	}
 }
-// Method Definition Index: 78297
+// Method Definition Index: 88351
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RtcService_SetOnErrorCallback_m9F08039B1416D6169430DE08694E9C4FEC4928ED (Handler_t51AE26B34C94E80FFE0A43298E5E7BCF0085B456* ___0_handler, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5224,15 +5224,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RtcService_SetOnErrorCallback_m9F08039B1
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/RTC.cs:719>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/RTC.cs:719>
 		Handler_t51AE26B34C94E80FFE0A43298E5E7BCF0085B456* L_0 = ___0_handler;
 		il2cpp_codegen_runtime_class_init_inline(Looper_t55865921F88FD546B4F2DA0211A39072EB73A4A8_il2cpp_TypeInfo_var);
 		Looper_RegisterNotifyHandler_mED8ACEA4DA0157458B4890037F5D56902EB21015(((int32_t)10209), L_0, NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/RTC.cs:720>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/RTC.cs:720>
 		return;
 	}
 }
-// Method Definition Index: 78298
+// Method Definition Index: 88352
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RtcService_SetOnRoomWarnCallback_m400F490F0DABB37F9ED61E126569823FF2D6FE41 (Handler_tCAF1D3F2723A4B7251F1BC23304D41F30171BA7E* ___0_handler, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5242,15 +5242,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RtcService_SetOnRoomWarnCallback_m400F49
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/RTC.cs:728>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/RTC.cs:728>
 		Handler_tCAF1D3F2723A4B7251F1BC23304D41F30171BA7E* L_0 = ___0_handler;
 		il2cpp_codegen_runtime_class_init_inline(Looper_t55865921F88FD546B4F2DA0211A39072EB73A4A8_il2cpp_TypeInfo_var);
 		Looper_RegisterNotifyHandler_mED8ACEA4DA0157458B4890037F5D56902EB21015(((int32_t)10207), L_0, NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/RTC.cs:729>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/RTC.cs:729>
 		return;
 	}
 }
-// Method Definition Index: 78299
+// Method Definition Index: 88353
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RtcService_SetOnRoomErrorCallback_mD906D67149802F5ED99045D3B6B0A18B60372E0F (Handler_tAB0E94E2155E2F41351762B712D4F71A3E696890* ___0_handler, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5260,15 +5260,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RtcService_SetOnRoomErrorCallback_mD906D
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/RTC.cs:737>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/RTC.cs:737>
 		Handler_tAB0E94E2155E2F41351762B712D4F71A3E696890* L_0 = ___0_handler;
 		il2cpp_codegen_runtime_class_init_inline(Looper_t55865921F88FD546B4F2DA0211A39072EB73A4A8_il2cpp_TypeInfo_var);
 		Looper_RegisterNotifyHandler_mED8ACEA4DA0157458B4890037F5D56902EB21015(((int32_t)10208), L_0, NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/RTC.cs:738>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/RTC.cs:738>
 		return;
 	}
 }
-// Method Definition Index: 78300
+// Method Definition Index: 88354
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RtcService_SetOnConnectionStateChangeCallback_m950EAA7B5E413BEFF5DAC4F898CD8066E5673A24 (Handler_t38CC844160733F92880FA63972B403BF586D39B1* ___0_handler, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5278,15 +5278,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RtcService_SetOnConnectionStateChangeCal
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/RTC.cs:746>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/RTC.cs:746>
 		Handler_t38CC844160733F92880FA63972B403BF586D39B1* L_0 = ___0_handler;
 		il2cpp_codegen_runtime_class_init_inline(Looper_t55865921F88FD546B4F2DA0211A39072EB73A4A8_il2cpp_TypeInfo_var);
 		Looper_RegisterNotifyHandler_mED8ACEA4DA0157458B4890037F5D56902EB21015(((int32_t)10205), L_0, NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/RTC.cs:747>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/RTC.cs:747>
 		return;
 	}
 }
-// Method Definition Index: 78301
+// Method Definition Index: 88355
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RtcService_SetOnUserMuteAudio_m8842D05F8B89D9A401E79ABABE6E477977C34679 (Handler_t031AC8F825D5CD006D0F5F9FE16EB538F31C1101* ___0_handler, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5296,15 +5296,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RtcService_SetOnUserMuteAudio_m8842D05F8
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/RTC.cs:756>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/RTC.cs:756>
 		Handler_t031AC8F825D5CD006D0F5F9FE16EB538F31C1101* L_0 = ___0_handler;
 		il2cpp_codegen_runtime_class_init_inline(Looper_t55865921F88FD546B4F2DA0211A39072EB73A4A8_il2cpp_TypeInfo_var);
 		Looper_RegisterNotifyHandler_mED8ACEA4DA0157458B4890037F5D56902EB21015(((int32_t)10215), L_0, NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/RTC.cs:757>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/RTC.cs:757>
 		return;
 	}
 }
-// Method Definition Index: 78302
+// Method Definition Index: 88356
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RtcService_SetOnUserStartAudioCapture_mB0F6F207058DD34493019BAF3062FF7FCB8DD40C (Handler_tE2837A49F6F6E0632D5E94EF3412C338F6526C86* ___0_handler, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5314,15 +5314,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RtcService_SetOnUserStartAudioCapture_mB
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/RTC.cs:767>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/RTC.cs:767>
 		Handler_tE2837A49F6F6E0632D5E94EF3412C338F6526C86* L_0 = ___0_handler;
 		il2cpp_codegen_runtime_class_init_inline(Looper_t55865921F88FD546B4F2DA0211A39072EB73A4A8_il2cpp_TypeInfo_var);
 		Looper_RegisterNotifyHandler_mED8ACEA4DA0157458B4890037F5D56902EB21015(((int32_t)10210), L_0, NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/RTC.cs:768>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/RTC.cs:768>
 		return;
 	}
 }
-// Method Definition Index: 78303
+// Method Definition Index: 88357
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RtcService_SetOnUserStopAudioCapture_m37BB90937CF2D79B415CE2B1AE45959CAFA3EDA8 (Handler_tE2837A49F6F6E0632D5E94EF3412C338F6526C86* ___0_handler, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5332,15 +5332,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RtcService_SetOnUserStopAudioCapture_m37
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/RTC.cs:778>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/RTC.cs:778>
 		Handler_tE2837A49F6F6E0632D5E94EF3412C338F6526C86* L_0 = ___0_handler;
 		il2cpp_codegen_runtime_class_init_inline(Looper_t55865921F88FD546B4F2DA0211A39072EB73A4A8_il2cpp_TypeInfo_var);
 		Looper_RegisterNotifyHandler_mED8ACEA4DA0157458B4890037F5D56902EB21015(((int32_t)10214), L_0, NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/RTC.cs:779>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/RTC.cs:779>
 		return;
 	}
 }
-// Method Definition Index: 78304
+// Method Definition Index: 88358
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RtcService_SetOnAudioPlaybackDeviceChange_mD5EDABCFA996E8CB520E7D16BB23206C104AC7D0 (Handler_t9E74A09C7774D66FE0B94FDFE1DFA6DDEC5859ED* ___0_handler, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5350,15 +5350,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RtcService_SetOnAudioPlaybackDeviceChang
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/RTC.cs:787>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/RTC.cs:787>
 		Handler_t9E74A09C7774D66FE0B94FDFE1DFA6DDEC5859ED* L_0 = ___0_handler;
 		il2cpp_codegen_runtime_class_init_inline(Looper_t55865921F88FD546B4F2DA0211A39072EB73A4A8_il2cpp_TypeInfo_var);
 		Looper_RegisterNotifyHandler_mED8ACEA4DA0157458B4890037F5D56902EB21015(((int32_t)10211), L_0, NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/RTC.cs:788>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/RTC.cs:788>
 		return;
 	}
 }
-// Method Definition Index: 78305
+// Method Definition Index: 88359
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RtcService_SetOnLocalAudioPropertiesReport_mD647E749A414A483896817C4C530F09E34EB8000 (Handler_tAC738204727C49FCB4492833A34C3C4A619CEC8E* ___0_handler, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5368,15 +5368,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RtcService_SetOnLocalAudioPropertiesRepo
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/RTC.cs:797>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/RTC.cs:797>
 		Handler_tAC738204727C49FCB4492833A34C3C4A619CEC8E* L_0 = ___0_handler;
 		il2cpp_codegen_runtime_class_init_inline(Looper_t55865921F88FD546B4F2DA0211A39072EB73A4A8_il2cpp_TypeInfo_var);
 		Looper_RegisterNotifyHandler_mED8ACEA4DA0157458B4890037F5D56902EB21015(((int32_t)10213), L_0, NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/RTC.cs:798>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/RTC.cs:798>
 		return;
 	}
 }
-// Method Definition Index: 78306
+// Method Definition Index: 88360
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RtcService_SetOnRemoteAudioPropertiesReport_m07BF3E4B2DB1008AA02CC3CC682B211616506BCF (Handler_t2765C77EA08935A8D61BD6074F539B8BA92581B9* ___0_handler, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -5386,11 +5386,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RtcService_SetOnRemoteAudioPropertiesRep
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/RTC.cs:807>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/RTC.cs:807>
 		Handler_t2765C77EA08935A8D61BD6074F539B8BA92581B9* L_0 = ___0_handler;
 		il2cpp_codegen_runtime_class_init_inline(Looper_t55865921F88FD546B4F2DA0211A39072EB73A4A8_il2cpp_TypeInfo_var);
 		Looper_RegisterNotifyHandler_mED8ACEA4DA0157458B4890037F5D56902EB21015(((int32_t)10212), L_0, NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/RTC.cs:808>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/RTC.cs:808>
 		return;
 	}
 }
@@ -5446,7 +5446,7 @@ int32_t ProcessAudioFrameFunction_Invoke_m5EC2CDFD611F5CDC64BD8A36A025E8C08FF061
 	NullCheck(___0_frame);
 	return GenericInterfaceFuncInvoker0< int32_t >::Invoke(method, ___0_frame);
 }
-// Method Definition Index: 78307
+// Method Definition Index: 88361
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ProcessAudioFrameFunction__ctor_mB63C465A7D6EA4ED5A425D0F961AB935ED9C31B7 (ProcessAudioFrameFunction_tA63B392DEA3AFF4C8FD9068F4A056EBB4F21E8A5* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
@@ -5499,20 +5499,20 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ProcessAudioFrameFunction__ctor_mB63C465
 	}
 	__this->___extra_arg = (intptr_t)&ProcessAudioFrameFunction_Invoke_m5EC2CDFD611F5CDC64BD8A36A025E8C08FF061D6_Multicast;
 }
-// Method Definition Index: 78308
+// Method Definition Index: 88362
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ProcessAudioFrameFunction_Invoke_m5EC2CDFD611F5CDC64BD8A36A025E8C08FF061D6 (ProcessAudioFrameFunction_tA63B392DEA3AFF4C8FD9068F4A056EBB4F21E8A5* __this, RtcAudioFrame_t300062CFB69D590AAC05453E8CB2D5F3DDED8B59* ___0_frame, const RuntimeMethod* method) 
 {
 	typedef int32_t (*FunctionPointerType) (RuntimeObject*, RtcAudioFrame_t300062CFB69D590AAC05453E8CB2D5F3DDED8B59*, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_frame, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 78309
+// Method Definition Index: 88363
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* ProcessAudioFrameFunction_BeginInvoke_m18E036E1B3C2DE7BC8F84048F264523B29D85E5A (ProcessAudioFrameFunction_tA63B392DEA3AFF4C8FD9068F4A056EBB4F21E8A5* __this, RtcAudioFrame_t300062CFB69D590AAC05453E8CB2D5F3DDED8B59* ___0_frame, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___1_callback, RuntimeObject* ___2_object, const RuntimeMethod* method) 
 {
 	void *__d_args[2] = {0};
 	__d_args[0] = ___0_frame;
 	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___1_callback, (RuntimeObject*)___2_object);
 }
-// Method Definition Index: 78310
+// Method Definition Index: 88364
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ProcessAudioFrameFunction_EndInvoke_mB3475E6B559FD9E7A51ED673BD7368E267DF0AC1 (ProcessAudioFrameFunction_tA63B392DEA3AFF4C8FD9068F4A056EBB4F21E8A5* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
 {
 	RuntimeObject *__result = il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
@@ -5526,61 +5526,61 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ProcessAudioFrameFunction_EndInvoke_m
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 78311
+// Method Definition Index: 88365
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RtcStreamSyncInfoOptions__ctor_m9D86B190CCE9ADF893542CCB8FEB7EEF4309CE7E (RtcStreamSyncInfoOptions_t4FA264B6AF6AD36A00CA65401EA64107AD7E7073* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/RTC.cs:815>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/RTC.cs:815>
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/RTC.cs:817>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/RTC.cs:817>
 		intptr_t L_0;
 		L_0 = CLIB_ppf_RtcStreamSyncInfoOptions_Create_m58EE568E749D28D2598EBBAC97492FD722157648(NULL);
 		__this->___Handle = L_0;
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/RTC.cs:818>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/RTC.cs:818>
 		return;
 	}
 }
-// Method Definition Index: 78312
+// Method Definition Index: 88366
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RtcStreamSyncInfoOptions_SetRepeatCount_mEC362A0008CECC40F6C5B3DE011BC44DBE66256B (RtcStreamSyncInfoOptions_t4FA264B6AF6AD36A00CA65401EA64107AD7E7073* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/RTC.cs:822>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/RTC.cs:822>
 		intptr_t L_0 = __this->___Handle;
 		int32_t L_1 = ___0_value;
 		CLIB_ppf_RtcStreamSyncInfoOptions_SetRepeatCount_m3A7E7085D9B3106EC3B39654CE672545D328F178(L_0, L_1, NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/RTC.cs:823>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/RTC.cs:823>
 		return;
 	}
 }
-// Method Definition Index: 78313
+// Method Definition Index: 88367
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RtcStreamSyncInfoOptions_SetStreamIndex_m76FF4534D8271C81C0263995DC0554961184DA34 (RtcStreamSyncInfoOptions_t4FA264B6AF6AD36A00CA65401EA64107AD7E7073* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/RTC.cs:827>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/RTC.cs:827>
 		intptr_t L_0 = __this->___Handle;
 		int32_t L_1 = ___0_value;
 		CLIB_ppf_RtcStreamSyncInfoOptions_SetStreamIndex_m792067CEFBC2A89E1C18D06B77E9A83018885817(L_0, L_1, NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/RTC.cs:828>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/RTC.cs:828>
 		return;
 	}
 }
-// Method Definition Index: 78314
+// Method Definition Index: 88368
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RtcStreamSyncInfoOptions_SetStreamType_m75AF0A32A37BC87F68C105FB7DA0E3737C3BF977 (RtcStreamSyncInfoOptions_t4FA264B6AF6AD36A00CA65401EA64107AD7E7073* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/RTC.cs:832>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/RTC.cs:832>
 		intptr_t L_0 = __this->___Handle;
 		int32_t L_1 = ___0_value;
 		CLIB_ppf_RtcStreamSyncInfoOptions_SetStreamType_mDB18D271F6C9F70032C64E7CF46398F4658E43C4(L_0, L_1, NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/RTC.cs:833>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/RTC.cs:833>
 		return;
 	}
 }
-// Method Definition Index: 78315
+// Method Definition Index: 88369
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t RtcStreamSyncInfoOptions_op_Explicit_m36286E8D49E4A5A299A71C763E9421343B2E71FC (RtcStreamSyncInfoOptions_t4FA264B6AF6AD36A00CA65401EA64107AD7E7073* ___0_options, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/RTC.cs:837>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/RTC.cs:837>
 		RtcStreamSyncInfoOptions_t4FA264B6AF6AD36A00CA65401EA64107AD7E7073* L_0 = ___0_options;
 		if (L_0)
 		{
@@ -5599,7 +5599,7 @@ IL_0009:
 		return L_2;
 	}
 }
-// Method Definition Index: 78316
+// Method Definition Index: 88370
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RtcStreamSyncInfoOptions_Finalize_mD7F8F12816ED55BC14D898727AAFEA8741D13820 (RtcStreamSyncInfoOptions_t4FA264B6AF6AD36A00CA65401EA64107AD7E7073* __this, const RuntimeMethod* method) 
 {
 	{
@@ -5608,14 +5608,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RtcStreamSyncInfoOptions_Finalize_mD7F8F
 
 FINALLY_000d:
 			{
-				//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/RTC.cs:843>
+				//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/RTC.cs:843>
 				Object_Finalize_mC98C96301CCABFE00F1A7EF8E15DF507CACD42B2(__this, NULL);
 				return;
 			}
 		});
 		try
 		{
-			//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/RTC.cs:842>
+			//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/RTC.cs:842>
 			intptr_t L_0 = __this->___Handle;
 			CLIB_ppf_RtcStreamSyncInfoOptions_Destroy_m340714991FE081051E645B634A1A80297A5A90F8(L_0, NULL);
 			goto IL_0014;
@@ -5628,7 +5628,7 @@ FINALLY_000d:
 
 IL_0014:
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/RTC.cs:843>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/RTC.cs:843>
 		return;
 	}
 }
@@ -5640,101 +5640,101 @@ IL_0014:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 78317
+// Method Definition Index: 88371
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RtcRoomOptions__ctor_m753D1C11608C22036A76D99B3C862D89B347E274 (RtcRoomOptions_t32BE3A203D53066A2AC79CE37F297BBEB4E42B2A* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/RTC.cs:850>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/RTC.cs:850>
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/RTC.cs:852>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/RTC.cs:852>
 		intptr_t L_0;
 		L_0 = CLIB_ppf_RtcRoomOptions_Create_m5A7470272AD4EB1BCE2680FD1849D82B268458BD(NULL);
 		__this->___Handle = L_0;
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/RTC.cs:853>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/RTC.cs:853>
 		return;
 	}
 }
-// Method Definition Index: 78318
+// Method Definition Index: 88372
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RtcRoomOptions_SetRoomProfileType_m45350524D2610FA5CD5C4D5723EEA2A2FCF5E0F2 (RtcRoomOptions_t32BE3A203D53066A2AC79CE37F297BBEB4E42B2A* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/RTC.cs:858>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/RTC.cs:858>
 		intptr_t L_0 = __this->___Handle;
 		int32_t L_1 = ___0_value;
 		CLIB_ppf_RtcRoomOptions_SetRoomProfileType_mA8D5D60BE6D0D635E4378B9B8414E435F15561C7(L_0, L_1, NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/RTC.cs:859>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/RTC.cs:859>
 		return;
 	}
 }
-// Method Definition Index: 78319
+// Method Definition Index: 88373
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RtcRoomOptions_SetIsAutoSubscribeAudio_m0A6C2D07889202383FE2627313F63E081CA25531 (RtcRoomOptions_t32BE3A203D53066A2AC79CE37F297BBEB4E42B2A* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/RTC.cs:864>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/RTC.cs:864>
 		intptr_t L_0 = __this->___Handle;
 		bool L_1 = ___0_value;
 		CLIB_ppf_RtcRoomOptions_SetIsAutoSubscribeAudio_m2B2FE59EC7F5C5CF7C06767CCBFC3DAC14D5D897(L_0, L_1, NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/RTC.cs:865>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/RTC.cs:865>
 		return;
 	}
 }
-// Method Definition Index: 78320
+// Method Definition Index: 88374
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RtcRoomOptions_SetRoomId_m1EC97F209EAB97E51EF3EEAFD8C6D62B6CAD2ED6 (RtcRoomOptions_t32BE3A203D53066A2AC79CE37F297BBEB4E42B2A* __this, String_t* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/RTC.cs:869>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/RTC.cs:869>
 		String_t* L_0 = ___0_value;
 		__this->___RoomId = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___RoomId), (void*)L_0);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/RTC.cs:870>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/RTC.cs:870>
 		intptr_t L_1 = __this->___Handle;
 		String_t* L_2 = ___0_value;
 		CLIB_ppf_RtcRoomOptions_SetRoomId_mB4AA3C4EF1DCB602E71CD0FB733CDC7E3E818D40(L_1, L_2, NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/RTC.cs:871>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/RTC.cs:871>
 		return;
 	}
 }
-// Method Definition Index: 78321
+// Method Definition Index: 88375
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RtcRoomOptions_SetUserId_m33FD3B38340AF5C0F0A57BFB514C5DA81BFE10BC (RtcRoomOptions_t32BE3A203D53066A2AC79CE37F297BBEB4E42B2A* __this, String_t* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/RTC.cs:876>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/RTC.cs:876>
 		intptr_t L_0 = __this->___Handle;
 		String_t* L_1 = ___0_value;
 		CLIB_ppf_RtcRoomOptions_SetUserId_mE7B72158E324346228B79051D3501F4E015B3576(L_0, L_1, NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/RTC.cs:877>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/RTC.cs:877>
 		return;
 	}
 }
-// Method Definition Index: 78322
+// Method Definition Index: 88376
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RtcRoomOptions_SetUserExtra_mC725D8F9B0B5148AA8510F043AC2E715C7D84562 (RtcRoomOptions_t32BE3A203D53066A2AC79CE37F297BBEB4E42B2A* __this, String_t* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/RTC.cs:882>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/RTC.cs:882>
 		intptr_t L_0 = __this->___Handle;
 		String_t* L_1 = ___0_value;
 		CLIB_ppf_RtcRoomOptions_SetUserExtra_mB595CA8CF567FE5164530CB9B9E898570C8BCF62(L_0, L_1, NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/RTC.cs:883>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/RTC.cs:883>
 		return;
 	}
 }
-// Method Definition Index: 78323
+// Method Definition Index: 88377
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RtcRoomOptions_SetToken_mE7CAA2DC3B2B75013EDE6C974339572E0CEC7CC0 (RtcRoomOptions_t32BE3A203D53066A2AC79CE37F297BBEB4E42B2A* __this, String_t* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/RTC.cs:888>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/RTC.cs:888>
 		intptr_t L_0 = __this->___Handle;
 		String_t* L_1 = ___0_value;
 		CLIB_ppf_RtcRoomOptions_SetToken_m35F8E820E30889AE95CBE3C9AD32D062E538B724(L_0, L_1, NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/RTC.cs:889>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/RTC.cs:889>
 		return;
 	}
 }
-// Method Definition Index: 78324
+// Method Definition Index: 88378
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t RtcRoomOptions_op_Explicit_mF71D4601FAFEA41A4EA24DBF479115F06149B7CB (RtcRoomOptions_t32BE3A203D53066A2AC79CE37F297BBEB4E42B2A* ___0_options, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/RTC.cs:894>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/RTC.cs:894>
 		RtcRoomOptions_t32BE3A203D53066A2AC79CE37F297BBEB4E42B2A* L_0 = ___0_options;
 		if (L_0)
 		{
@@ -5753,7 +5753,7 @@ IL_0009:
 		return L_2;
 	}
 }
-// Method Definition Index: 78325
+// Method Definition Index: 88379
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RtcRoomOptions_Finalize_mA8D6C0D9BFFECF35457E454A2EC0D5D658CFC2BB (RtcRoomOptions_t32BE3A203D53066A2AC79CE37F297BBEB4E42B2A* __this, const RuntimeMethod* method) 
 {
 	{
@@ -5762,14 +5762,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RtcRoomOptions_Finalize_mA8D6C0D9BFFECF3
 
 FINALLY_000d:
 			{
-				//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/RTC.cs:900>
+				//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/RTC.cs:900>
 				Object_Finalize_mC98C96301CCABFE00F1A7EF8E15DF507CACD42B2(__this, NULL);
 				return;
 			}
 		});
 		try
 		{
-			//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/RTC.cs:899>
+			//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/RTC.cs:899>
 			intptr_t L_0 = __this->___Handle;
 			CLIB_ppf_RtcRoomOptions_Destroy_mB4989A466D6F0B28733950F3CF5E403F1AA1CECC(L_0, NULL);
 			goto IL_0014;
@@ -5782,7 +5782,7 @@ FINALLY_000d:
 
 IL_0014:
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/RTC.cs:900>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/RTC.cs:900>
 		return;
 	}
 }
@@ -5794,85 +5794,85 @@ IL_0014:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 78326
+// Method Definition Index: 88380
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RtcGetTokenOptions__ctor_mCA91FB23D9E95538924CA5A36D7A0060A0DA1F12 (RtcGetTokenOptions_t6535D1FCF515A08D5CCDE76F7BF9FBEB6B42F6D0* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/RTC.cs:907>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/RTC.cs:907>
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/RTC.cs:909>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/RTC.cs:909>
 		intptr_t L_0;
 		L_0 = CLIB_ppf_RtcGetTokenOptions_Create_mA61E59DCF1BC9FB87A723CC4AFC9D21F190FA845(NULL);
 		__this->___Handle = L_0;
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/RTC.cs:910>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/RTC.cs:910>
 		return;
 	}
 }
-// Method Definition Index: 78327
+// Method Definition Index: 88381
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RtcGetTokenOptions_SetUserId_mAC8EC85CB4D28EE5124B3DF53DCB4DA5AB3D8A74 (RtcGetTokenOptions_t6535D1FCF515A08D5CCDE76F7BF9FBEB6B42F6D0* __this, String_t* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/RTC.cs:915>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/RTC.cs:915>
 		intptr_t L_0 = __this->___Handle;
 		String_t* L_1 = ___0_value;
 		CLIB_ppf_RtcGetTokenOptions_SetUserId_m586793AA5C1529DC2386DEE4AA59F09382A1E700(L_0, L_1, NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/RTC.cs:916>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/RTC.cs:916>
 		return;
 	}
 }
-// Method Definition Index: 78328
+// Method Definition Index: 88382
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RtcGetTokenOptions_SetRoomId_mEC2981B140C843025675715E718FA4BBBCAF5465 (RtcGetTokenOptions_t6535D1FCF515A08D5CCDE76F7BF9FBEB6B42F6D0* __this, String_t* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/RTC.cs:921>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/RTC.cs:921>
 		intptr_t L_0 = __this->___Handle;
 		String_t* L_1 = ___0_value;
 		CLIB_ppf_RtcGetTokenOptions_SetRoomId_mE00C2681841BEB04C1D8289CCA8B6B2CB5C1D055(L_0, L_1, NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/RTC.cs:922>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/RTC.cs:922>
 		return;
 	}
 }
-// Method Definition Index: 78329
+// Method Definition Index: 88383
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RtcGetTokenOptions_SetTtl_m4EBA04258BF46009456989FA5C35B0C5E3CA85C0 (RtcGetTokenOptions_t6535D1FCF515A08D5CCDE76F7BF9FBEB6B42F6D0* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/RTC.cs:926>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/RTC.cs:926>
 		intptr_t L_0 = __this->___Handle;
 		int32_t L_1 = ___0_value;
 		CLIB_ppf_RtcGetTokenOptions_SetTtl_m65237B01F848B526EFD856E0F588E1E1E32556AE(L_0, L_1, NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/RTC.cs:927>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/RTC.cs:927>
 		return;
 	}
 }
-// Method Definition Index: 78330
+// Method Definition Index: 88384
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RtcGetTokenOptions_SetPrivileges_m9BA7C7F94C4C7701F1AAF6B8AE73772F589D6F2B (RtcGetTokenOptions_t6535D1FCF515A08D5CCDE76F7BF9FBEB6B42F6D0* __this, int32_t ___0_key, int32_t ___1_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/RTC.cs:931>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/RTC.cs:931>
 		intptr_t L_0 = __this->___Handle;
 		int32_t L_1 = ___0_key;
 		int32_t L_2 = ___1_value;
 		CLIB_ppf_RtcGetTokenOptions_SetPrivileges_m66B6F166451610D8A4F3516EF60415E746A4316A(L_0, L_1, L_2, NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/RTC.cs:932>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/RTC.cs:932>
 		return;
 	}
 }
-// Method Definition Index: 78331
+// Method Definition Index: 88385
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RtcGetTokenOptions_ClearPrivileges_m548048BBEEE0DA5BC362275784078A63612D1465 (RtcGetTokenOptions_t6535D1FCF515A08D5CCDE76F7BF9FBEB6B42F6D0* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/RTC.cs:936>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/RTC.cs:936>
 		intptr_t L_0 = __this->___Handle;
 		CLIB_ppf_RtcGetTokenOptions_ClearPrivileges_m7EEEBA39B866C6DF24D7D63CDF3E1151486EA9CE(L_0, NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/RTC.cs:937>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/RTC.cs:937>
 		return;
 	}
 }
-// Method Definition Index: 78332
+// Method Definition Index: 88386
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t RtcGetTokenOptions_op_Explicit_m6C383C66020E9B97450516BA56A4804EE11AF49E (RtcGetTokenOptions_t6535D1FCF515A08D5CCDE76F7BF9FBEB6B42F6D0* ___0_options, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/RTC.cs:942>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/RTC.cs:942>
 		RtcGetTokenOptions_t6535D1FCF515A08D5CCDE76F7BF9FBEB6B42F6D0* L_0 = ___0_options;
 		if (L_0)
 		{
@@ -5891,7 +5891,7 @@ IL_0009:
 		return L_2;
 	}
 }
-// Method Definition Index: 78333
+// Method Definition Index: 88387
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RtcGetTokenOptions_Finalize_mB5CE4F609E6D0885127897CB5590DE8AF041F6BA (RtcGetTokenOptions_t6535D1FCF515A08D5CCDE76F7BF9FBEB6B42F6D0* __this, const RuntimeMethod* method) 
 {
 	{
@@ -5900,14 +5900,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RtcGetTokenOptions_Finalize_mB5CE4F609E6
 
 FINALLY_000d:
 			{
-				//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/RTC.cs:948>
+				//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/RTC.cs:948>
 				Object_Finalize_mC98C96301CCABFE00F1A7EF8E15DF507CACD42B2(__this, NULL);
 				return;
 			}
 		});
 		try
 		{
-			//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/RTC.cs:947>
+			//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/RTC.cs:947>
 			intptr_t L_0 = __this->___Handle;
 			CLIB_ppf_RtcGetTokenOptions_Destroy_m032E141DBA3E2792D3C706C675E5EF127E3CE6E9(L_0, NULL);
 			goto IL_0014;
@@ -5920,7 +5920,7 @@ FINALLY_000d:
 
 IL_0014:
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/RTC.cs:948>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/RTC.cs:948>
 		return;
 	}
 }
@@ -5932,33 +5932,33 @@ IL_0014:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 78334
+// Method Definition Index: 88388
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RtcAudioPropertyOptions__ctor_m5D01ABC1098566CAD6A7000775D6CA381D70509F (RtcAudioPropertyOptions_t5E394E488DDCF996DB82E9326E71B465A4D6D23E* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/RTC.cs:957>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/RTC.cs:957>
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/RTC.cs:959>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/RTC.cs:959>
 		intptr_t L_0;
 		L_0 = CLIB_ppf_RtcAudioPropertyOptions_Create_mCCF97FD2B44B3BC089C254253E58CD2B11BD3D42(NULL);
 		__this->___Handle = L_0;
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/RTC.cs:960>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/RTC.cs:960>
 		return;
 	}
 }
-// Method Definition Index: 78335
+// Method Definition Index: 88389
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RtcAudioPropertyOptions_SetInterval_m8075C50D77C3347FB74433C8D73FBA38E3416005 (RtcAudioPropertyOptions_t5E394E488DDCF996DB82E9326E71B465A4D6D23E* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/RTC.cs:964>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/RTC.cs:964>
 		intptr_t L_0 = __this->___Handle;
 		int32_t L_1 = ___0_value;
 		CLIB_ppf_RtcAudioPropertyOptions_SetInterval_m60586BE91C418B9D72AF664F47B6946E52FD4AF3(L_0, L_1, NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/RTC.cs:965>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/RTC.cs:965>
 		return;
 	}
 }
-// Method Definition Index: 78336
+// Method Definition Index: 88390
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RtcAudioPropertyOptions_Finalize_m3E314A6827113DAD8622F5A52F3231F31A0C5B5F (RtcAudioPropertyOptions_t5E394E488DDCF996DB82E9326E71B465A4D6D23E* __this, const RuntimeMethod* method) 
 {
 	{
@@ -5967,14 +5967,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RtcAudioPropertyOptions_Finalize_m3E314A
 
 FINALLY_000d:
 			{
-				//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/RTC.cs:970>
+				//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/RTC.cs:970>
 				Object_Finalize_mC98C96301CCABFE00F1A7EF8E15DF507CACD42B2(__this, NULL);
 				return;
 			}
 		});
 		try
 		{
-			//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/RTC.cs:969>
+			//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/RTC.cs:969>
 			intptr_t L_0 = __this->___Handle;
 			CLIB_ppf_RtcAudioPropertyOptions_Destroy_mF7FBEB5F27F730C5FBDF659D820A88B28E7B2A15(L_0, NULL);
 			goto IL_0014;
@@ -5987,15 +5987,15 @@ FINALLY_000d:
 
 IL_0014:
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/RTC.cs:970>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/RTC.cs:970>
 		return;
 	}
 }
-// Method Definition Index: 78337
+// Method Definition Index: 88391
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t RtcAudioPropertyOptions_op_Explicit_mAA54B25B681E9C597F68538D3339153E5748FB9A (RtcAudioPropertyOptions_t5E394E488DDCF996DB82E9326E71B465A4D6D23E* ___0_options, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/RTC.cs:975>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/RTC.cs:975>
 		RtcAudioPropertyOptions_t5E394E488DDCF996DB82E9326E71B465A4D6D23E* L_0 = ___0_options;
 		if (L_0)
 		{
@@ -6022,7 +6022,7 @@ IL_0009:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 78338
+// Method Definition Index: 88392
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RoomOptions_tC6C155D94F2675BA84336CA56BCDEBEA022835B7* RoomService_GetCreatePrivateRoomOptions_mC1B5A30AC945E0D599B5E8B4FCEBFB01106A0587 (Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83* ___0_dataStore, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6043,11 +6043,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RoomOptions_tC6C155D94F2675BA84336CA56BCDEBEA
 	KeyValuePair_2_t47AB280304B50F542FD7E14F25DB2C374AEDD80A V_2;
 	memset((&V_2), 0, sizeof(V_2));
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/Room.cs:30>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/Room.cs:30>
 		RoomOptions_tC6C155D94F2675BA84336CA56BCDEBEA022835B7* L_0 = (RoomOptions_tC6C155D94F2675BA84336CA56BCDEBEA022835B7*)il2cpp_codegen_object_new(RoomOptions_tC6C155D94F2675BA84336CA56BCDEBEA022835B7_il2cpp_TypeInfo_var);
 		RoomOptions__ctor_m575ABE0CB642F3A565A1B46995AFD5C7BFF17220(L_0, NULL);
 		V_0 = L_0;
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/Room.cs:31>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/Room.cs:31>
 		Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83* L_1 = ___0_dataStore;
 		NullCheck(L_1);
 		Enumerator_t173E7BE1F35CA448C7E0EE77345C9E0EC0206562 L_2;
@@ -6072,11 +6072,11 @@ FINALLY_0036:
 
 IL_000f_1:
 			{
-				//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/Room.cs:31>
+				//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/Room.cs:31>
 				KeyValuePair_2_t47AB280304B50F542FD7E14F25DB2C374AEDD80A L_3;
 				L_3 = Enumerator_get_Current_m49070E88C2E34AB46E6292A3FB1C227576B8506E_inline((&V_1), Enumerator_get_Current_m49070E88C2E34AB46E6292A3FB1C227576B8506E_RuntimeMethod_var);
 				V_2 = L_3;
-				//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/Room.cs:33>
+				//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/Room.cs:33>
 				RoomOptions_tC6C155D94F2675BA84336CA56BCDEBEA022835B7* L_4 = V_0;
 				String_t* L_5;
 				L_5 = KeyValuePair_2_get_Key_m654BCCAE2F20CB11D8E8C2D2C886A0C8A13EB1C4_inline((&V_2), KeyValuePair_2_get_Key_m654BCCAE2F20CB11D8E8C2D2C886A0C8A13EB1C4_RuntimeMethod_var);
@@ -6088,7 +6088,7 @@ IL_000f_1:
 
 IL_002b_1:
 			{
-				//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/Room.cs:31>
+				//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/Room.cs:31>
 				bool L_7;
 				L_7 = Enumerator_MoveNext_mA93491D9B55547D066053F3BC0A69C635F877438((&V_1), Enumerator_MoveNext_mA93491D9B55547D066053F3BC0A69C635F877438_RuntimeMethod_var);
 				if (L_7)
@@ -6108,12 +6108,12 @@ IL_002b_1:
 
 IL_0044:
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/Room.cs:36>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/Room.cs:36>
 		RoomOptions_tC6C155D94F2675BA84336CA56BCDEBEA022835B7* L_8 = V_0;
 		return L_8;
 	}
 }
-// Method Definition Index: 78339
+// Method Definition Index: 88393
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RoomOptions_tC6C155D94F2675BA84336CA56BCDEBEA022835B7* RoomService_GetJoinOrCreateNamedRoomOptions_mD57228C1919DA9E68530D50D95D2C97A130C4662 (Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83* ___0_dataStore, String_t* ___1_name, String_t* ___2_password, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6134,11 +6134,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RoomOptions_tC6C155D94F2675BA84336CA56BCDEBEA
 	KeyValuePair_2_t47AB280304B50F542FD7E14F25DB2C374AEDD80A V_2;
 	memset((&V_2), 0, sizeof(V_2));
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/Room.cs:46>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/Room.cs:46>
 		RoomOptions_tC6C155D94F2675BA84336CA56BCDEBEA022835B7* L_0 = (RoomOptions_tC6C155D94F2675BA84336CA56BCDEBEA022835B7*)il2cpp_codegen_object_new(RoomOptions_tC6C155D94F2675BA84336CA56BCDEBEA022835B7_il2cpp_TypeInfo_var);
 		RoomOptions__ctor_m575ABE0CB642F3A565A1B46995AFD5C7BFF17220(L_0, NULL);
 		V_0 = L_0;
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/Room.cs:47>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/Room.cs:47>
 		Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83* L_1 = ___0_dataStore;
 		NullCheck(L_1);
 		Enumerator_t173E7BE1F35CA448C7E0EE77345C9E0EC0206562 L_2;
@@ -6163,11 +6163,11 @@ FINALLY_0036:
 
 IL_000f_1:
 			{
-				//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/Room.cs:47>
+				//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/Room.cs:47>
 				KeyValuePair_2_t47AB280304B50F542FD7E14F25DB2C374AEDD80A L_3;
 				L_3 = Enumerator_get_Current_m49070E88C2E34AB46E6292A3FB1C227576B8506E_inline((&V_1), Enumerator_get_Current_m49070E88C2E34AB46E6292A3FB1C227576B8506E_RuntimeMethod_var);
 				V_2 = L_3;
-				//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/Room.cs:49>
+				//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/Room.cs:49>
 				RoomOptions_tC6C155D94F2675BA84336CA56BCDEBEA022835B7* L_4 = V_0;
 				String_t* L_5;
 				L_5 = KeyValuePair_2_get_Key_m654BCCAE2F20CB11D8E8C2D2C886A0C8A13EB1C4_inline((&V_2), KeyValuePair_2_get_Key_m654BCCAE2F20CB11D8E8C2D2C886A0C8A13EB1C4_RuntimeMethod_var);
@@ -6179,7 +6179,7 @@ IL_000f_1:
 
 IL_002b_1:
 			{
-				//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/Room.cs:47>
+				//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/Room.cs:47>
 				bool L_7;
 				L_7 = Enumerator_MoveNext_mA93491D9B55547D066053F3BC0A69C635F877438((&V_1), Enumerator_MoveNext_mA93491D9B55547D066053F3BC0A69C635F877438_RuntimeMethod_var);
 				if (L_7)
@@ -6199,22 +6199,22 @@ IL_002b_1:
 
 IL_0044:
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/Room.cs:52>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/Room.cs:52>
 		RoomOptions_tC6C155D94F2675BA84336CA56BCDEBEA022835B7* L_8 = V_0;
 		String_t* L_9 = ___1_name;
 		NullCheck(L_8);
 		RoomOptions_SetRoomName_mF13CD35EE1D61715C2FB02A9F7CD983D70490D85(L_8, L_9, NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/Room.cs:53>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/Room.cs:53>
 		RoomOptions_tC6C155D94F2675BA84336CA56BCDEBEA022835B7* L_10 = V_0;
 		String_t* L_11 = ___2_password;
 		NullCheck(L_10);
 		RoomOptions_SetPassword_m5323FCDBC642B3161C3B5C58090D0F041F4C19F4(L_10, L_11, NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/Room.cs:55>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/Room.cs:55>
 		RoomOptions_tC6C155D94F2675BA84336CA56BCDEBEA022835B7* L_12 = V_0;
 		return L_12;
 	}
 }
-// Method Definition Index: 78340
+// Method Definition Index: 88394
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_t1646548378FC37A3D720652AC7EBBC7EEFF07445* RoomService_GetNamedRooms_m1A81709F472FAE518A204486B3EA229AA77CE132 (int32_t ___0_pageIndex, int32_t ___1_pageSize, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6227,7 +6227,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_t1646548378FC37A3D720652AC7EBBC7EEFF07
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/Room.cs:70>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/Room.cs:70>
 		il2cpp_codegen_runtime_class_init_inline(CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_il2cpp_TypeInfo_var);
 		bool L_0 = ((CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_StaticFields*)il2cpp_codegen_static_fields_for(CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_il2cpp_TypeInfo_var))->___Initialized;
 		if (L_0)
@@ -6236,18 +6236,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_t1646548378FC37A3D720652AC7EBBC7EEFF07
 		}
 	}
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/Room.cs:72>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/Room.cs:72>
 		il2cpp_codegen_runtime_class_init_inline(CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_il2cpp_TypeInfo_var);
 		String_t* L_1 = ((CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_StaticFields*)il2cpp_codegen_static_fields_for(CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_il2cpp_TypeInfo_var))->___NotInitializedError;
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2(L_1, NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/Room.cs:73>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/Room.cs:73>
 		return (Task_1_t1646548378FC37A3D720652AC7EBBC7EEFF07445*)NULL;
 	}
 
 IL_0013:
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/Room.cs:76>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/Room.cs:76>
 		int32_t L_2 = ___0_pageIndex;
 		int32_t L_3 = ___1_pageSize;
 		uint64_t L_4;
@@ -6257,7 +6257,7 @@ IL_0013:
 		return L_5;
 	}
 }
-// Method Definition Index: 78341
+// Method Definition Index: 88395
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_t7CB449910FC1BB5930A4D0A71235E109982682BB* RoomService_JoinOrCreateNamedRoom_m9CCD8B6F1567227910ABD09F14E1687103E4EDA0 (int32_t ___0_joinPolicy, bool ___1_createIfNotExist, uint32_t ___2_maxUsers, RoomOptions_tC6C155D94F2675BA84336CA56BCDEBEA022835B7* ___3_options, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6270,7 +6270,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_t7CB449910FC1BB5930A4D0A71235E10998268
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/Room.cs:96>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/Room.cs:96>
 		il2cpp_codegen_runtime_class_init_inline(CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_il2cpp_TypeInfo_var);
 		bool L_0 = ((CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_StaticFields*)il2cpp_codegen_static_fields_for(CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_il2cpp_TypeInfo_var))->___Initialized;
 		if (L_0)
@@ -6279,18 +6279,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_t7CB449910FC1BB5930A4D0A71235E10998268
 		}
 	}
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/Room.cs:98>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/Room.cs:98>
 		il2cpp_codegen_runtime_class_init_inline(CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_il2cpp_TypeInfo_var);
 		String_t* L_1 = ((CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_StaticFields*)il2cpp_codegen_static_fields_for(CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_il2cpp_TypeInfo_var))->___NotInitializedError;
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2(L_1, NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/Room.cs:99>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/Room.cs:99>
 		return (Task_1_t7CB449910FC1BB5930A4D0A71235E109982682BB*)NULL;
 	}
 
 IL_0013:
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/Room.cs:102>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/Room.cs:102>
 		int32_t L_2 = ___0_joinPolicy;
 		bool L_3 = ___1_createIfNotExist;
 		uint32_t L_4 = ___2_maxUsers;
@@ -6305,7 +6305,7 @@ IL_0013:
 		return L_8;
 	}
 }
-// Method Definition Index: 78342
+// Method Definition Index: 88396
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_t4FEBAE6911008FF1A81989732EF0BAC5BCD1E5D2* RoomService_LaunchInvitableUserFlow_m58A81BE30CCE667DC5EA5ABD0240143E7EDDF752 (uint64_t ___0_roomID, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6317,7 +6317,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_t4FEBAE6911008FF1A81989732EF0BAC5BCD1E5D
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/Room.cs:116>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/Room.cs:116>
 		il2cpp_codegen_runtime_class_init_inline(CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_il2cpp_TypeInfo_var);
 		bool L_0;
 		L_0 = CoreService_IsInitialized_m425C6E2D600C2F37C0E507442B95D47CA2E60A19_inline(NULL);
@@ -6327,18 +6327,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_t4FEBAE6911008FF1A81989732EF0BAC5BCD1E5D
 		}
 	}
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/Room.cs:118>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/Room.cs:118>
 		il2cpp_codegen_runtime_class_init_inline(CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_il2cpp_TypeInfo_var);
 		String_t* L_1 = ((CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_StaticFields*)il2cpp_codegen_static_fields_for(CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_il2cpp_TypeInfo_var))->___NotInitializedError;
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2(L_1, NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/Room.cs:119>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/Room.cs:119>
 		return (Task_t4FEBAE6911008FF1A81989732EF0BAC5BCD1E5D2*)NULL;
 	}
 
 IL_0013:
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/Room.cs:122>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/Room.cs:122>
 		uint64_t L_2 = ___0_roomID;
 		uint64_t L_3;
 		L_3 = CLIB_ppf_Room_LaunchInvitableUserFlow_m07B68E79850C0DC77B8A40BD1059671A81990EF4(L_2, NULL);
@@ -6347,7 +6347,7 @@ IL_0013:
 		return L_4;
 	}
 }
-// Method Definition Index: 78343
+// Method Definition Index: 88397
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_t7CB449910FC1BB5930A4D0A71235E109982682BB* RoomService_UpdateDataStore_m0230AAF043B61751DE23D4EECADDDE1518E7E231 (uint64_t ___0_roomId, Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83* ___1_data, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6372,7 +6372,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_t7CB449910FC1BB5930A4D0A71235E10998268
 	KeyValuePair_2_t47AB280304B50F542FD7E14F25DB2C374AEDD80A V_3;
 	memset((&V_3), 0, sizeof(V_3));
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/Room.cs:142>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/Room.cs:142>
 		Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83* L_0 = ___1_data;
 		NullCheck(L_0);
 		int32_t L_1;
@@ -6380,9 +6380,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_t7CB449910FC1BB5930A4D0A71235E10998268
 		KVPairArray_t2D18141BDF81CCF74F01AD0CD6D940BFF0D65E1F* L_2 = (KVPairArray_t2D18141BDF81CCF74F01AD0CD6D940BFF0D65E1F*)il2cpp_codegen_object_new(KVPairArray_t2D18141BDF81CCF74F01AD0CD6D940BFF0D65E1F_il2cpp_TypeInfo_var);
 		KVPairArray__ctor_m4F6917590761EBFF6B9B805FEE49015DB7768BA1(L_2, L_1, NULL);
 		V_0 = L_2;
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/Room.cs:143>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/Room.cs:143>
 		V_1 = 0;
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/Room.cs:144>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/Room.cs:144>
 		Dictionary_2_t46B2DB028096FA2B828359E52F37F3105A83AD83* L_3 = ___1_data;
 		NullCheck(L_3);
 		Enumerator_t173E7BE1F35CA448C7E0EE77345C9E0EC0206562 L_4;
@@ -6407,35 +6407,35 @@ FINALLY_004e:
 
 IL_0017_1:
 			{
-				//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/Room.cs:144>
+				//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/Room.cs:144>
 				KeyValuePair_2_t47AB280304B50F542FD7E14F25DB2C374AEDD80A L_5;
 				L_5 = Enumerator_get_Current_m49070E88C2E34AB46E6292A3FB1C227576B8506E_inline((&V_2), Enumerator_get_Current_m49070E88C2E34AB46E6292A3FB1C227576B8506E_RuntimeMethod_var);
 				V_3 = L_5;
-				//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/Room.cs:146>
+				//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/Room.cs:146>
 				KVPairArray_t2D18141BDF81CCF74F01AD0CD6D940BFF0D65E1F* L_6 = V_0;
 				uint32_t L_7 = V_1;
 				NullCheck(L_6);
 				KVPair_t3B78D7F4C5A144597A4D25D3E998B119380117F0* L_8;
 				L_8 = KVPairArray_GetElement_mBCB16A773753147C85E56DE455DA4AE059191BDA(L_6, L_7, NULL);
-				//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/Room.cs:147>
+				//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/Room.cs:147>
 				KVPair_t3B78D7F4C5A144597A4D25D3E998B119380117F0* L_9 = L_8;
 				String_t* L_10;
 				L_10 = KeyValuePair_2_get_Key_m654BCCAE2F20CB11D8E8C2D2C886A0C8A13EB1C4_inline((&V_3), KeyValuePair_2_get_Key_m654BCCAE2F20CB11D8E8C2D2C886A0C8A13EB1C4_RuntimeMethod_var);
 				NullCheck(L_9);
 				KVPair_SetKey_m1D117E89B96B556874E3E70BAC0AA38789DF5C3C(L_9, L_10, NULL);
-				//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/Room.cs:148>
+				//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/Room.cs:148>
 				String_t* L_11;
 				L_11 = KeyValuePair_2_get_Value_m7345512A32CB4DCAA0643050B18DC8DCD71B927A_inline((&V_3), KeyValuePair_2_get_Value_m7345512A32CB4DCAA0643050B18DC8DCD71B927A_RuntimeMethod_var);
 				NullCheck(L_9);
 				KVPair_SetStringValue_mECC788009B804AFBA8737D4BB560D8359002C7A8(L_9, L_11, NULL);
-				//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/Room.cs:149>
+				//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/Room.cs:149>
 				uint32_t L_12 = V_1;
 				V_1 = ((int32_t)il2cpp_codegen_add((int32_t)L_12, 1));
 			}
 
 IL_0043_1:
 			{
-				//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/Room.cs:144>
+				//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/Room.cs:144>
 				bool L_13;
 				L_13 = Enumerator_MoveNext_mA93491D9B55547D066053F3BC0A69C635F877438((&V_2), Enumerator_MoveNext_mA93491D9B55547D066053F3BC0A69C635F877438_RuntimeMethod_var);
 				if (L_13)
@@ -6455,7 +6455,7 @@ IL_0043_1:
 
 IL_005c:
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/Room.cs:152>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/Room.cs:152>
 		uint64_t L_14 = ___0_roomId;
 		KVPairArray_t2D18141BDF81CCF74F01AD0CD6D940BFF0D65E1F* L_15 = V_0;
 		NullCheck(L_15);
@@ -6472,7 +6472,7 @@ IL_005c:
 		return L_20;
 	}
 }
-// Method Definition Index: 78344
+// Method Definition Index: 88398
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_t7CB449910FC1BB5930A4D0A71235E109982682BB* RoomService_CreateAndJoinPrivate2_m7EC3DA98CBB79FB5B872760FFC902C3E697EB3E3 (int32_t ___0_policy, uint32_t ___1_maxUsers, RoomOptions_tC6C155D94F2675BA84336CA56BCDEBEA022835B7* ___2_roomOptions, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6485,7 +6485,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_t7CB449910FC1BB5930A4D0A71235E10998268
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/Room.cs:182>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/Room.cs:182>
 		il2cpp_codegen_runtime_class_init_inline(CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_il2cpp_TypeInfo_var);
 		bool L_0 = ((CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_StaticFields*)il2cpp_codegen_static_fields_for(CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_il2cpp_TypeInfo_var))->___Initialized;
 		if (L_0)
@@ -6494,18 +6494,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_t7CB449910FC1BB5930A4D0A71235E10998268
 		}
 	}
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/Room.cs:184>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/Room.cs:184>
 		il2cpp_codegen_runtime_class_init_inline(CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_il2cpp_TypeInfo_var);
 		String_t* L_1 = ((CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_StaticFields*)il2cpp_codegen_static_fields_for(CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_il2cpp_TypeInfo_var))->___NotInitializedError;
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2(L_1, NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/Room.cs:185>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/Room.cs:185>
 		return (Task_1_t7CB449910FC1BB5930A4D0A71235E109982682BB*)NULL;
 	}
 
 IL_0013:
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/Room.cs:188>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/Room.cs:188>
 		int32_t L_2 = ___0_policy;
 		uint32_t L_3 = ___1_maxUsers;
 		RoomOptions_tC6C155D94F2675BA84336CA56BCDEBEA022835B7* L_4 = ___2_roomOptions;
@@ -6519,7 +6519,7 @@ IL_0013:
 		return L_7;
 	}
 }
-// Method Definition Index: 78345
+// Method Definition Index: 88399
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_t7CB449910FC1BB5930A4D0A71235E109982682BB* RoomService_Get_m9B95E74A7780AF31ADC0BCF8A45B86A3AA82C727 (uint64_t ___0_roomId, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6532,7 +6532,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_t7CB449910FC1BB5930A4D0A71235E10998268
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/Room.cs:206>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/Room.cs:206>
 		il2cpp_codegen_runtime_class_init_inline(CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_il2cpp_TypeInfo_var);
 		bool L_0 = ((CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_StaticFields*)il2cpp_codegen_static_fields_for(CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_il2cpp_TypeInfo_var))->___Initialized;
 		if (L_0)
@@ -6541,18 +6541,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_t7CB449910FC1BB5930A4D0A71235E10998268
 		}
 	}
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/Room.cs:208>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/Room.cs:208>
 		il2cpp_codegen_runtime_class_init_inline(CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_il2cpp_TypeInfo_var);
 		String_t* L_1 = ((CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_StaticFields*)il2cpp_codegen_static_fields_for(CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_il2cpp_TypeInfo_var))->___NotInitializedError;
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2(L_1, NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/Room.cs:209>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/Room.cs:209>
 		return (Task_1_t7CB449910FC1BB5930A4D0A71235E109982682BB*)NULL;
 	}
 
 IL_0013:
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/Room.cs:212>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/Room.cs:212>
 		uint64_t L_2 = ___0_roomId;
 		uint64_t L_3;
 		L_3 = CLIB_ppf_Room_Get_m78F4432727EFD99CB27EC7EC8628D5294E3066AA(L_2, NULL);
@@ -6561,7 +6561,7 @@ IL_0013:
 		return L_4;
 	}
 }
-// Method Definition Index: 78346
+// Method Definition Index: 88400
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_t7CB449910FC1BB5930A4D0A71235E109982682BB* RoomService_GetCurrent_m5AFB79C4E773F85A531CD2327CDBCE5480A80B49 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6574,7 +6574,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_t7CB449910FC1BB5930A4D0A71235E10998268
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/Room.cs:228>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/Room.cs:228>
 		il2cpp_codegen_runtime_class_init_inline(CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_il2cpp_TypeInfo_var);
 		bool L_0 = ((CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_StaticFields*)il2cpp_codegen_static_fields_for(CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_il2cpp_TypeInfo_var))->___Initialized;
 		if (L_0)
@@ -6583,18 +6583,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_t7CB449910FC1BB5930A4D0A71235E10998268
 		}
 	}
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/Room.cs:230>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/Room.cs:230>
 		il2cpp_codegen_runtime_class_init_inline(CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_il2cpp_TypeInfo_var);
 		String_t* L_1 = ((CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_StaticFields*)il2cpp_codegen_static_fields_for(CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_il2cpp_TypeInfo_var))->___NotInitializedError;
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2(L_1, NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/Room.cs:231>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/Room.cs:231>
 		return (Task_1_t7CB449910FC1BB5930A4D0A71235E109982682BB*)NULL;
 	}
 
 IL_0013:
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/Room.cs:234>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/Room.cs:234>
 		uint64_t L_2;
 		L_2 = CLIB_ppf_Room_GetCurrent_mD2393A877281A487C51C92F3918CA5C1611C7240(NULL);
 		Task_1_t7CB449910FC1BB5930A4D0A71235E109982682BB* L_3 = (Task_1_t7CB449910FC1BB5930A4D0A71235E109982682BB*)il2cpp_codegen_object_new(Task_1_t7CB449910FC1BB5930A4D0A71235E109982682BB_il2cpp_TypeInfo_var);
@@ -6602,7 +6602,7 @@ IL_0013:
 		return L_3;
 	}
 }
-// Method Definition Index: 78347
+// Method Definition Index: 88401
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_t7CB449910FC1BB5930A4D0A71235E109982682BB* RoomService_GetCurrentForUser_m3C0CAC6E0F3C10B73039401CF5A77633CD08461B (String_t* ___0_userId, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6615,7 +6615,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_t7CB449910FC1BB5930A4D0A71235E10998268
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/Room.cs:256>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/Room.cs:256>
 		il2cpp_codegen_runtime_class_init_inline(CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_il2cpp_TypeInfo_var);
 		bool L_0 = ((CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_StaticFields*)il2cpp_codegen_static_fields_for(CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_il2cpp_TypeInfo_var))->___Initialized;
 		if (L_0)
@@ -6624,18 +6624,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_t7CB449910FC1BB5930A4D0A71235E10998268
 		}
 	}
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/Room.cs:258>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/Room.cs:258>
 		il2cpp_codegen_runtime_class_init_inline(CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_il2cpp_TypeInfo_var);
 		String_t* L_1 = ((CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_StaticFields*)il2cpp_codegen_static_fields_for(CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_il2cpp_TypeInfo_var))->___NotInitializedError;
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2(L_1, NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/Room.cs:259>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/Room.cs:259>
 		return (Task_1_t7CB449910FC1BB5930A4D0A71235E109982682BB*)NULL;
 	}
 
 IL_0013:
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/Room.cs:262>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/Room.cs:262>
 		String_t* L_2 = ___0_userId;
 		uint64_t L_3;
 		L_3 = CLIB_ppf_Room_GetCurrentForUser_mCE9D7DBE4AC5B5F1E8EAA7B742B0BDB992153020(L_2, NULL);
@@ -6644,7 +6644,7 @@ IL_0013:
 		return L_4;
 	}
 }
-// Method Definition Index: 78348
+// Method Definition Index: 88402
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_tEFD858E38F809577D01E5C61C4E04401C1579F24* RoomService_GetInvitableUsers2_m3070B68799CDCFA04B64FD177F4CC8E5942E9E86 (RoomOptions_tC6C155D94F2675BA84336CA56BCDEBEA022835B7* ___0_roomOptions, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6657,7 +6657,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_tEFD858E38F809577D01E5C61C4E04401C1579
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/Room.cs:282>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/Room.cs:282>
 		il2cpp_codegen_runtime_class_init_inline(CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_il2cpp_TypeInfo_var);
 		bool L_0 = ((CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_StaticFields*)il2cpp_codegen_static_fields_for(CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_il2cpp_TypeInfo_var))->___Initialized;
 		if (L_0)
@@ -6666,18 +6666,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_tEFD858E38F809577D01E5C61C4E04401C1579
 		}
 	}
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/Room.cs:284>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/Room.cs:284>
 		il2cpp_codegen_runtime_class_init_inline(CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_il2cpp_TypeInfo_var);
 		String_t* L_1 = ((CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_StaticFields*)il2cpp_codegen_static_fields_for(CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_il2cpp_TypeInfo_var))->___NotInitializedError;
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2(L_1, NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/Room.cs:285>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/Room.cs:285>
 		return (Task_1_tEFD858E38F809577D01E5C61C4E04401C1579F24*)NULL;
 	}
 
 IL_0013:
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/Room.cs:288>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/Room.cs:288>
 		RoomOptions_tC6C155D94F2675BA84336CA56BCDEBEA022835B7* L_2 = ___0_roomOptions;
 		if (L_2)
 		{
@@ -6685,7 +6685,7 @@ IL_0013:
 		}
 	}
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/Room.cs:290>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/Room.cs:290>
 		uint64_t L_3;
 		L_3 = CLIB_ppf_Room_GetInvitableUsers2_m190B58B8850FB27569722083BB408003949CD07E(0, NULL);
 		Task_1_tEFD858E38F809577D01E5C61C4E04401C1579F24* L_4 = (Task_1_tEFD858E38F809577D01E5C61C4E04401C1579F24*)il2cpp_codegen_object_new(Task_1_tEFD858E38F809577D01E5C61C4E04401C1579F24_il2cpp_TypeInfo_var);
@@ -6695,7 +6695,7 @@ IL_0013:
 
 IL_0026:
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/Room.cs:294>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/Room.cs:294>
 		RoomOptions_tC6C155D94F2675BA84336CA56BCDEBEA022835B7* L_5 = ___0_roomOptions;
 		NullCheck(L_5);
 		intptr_t L_6;
@@ -6707,7 +6707,7 @@ IL_0026:
 		return L_8;
 	}
 }
-// Method Definition Index: 78349
+// Method Definition Index: 88403
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_t1646548378FC37A3D720652AC7EBBC7EEFF07445* RoomService_GetModeratedRooms_m75E752734FD5ADFD7F61B2D1D53F006EDBEA7F25 (int32_t ___0_index, int32_t ___1_size, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6720,7 +6720,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_t1646548378FC37A3D720652AC7EBBC7EEFF07
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/Room.cs:314>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/Room.cs:314>
 		il2cpp_codegen_runtime_class_init_inline(CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_il2cpp_TypeInfo_var);
 		bool L_0 = ((CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_StaticFields*)il2cpp_codegen_static_fields_for(CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_il2cpp_TypeInfo_var))->___Initialized;
 		if (L_0)
@@ -6729,18 +6729,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_t1646548378FC37A3D720652AC7EBBC7EEFF07
 		}
 	}
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/Room.cs:316>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/Room.cs:316>
 		il2cpp_codegen_runtime_class_init_inline(CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_il2cpp_TypeInfo_var);
 		String_t* L_1 = ((CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_StaticFields*)il2cpp_codegen_static_fields_for(CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_il2cpp_TypeInfo_var))->___NotInitializedError;
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2(L_1, NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/Room.cs:317>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/Room.cs:317>
 		return (Task_1_t1646548378FC37A3D720652AC7EBBC7EEFF07445*)NULL;
 	}
 
 IL_0013:
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/Room.cs:320>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/Room.cs:320>
 		int32_t L_2 = ___0_index;
 		int32_t L_3 = ___1_size;
 		uint64_t L_4;
@@ -6750,7 +6750,7 @@ IL_0013:
 		return L_5;
 	}
 }
-// Method Definition Index: 78350
+// Method Definition Index: 88404
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_t7CB449910FC1BB5930A4D0A71235E109982682BB* RoomService_InviteUser_mB9B29239A6E42A0D703EB7CE6FAE73E67F14C99C (uint64_t ___0_roomId, String_t* ___1_token, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6763,7 +6763,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_t7CB449910FC1BB5930A4D0A71235E10998268
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/Room.cs:338>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/Room.cs:338>
 		il2cpp_codegen_runtime_class_init_inline(CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_il2cpp_TypeInfo_var);
 		bool L_0 = ((CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_StaticFields*)il2cpp_codegen_static_fields_for(CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_il2cpp_TypeInfo_var))->___Initialized;
 		if (L_0)
@@ -6772,18 +6772,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_t7CB449910FC1BB5930A4D0A71235E10998268
 		}
 	}
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/Room.cs:340>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/Room.cs:340>
 		il2cpp_codegen_runtime_class_init_inline(CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_il2cpp_TypeInfo_var);
 		String_t* L_1 = ((CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_StaticFields*)il2cpp_codegen_static_fields_for(CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_il2cpp_TypeInfo_var))->___NotInitializedError;
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2(L_1, NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/Room.cs:341>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/Room.cs:341>
 		return (Task_1_t7CB449910FC1BB5930A4D0A71235E109982682BB*)NULL;
 	}
 
 IL_0013:
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/Room.cs:344>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/Room.cs:344>
 		uint64_t L_2 = ___0_roomId;
 		String_t* L_3 = ___1_token;
 		uint64_t L_4;
@@ -6793,7 +6793,7 @@ IL_0013:
 		return L_5;
 	}
 }
-// Method Definition Index: 78351
+// Method Definition Index: 88405
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_t7CB449910FC1BB5930A4D0A71235E109982682BB* RoomService_Join2_m375B784ED7172A1270E2A8FD999BD4318B665534 (uint64_t ___0_roomId, RoomOptions_tC6C155D94F2675BA84336CA56BCDEBEA022835B7* ___1_options, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6806,7 +6806,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_t7CB449910FC1BB5930A4D0A71235E10998268
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/Room.cs:368>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/Room.cs:368>
 		il2cpp_codegen_runtime_class_init_inline(CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_il2cpp_TypeInfo_var);
 		bool L_0 = ((CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_StaticFields*)il2cpp_codegen_static_fields_for(CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_il2cpp_TypeInfo_var))->___Initialized;
 		if (L_0)
@@ -6815,18 +6815,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_t7CB449910FC1BB5930A4D0A71235E10998268
 		}
 	}
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/Room.cs:370>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/Room.cs:370>
 		il2cpp_codegen_runtime_class_init_inline(CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_il2cpp_TypeInfo_var);
 		String_t* L_1 = ((CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_StaticFields*)il2cpp_codegen_static_fields_for(CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_il2cpp_TypeInfo_var))->___NotInitializedError;
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2(L_1, NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/Room.cs:371>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/Room.cs:371>
 		return (Task_1_t7CB449910FC1BB5930A4D0A71235E109982682BB*)NULL;
 	}
 
 IL_0013:
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/Room.cs:374>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/Room.cs:374>
 		uint64_t L_2 = ___0_roomId;
 		RoomOptions_tC6C155D94F2675BA84336CA56BCDEBEA022835B7* L_3 = ___1_options;
 		NullCheck(L_3);
@@ -6839,7 +6839,7 @@ IL_0013:
 		return L_6;
 	}
 }
-// Method Definition Index: 78352
+// Method Definition Index: 88406
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_t7CB449910FC1BB5930A4D0A71235E109982682BB* RoomService_KickUser_m0E8E1B68A47B6D7CF4D1C98FDF549F6413109791 (uint64_t ___0_roomId, String_t* ___1_userId, int32_t ___2_kickDuration, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6852,7 +6852,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_t7CB449910FC1BB5930A4D0A71235E10998268
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/Room.cs:396>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/Room.cs:396>
 		il2cpp_codegen_runtime_class_init_inline(CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_il2cpp_TypeInfo_var);
 		bool L_0 = ((CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_StaticFields*)il2cpp_codegen_static_fields_for(CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_il2cpp_TypeInfo_var))->___Initialized;
 		if (L_0)
@@ -6861,18 +6861,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_t7CB449910FC1BB5930A4D0A71235E10998268
 		}
 	}
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/Room.cs:398>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/Room.cs:398>
 		il2cpp_codegen_runtime_class_init_inline(CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_il2cpp_TypeInfo_var);
 		String_t* L_1 = ((CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_StaticFields*)il2cpp_codegen_static_fields_for(CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_il2cpp_TypeInfo_var))->___NotInitializedError;
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2(L_1, NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/Room.cs:399>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/Room.cs:399>
 		return (Task_1_t7CB449910FC1BB5930A4D0A71235E109982682BB*)NULL;
 	}
 
 IL_0013:
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/Room.cs:402>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/Room.cs:402>
 		uint64_t L_2 = ___0_roomId;
 		String_t* L_3 = ___1_userId;
 		int32_t L_4 = ___2_kickDuration;
@@ -6883,7 +6883,7 @@ IL_0013:
 		return L_6;
 	}
 }
-// Method Definition Index: 78353
+// Method Definition Index: 88407
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_t7CB449910FC1BB5930A4D0A71235E109982682BB* RoomService_Leave_m25C11A2D91A738A91D21AEA0072F1D704D460DD2 (uint64_t ___0_roomId, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6896,7 +6896,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_t7CB449910FC1BB5930A4D0A71235E10998268
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/Room.cs:422>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/Room.cs:422>
 		il2cpp_codegen_runtime_class_init_inline(CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_il2cpp_TypeInfo_var);
 		bool L_0 = ((CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_StaticFields*)il2cpp_codegen_static_fields_for(CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_il2cpp_TypeInfo_var))->___Initialized;
 		if (L_0)
@@ -6905,18 +6905,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_t7CB449910FC1BB5930A4D0A71235E10998268
 		}
 	}
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/Room.cs:424>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/Room.cs:424>
 		il2cpp_codegen_runtime_class_init_inline(CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_il2cpp_TypeInfo_var);
 		String_t* L_1 = ((CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_StaticFields*)il2cpp_codegen_static_fields_for(CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_il2cpp_TypeInfo_var))->___NotInitializedError;
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2(L_1, NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/Room.cs:425>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/Room.cs:425>
 		return (Task_1_t7CB449910FC1BB5930A4D0A71235E109982682BB*)NULL;
 	}
 
 IL_0013:
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/Room.cs:428>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/Room.cs:428>
 		uint64_t L_2 = ___0_roomId;
 		uint64_t L_3;
 		L_3 = CLIB_ppf_Room_Leave_mCF160B03E73765832E2011BE38383455710338A8(L_2, NULL);
@@ -6925,7 +6925,7 @@ IL_0013:
 		return L_4;
 	}
 }
-// Method Definition Index: 78354
+// Method Definition Index: 88408
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_t7CB449910FC1BB5930A4D0A71235E109982682BB* RoomService_SetDescription_mF1FA0508A2198DE9CA187BC77C68D369A1DA36CE (uint64_t ___0_roomId, String_t* ___1_description, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6938,7 +6938,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_t7CB449910FC1BB5930A4D0A71235E10998268
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/Room.cs:447>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/Room.cs:447>
 		il2cpp_codegen_runtime_class_init_inline(CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_il2cpp_TypeInfo_var);
 		bool L_0 = ((CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_StaticFields*)il2cpp_codegen_static_fields_for(CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_il2cpp_TypeInfo_var))->___Initialized;
 		if (L_0)
@@ -6947,18 +6947,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_t7CB449910FC1BB5930A4D0A71235E10998268
 		}
 	}
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/Room.cs:449>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/Room.cs:449>
 		il2cpp_codegen_runtime_class_init_inline(CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_il2cpp_TypeInfo_var);
 		String_t* L_1 = ((CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_StaticFields*)il2cpp_codegen_static_fields_for(CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_il2cpp_TypeInfo_var))->___NotInitializedError;
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2(L_1, NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/Room.cs:450>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/Room.cs:450>
 		return (Task_1_t7CB449910FC1BB5930A4D0A71235E109982682BB*)NULL;
 	}
 
 IL_0013:
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/Room.cs:453>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/Room.cs:453>
 		uint64_t L_2 = ___0_roomId;
 		String_t* L_3 = ___1_description;
 		uint64_t L_4;
@@ -6968,7 +6968,7 @@ IL_0013:
 		return L_5;
 	}
 }
-// Method Definition Index: 78355
+// Method Definition Index: 88409
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_t7CB449910FC1BB5930A4D0A71235E109982682BB* RoomService_UpdateMembershipLockStatus_mDCFB7BB641C3359FB46AFF25C3EF3F158271FD9F (uint64_t ___0_roomId, int32_t ___1_membershipLockStatus, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -6981,7 +6981,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_t7CB449910FC1BB5930A4D0A71235E10998268
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/Room.cs:478>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/Room.cs:478>
 		il2cpp_codegen_runtime_class_init_inline(CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_il2cpp_TypeInfo_var);
 		bool L_0 = ((CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_StaticFields*)il2cpp_codegen_static_fields_for(CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_il2cpp_TypeInfo_var))->___Initialized;
 		if (L_0)
@@ -6990,18 +6990,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_t7CB449910FC1BB5930A4D0A71235E10998268
 		}
 	}
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/Room.cs:480>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/Room.cs:480>
 		il2cpp_codegen_runtime_class_init_inline(CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_il2cpp_TypeInfo_var);
 		String_t* L_1 = ((CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_StaticFields*)il2cpp_codegen_static_fields_for(CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_il2cpp_TypeInfo_var))->___NotInitializedError;
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2(L_1, NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/Room.cs:481>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/Room.cs:481>
 		return (Task_1_t7CB449910FC1BB5930A4D0A71235E109982682BB*)NULL;
 	}
 
 IL_0013:
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/Room.cs:484>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/Room.cs:484>
 		uint64_t L_2 = ___0_roomId;
 		int32_t L_3 = ___1_membershipLockStatus;
 		uint64_t L_4;
@@ -7011,7 +7011,7 @@ IL_0013:
 		return L_5;
 	}
 }
-// Method Definition Index: 78356
+// Method Definition Index: 88410
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_t4FEBAE6911008FF1A81989732EF0BAC5BCD1E5D2* RoomService_UpdateOwner_mEFA447F88BC01098DEC381EED6E2224241F08E63 (uint64_t ___0_roomId, String_t* ___1_userId, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7023,7 +7023,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_t4FEBAE6911008FF1A81989732EF0BAC5BCD1E5D
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/Room.cs:503>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/Room.cs:503>
 		il2cpp_codegen_runtime_class_init_inline(CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_il2cpp_TypeInfo_var);
 		bool L_0 = ((CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_StaticFields*)il2cpp_codegen_static_fields_for(CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_il2cpp_TypeInfo_var))->___Initialized;
 		if (L_0)
@@ -7032,18 +7032,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_t4FEBAE6911008FF1A81989732EF0BAC5BCD1E5D
 		}
 	}
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/Room.cs:505>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/Room.cs:505>
 		il2cpp_codegen_runtime_class_init_inline(CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_il2cpp_TypeInfo_var);
 		String_t* L_1 = ((CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_StaticFields*)il2cpp_codegen_static_fields_for(CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_il2cpp_TypeInfo_var))->___NotInitializedError;
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2(L_1, NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/Room.cs:506>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/Room.cs:506>
 		return (Task_t4FEBAE6911008FF1A81989732EF0BAC5BCD1E5D2*)NULL;
 	}
 
 IL_0013:
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/Room.cs:509>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/Room.cs:509>
 		uint64_t L_2 = ___0_roomId;
 		String_t* L_3 = ___1_userId;
 		uint64_t L_4;
@@ -7053,7 +7053,7 @@ IL_0013:
 		return L_5;
 	}
 }
-// Method Definition Index: 78357
+// Method Definition Index: 88411
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_t7CB449910FC1BB5930A4D0A71235E109982682BB* RoomService_UpdatePrivateRoomJoinPolicy_m0C571120380F718555680A9845D6B26B71A13405 (uint64_t ___0_roomId, int32_t ___1_policy, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7066,7 +7066,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_t7CB449910FC1BB5930A4D0A71235E10998268
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/Room.cs:536>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/Room.cs:536>
 		il2cpp_codegen_runtime_class_init_inline(CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_il2cpp_TypeInfo_var);
 		bool L_0 = ((CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_StaticFields*)il2cpp_codegen_static_fields_for(CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_il2cpp_TypeInfo_var))->___Initialized;
 		if (L_0)
@@ -7075,18 +7075,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_t7CB449910FC1BB5930A4D0A71235E10998268
 		}
 	}
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/Room.cs:538>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/Room.cs:538>
 		il2cpp_codegen_runtime_class_init_inline(CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_il2cpp_TypeInfo_var);
 		String_t* L_1 = ((CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_StaticFields*)il2cpp_codegen_static_fields_for(CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_il2cpp_TypeInfo_var))->___NotInitializedError;
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2(L_1, NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/Room.cs:539>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/Room.cs:539>
 		return (Task_1_t7CB449910FC1BB5930A4D0A71235E109982682BB*)NULL;
 	}
 
 IL_0013:
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/Room.cs:542>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/Room.cs:542>
 		uint64_t L_2 = ___0_roomId;
 		int32_t L_3 = ___1_policy;
 		uint64_t L_4;
@@ -7096,7 +7096,7 @@ IL_0013:
 		return L_5;
 	}
 }
-// Method Definition Index: 78358
+// Method Definition Index: 88412
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RoomService_SetRoomInviteAcceptedNotificationCallback_m1FEA73073355D81B602D2A09C15727C81CCD9914 (Handler_tE2837A49F6F6E0632D5E94EF3412C338F6526C86* ___0_handler, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7106,15 +7106,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RoomService_SetRoomInviteAcceptedNotific
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/Room.cs:551>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/Room.cs:551>
 		Handler_tE2837A49F6F6E0632D5E94EF3412C338F6526C86* L_0 = ___0_handler;
 		il2cpp_codegen_runtime_class_init_inline(Looper_t55865921F88FD546B4F2DA0211A39072EB73A4A8_il2cpp_TypeInfo_var);
 		Looper_RegisterNotifyHandler_mED8ACEA4DA0157458B4890037F5D56902EB21015(((int32_t)10601), L_0, NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/Room.cs:552>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/Room.cs:552>
 		return;
 	}
 }
-// Method Definition Index: 78359
+// Method Definition Index: 88413
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RoomService_SetUpdateNotificationCallback_m9D04D587F59B6B6D115097E54F5F1A44F3E1CF3F (Handler_t05FD38B4AE4ACA80200955E30FF85B35BFE7C48F* ___0_handler, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7124,15 +7124,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RoomService_SetUpdateNotificationCallbac
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/Room.cs:559>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/Room.cs:559>
 		Handler_t05FD38B4AE4ACA80200955E30FF85B35BFE7C48F* L_0 = ___0_handler;
 		il2cpp_codegen_runtime_class_init_inline(Looper_t55865921F88FD546B4F2DA0211A39072EB73A4A8_il2cpp_TypeInfo_var);
 		Looper_RegisterNotifyHandler_mED8ACEA4DA0157458B4890037F5D56902EB21015(((int32_t)10603), L_0, NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/Room.cs:560>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/Room.cs:560>
 		return;
 	}
 }
-// Method Definition Index: 78360
+// Method Definition Index: 88414
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RoomService_SetKickUserNotificationCallback_mCF2E455DF51FB997EDF92649B5D617E1593629D2 (Handler_t05FD38B4AE4ACA80200955E30FF85B35BFE7C48F* ___0_handler, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7142,15 +7142,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RoomService_SetKickUserNotificationCallb
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/Room.cs:568>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/Room.cs:568>
 		Handler_t05FD38B4AE4ACA80200955E30FF85B35BFE7C48F* L_0 = ___0_handler;
 		il2cpp_codegen_runtime_class_init_inline(Looper_t55865921F88FD546B4F2DA0211A39072EB73A4A8_il2cpp_TypeInfo_var);
 		Looper_RegisterNotifyHandler_mED8ACEA4DA0157458B4890037F5D56902EB21015(((int32_t)10512), L_0, NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/Room.cs:569>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/Room.cs:569>
 		return;
 	}
 }
-// Method Definition Index: 78361
+// Method Definition Index: 88415
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RoomService_SetSetDescriptionNotificationCallback_mFAC7E399FBC5899F2A6E51EE34D083580B5A647D (Handler_t05FD38B4AE4ACA80200955E30FF85B35BFE7C48F* ___0_handler, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7160,15 +7160,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RoomService_SetSetDescriptionNotificatio
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/Room.cs:577>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/Room.cs:577>
 		Handler_t05FD38B4AE4ACA80200955E30FF85B35BFE7C48F* L_0 = ___0_handler;
 		il2cpp_codegen_runtime_class_init_inline(Looper_t55865921F88FD546B4F2DA0211A39072EB73A4A8_il2cpp_TypeInfo_var);
 		Looper_RegisterNotifyHandler_mED8ACEA4DA0157458B4890037F5D56902EB21015(((int32_t)10515), L_0, NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/Room.cs:578>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/Room.cs:578>
 		return;
 	}
 }
-// Method Definition Index: 78362
+// Method Definition Index: 88416
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RoomService_SetUpdateDataStoreNotificationCallback_m7A3B169D9FDA95C3BD16B60A33A21EDEA1042790 (Handler_t05FD38B4AE4ACA80200955E30FF85B35BFE7C48F* ___0_handler, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7178,15 +7178,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RoomService_SetUpdateDataStoreNotificati
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/Room.cs:586>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/Room.cs:586>
 		Handler_t05FD38B4AE4ACA80200955E30FF85B35BFE7C48F* L_0 = ___0_handler;
 		il2cpp_codegen_runtime_class_init_inline(Looper_t55865921F88FD546B4F2DA0211A39072EB73A4A8_il2cpp_TypeInfo_var);
 		Looper_RegisterNotifyHandler_mED8ACEA4DA0157458B4890037F5D56902EB21015(((int32_t)10516), L_0, NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/Room.cs:587>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/Room.cs:587>
 		return;
 	}
 }
-// Method Definition Index: 78363
+// Method Definition Index: 88417
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RoomService_SetLeaveNotificationCallback_mC366E2B6903FBD02A9A9E9F08876802EC28A0246 (Handler_t05FD38B4AE4ACA80200955E30FF85B35BFE7C48F* ___0_handler, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7196,15 +7196,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RoomService_SetLeaveNotificationCallback
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/Room.cs:596>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/Room.cs:596>
 		Handler_t05FD38B4AE4ACA80200955E30FF85B35BFE7C48F* L_0 = ___0_handler;
 		il2cpp_codegen_runtime_class_init_inline(Looper_t55865921F88FD546B4F2DA0211A39072EB73A4A8_il2cpp_TypeInfo_var);
 		Looper_RegisterNotifyHandler_mED8ACEA4DA0157458B4890037F5D56902EB21015(((int32_t)10514), L_0, NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/Room.cs:597>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/Room.cs:597>
 		return;
 	}
 }
-// Method Definition Index: 78364
+// Method Definition Index: 88418
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RoomService_SetJoin2NotificationCallback_mDFE1168E89195B4DABF7F71D771C80471119A4FC (Handler_t05FD38B4AE4ACA80200955E30FF85B35BFE7C48F* ___0_handler, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7214,15 +7214,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RoomService_SetJoin2NotificationCallback
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/Room.cs:606>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/Room.cs:606>
 		Handler_t05FD38B4AE4ACA80200955E30FF85B35BFE7C48F* L_0 = ___0_handler;
 		il2cpp_codegen_runtime_class_init_inline(Looper_t55865921F88FD546B4F2DA0211A39072EB73A4A8_il2cpp_TypeInfo_var);
 		Looper_RegisterNotifyHandler_mED8ACEA4DA0157458B4890037F5D56902EB21015(((int32_t)10511), L_0, NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/Room.cs:607>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/Room.cs:607>
 		return;
 	}
 }
-// Method Definition Index: 78365
+// Method Definition Index: 88419
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RoomService_SetUpdateOwnerNotificationCallback_m86C7EA617AE5F7B9892AD77F0ABCC71D80FD322E (Handler_t320FBB759BDEF6D27E8E80B2B6B736DC1C06E5A5* ___0_handler, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7232,15 +7232,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RoomService_SetUpdateOwnerNotificationCa
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/Room.cs:616>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/Room.cs:616>
 		Handler_t320FBB759BDEF6D27E8E80B2B6B736DC1C06E5A5* L_0 = ___0_handler;
 		il2cpp_codegen_runtime_class_init_inline(Looper_t55865921F88FD546B4F2DA0211A39072EB73A4A8_il2cpp_TypeInfo_var);
 		Looper_RegisterNotifyHandler_mED8ACEA4DA0157458B4890037F5D56902EB21015(((int32_t)10518), L_0, NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/Room.cs:617>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/Room.cs:617>
 		return;
 	}
 }
-// Method Definition Index: 78366
+// Method Definition Index: 88420
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RoomService_SetUpdateMembershipLockStatusNotificationCallback_m5320349D7520799E01C7CCEFA68CF3861A3C0D06 (Handler_t05FD38B4AE4ACA80200955E30FF85B35BFE7C48F* ___0_handler, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7250,11 +7250,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RoomService_SetUpdateMembershipLockStatu
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/Room.cs:625>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/Room.cs:625>
 		Handler_t05FD38B4AE4ACA80200955E30FF85B35BFE7C48F* L_0 = ___0_handler;
 		il2cpp_codegen_runtime_class_init_inline(Looper_t55865921F88FD546B4F2DA0211A39072EB73A4A8_il2cpp_TypeInfo_var);
 		Looper_RegisterNotifyHandler_mED8ACEA4DA0157458B4890037F5D56902EB21015(((int32_t)10517), L_0, NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/Room.cs:626>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/Room.cs:626>
 		return;
 	}
 }
@@ -7266,121 +7266,121 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RoomService_SetUpdateMembershipLockStatu
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 78367
+// Method Definition Index: 88421
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RoomOptions__ctor_m575ABE0CB642F3A565A1B46995AFD5C7BFF17220 (RoomOptions_tC6C155D94F2675BA84336CA56BCDEBEA022835B7* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/Room.cs:631>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/Room.cs:631>
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/Room.cs:633>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/Room.cs:633>
 		intptr_t L_0;
 		L_0 = CLIB_ppf_RoomOptions_Create_m6ECBE2AC605C2102BC18A9BBC5D696E3F0AEBC6B(NULL);
 		__this->___Handle = L_0;
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/Room.cs:634>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/Room.cs:634>
 		return;
 	}
 }
-// Method Definition Index: 78368
+// Method Definition Index: 88422
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RoomOptions_SetDataStore_mD2918B7E5F7682EF389E24BC7E86620FC2B5ED92 (RoomOptions_tC6C155D94F2675BA84336CA56BCDEBEA022835B7* __this, String_t* ___0_key, String_t* ___1_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/Room.cs:643>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/Room.cs:643>
 		intptr_t L_0 = __this->___Handle;
 		String_t* L_1 = ___0_key;
 		String_t* L_2 = ___1_value;
 		CLIB_ppf_RoomOptions_SetDataStoreString_mF4AAB5DAC9E0AEFDD29CA454D9E3CAD2939D7094(L_0, L_1, L_2, NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/Room.cs:644>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/Room.cs:644>
 		return;
 	}
 }
-// Method Definition Index: 78369
+// Method Definition Index: 88423
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RoomOptions_ClearDataStore_m4DFF7CE299148685166C8660FF9357EF579076B1 (RoomOptions_tC6C155D94F2675BA84336CA56BCDEBEA022835B7* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/Room.cs:651>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/Room.cs:651>
 		intptr_t L_0 = __this->___Handle;
 		CLIB_ppf_RoomOptions_ClearDataStore_m08E7EFA13A1700BA8B953C5C4D69ED2AE6B6B1DB(L_0, NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/Room.cs:652>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/Room.cs:652>
 		return;
 	}
 }
-// Method Definition Index: 78370
+// Method Definition Index: 88424
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RoomOptions_SetExcludeRecentlyMet_mB3DDFB65BE9AED1C730A3FEE915EFCB181FA57C8 (RoomOptions_tC6C155D94F2675BA84336CA56BCDEBEA022835B7* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/Room.cs:663>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/Room.cs:663>
 		intptr_t L_0 = __this->___Handle;
 		bool L_1 = ___0_value;
 		CLIB_ppf_RoomOptions_SetExcludeRecentlyMet_mD1B8195171FDACE7B7D21376FBBE02CEB23AD964(L_0, L_1, NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/Room.cs:664>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/Room.cs:664>
 		return;
 	}
 }
-// Method Definition Index: 78371
+// Method Definition Index: 88425
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RoomOptions_SetMaxUserResults_mCBA16A9D5EADBC6A22B1355A61130EF4CEFDE671 (RoomOptions_tC6C155D94F2675BA84336CA56BCDEBEA022835B7* __this, uint32_t ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/Room.cs:672>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/Room.cs:672>
 		intptr_t L_0 = __this->___Handle;
 		uint32_t L_1 = ___0_value;
 		CLIB_ppf_RoomOptions_SetMaxUserResults_m7CB686A444F6BF00424635009E098E6114E736F0(L_0, L_1, NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/Room.cs:673>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/Room.cs:673>
 		return;
 	}
 }
-// Method Definition Index: 78372
+// Method Definition Index: 88426
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RoomOptions_SetRoomId_mD9315F94A1A36C694D8BBAC408072C884B9CFED9 (RoomOptions_tC6C155D94F2675BA84336CA56BCDEBEA022835B7* __this, uint64_t ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/Room.cs:682>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/Room.cs:682>
 		intptr_t L_0 = __this->___Handle;
 		uint64_t L_1 = ___0_value;
 		CLIB_ppf_RoomOptions_SetRoomId_mF64B0F142484998CB3DB49BACAB7A19F8B6B9655(L_0, L_1, NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/Room.cs:683>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/Room.cs:683>
 		return;
 	}
 }
-// Method Definition Index: 78373
+// Method Definition Index: 88427
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RoomOptions_SetRoomName_mF13CD35EE1D61715C2FB02A9F7CD983D70490D85 (RoomOptions_tC6C155D94F2675BA84336CA56BCDEBEA022835B7* __this, String_t* ___0_roomName, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/Room.cs:692>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/Room.cs:692>
 		intptr_t L_0 = __this->___Handle;
 		String_t* L_1 = ___0_roomName;
 		CLIB_ppf_RoomOptions_SetName_mACE0C9CF32D1F4D89B6B0B195969DA4B082A265E(L_0, L_1, NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/Room.cs:693>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/Room.cs:693>
 		return;
 	}
 }
-// Method Definition Index: 78374
+// Method Definition Index: 88428
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RoomOptions_SetPassword_m5323FCDBC642B3161C3B5C58090D0F041F4C19F4 (RoomOptions_tC6C155D94F2675BA84336CA56BCDEBEA022835B7* __this, String_t* ___0_password, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/Room.cs:702>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/Room.cs:702>
 		intptr_t L_0 = __this->___Handle;
 		String_t* L_1 = ___0_password;
 		CLIB_ppf_RoomOptions_SetPassword_m744B749EA6C835A66E42A5940C550CA022944AE3(L_0, L_1, NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/Room.cs:703>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/Room.cs:703>
 		return;
 	}
 }
-// Method Definition Index: 78375
+// Method Definition Index: 88429
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RoomOptions_SetTurnOffUpdates_mFFC7DCEA750AFE137BB9AF5865A0023E107F93A1 (RoomOptions_tC6C155D94F2675BA84336CA56BCDEBEA022835B7* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/Room.cs:714>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/Room.cs:714>
 		intptr_t L_0 = __this->___Handle;
 		bool L_1 = ___0_value;
 		CLIB_ppf_RoomOptions_SetTurnOffUpdates_m7CB0F5C3189BC1A4A3C0D34DBC15DDEF541C0E9A(L_0, L_1, NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/Room.cs:715>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/Room.cs:715>
 		return;
 	}
 }
-// Method Definition Index: 78376
+// Method Definition Index: 88430
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t RoomOptions_op_Explicit_m160FF5FE60C41FDD18D2CB346EED21F1F3E3CC78 (RoomOptions_tC6C155D94F2675BA84336CA56BCDEBEA022835B7* ___0_roomOptions, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/Room.cs:721>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/Room.cs:721>
 		RoomOptions_tC6C155D94F2675BA84336CA56BCDEBEA022835B7* L_0 = ___0_roomOptions;
 		if (L_0)
 		{
@@ -7399,7 +7399,7 @@ IL_0009:
 		return L_2;
 	}
 }
-// Method Definition Index: 78377
+// Method Definition Index: 88431
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RoomOptions_Finalize_m999EEE1957A19E1D7B7270C18524B1B367400CED (RoomOptions_tC6C155D94F2675BA84336CA56BCDEBEA022835B7* __this, const RuntimeMethod* method) 
 {
 	{
@@ -7408,14 +7408,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RoomOptions_Finalize_m999EEE1957A19E1D7B
 
 FINALLY_000d:
 			{
-				//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/Room.cs:727>
+				//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/Room.cs:727>
 				Object_Finalize_mC98C96301CCABFE00F1A7EF8E15DF507CACD42B2(__this, NULL);
 				return;
 			}
 		});
 		try
 		{
-			//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/Room.cs:726>
+			//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/Room.cs:726>
 			intptr_t L_0 = __this->___Handle;
 			CLIB_ppf_RoomOptions_Destroy_m0336694A1A622F8383DA0D257FFC107BA620E804(L_0, NULL);
 			goto IL_0014;
@@ -7428,15 +7428,15 @@ FINALLY_000d:
 
 IL_0014:
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/Room.cs:727>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/Room.cs:727>
 		return;
 	}
 }
-// Method Definition Index: 78378
+// Method Definition Index: 88432
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t RoomOptions_GetHandle_m0C9DCC01EC26AC5586AC037C2FC3A8A8C389F247 (RoomOptions_tC6C155D94F2675BA84336CA56BCDEBEA022835B7* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/Room.cs:733>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/Room.cs:733>
 		intptr_t L_0 = __this->___Handle;
 		return L_0;
 	}
@@ -7449,17 +7449,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t RoomOptions_GetHandle_m0C9DCC01EC26A
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 78379
+// Method Definition Index: 88433
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t SpeechService_InitAsrEngine_m34FEB1C9509F508B6E13EE6DE12FC31463AC1F45 (const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/Speech.cs:26>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/Speech.cs:26>
 		int32_t L_0;
 		L_0 = CLIB_ppf_Speech_InitAsrEngine_mE4DC5D454207DDC4C1C6814D8E704CDF7AE60145(NULL);
 		return L_0;
 	}
 }
-// Method Definition Index: 78380
+// Method Definition Index: 88434
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t SpeechService_StartAsr_m6B5E46DD7D6C9AFEC0243B8A4D32553111012E98 (bool ___0_autoStop, bool ___1_showPunctual, int32_t ___2_vadMaxDurationInSeconds, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7469,25 +7469,25 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t SpeechService_StartAsr_m6B5E46DD7D6C9
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/Speech.cs:46>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/Speech.cs:46>
 		StartAsrOptions_t336161334FBFF33C9F13BC5F722DEF6EAA1A633F* L_0 = (StartAsrOptions_t336161334FBFF33C9F13BC5F722DEF6EAA1A633F*)il2cpp_codegen_object_new(StartAsrOptions_t336161334FBFF33C9F13BC5F722DEF6EAA1A633F_il2cpp_TypeInfo_var);
 		StartAsrOptions__ctor_m9051AC9B99E34B2FA533CF775053B6BB8961A465(L_0, NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/Speech.cs:47>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/Speech.cs:47>
 		StartAsrOptions_t336161334FBFF33C9F13BC5F722DEF6EAA1A633F* L_1 = L_0;
 		bool L_2 = ___0_autoStop;
 		NullCheck(L_1);
 		StartAsrOptions_SetAutoStop_mA87C46C8228C8658306339DF20A6100479737B90(L_1, L_2, NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/Speech.cs:48>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/Speech.cs:48>
 		StartAsrOptions_t336161334FBFF33C9F13BC5F722DEF6EAA1A633F* L_3 = L_1;
 		bool L_4 = ___1_showPunctual;
 		NullCheck(L_3);
 		StartAsrOptions_SetShowPunctual_m08A66F2736751EDAFA614A573E4472A929AD48F7(L_3, L_4, NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/Speech.cs:49>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/Speech.cs:49>
 		StartAsrOptions_t336161334FBFF33C9F13BC5F722DEF6EAA1A633F* L_5 = L_3;
 		int32_t L_6 = ___2_vadMaxDurationInSeconds;
 		NullCheck(L_5);
 		StartAsrOptions_SetVadMaxDurationInSeconds_mD7132FE9CAD9A57A747C78F8C231C67422054D2F(L_5, L_6, NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/Speech.cs:50>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/Speech.cs:50>
 		intptr_t L_7;
 		L_7 = StartAsrOptions_op_Explicit_m9AAFCEA0EFAD89ECFFD8F5F0ED0EF5425874EF63(L_5, NULL);
 		int32_t L_8;
@@ -7495,17 +7495,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t SpeechService_StartAsr_m6B5E46DD7D6C9
 		return L_8;
 	}
 }
-// Method Definition Index: 78381
+// Method Definition Index: 88435
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SpeechService_StopAsr_mF55F7E675178899152017EFBE97119D969092C1F (const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/Speech.cs:58>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/Speech.cs:58>
 		CLIB_ppf_Speech_StopAsr_m152FA1B9067EBF9B11C9423A3C9D9B93A3D3514B(NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/Speech.cs:59>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/Speech.cs:59>
 		return;
 	}
 }
-// Method Definition Index: 78382
+// Method Definition Index: 88436
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SpeechService_SetOnAsrResultCallback_mAC05F506CC6124034DE524036E8D7E5A38D67C59 (Handler_tE5970BF7190FDDDFE47C25F9F98FC3037D7F753F* ___0_handler, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7515,15 +7515,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SpeechService_SetOnAsrResultCallback_mAC
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/Speech.cs:69>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/Speech.cs:69>
 		Handler_tE5970BF7190FDDDFE47C25F9F98FC3037D7F753F* L_0 = ___0_handler;
 		il2cpp_codegen_runtime_class_init_inline(Looper_t55865921F88FD546B4F2DA0211A39072EB73A4A8_il2cpp_TypeInfo_var);
 		Looper_RegisterNotifyHandler_mED8ACEA4DA0157458B4890037F5D56902EB21015(((int32_t)14001), L_0, NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/Speech.cs:70>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/Speech.cs:70>
 		return;
 	}
 }
-// Method Definition Index: 78383
+// Method Definition Index: 88437
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SpeechService_SetOnSpeechErrorCallback_m7AB87F51F67E922F03AB16195A43D30986FE8940 (Handler_t4491361073BF898EF4019198FE0FA845AEA8C7C6* ___0_handler, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7533,15 +7533,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SpeechService_SetOnSpeechErrorCallback_m
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/Speech.cs:78>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/Speech.cs:78>
 		Handler_t4491361073BF898EF4019198FE0FA845AEA8C7C6* L_0 = ___0_handler;
 		il2cpp_codegen_runtime_class_init_inline(Looper_t55865921F88FD546B4F2DA0211A39072EB73A4A8_il2cpp_TypeInfo_var);
 		Looper_RegisterNotifyHandler_mED8ACEA4DA0157458B4890037F5D56902EB21015(((int32_t)14002), L_0, NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/Speech.cs:79>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/Speech.cs:79>
 		return;
 	}
 }
-// Method Definition Index: 78384
+// Method Definition Index: 88438
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SpeechService__ctor_m31B753A59C629DAFF14ED9031C3D8426D8652535 (SpeechService_t4136B8573DC4D69E06013EC67BCD1E4052C18EE9* __this, const RuntimeMethod* method) 
 {
 	{
@@ -7557,61 +7557,61 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SpeechService__ctor_m31B753A59C629DAFF14
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 78385
+// Method Definition Index: 88439
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StartAsrOptions__ctor_m9051AC9B99E34B2FA533CF775053B6BB8961A465 (StartAsrOptions_t336161334FBFF33C9F13BC5F722DEF6EAA1A633F* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/Speech.cs:84>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/Speech.cs:84>
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/Speech.cs:86>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/Speech.cs:86>
 		intptr_t L_0;
 		L_0 = CLIB_ppf_StartAsrOptions_Create_mD16FDD2ADE6427BED56C2BE226202C86731FF6B5(NULL);
 		__this->___Handle = L_0;
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/Speech.cs:87>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/Speech.cs:87>
 		return;
 	}
 }
-// Method Definition Index: 78386
+// Method Definition Index: 88440
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StartAsrOptions_SetAutoStop_mA87C46C8228C8658306339DF20A6100479737B90 (StartAsrOptions_t336161334FBFF33C9F13BC5F722DEF6EAA1A633F* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/Speech.cs:92>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/Speech.cs:92>
 		intptr_t L_0 = __this->___Handle;
 		bool L_1 = ___0_value;
 		CLIB_ppf_StartAsrOptions_SetAutoStop_mC46EA758EB5C3935B5CF77049A28B90E54A313AE(L_0, L_1, NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/Speech.cs:93>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/Speech.cs:93>
 		return;
 	}
 }
-// Method Definition Index: 78387
+// Method Definition Index: 88441
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StartAsrOptions_SetVadMaxDurationInSeconds_mD7132FE9CAD9A57A747C78F8C231C67422054D2F (StartAsrOptions_t336161334FBFF33C9F13BC5F722DEF6EAA1A633F* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/Speech.cs:98>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/Speech.cs:98>
 		intptr_t L_0 = __this->___Handle;
 		int32_t L_1 = ___0_value;
 		CLIB_ppf_StartAsrOptions_SetVadMaxDurationInSeconds_m58766F2DEFA01B015B6CF08C4E664B3CB02BA244(L_0, L_1, NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/Speech.cs:99>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/Speech.cs:99>
 		return;
 	}
 }
-// Method Definition Index: 78388
+// Method Definition Index: 88442
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StartAsrOptions_SetShowPunctual_m08A66F2736751EDAFA614A573E4472A929AD48F7 (StartAsrOptions_t336161334FBFF33C9F13BC5F722DEF6EAA1A633F* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/Speech.cs:104>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/Speech.cs:104>
 		intptr_t L_0 = __this->___Handle;
 		bool L_1 = ___0_value;
 		CLIB_ppf_StartAsrOptions_SetShowPunctual_m634A7C0830075E813E254431252C8EE4741A5E8A(L_0, L_1, NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/Speech.cs:105>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/Speech.cs:105>
 		return;
 	}
 }
-// Method Definition Index: 78389
+// Method Definition Index: 88443
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t StartAsrOptions_op_Explicit_m9AAFCEA0EFAD89ECFFD8F5F0ED0EF5425874EF63 (StartAsrOptions_t336161334FBFF33C9F13BC5F722DEF6EAA1A633F* ___0_options, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/Speech.cs:110>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/Speech.cs:110>
 		StartAsrOptions_t336161334FBFF33C9F13BC5F722DEF6EAA1A633F* L_0 = ___0_options;
 		if (L_0)
 		{
@@ -7630,7 +7630,7 @@ IL_0009:
 		return L_2;
 	}
 }
-// Method Definition Index: 78390
+// Method Definition Index: 88444
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StartAsrOptions_Finalize_m2E83A925607ECC2A1AD0B912F7688757A286D4E4 (StartAsrOptions_t336161334FBFF33C9F13BC5F722DEF6EAA1A633F* __this, const RuntimeMethod* method) 
 {
 	{
@@ -7639,14 +7639,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StartAsrOptions_Finalize_m2E83A925607ECC
 
 FINALLY_000d:
 			{
-				//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/Speech.cs:116>
+				//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/Speech.cs:116>
 				Object_Finalize_mC98C96301CCABFE00F1A7EF8E15DF507CACD42B2(__this, NULL);
 				return;
 			}
 		});
 		try
 		{
-			//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/Speech.cs:115>
+			//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/Speech.cs:115>
 			intptr_t L_0 = __this->___Handle;
 			CLIB_ppf_StartAsrOptions_Destroy_mD0E1920B99B37A0E6A111E1D37C9824F4AC7E3C6(L_0, NULL);
 			goto IL_0014;
@@ -7659,7 +7659,7 @@ FINALLY_000d:
 
 IL_0014:
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/Speech.cs:116>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/Speech.cs:116>
 		return;
 	}
 }
@@ -7671,7 +7671,7 @@ IL_0014:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 78391
+// Method Definition Index: 88445
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_t1B92E95AEAE34C4D979EA9DC46E4A0B69313B747* SportService_GetUserInfo_m6D7E68028671D005F52F6326DD88031C32B090F9 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7684,7 +7684,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_t1B92E95AEAE34C4D979EA9DC46E4A0B69313B
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/Sport.cs:50>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/Sport.cs:50>
 		il2cpp_codegen_runtime_class_init_inline(CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_il2cpp_TypeInfo_var);
 		bool L_0 = ((CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_StaticFields*)il2cpp_codegen_static_fields_for(CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_il2cpp_TypeInfo_var))->___Initialized;
 		if (L_0)
@@ -7693,18 +7693,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_t1B92E95AEAE34C4D979EA9DC46E4A0B69313B
 		}
 	}
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/Sport.cs:52>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/Sport.cs:52>
 		il2cpp_codegen_runtime_class_init_inline(CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_il2cpp_TypeInfo_var);
 		String_t* L_1 = ((CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_StaticFields*)il2cpp_codegen_static_fields_for(CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_il2cpp_TypeInfo_var))->___NotInitializedError;
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2(L_1, NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/Sport.cs:53>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/Sport.cs:53>
 		return (Task_1_t1B92E95AEAE34C4D979EA9DC46E4A0B69313B747*)NULL;
 	}
 
 IL_0013:
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/Sport.cs:56>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/Sport.cs:56>
 		uint64_t L_2;
 		L_2 = CLIB_ppf_Sport_GetUserInfo_m2A8BA47ED2F14BD2E2870466C7780D4E4F925A47(NULL);
 		Task_1_t1B92E95AEAE34C4D979EA9DC46E4A0B69313B747* L_3 = (Task_1_t1B92E95AEAE34C4D979EA9DC46E4A0B69313B747*)il2cpp_codegen_object_new(Task_1_t1B92E95AEAE34C4D979EA9DC46E4A0B69313B747_il2cpp_TypeInfo_var);
@@ -7712,7 +7712,7 @@ IL_0013:
 		return L_3;
 	}
 }
-// Method Definition Index: 78392
+// Method Definition Index: 88446
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_t1B98E66164E4AE432D604C7B75AF7848981FF051* SportService_GetDailySummary_m8ED4459356732329B59B385E013E579ECB0C222E (DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D ___0_beginTime, DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D ___1_endTime, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7726,7 +7726,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_t1B98E66164E4AE432D604C7B75AF7848981FF
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/Sport.cs:75>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/Sport.cs:75>
 		il2cpp_codegen_runtime_class_init_inline(CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_il2cpp_TypeInfo_var);
 		bool L_0 = ((CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_StaticFields*)il2cpp_codegen_static_fields_for(CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_il2cpp_TypeInfo_var))->___Initialized;
 		if (L_0)
@@ -7735,18 +7735,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_t1B98E66164E4AE432D604C7B75AF7848981FF
 		}
 	}
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/Sport.cs:77>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/Sport.cs:77>
 		il2cpp_codegen_runtime_class_init_inline(CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_il2cpp_TypeInfo_var);
 		String_t* L_1 = ((CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_StaticFields*)il2cpp_codegen_static_fields_for(CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_il2cpp_TypeInfo_var))->___NotInitializedError;
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2(L_1, NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/Sport.cs:78>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/Sport.cs:78>
 		return (Task_1_t1B98E66164E4AE432D604C7B75AF7848981FF051*)NULL;
 	}
 
 IL_0013:
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/Sport.cs:81>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/Sport.cs:81>
 		DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D L_2 = ___0_beginTime;
 		il2cpp_codegen_runtime_class_init_inline(TimeUtil_t5452C06092BC6F084DE46286E7F0D4FA1E970C36_il2cpp_TypeInfo_var);
 		int64_t L_3;
@@ -7761,7 +7761,7 @@ IL_0013:
 		return L_7;
 	}
 }
-// Method Definition Index: 78393
+// Method Definition Index: 88447
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_tB6CDA113D3E1699F4874976AC36FB7624B4F9244* SportService_GetSummary_m4F15B0CDC9E0D46EB2D5ECFBD7AFAA7A8AAE8DE2 (DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D ___0_beginTime, DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D ___1_endTime, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7775,7 +7775,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_tB6CDA113D3E1699F4874976AC36FB7624B4F9
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/Sport.cs:98>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/Sport.cs:98>
 		il2cpp_codegen_runtime_class_init_inline(CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_il2cpp_TypeInfo_var);
 		bool L_0 = ((CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_StaticFields*)il2cpp_codegen_static_fields_for(CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_il2cpp_TypeInfo_var))->___Initialized;
 		if (L_0)
@@ -7784,18 +7784,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_tB6CDA113D3E1699F4874976AC36FB7624B4F9
 		}
 	}
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/Sport.cs:100>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/Sport.cs:100>
 		il2cpp_codegen_runtime_class_init_inline(CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_il2cpp_TypeInfo_var);
 		String_t* L_1 = ((CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_StaticFields*)il2cpp_codegen_static_fields_for(CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_il2cpp_TypeInfo_var))->___NotInitializedError;
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2(L_1, NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/Sport.cs:101>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/Sport.cs:101>
 		return (Task_1_tB6CDA113D3E1699F4874976AC36FB7624B4F9244*)NULL;
 	}
 
 IL_0013:
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/Sport.cs:104>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/Sport.cs:104>
 		DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D L_2 = ___0_beginTime;
 		il2cpp_codegen_runtime_class_init_inline(TimeUtil_t5452C06092BC6F084DE46286E7F0D4FA1E970C36_il2cpp_TypeInfo_var);
 		int64_t L_3;
@@ -7818,7 +7818,7 @@ IL_0013:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 78394
+// Method Definition Index: 88448
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_t25E59609375A87704F09DB2AA51B13C8D17A44DF* UserService_GetAccessToken_mA024607BAB2356BDB777EDDAFF58ABE2FC774249 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7831,7 +7831,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_t25E59609375A87704F09DB2AA51B13C8D17A4
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/User.cs:34>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/User.cs:34>
 		il2cpp_codegen_runtime_class_init_inline(CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_il2cpp_TypeInfo_var);
 		bool L_0 = ((CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_StaticFields*)il2cpp_codegen_static_fields_for(CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_il2cpp_TypeInfo_var))->___Initialized;
 		if (L_0)
@@ -7840,18 +7840,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_t25E59609375A87704F09DB2AA51B13C8D17A4
 		}
 	}
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/User.cs:36>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/User.cs:36>
 		il2cpp_codegen_runtime_class_init_inline(CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_il2cpp_TypeInfo_var);
 		String_t* L_1 = ((CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_StaticFields*)il2cpp_codegen_static_fields_for(CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_il2cpp_TypeInfo_var))->___NotInitializedError;
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2(L_1, NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/User.cs:37>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/User.cs:37>
 		return (Task_1_t25E59609375A87704F09DB2AA51B13C8D17A44DF*)NULL;
 	}
 
 IL_0013:
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/User.cs:40>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/User.cs:40>
 		uint64_t L_2;
 		L_2 = CLIB_ppf_User_GetAccessToken_m4B8E4EA084A131250844BE9C53EC722FC06C5628(NULL);
 		Task_1_t25E59609375A87704F09DB2AA51B13C8D17A44DF* L_3 = (Task_1_t25E59609375A87704F09DB2AA51B13C8D17A44DF*)il2cpp_codegen_object_new(Task_1_t25E59609375A87704F09DB2AA51B13C8D17A44DF_il2cpp_TypeInfo_var);
@@ -7859,7 +7859,7 @@ IL_0013:
 		return L_3;
 	}
 }
-// Method Definition Index: 78395
+// Method Definition Index: 88449
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_tED4A061EA242D6FF39FF61442A0E7F55A6880B2E* UserService_GetOrgScopedID_m384492046692A8BB1D2329AAA500082F1DE1F2BA (String_t* ___0_userID, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7872,7 +7872,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_tED4A061EA242D6FF39FF61442A0E7F55A6880
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/User.cs:53>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/User.cs:53>
 		il2cpp_codegen_runtime_class_init_inline(CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_il2cpp_TypeInfo_var);
 		bool L_0 = ((CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_StaticFields*)il2cpp_codegen_static_fields_for(CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_il2cpp_TypeInfo_var))->___Initialized;
 		if (L_0)
@@ -7881,18 +7881,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_tED4A061EA242D6FF39FF61442A0E7F55A6880
 		}
 	}
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/User.cs:55>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/User.cs:55>
 		il2cpp_codegen_runtime_class_init_inline(CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_il2cpp_TypeInfo_var);
 		String_t* L_1 = ((CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_StaticFields*)il2cpp_codegen_static_fields_for(CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_il2cpp_TypeInfo_var))->___NotInitializedError;
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2(L_1, NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/User.cs:56>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/User.cs:56>
 		return (Task_1_tED4A061EA242D6FF39FF61442A0E7F55A6880B2E*)NULL;
 	}
 
 IL_0013:
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/User.cs:59>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/User.cs:59>
 		String_t* L_2 = ___0_userID;
 		uint64_t L_3;
 		L_3 = CLIB_ppf_User_GetOrgScopedID_m6B22DE2722B232E577B9DCFF97820F487B0D676D(L_2, NULL);
@@ -7901,7 +7901,7 @@ IL_0013:
 		return L_4;
 	}
 }
-// Method Definition Index: 78396
+// Method Definition Index: 88450
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_tB52620DC9E610A2CFD02FD23959DC3FB04599E42* UserService_GetLoggedInUser_mEF12425F8814F7C5E08382C6C5E00CEE18073E8B (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7914,7 +7914,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_tB52620DC9E610A2CFD02FD23959DC3FB04599
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/User.cs:68>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/User.cs:68>
 		il2cpp_codegen_runtime_class_init_inline(CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_il2cpp_TypeInfo_var);
 		bool L_0 = ((CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_StaticFields*)il2cpp_codegen_static_fields_for(CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_il2cpp_TypeInfo_var))->___Initialized;
 		if (L_0)
@@ -7923,18 +7923,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_tB52620DC9E610A2CFD02FD23959DC3FB04599
 		}
 	}
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/User.cs:70>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/User.cs:70>
 		il2cpp_codegen_runtime_class_init_inline(CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_il2cpp_TypeInfo_var);
 		String_t* L_1 = ((CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_StaticFields*)il2cpp_codegen_static_fields_for(CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_il2cpp_TypeInfo_var))->___NotInitializedError;
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2(L_1, NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/User.cs:71>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/User.cs:71>
 		return (Task_1_tB52620DC9E610A2CFD02FD23959DC3FB04599E42*)NULL;
 	}
 
 IL_0013:
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/User.cs:74>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/User.cs:74>
 		uint64_t L_2;
 		L_2 = CLIB_ppf_User_GetLoggedInUser_m735249852E8973AC38B5117E8C481C81B3B540E0(NULL);
 		Task_1_tB52620DC9E610A2CFD02FD23959DC3FB04599E42* L_3 = (Task_1_tB52620DC9E610A2CFD02FD23959DC3FB04599E42*)il2cpp_codegen_object_new(Task_1_tB52620DC9E610A2CFD02FD23959DC3FB04599E42_il2cpp_TypeInfo_var);
@@ -7942,7 +7942,7 @@ IL_0013:
 		return L_3;
 	}
 }
-// Method Definition Index: 78397
+// Method Definition Index: 88451
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_tB52620DC9E610A2CFD02FD23959DC3FB04599E42* UserService_Get_mAE5D8756DD42AF1402833C9C160B65C0CB6F2D84 (String_t* ___0_userId, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7955,7 +7955,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_tB52620DC9E610A2CFD02FD23959DC3FB04599
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/User.cs:85>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/User.cs:85>
 		il2cpp_codegen_runtime_class_init_inline(CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_il2cpp_TypeInfo_var);
 		bool L_0 = ((CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_StaticFields*)il2cpp_codegen_static_fields_for(CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_il2cpp_TypeInfo_var))->___Initialized;
 		if (L_0)
@@ -7964,18 +7964,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_tB52620DC9E610A2CFD02FD23959DC3FB04599
 		}
 	}
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/User.cs:87>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/User.cs:87>
 		il2cpp_codegen_runtime_class_init_inline(CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_il2cpp_TypeInfo_var);
 		String_t* L_1 = ((CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_StaticFields*)il2cpp_codegen_static_fields_for(CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_il2cpp_TypeInfo_var))->___NotInitializedError;
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2(L_1, NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/User.cs:88>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/User.cs:88>
 		return (Task_1_tB52620DC9E610A2CFD02FD23959DC3FB04599E42*)NULL;
 	}
 
 IL_0013:
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/User.cs:91>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/User.cs:91>
 		String_t* L_2 = ___0_userId;
 		uint64_t L_3;
 		L_3 = CLIB_ppf_User_Get_m282DFCBEA159F8A3FCFBFCFD6735219277A45EAB(L_2, NULL);
@@ -7984,7 +7984,7 @@ IL_0013:
 		return L_4;
 	}
 }
-// Method Definition Index: 78398
+// Method Definition Index: 88452
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_tEFD858E38F809577D01E5C61C4E04401C1579F24* UserService_GetFriends_m58E561BDF1D435E200357F09F32DB0E23981B001 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -7997,7 +7997,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_tEFD858E38F809577D01E5C61C4E04401C1579
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/User.cs:101>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/User.cs:101>
 		il2cpp_codegen_runtime_class_init_inline(CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_il2cpp_TypeInfo_var);
 		bool L_0 = ((CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_StaticFields*)il2cpp_codegen_static_fields_for(CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_il2cpp_TypeInfo_var))->___Initialized;
 		if (L_0)
@@ -8006,18 +8006,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_tEFD858E38F809577D01E5C61C4E04401C1579
 		}
 	}
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/User.cs:103>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/User.cs:103>
 		il2cpp_codegen_runtime_class_init_inline(CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_il2cpp_TypeInfo_var);
 		String_t* L_1 = ((CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_StaticFields*)il2cpp_codegen_static_fields_for(CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_il2cpp_TypeInfo_var))->___NotInitializedError;
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2(L_1, NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/User.cs:104>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/User.cs:104>
 		return (Task_1_tEFD858E38F809577D01E5C61C4E04401C1579F24*)NULL;
 	}
 
 IL_0013:
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/User.cs:107>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/User.cs:107>
 		uint64_t L_2;
 		L_2 = CLIB_ppf_User_GetLoggedInUserFriends_m7D5683CE9CCA26BE5DF700F094695DC418E50055(NULL);
 		Task_1_tEFD858E38F809577D01E5C61C4E04401C1579F24* L_3 = (Task_1_tEFD858E38F809577D01E5C61C4E04401C1579F24*)il2cpp_codegen_object_new(Task_1_tEFD858E38F809577D01E5C61C4E04401C1579F24_il2cpp_TypeInfo_var);
@@ -8025,7 +8025,7 @@ IL_0013:
 		return L_3;
 	}
 }
-// Method Definition Index: 78399
+// Method Definition Index: 88453
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_tB4B0FA80F5FD7ED902B09091C88E2146F2BAE9C1* UserService_GetUserRelations_m49C55F05FF492BD93E364974F104B1953CEFAA82 (StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___0_userIds, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8038,7 +8038,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_tB4B0FA80F5FD7ED902B09091C88E2146F2BAE
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/User.cs:119>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/User.cs:119>
 		il2cpp_codegen_runtime_class_init_inline(CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_il2cpp_TypeInfo_var);
 		bool L_0 = ((CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_StaticFields*)il2cpp_codegen_static_fields_for(CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_il2cpp_TypeInfo_var))->___Initialized;
 		if (L_0)
@@ -8047,18 +8047,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_tB4B0FA80F5FD7ED902B09091C88E2146F2BAE
 		}
 	}
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/User.cs:121>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/User.cs:121>
 		il2cpp_codegen_runtime_class_init_inline(CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_il2cpp_TypeInfo_var);
 		String_t* L_1 = ((CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_StaticFields*)il2cpp_codegen_static_fields_for(CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_il2cpp_TypeInfo_var))->___NotInitializedError;
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2(L_1, NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/User.cs:122>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/User.cs:122>
 		return (Task_1_tB4B0FA80F5FD7ED902B09091C88E2146F2BAE9C1*)NULL;
 	}
 
 IL_0013:
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/User.cs:125>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/User.cs:125>
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_2 = ___0_userIds;
 		uint64_t L_3;
 		L_3 = CLIB_ppf_User_GetRelations_m2524B1C0BAF70D69E96276AFDB1DAEAFCDF54F98(L_2, NULL);
@@ -8067,7 +8067,7 @@ IL_0013:
 		return L_4;
 	}
 }
-// Method Definition Index: 78400
+// Method Definition Index: 88454
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_t89353573F66DF40A563FFC7023237C238E5D7F0D* UserService_LaunchFriendRequestFlow_mC06F26E01775DD3BA3A051713EDEE58E1C74643D (String_t* ___0_userId, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8080,7 +8080,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_t89353573F66DF40A563FFC7023237C238E5D7
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/User.cs:135>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/User.cs:135>
 		il2cpp_codegen_runtime_class_init_inline(CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_il2cpp_TypeInfo_var);
 		bool L_0 = ((CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_StaticFields*)il2cpp_codegen_static_fields_for(CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_il2cpp_TypeInfo_var))->___Initialized;
 		if (L_0)
@@ -8089,18 +8089,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_t89353573F66DF40A563FFC7023237C238E5D7
 		}
 	}
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/User.cs:137>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/User.cs:137>
 		il2cpp_codegen_runtime_class_init_inline(CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_il2cpp_TypeInfo_var);
 		String_t* L_1 = ((CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_StaticFields*)il2cpp_codegen_static_fields_for(CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_il2cpp_TypeInfo_var))->___NotInitializedError;
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2(L_1, NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/User.cs:138>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/User.cs:138>
 		return (Task_1_t89353573F66DF40A563FFC7023237C238E5D7F0D*)NULL;
 	}
 
 IL_0013:
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/User.cs:141>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/User.cs:141>
 		String_t* L_2 = ___0_userId;
 		uint64_t L_3;
 		L_3 = CLIB_ppf_User_LaunchFriendRequestFlow_m15E2D4F598E46D37667BC00EB358F9723BCCC72D(L_2, NULL);
@@ -8109,7 +8109,7 @@ IL_0013:
 		return L_4;
 	}
 }
-// Method Definition Index: 78401
+// Method Definition Index: 88455
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_t63D243DB7237B9BDC42B877FB86F30ABDF4C37EF* UserService_GetFriendsAndRooms_mDE3E2C69BDB6E048BF6FB43DCA356605F3658244 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8122,7 +8122,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_t63D243DB7237B9BDC42B877FB86F30ABDF4C3
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/User.cs:150>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/User.cs:150>
 		il2cpp_codegen_runtime_class_init_inline(CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_il2cpp_TypeInfo_var);
 		bool L_0 = ((CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_StaticFields*)il2cpp_codegen_static_fields_for(CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_il2cpp_TypeInfo_var))->___Initialized;
 		if (L_0)
@@ -8131,18 +8131,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_t63D243DB7237B9BDC42B877FB86F30ABDF4C3
 		}
 	}
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/User.cs:152>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/User.cs:152>
 		il2cpp_codegen_runtime_class_init_inline(CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_il2cpp_TypeInfo_var);
 		String_t* L_1 = ((CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_StaticFields*)il2cpp_codegen_static_fields_for(CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_il2cpp_TypeInfo_var))->___NotInitializedError;
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2(L_1, NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/User.cs:153>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/User.cs:153>
 		return (Task_1_t63D243DB7237B9BDC42B877FB86F30ABDF4C37EF*)NULL;
 	}
 
 IL_0013:
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/User.cs:156>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/User.cs:156>
 		uint64_t L_2;
 		L_2 = CLIB_ppf_User_GetLoggedInUserFriendsAndRooms_m902D49F2E864C23B23316F0DD046C9B6E68FD055(NULL);
 		Task_1_t63D243DB7237B9BDC42B877FB86F30ABDF4C37EF* L_3 = (Task_1_t63D243DB7237B9BDC42B877FB86F30ABDF4C37EF*)il2cpp_codegen_object_new(Task_1_t63D243DB7237B9BDC42B877FB86F30ABDF4C37EF_il2cpp_TypeInfo_var);
@@ -8150,7 +8150,7 @@ IL_0013:
 		return L_3;
 	}
 }
-// Method Definition Index: 78402
+// Method Definition Index: 88456
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_t63D243DB7237B9BDC42B877FB86F30ABDF4C37EF* UserService_GetNextUserAndRoomListPage_m00EA6281353DAEA9C7F9F227B1EF8D7743E41929 (UserRoomList_t4AA0685A4D566E046B275555AC21E1A102C16A73* ___0_list, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8166,7 +8166,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_t63D243DB7237B9BDC42B877FB86F30ABDF4C3
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/User.cs:166>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/User.cs:166>
 		il2cpp_codegen_runtime_class_init_inline(CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_il2cpp_TypeInfo_var);
 		bool L_0 = ((CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_StaticFields*)il2cpp_codegen_static_fields_for(CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_il2cpp_TypeInfo_var))->___Initialized;
 		if (L_0)
@@ -8175,18 +8175,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_t63D243DB7237B9BDC42B877FB86F30ABDF4C3
 		}
 	}
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/User.cs:168>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/User.cs:168>
 		il2cpp_codegen_runtime_class_init_inline(CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_il2cpp_TypeInfo_var);
 		String_t* L_1 = ((CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_StaticFields*)il2cpp_codegen_static_fields_for(CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_il2cpp_TypeInfo_var))->___NotInitializedError;
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2(L_1, NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/User.cs:169>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/User.cs:169>
 		return (Task_1_t63D243DB7237B9BDC42B877FB86F30ABDF4C37EF*)NULL;
 	}
 
 IL_0013:
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/User.cs:172>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/User.cs:172>
 		UserRoomList_t4AA0685A4D566E046B275555AC21E1A102C16A73* L_2 = ___0_list;
 		NullCheck(L_2);
 		bool L_3;
@@ -8197,16 +8197,16 @@ IL_0013:
 		}
 	}
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/User.cs:174>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/User.cs:174>
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_LogWarning_m33EF1B897E0C7C6FF538989610BFAFFEF4628CA9(_stringLiteral8586A9D31F622A392F306BE35308D8768CC6A80A, NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/User.cs:175>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/User.cs:175>
 		return (Task_1_t63D243DB7237B9BDC42B877FB86F30ABDF4C37EF*)NULL;
 	}
 
 IL_0027:
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/User.cs:178>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/User.cs:178>
 		UserRoomList_t4AA0685A4D566E046B275555AC21E1A102C16A73* L_4 = ___0_list;
 		NullCheck(L_4);
 		String_t* L_5 = ((MessageArray_1_tBDB39162E4555FCBD64BB106117908AC8831F004*)L_4)->___NextPageParam;
@@ -8218,16 +8218,16 @@ IL_0027:
 		}
 	}
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/User.cs:180>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/User.cs:180>
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_LogWarning_m33EF1B897E0C7C6FF538989610BFAFFEF4628CA9(_stringLiteral59729EB1145C8E83047D8BBCA2C6DC8F6A082DBF, NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/User.cs:181>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/User.cs:181>
 		return (Task_1_t63D243DB7237B9BDC42B877FB86F30ABDF4C37EF*)NULL;
 	}
 
 IL_0040:
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/User.cs:184>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/User.cs:184>
 		UserRoomList_t4AA0685A4D566E046B275555AC21E1A102C16A73* L_7 = ___0_list;
 		NullCheck(L_7);
 		String_t* L_8 = ((MessageArray_1_tBDB39162E4555FCBD64BB106117908AC8831F004*)L_7)->___NextPageParam;
@@ -8238,7 +8238,7 @@ IL_0040:
 		return L_10;
 	}
 }
-// Method Definition Index: 78403
+// Method Definition Index: 88457
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_tEFD858E38F809577D01E5C61C4E04401C1579F24* UserService_GetNextUserListPage_m459C9EB3E0CDE4CBCAA95CA407E40D465BC82463 (UserList_t5DD5257033AB7F06FBA7064529EE1C57F3ACAD2F* ___0_list, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8254,7 +8254,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_tEFD858E38F809577D01E5C61C4E04401C1579
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/User.cs:194>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/User.cs:194>
 		il2cpp_codegen_runtime_class_init_inline(CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_il2cpp_TypeInfo_var);
 		bool L_0 = ((CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_StaticFields*)il2cpp_codegen_static_fields_for(CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_il2cpp_TypeInfo_var))->___Initialized;
 		if (L_0)
@@ -8263,18 +8263,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_tEFD858E38F809577D01E5C61C4E04401C1579
 		}
 	}
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/User.cs:196>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/User.cs:196>
 		il2cpp_codegen_runtime_class_init_inline(CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_il2cpp_TypeInfo_var);
 		String_t* L_1 = ((CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_StaticFields*)il2cpp_codegen_static_fields_for(CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_il2cpp_TypeInfo_var))->___NotInitializedError;
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2(L_1, NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/User.cs:197>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/User.cs:197>
 		return (Task_1_tEFD858E38F809577D01E5C61C4E04401C1579F24*)NULL;
 	}
 
 IL_0013:
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/User.cs:200>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/User.cs:200>
 		UserList_t5DD5257033AB7F06FBA7064529EE1C57F3ACAD2F* L_2 = ___0_list;
 		NullCheck(L_2);
 		bool L_3;
@@ -8285,16 +8285,16 @@ IL_0013:
 		}
 	}
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/User.cs:202>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/User.cs:202>
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_LogWarning_m33EF1B897E0C7C6FF538989610BFAFFEF4628CA9(_stringLiteral156065397842C897754F95F8B45CD763A37AA319, NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/User.cs:203>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/User.cs:203>
 		return (Task_1_tEFD858E38F809577D01E5C61C4E04401C1579F24*)NULL;
 	}
 
 IL_0027:
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/User.cs:206>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/User.cs:206>
 		UserList_t5DD5257033AB7F06FBA7064529EE1C57F3ACAD2F* L_4 = ___0_list;
 		NullCheck(L_4);
 		String_t* L_5 = ((MessageArray_1_t3FBFD71C2ED89BC1E98F61EFDB0C5C6DADE06A17*)L_4)->___NextPageParam;
@@ -8306,16 +8306,16 @@ IL_0027:
 		}
 	}
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/User.cs:208>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/User.cs:208>
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_LogWarning_m33EF1B897E0C7C6FF538989610BFAFFEF4628CA9(_stringLiteral6B73ED795945027531E9522BB906B336CDA394F4, NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/User.cs:209>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/User.cs:209>
 		return (Task_1_tEFD858E38F809577D01E5C61C4E04401C1579F24*)NULL;
 	}
 
 IL_0040:
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/User.cs:212>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/User.cs:212>
 		UserList_t5DD5257033AB7F06FBA7064529EE1C57F3ACAD2F* L_7 = ___0_list;
 		NullCheck(L_7);
 		String_t* L_8 = ((MessageArray_1_t3FBFD71C2ED89BC1E98F61EFDB0C5C6DADE06A17*)L_7)->___NextPageParam;
@@ -8326,7 +8326,7 @@ IL_0040:
 		return L_10;
 	}
 }
-// Method Definition Index: 78404
+// Method Definition Index: 88458
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_tE3764055BFBB9E941E6BE5F6DF0B487A7B6B9BDF* UserService_GetAuthorizedPermissions_mABE79E25E883746577A6343D90EF57964B3BC12E (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8339,7 +8339,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_tE3764055BFBB9E941E6BE5F6DF0B487A7B6B9
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/User.cs:223>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/User.cs:223>
 		il2cpp_codegen_runtime_class_init_inline(CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_il2cpp_TypeInfo_var);
 		bool L_0 = ((CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_StaticFields*)il2cpp_codegen_static_fields_for(CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_il2cpp_TypeInfo_var))->___Initialized;
 		if (L_0)
@@ -8348,18 +8348,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_tE3764055BFBB9E941E6BE5F6DF0B487A7B6B9
 		}
 	}
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/User.cs:225>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/User.cs:225>
 		il2cpp_codegen_runtime_class_init_inline(CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_il2cpp_TypeInfo_var);
 		String_t* L_1 = ((CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_StaticFields*)il2cpp_codegen_static_fields_for(CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_il2cpp_TypeInfo_var))->___NotInitializedError;
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2(L_1, NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/User.cs:226>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/User.cs:226>
 		return (Task_1_tE3764055BFBB9E941E6BE5F6DF0B487A7B6B9BDF*)NULL;
 	}
 
 IL_0013:
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/User.cs:229>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/User.cs:229>
 		uint64_t L_2;
 		L_2 = CLIB_ppf_User_GetAuthorizedPermissions_m6880448E60B81B9F798A4F5204F2204E46CE4601(NULL);
 		Task_1_tE3764055BFBB9E941E6BE5F6DF0B487A7B6B9BDF* L_3 = (Task_1_tE3764055BFBB9E941E6BE5F6DF0B487A7B6B9BDF*)il2cpp_codegen_object_new(Task_1_tE3764055BFBB9E941E6BE5F6DF0B487A7B6B9BDF_il2cpp_TypeInfo_var);
@@ -8367,7 +8367,7 @@ IL_0013:
 		return L_3;
 	}
 }
-// Method Definition Index: 78405
+// Method Definition Index: 88459
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_tE3764055BFBB9E941E6BE5F6DF0B487A7B6B9BDF* UserService_RequestUserPermissions_mFEF7C7A702416B8F5EB7F6543B33A327836C46CF (StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___0_permissionList, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8380,7 +8380,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_tE3764055BFBB9E941E6BE5F6DF0B487A7B6B9
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/User.cs:240>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/User.cs:240>
 		il2cpp_codegen_runtime_class_init_inline(CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_il2cpp_TypeInfo_var);
 		bool L_0 = ((CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_StaticFields*)il2cpp_codegen_static_fields_for(CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_il2cpp_TypeInfo_var))->___Initialized;
 		if (L_0)
@@ -8389,18 +8389,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_tE3764055BFBB9E941E6BE5F6DF0B487A7B6B9
 		}
 	}
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/User.cs:242>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/User.cs:242>
 		il2cpp_codegen_runtime_class_init_inline(CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_il2cpp_TypeInfo_var);
 		String_t* L_1 = ((CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_StaticFields*)il2cpp_codegen_static_fields_for(CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_il2cpp_TypeInfo_var))->___NotInitializedError;
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2(L_1, NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/User.cs:243>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/User.cs:243>
 		return (Task_1_tE3764055BFBB9E941E6BE5F6DF0B487A7B6B9BDF*)NULL;
 	}
 
 IL_0013:
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/User.cs:246>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/User.cs:246>
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_2 = ___0_permissionList;
 		uint64_t L_3;
 		L_3 = CLIB_ppf_User_RequestUserPermissions_m0ADE8D5D1456A820208263EDBE7BB50D1F3D6213(L_2, NULL);
@@ -8409,7 +8409,7 @@ IL_0013:
 		return L_4;
 	}
 }
-// Method Definition Index: 78406
+// Method Definition Index: 88460
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_t6577C6759208FE196021557BB439FE81946FDB36* UserService_EntitlementCheck_mEABCDD79004691CC9F6499C2CB9A42D06BA34625 (bool ___0_killApp, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8422,7 +8422,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_t6577C6759208FE196021557BB439FE81946FD
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/User.cs:261>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/User.cs:261>
 		il2cpp_codegen_runtime_class_init_inline(CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_il2cpp_TypeInfo_var);
 		bool L_0 = ((CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_StaticFields*)il2cpp_codegen_static_fields_for(CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_il2cpp_TypeInfo_var))->___Initialized;
 		if (L_0)
@@ -8431,18 +8431,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_t6577C6759208FE196021557BB439FE81946FD
 		}
 	}
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/User.cs:263>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/User.cs:263>
 		il2cpp_codegen_runtime_class_init_inline(CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_il2cpp_TypeInfo_var);
 		String_t* L_1 = ((CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_StaticFields*)il2cpp_codegen_static_fields_for(CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_il2cpp_TypeInfo_var))->___NotInitializedError;
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2(L_1, NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/User.cs:264>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/User.cs:264>
 		return (Task_1_t6577C6759208FE196021557BB439FE81946FDB36*)NULL;
 	}
 
 IL_0013:
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/User.cs:267>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/User.cs:267>
 		bool L_2 = ___0_killApp;
 		uint64_t L_3;
 		L_3 = CLIB_ppf_User_EntitlementCheck_mAC2BD7051DB1F53018404540E98BBB8A5675EEF7(L_2, NULL);
@@ -8451,7 +8451,7 @@ IL_0013:
 		return L_4;
 	}
 }
-// Method Definition Index: 78407
+// Method Definition Index: 88461
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_t25E59609375A87704F09DB2AA51B13C8D17A44DF* UserService_GetIdToken_m545D9D1766EEE44CB063972F6C20E2E5ACBD8A7D (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8464,7 +8464,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_t25E59609375A87704F09DB2AA51B13C8D17A4
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/User.cs:281>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/User.cs:281>
 		il2cpp_codegen_runtime_class_init_inline(CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_il2cpp_TypeInfo_var);
 		bool L_0 = ((CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_StaticFields*)il2cpp_codegen_static_fields_for(CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_il2cpp_TypeInfo_var))->___Initialized;
 		if (L_0)
@@ -8473,18 +8473,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_t25E59609375A87704F09DB2AA51B13C8D17A4
 		}
 	}
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/User.cs:283>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/User.cs:283>
 		il2cpp_codegen_runtime_class_init_inline(CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_il2cpp_TypeInfo_var);
 		String_t* L_1 = ((CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_StaticFields*)il2cpp_codegen_static_fields_for(CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_il2cpp_TypeInfo_var))->___NotInitializedError;
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2(L_1, NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/User.cs:284>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/User.cs:284>
 		return (Task_1_t25E59609375A87704F09DB2AA51B13C8D17A44DF*)NULL;
 	}
 
 IL_0013:
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/User.cs:287>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/User.cs:287>
 		uint64_t L_2;
 		L_2 = CLIB_ppf_User_GetIdToken_m66CB8D500505BAC1F462B2C8672030BF54F2AA63(NULL);
 		Task_1_t25E59609375A87704F09DB2AA51B13C8D17A44DF* L_3 = (Task_1_t25E59609375A87704F09DB2AA51B13C8D17A44DF*)il2cpp_codegen_object_new(Task_1_t25E59609375A87704F09DB2AA51B13C8D17A44DF_il2cpp_TypeInfo_var);
@@ -8500,7 +8500,7 @@ IL_0013:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 78408
+// Method Definition Index: 88462
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Runner_RegisterGameObject_mA4759FDBE99AFA80772C7286EEFE57409EF92248 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8516,14 +8516,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Runner_RegisterGameObject_mA4759FDBE99AF
 	String_t* V_0 = NULL;
 	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* V_1 = NULL;
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Framework/Runner.cs:21>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Framework/Runner.cs:21>
 		V_0 = _stringLiteral4092B25B116FA20453318CF2C73A263E43DCD2AB;
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Framework/Runner.cs:22>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Framework/Runner.cs:22>
 		String_t* L_0 = V_0;
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_1;
 		L_1 = GameObject_Find_m7A669B4EEC2617AB82F6E3FF007CDCD9F21DB300(L_0, NULL);
 		V_1 = L_1;
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Framework/Runner.cs:23>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Framework/Runner.cs:23>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_2 = V_1;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_3;
@@ -8534,7 +8534,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Runner_RegisterGameObject_mA4759FDBE99AF
 		}
 	}
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Framework/Runner.cs:25>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Framework/Runner.cs:25>
 		String_t* L_4 = V_0;
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_5 = (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*)il2cpp_codegen_object_new(GameObject_t76FEDD663AB33C991A9C9A23129337651094216F_il2cpp_TypeInfo_var);
 		GameObject__ctor_m37D512B05D292F954792225E6C6EEE95293A9B88(L_5, L_4, NULL);
@@ -8543,7 +8543,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Runner_RegisterGameObject_mA4759FDBE99AF
 
 IL_001d:
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Framework/Runner.cs:28>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Framework/Runner.cs:28>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_6 = V_1;
 		NullCheck(L_6);
 		Runner_tB8E78BC8FEC1129C330C7EF44FE5BBFC57BFB7B8* L_7;
@@ -8557,7 +8557,7 @@ IL_001d:
 		}
 	}
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Framework/Runner.cs:30>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Framework/Runner.cs:30>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_9 = V_1;
 		NullCheck(L_9);
 		Runner_tB8E78BC8FEC1129C330C7EF44FE5BBFC57BFB7B8* L_10;
@@ -8566,11 +8566,11 @@ IL_001d:
 
 IL_0032:
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Framework/Runner.cs:32>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Framework/Runner.cs:32>
 		return;
 	}
 }
-// Method Definition Index: 78409
+// Method Definition Index: 88463
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Runner_Awake_mE245DB952642BE6BAE9E2C57DB0B7B48EF1CA069 (Runner_tB8E78BC8FEC1129C330C7EF44FE5BBFC57BFB7B8* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8580,16 +8580,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Runner_Awake_mE245DB952642BE6BAE9E2C57DB
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Framework/Runner.cs:36>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Framework/Runner.cs:36>
 		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0;
 		L_0 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(__this, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		Object_DontDestroyOnLoad_m4B70C3AEF886C176543D1295507B6455C9DCAEA7(L_0, NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Framework/Runner.cs:37>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Framework/Runner.cs:37>
 		return;
 	}
 }
-// Method Definition Index: 78410
+// Method Definition Index: 88464
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Runner_Update_m99603550489B5FDFCA822D4540BCF721D6A4FCDA (Runner_tB8E78BC8FEC1129C330C7EF44FE5BBFC57BFB7B8* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8599,14 +8599,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Runner_Update_m99603550489B5FDFCA822D454
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Framework/Runner.cs:41>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Framework/Runner.cs:41>
 		il2cpp_codegen_runtime_class_init_inline(Looper_t55865921F88FD546B4F2DA0211A39072EB73A4A8_il2cpp_TypeInfo_var);
 		Looper_ProcessMessages_m7C7CF1ACF44351564A132E7D90171E90E0FFF932(0, NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Framework/Runner.cs:42>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Framework/Runner.cs:42>
 		return;
 	}
 }
-// Method Definition Index: 78411
+// Method Definition Index: 88465
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Runner_OnApplicationQuit_mA637DA934244EB4CACAE996A3B07E0CC20449513 (Runner_tB8E78BC8FEC1129C330C7EF44FE5BBFC57BFB7B8* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8617,10 +8617,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Runner_OnApplicationQuit_mA637DA934244EB
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Framework/Runner.cs:46>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Framework/Runner.cs:46>
 		il2cpp_codegen_runtime_class_init_inline(Looper_t55865921F88FD546B4F2DA0211A39072EB73A4A8_il2cpp_TypeInfo_var);
 		Looper_Clear_m0DA1691ED55DF49956837BAC3D0885DBE57AA21C(NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Framework/Runner.cs:47>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Framework/Runner.cs:47>
 		il2cpp_codegen_runtime_class_init_inline(Application_tDB03BE91CDF0ACA614A5E0B67CFB77C44EB19B21_il2cpp_TypeInfo_var);
 		bool L_0;
 		L_0 = Application_get_isEditor_mEAC51E3ACE6DCE438087FB14BD75A3C219D354D0(NULL);
@@ -8650,18 +8650,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Runner_OnApplicationQuit_mA637DA934244EB
 
 IL_001c:
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Framework/Runner.cs:49>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Framework/Runner.cs:49>
 		int32_t L_3;
 		L_3 = CLIB_ppf_PcUnInitialize_m7074DC685E62F923952DB2D230FDD635EFCEFFB5(NULL);
 	}
 
 IL_0022:
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Framework/Runner.cs:51>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Framework/Runner.cs:51>
 		return;
 	}
 }
-// Method Definition Index: 78412
+// Method Definition Index: 88466
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Runner__ctor_m46CE8B1B10B3CDC8BCFE5FA70CECD9875DBA66A5 (Runner_tB8E78BC8FEC1129C330C7EF44FE5BBFC57BFB7B8* __this, const RuntimeMethod* method) 
 {
 	{
@@ -8677,45 +8677,45 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Runner__ctor_m46CE8B1B10B3CDC8BCFE5FA70C
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 78413
+// Method Definition Index: 88467
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Error__ctor_mD086D4A119466BCDA32BA36115D07F32E434AA23 (Error_t3CA63648FA025A8FBA63EA102526BE2F757CAF88* __this, int32_t ___0_code, String_t* ___1_msg, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Framework/Message.cs:24>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Framework/Message.cs:24>
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Framework/Message.cs:26>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Framework/Message.cs:26>
 		int32_t L_0 = ___0_code;
 		__this->___Code = L_0;
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Framework/Message.cs:27>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Framework/Message.cs:27>
 		String_t* L_1 = ___1_msg;
 		__this->___Message = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___Message), (void*)L_1);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Framework/Message.cs:28>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Framework/Message.cs:28>
 		return;
 	}
 }
-// Method Definition Index: 78414
+// Method Definition Index: 88468
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Error__ctor_m8052B65BEB2FF3B17140BD95A28E15C52627B657 (Error_t3CA63648FA025A8FBA63EA102526BE2F757CAF88* __this, intptr_t ___0_handle, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Framework/Message.cs:30>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Framework/Message.cs:30>
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Framework/Message.cs:32>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Framework/Message.cs:32>
 		intptr_t L_0 = ___0_handle;
 		int32_t L_1;
 		L_1 = CLIB_ppf_Error_GetCode_m83CDC4F4594220EB3E1728EC2A12C0A97C1DF726(L_0, NULL);
 		__this->___Code = L_1;
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Framework/Message.cs:33>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Framework/Message.cs:33>
 		intptr_t L_2 = ___0_handle;
 		String_t* L_3;
 		L_3 = CLIB_ppf_Error_GetMessage_m67E801205964BF67CCAB45CAB6EEED1CF1569EE3(L_2, NULL);
 		__this->___Message = L_3;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___Message), (void*)L_3);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Framework/Message.cs:34>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Framework/Message.cs:34>
 		return;
 	}
 }
-// Method Definition Index: 78415
+// Method Definition Index: 88469
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Error_ToString_mB42DDE26A6A583053A817900B8D40C417C17BA30 (Error_t3CA63648FA025A8FBA63EA102526BE2F757CAF88* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8725,7 +8725,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Error_ToString_mB42DDE26A6A583053A8
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Framework/Message.cs:38>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Framework/Message.cs:38>
 		int32_t L_0 = __this->___Code;
 		int32_t L_1 = L_0;
 		RuntimeObject* L_2 = Box(il2cpp_defaults.int32_class, &L_1);
@@ -8743,24 +8743,24 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Error_ToString_mB42DDE26A6A583053A8
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 78419
+// Method Definition Index: 88473
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AchievementUpdate__ctor_m0C98395F38AA4DA2620A4B6B97E47B06E1C5E835 (AchievementUpdate_t41C493D095A1BB1BFC2C4BB0A17696AB038C8474* __this, intptr_t ___0_o, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Achievement.cs:28>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Achievement.cs:28>
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Achievement.cs:30>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Achievement.cs:30>
 		intptr_t L_0 = ___0_o;
 		bool L_1;
 		L_1 = CLIB_ppf_AchievementUpdate_GetJustUnlocked_m649313BA69DC60BF18A61930E31805AC67E98399(L_0, NULL);
 		__this->___JustUnlocked = L_1;
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Achievement.cs:31>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Achievement.cs:31>
 		intptr_t L_2 = ___0_o;
 		String_t* L_3;
 		L_3 = CLIB_ppf_AchievementUpdate_GetName_m74D11D889569EA272F04A388E3067B305940D4BA(L_2, NULL);
 		__this->___Name = L_3;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___Name), (void*)L_3);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Achievement.cs:32>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Achievement.cs:32>
 		return;
 	}
 }
@@ -8772,84 +8772,84 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AchievementUpdate__ctor_m0C98395F38AA4DA
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 78420
+// Method Definition Index: 88474
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AchievementDefinition__ctor_mBFA904DECEC666C753BB00AFBC500B34BDB73A65 (AchievementDefinition_t09D5E334A9AF0321426DB09B4B36E72626423019* __this, intptr_t ___0_o, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Achievement.cs:77>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Achievement.cs:77>
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Achievement.cs:79>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Achievement.cs:79>
 		intptr_t L_0 = ___0_o;
 		int32_t L_1;
 		L_1 = CLIB_ppf_AchievementDefinition_GetType_m9ED9C6E33230099A352866C55612557A86CD8E76(L_0, NULL);
 		__this->___Type = L_1;
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Achievement.cs:80>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Achievement.cs:80>
 		intptr_t L_2 = ___0_o;
 		String_t* L_3;
 		L_3 = CLIB_ppf_AchievementDefinition_GetName_m40AC711F58D6D47429F62626D6E530D233E998C4(L_2, NULL);
 		__this->___Name = L_3;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___Name), (void*)L_3);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Achievement.cs:81>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Achievement.cs:81>
 		intptr_t L_4 = ___0_o;
 		uint32_t L_5;
 		L_5 = CLIB_ppf_AchievementDefinition_GetBitfieldLength_m9ABE1530AF84F78881367F12E2E462F64B00EB80(L_4, NULL);
 		__this->___BitfieldLength = L_5;
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Achievement.cs:82>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Achievement.cs:82>
 		intptr_t L_6 = ___0_o;
 		int64_t L_7;
 		L_7 = CLIB_ppf_AchievementDefinition_GetTarget_mDB8C95FE116B50EEE4E5440E341878379AA092C4(L_6, NULL);
 		__this->___Target = L_7;
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Achievement.cs:83>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Achievement.cs:83>
 		intptr_t L_8 = ___0_o;
 		String_t* L_9;
 		L_9 = CLIB_ppf_AchievementDefinition_GetDescription_m5B17D99559144012DBABC08D342B5DD54DFD2162(L_8, NULL);
 		__this->___Description = L_9;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___Description), (void*)L_9);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Achievement.cs:84>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Achievement.cs:84>
 		intptr_t L_10 = ___0_o;
 		String_t* L_11;
 		L_11 = CLIB_ppf_AchievementDefinition_GetTitle_m269BD7513E21E364284135C41D4EDDCC94D22C09(L_10, NULL);
 		__this->___Title = L_11;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___Title), (void*)L_11);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Achievement.cs:85>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Achievement.cs:85>
 		intptr_t L_12 = ___0_o;
 		bool L_13;
 		L_13 = CLIB_ppf_AchievementDefinition_IsArchived_mE1F890443D813FEF7A395BC7864C8BEFBDB4C73D(L_12, NULL);
 		__this->___IsArchived = L_13;
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Achievement.cs:86>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Achievement.cs:86>
 		intptr_t L_14 = ___0_o;
 		bool L_15;
 		L_15 = CLIB_ppf_AchievementDefinition_IsSecret_mB164028EA11B9DD095C58CB35E1E88E43056F23D(L_14, NULL);
 		__this->___IsSecret = L_15;
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Achievement.cs:87>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Achievement.cs:87>
 		intptr_t L_16 = ___0_o;
 		uint64_t L_17;
 		L_17 = CLIB_ppf_AchievementDefinition_GetID_m13BE35631301DF777173A6EC78812006AEFD64A6(L_16, NULL);
 		__this->___ID = L_17;
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Achievement.cs:88>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Achievement.cs:88>
 		intptr_t L_18 = ___0_o;
 		String_t* L_19;
 		L_19 = CLIB_ppf_AchievementDefinition_GetUnlockedDescription_m237E276A6D957899D343541C7D68432B9CE2C595(L_18, NULL);
 		__this->___UnlockedDescription = L_19;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___UnlockedDescription), (void*)L_19);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Achievement.cs:89>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Achievement.cs:89>
 		intptr_t L_20 = ___0_o;
 		int32_t L_21;
 		L_21 = CLIB_ppf_AchievementDefinition_GetWritePolicy_m68421AA81D7BF8C02FE42377293DDCE8B9F27C65(L_20, NULL);
 		__this->___WritePolicy = L_21;
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Achievement.cs:90>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Achievement.cs:90>
 		intptr_t L_22 = ___0_o;
 		String_t* L_23;
 		L_23 = CLIB_ppf_AchievementDefinition_GetLockedImageURL_mC21FCE13618FE80315D9FE5849F2111E5A8CD045(L_22, NULL);
 		__this->___LockedImageURL = L_23;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___LockedImageURL), (void*)L_23);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Achievement.cs:91>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Achievement.cs:91>
 		intptr_t L_24 = ___0_o;
 		String_t* L_25;
 		L_25 = CLIB_ppf_AchievementDefinition_GetUnlockedImageURL_mCD98CBABA4DBD7899BF2D6997CB8692029CB8FDF(L_24, NULL);
 		__this->___UnlockedImageURL = L_25;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___UnlockedImageURL), (void*)L_25);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Achievement.cs:92>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Achievement.cs:92>
 		return;
 	}
 }
@@ -8861,7 +8861,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AchievementDefinition__ctor_mBFA904DECEC
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 78421
+// Method Definition Index: 88475
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AchievementDefinitionList__ctor_m420118BDD718EED34F4A144D5838A22CD306920F (AchievementDefinitionList_t8C4BD92DEDBC06F39E7584124E90000B86B41744* __this, intptr_t ___0_a, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8881,33 +8881,33 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AchievementDefinitionList__ctor_m420118B
 	String_t* G_B6_0 = NULL;
 	AchievementDefinitionList_t8C4BD92DEDBC06F39E7584124E90000B86B41744* G_B6_1 = NULL;
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Achievement.cs:103>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Achievement.cs:103>
 		MessageArray_1__ctor_m7E276C8FEE63D2AA74F36394E1EBE4DA877D36C4(__this, MessageArray_1__ctor_m7E276C8FEE63D2AA74F36394E1EBE4DA877D36C4_RuntimeMethod_var);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Achievement.cs:105>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Achievement.cs:105>
 		intptr_t L_0 = ___0_a;
 		uintptr_t L_1;
 		L_1 = CLIB_ppf_AchievementDefinitionArray_GetTotalSize_mF31F7BDA19A5EA6C45A634BF599151A0463080F1(L_0, NULL);
 		uint64_t L_2;
 		L_2 = UIntPtr_op_Explicit_mC39E70F0324C1C514A3044790BC19C5FC4C58E1C(L_1, NULL);
 		__this->___TotalSize = L_2;
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Achievement.cs:106>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Achievement.cs:106>
 		intptr_t L_3 = ___0_a;
 		uintptr_t L_4;
 		L_4 = CLIB_ppf_AchievementDefinitionArray_GetSize_m51F7C01149B2A39AC0283478E501E55EC399BB6E(L_3, NULL);
 		uint32_t L_5;
 		L_5 = UIntPtr_op_Explicit_m7802FC2BA4C3A18601BB8B58ED4708E0F07663E8(L_4, NULL);
 		V_0 = L_5;
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Achievement.cs:107>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Achievement.cs:107>
 		int32_t L_6 = V_0;
 		List_1_set_Capacity_mD3BF3BBF9B8537037A4A49B234555D9FDC3C7F1E(__this, L_6, List_1_set_Capacity_mD3BF3BBF9B8537037A4A49B234555D9FDC3C7F1E_RuntimeMethod_var);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Achievement.cs:108>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Achievement.cs:108>
 		V_1 = 0;
 		goto IL_0049;
 	}
 
 IL_002e:
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Achievement.cs:110>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Achievement.cs:110>
 		intptr_t L_7 = ___0_a;
 		uint32_t L_8 = V_1;
 		uintptr_t L_9;
@@ -8917,14 +8917,14 @@ IL_002e:
 		AchievementDefinition_t09D5E334A9AF0321426DB09B4B36E72626423019* L_11 = (AchievementDefinition_t09D5E334A9AF0321426DB09B4B36E72626423019*)il2cpp_codegen_object_new(AchievementDefinition_t09D5E334A9AF0321426DB09B4B36E72626423019_il2cpp_TypeInfo_var);
 		AchievementDefinition__ctor_mBFA904DECEC666C753BB00AFBC500B34BDB73A65(L_11, L_10, NULL);
 		List_1_Add_m7817B44F55F4B07BD59D677CB6CAD10D578EAC86_inline(__this, L_11, List_1_Add_m7817B44F55F4B07BD59D677CB6CAD10D578EAC86_RuntimeMethod_var);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Achievement.cs:108>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Achievement.cs:108>
 		uint32_t L_12 = V_1;
 		V_1 = ((int32_t)il2cpp_codegen_add((int32_t)L_12, 1));
 	}
 
 IL_0049:
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Achievement.cs:108>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Achievement.cs:108>
 		uint32_t L_13 = V_1;
 		int32_t L_14 = V_0;
 		if ((((int64_t)((int64_t)(uint64_t)((uint32_t)L_13))) < ((int64_t)((int64_t)L_14))))
@@ -8933,7 +8933,7 @@ IL_0049:
 		}
 	}
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Achievement.cs:113>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Achievement.cs:113>
 		intptr_t L_15 = ___0_a;
 		bool L_16;
 		L_16 = CLIB_ppf_AchievementDefinitionArray_HasNextPage_m263DA3AD8437FE234FDCB5B36AC5DE1D990DB07F(L_15, NULL);
@@ -8962,7 +8962,7 @@ IL_0064:
 		NullCheck(G_B6_1);
 		((MessageArray_1_t007C8F0F960A812D5EBEBD1E0DEB87A40D9F0051*)G_B6_1)->___NextPageParam = G_B6_0;
 		Il2CppCodeGenWriteBarrier((void**)(&((MessageArray_1_t007C8F0F960A812D5EBEBD1E0DEB87A40D9F0051*)G_B6_1)->___NextPageParam), (void*)G_B6_0);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Achievement.cs:114>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Achievement.cs:114>
 		return;
 	}
 }
@@ -8974,7 +8974,7 @@ IL_0064:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 78422
+// Method Definition Index: 88476
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AchievementProgress__ctor_m595AB23BF0591ECEAD689D530D125C5819277357 (AchievementProgress_t1E252101294D86D61BE435D76B192BE5E85F67DB* __this, intptr_t ___0_o, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -8988,46 +8988,46 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AchievementProgress__ctor_m595AB23BF0591
 	uint32_t V_0 = 0;
 	uint64_t V_1 = 0;
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Achievement.cs:142>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Achievement.cs:142>
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Achievement.cs:144>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Achievement.cs:144>
 		intptr_t L_0 = ___0_o;
 		uint64_t L_1;
 		L_1 = CLIB_ppf_AchievementProgress_GetID_m9032B19F4708D4A29D538FD11C92BB5A1EBC6F2B(L_0, NULL);
 		__this->___ID = L_1;
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Achievement.cs:145>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Achievement.cs:145>
 		intptr_t L_2 = ___0_o;
 		String_t* L_3;
 		L_3 = CLIB_ppf_AchievementProgress_GetBitfield_mAC09D75110C5E5B0DA12BA99F1DE7A8C22A4A8A3(L_2, NULL);
 		__this->___Bitfield = L_3;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___Bitfield), (void*)L_3);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Achievement.cs:146>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Achievement.cs:146>
 		intptr_t L_4 = ___0_o;
 		int64_t L_5;
 		L_5 = CLIB_ppf_AchievementProgress_GetCount_m00A61E88B3CA7923FA350A477ECA37C540C1D330(L_4, NULL);
 		__this->___Count = L_5;
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Achievement.cs:147>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Achievement.cs:147>
 		intptr_t L_6 = ___0_o;
 		bool L_7;
 		L_7 = CLIB_ppf_AchievementProgress_GetIsUnlocked_mFC57F2A6EDC67632044956C1F484E7CDDA82C4C5(L_6, NULL);
 		__this->___IsUnlocked = L_7;
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Achievement.cs:148>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Achievement.cs:148>
 		intptr_t L_8 = ___0_o;
 		String_t* L_9;
 		L_9 = CLIB_ppf_AchievementProgress_GetName_m6DE79723249AC5DB4C0A591667D1F83B94337421(L_8, NULL);
 		__this->___Name = L_9;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___Name), (void*)L_9);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Achievement.cs:150>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Achievement.cs:150>
 		intptr_t L_10 = ___0_o;
 		uint32_t L_11;
 		L_11 = CLIB_ppf_AchievementProgress_GetExtraDataLength_mA6AC4C1BF07A30402E6486948D83B3D1F07C2547(L_10, NULL);
 		V_0 = L_11;
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Achievement.cs:151>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Achievement.cs:151>
 		uint32_t L_12 = V_0;
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_13 = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)SZArrayNew(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var, (uint32_t)L_12);
 		__this->___ExtraData = L_13;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___ExtraData), (void*)L_13);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Achievement.cs:152>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Achievement.cs:152>
 		intptr_t L_14 = ___0_o;
 		intptr_t L_15;
 		L_15 = CLIB_ppf_AchievementProgress_GetExtraData_m89E77878CDDD6408578057D03DCBF302C238FF6F(L_14, NULL);
@@ -9035,12 +9035,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AchievementProgress__ctor_m595AB23BF0591
 		uint32_t L_17 = V_0;
 		il2cpp_codegen_runtime_class_init_inline(Marshal_tD976A56A90263C3CE2B780D4B1CADADE2E70B4A7_il2cpp_TypeInfo_var);
 		Marshal_Copy_mF7402FFDB520EA1B8D1C32B368DBEE4B13F1BE77(L_15, L_16, 0, L_17, NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Achievement.cs:153>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Achievement.cs:153>
 		intptr_t L_18 = ___0_o;
 		uint64_t L_19;
 		L_19 = CLIB_ppf_AchievementProgress_GetUnlockTime_mC0337111967A8F1E297D7B5F2C0FE3374A5AEDA2(L_18, NULL);
 		V_1 = L_19;
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Achievement.cs:154>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Achievement.cs:154>
 		uint64_t L_20 = V_1;
 		if (!L_20)
 		{
@@ -9048,7 +9048,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AchievementProgress__ctor_m595AB23BF0591
 		}
 	}
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Achievement.cs:156>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Achievement.cs:156>
 		uint64_t L_21 = V_1;
 		il2cpp_codegen_runtime_class_init_inline(TimeUtil_t5452C06092BC6F084DE46286E7F0D4FA1E970C36_il2cpp_TypeInfo_var);
 		DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D L_22;
@@ -9058,7 +9058,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AchievementProgress__ctor_m595AB23BF0591
 
 IL_007e:
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Achievement.cs:158>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Achievement.cs:158>
 		return;
 	}
 }
@@ -9070,7 +9070,7 @@ IL_007e:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 78423
+// Method Definition Index: 88477
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AchievementProgressList__ctor_mBFB8FA3C17CE8B41127F2AADCA83A4FC43650F5B (AchievementProgressList_t5C10551DC794BBA8F5FF05832B2D044B40447504* __this, intptr_t ___0_a, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9090,33 +9090,33 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AchievementProgressList__ctor_mBFB8FA3C1
 	String_t* G_B6_0 = NULL;
 	AchievementProgressList_t5C10551DC794BBA8F5FF05832B2D044B40447504* G_B6_1 = NULL;
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Achievement.cs:169>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Achievement.cs:169>
 		MessageArray_1__ctor_m3BC499DB56D4BA1111B6D6E1C8CB126A69677139(__this, MessageArray_1__ctor_m3BC499DB56D4BA1111B6D6E1C8CB126A69677139_RuntimeMethod_var);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Achievement.cs:171>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Achievement.cs:171>
 		intptr_t L_0 = ___0_a;
 		uintptr_t L_1;
 		L_1 = CLIB_ppf_AchievementProgressArray_GetTotalSize_mDB5D88F1D417F36320E57CD41FBD6243D94B136D(L_0, NULL);
 		uint64_t L_2;
 		L_2 = UIntPtr_op_Explicit_mC39E70F0324C1C514A3044790BC19C5FC4C58E1C(L_1, NULL);
 		__this->___TotalSize = L_2;
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Achievement.cs:172>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Achievement.cs:172>
 		intptr_t L_3 = ___0_a;
 		uintptr_t L_4;
 		L_4 = CLIB_ppf_AchievementProgressArray_GetSize_mE6301BFD7F2C556E00E0E09823E6B41609624872(L_3, NULL);
 		uint32_t L_5;
 		L_5 = UIntPtr_op_Explicit_m7802FC2BA4C3A18601BB8B58ED4708E0F07663E8(L_4, NULL);
 		V_0 = L_5;
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Achievement.cs:173>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Achievement.cs:173>
 		int32_t L_6 = V_0;
 		List_1_set_Capacity_mBC09D6DE59BD632D853F41ACEA81571B2F8CBAC6(__this, L_6, List_1_set_Capacity_mBC09D6DE59BD632D853F41ACEA81571B2F8CBAC6_RuntimeMethod_var);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Achievement.cs:174>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Achievement.cs:174>
 		V_1 = 0;
 		goto IL_0049;
 	}
 
 IL_002e:
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Achievement.cs:176>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Achievement.cs:176>
 		intptr_t L_7 = ___0_a;
 		uint32_t L_8 = V_1;
 		uintptr_t L_9;
@@ -9126,14 +9126,14 @@ IL_002e:
 		AchievementProgress_t1E252101294D86D61BE435D76B192BE5E85F67DB* L_11 = (AchievementProgress_t1E252101294D86D61BE435D76B192BE5E85F67DB*)il2cpp_codegen_object_new(AchievementProgress_t1E252101294D86D61BE435D76B192BE5E85F67DB_il2cpp_TypeInfo_var);
 		AchievementProgress__ctor_m595AB23BF0591ECEAD689D530D125C5819277357(L_11, L_10, NULL);
 		List_1_Add_mF7A5FDE71163AB620C0E8DB3CF2D72A13B43ED19_inline(__this, L_11, List_1_Add_mF7A5FDE71163AB620C0E8DB3CF2D72A13B43ED19_RuntimeMethod_var);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Achievement.cs:174>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Achievement.cs:174>
 		uint32_t L_12 = V_1;
 		V_1 = ((int32_t)il2cpp_codegen_add((int32_t)L_12, 1));
 	}
 
 IL_0049:
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Achievement.cs:174>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Achievement.cs:174>
 		uint32_t L_13 = V_1;
 		int32_t L_14 = V_0;
 		if ((((int64_t)((int64_t)(uint64_t)((uint32_t)L_13))) < ((int64_t)((int64_t)L_14))))
@@ -9142,7 +9142,7 @@ IL_0049:
 		}
 	}
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Achievement.cs:179>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Achievement.cs:179>
 		intptr_t L_15 = ___0_a;
 		bool L_16;
 		L_16 = CLIB_ppf_AchievementProgressArray_HasNextPage_mDFE3A23DCFA732521F82F1BF92AA1A38F350980F(L_15, NULL);
@@ -9171,7 +9171,7 @@ IL_0064:
 		NullCheck(G_B6_1);
 		((MessageArray_1_tA2FC832E9F92BC2639E48F182ED14B04435430CA*)G_B6_1)->___NextPageParam = G_B6_0;
 		Il2CppCodeGenWriteBarrier((void**)(&((MessageArray_1_tA2FC832E9F92BC2639E48F182ED14B04435430CA*)G_B6_1)->___NextPageParam), (void*)G_B6_0);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Achievement.cs:180>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Achievement.cs:180>
 		return;
 	}
 }
@@ -9183,64 +9183,64 @@ IL_0064:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 78424
+// Method Definition Index: 88478
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LaunchDetails__ctor_m21F671411766F6DD49D7B258CCB07DCC0547E8C2 (LaunchDetails_t83DFB7E65E221A238FA66531C7C470C75FFACE21* __this, intptr_t ___0_o, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Application.cs:60>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Application.cs:60>
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Application.cs:62>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Application.cs:62>
 		intptr_t L_0 = ___0_o;
 		String_t* L_1;
 		L_1 = CLIB_ppf_LaunchDetails_GetDeeplinkMessage_m1ED848F21AC964F7A965CD9339D07F9DF8EE321F(L_0, NULL);
 		__this->___DeeplinkMessage = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___DeeplinkMessage), (void*)L_1);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Application.cs:63>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Application.cs:63>
 		intptr_t L_2 = ___0_o;
 		String_t* L_3;
 		L_3 = CLIB_ppf_LaunchDetails_GetDestinationApiName_m2EA9533CA6339133DD1BA2E521A7A5EC0EE50227(L_2, NULL);
 		__this->___DestinationApiName = L_3;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___DestinationApiName), (void*)L_3);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Application.cs:64>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Application.cs:64>
 		intptr_t L_4 = ___0_o;
 		String_t* L_5;
 		L_5 = CLIB_ppf_LaunchDetails_GetLobbySessionID_mB532DCDABA451173E4C93FAA4A890DAAAEDFFB9E(L_4, NULL);
 		__this->___LobbySessionID = L_5;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___LobbySessionID), (void*)L_5);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Application.cs:65>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Application.cs:65>
 		intptr_t L_6 = ___0_o;
 		String_t* L_7;
 		L_7 = CLIB_ppf_LaunchDetails_GetMatchSessionID_m663601B6487F40956EAD564BE11F43343E97A429(L_6, NULL);
 		__this->___MatchSessionID = L_7;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___MatchSessionID), (void*)L_7);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Application.cs:66>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Application.cs:66>
 		intptr_t L_8 = ___0_o;
 		String_t* L_9;
 		L_9 = CLIB_ppf_LaunchDetails_GetExtra_mC5CCE217372DE9E0CAD3618C830DE5F0B2B6A196(L_8, NULL);
 		__this->___Extra = L_9;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___Extra), (void*)L_9);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Application.cs:67>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Application.cs:67>
 		intptr_t L_10 = ___0_o;
 		uint64_t L_11;
 		L_11 = CLIB_ppf_LaunchDetails_GetRoomID_mA1C0ADF43CF43F9B686AF3703ACE51981EC5F699(L_10, NULL);
 		__this->___RoomID = L_11;
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Application.cs:68>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Application.cs:68>
 		intptr_t L_12 = ___0_o;
 		uint64_t L_13;
 		L_13 = CLIB_ppf_LaunchDetails_GetChallengeID_m535246BDC2687D9C525EC51E199F9E229E0E4729(L_12, NULL);
 		__this->___ChallengeID = L_13;
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Application.cs:69>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Application.cs:69>
 		intptr_t L_14 = ___0_o;
 		String_t* L_15;
 		L_15 = CLIB_ppf_LaunchDetails_GetTrackingID_m576041A6FC11F3E84ABDCA86A6E2241BC7E0F90F(L_14, NULL);
 		__this->___TrackingID = L_15;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___TrackingID), (void*)L_15);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Application.cs:70>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Application.cs:70>
 		intptr_t L_16 = ___0_o;
 		int32_t L_17;
 		L_17 = CLIB_ppf_LaunchDetails_GetLaunchType_m278AB8B05EBCBD3E0F0C72BEF1380557CBFE8BB6(L_16, NULL);
 		__this->___LaunchType = L_17;
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Application.cs:71>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Application.cs:71>
 		return;
 	}
 }
@@ -9252,47 +9252,47 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LaunchDetails__ctor_m21F671411766F6DD49D
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 78425
+// Method Definition Index: 88479
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SystemInfo__ctor_m42FFED547423FBE9E52CD77071745D3E090B0E6C (SystemInfo_t53AF5429861C13B1769EA33EAA762275B333CCA0* __this, intptr_t ___0_o, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Application.cs:97>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Application.cs:97>
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Application.cs:99>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Application.cs:99>
 		intptr_t L_0 = ___0_o;
 		String_t* L_1;
 		L_1 = CLIB_ppf_SystemInfo_GetROMVersion_m4E99BE5C919678532BDBE52B17A719ED65744444(L_0, NULL);
 		__this->___ROMVersion = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___ROMVersion), (void*)L_1);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Application.cs:100>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Application.cs:100>
 		intptr_t L_2 = ___0_o;
 		String_t* L_3;
 		L_3 = CLIB_ppf_SystemInfo_GetLocale_m9B053C1AD304D4BF02CF185555A809756841F027(L_2, NULL);
 		__this->___Locale = L_3;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___Locale), (void*)L_3);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Application.cs:101>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Application.cs:101>
 		intptr_t L_4 = ___0_o;
 		String_t* L_5;
 		L_5 = CLIB_ppf_SystemInfo_GetProductName_mF4C630400839A663B0720A556121DF0CBF352684(L_4, NULL);
 		__this->___ProductName = L_5;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___ProductName), (void*)L_5);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Application.cs:102>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Application.cs:102>
 		intptr_t L_6 = ___0_o;
 		bool L_7;
 		L_7 = CLIB_ppf_SystemInfo_GetIsCnDevice_m8E4BF6499CA8E77746AED57C7FAC08E3EA1A02DB(L_6, NULL);
 		__this->___IsCnDevice = L_7;
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Application.cs:103>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Application.cs:103>
 		intptr_t L_8 = ___0_o;
 		String_t* L_9;
 		L_9 = CLIB_ppf_SystemInfo_GetMatrixVersionName_m476AE75AD43BD030D59FF0EE63C9837F8D9C5DD6(L_8, NULL);
 		__this->___MatrixVersionName = L_9;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___MatrixVersionName), (void*)L_9);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Application.cs:104>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Application.cs:104>
 		intptr_t L_10 = ___0_o;
 		int64_t L_11;
 		L_11 = CLIB_ppf_SystemInfo_GetMatrixVersionCode_m1DB3C0280D4FA8624A283C0D1F587A4732CE785B(L_10, NULL);
 		__this->___MatrixVersionCode = L_11;
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Application.cs:105>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Application.cs:105>
 		return;
 	}
 }
@@ -9304,35 +9304,35 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SystemInfo__ctor_m42FFED547423FBE9E52CD7
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 78426
+// Method Definition Index: 88480
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ApplicationVersion__ctor_mC817855683EE9B9BD257C3332B993097B50CE465 (ApplicationVersion_t62CE03D7C8FBF594FDE1979E76974E0E3E707156* __this, intptr_t ___0_o, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Application.cs:125>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Application.cs:125>
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Application.cs:127>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Application.cs:127>
 		intptr_t L_0 = ___0_o;
 		int64_t L_1;
 		L_1 = CLIB_ppf_ApplicationVersion_GetCurrentCode_m76EA30CE2F678D72840356C482A4B9735E09F5FE(L_0, NULL);
 		__this->___CurrentCode = L_1;
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Application.cs:128>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Application.cs:128>
 		intptr_t L_2 = ___0_o;
 		String_t* L_3;
 		L_3 = CLIB_ppf_ApplicationVersion_GetCurrentName_mBC9A6FF9306378558D87F7AA681FAF908F961187(L_2, NULL);
 		__this->___CurrentName = L_3;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___CurrentName), (void*)L_3);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Application.cs:129>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Application.cs:129>
 		intptr_t L_4 = ___0_o;
 		int64_t L_5;
 		L_5 = CLIB_ppf_ApplicationVersion_GetLatestCode_mCB1793CE63A9BE4F3580C125B98A5385157589E4(L_4, NULL);
 		__this->___LatestCode = L_5;
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Application.cs:130>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Application.cs:130>
 		intptr_t L_6 = ___0_o;
 		String_t* L_7;
 		L_7 = CLIB_ppf_ApplicationVersion_GetLatestName_m0387B60DE0A54F192002C878BF51526BDB31E5C4(L_6, NULL);
 		__this->___LatestName = L_7;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___LatestName), (void*)L_7);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Application.cs:131>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Application.cs:131>
 		return;
 	}
 }
@@ -9368,95 +9368,95 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ApplicationVersion__ctor_mC817855683EE9B
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 78427
+// Method Definition Index: 88481
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AssetDetails__ctor_mBEA8F407B875F1B5BD9F8828669D9ED98AAF4CB7 (AssetDetails_t8F8B8199F92068253768AABE9EB4314FFB926AE2* __this, intptr_t ___0_o, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/AssetFile.cs:92>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/AssetFile.cs:92>
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/AssetFile.cs:94>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/AssetFile.cs:94>
 		intptr_t L_0 = ___0_o;
 		uint64_t L_1;
 		L_1 = CLIB_ppf_AssetDetails_GetAssetId_m30DE47693AEDD19CCAE8B2F3C38B04B89484C836(L_0, NULL);
 		__this->___AssetId = L_1;
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/AssetFile.cs:95>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/AssetFile.cs:95>
 		intptr_t L_2 = ___0_o;
 		String_t* L_3;
 		L_3 = CLIB_ppf_AssetDetails_GetAssetType_mA17FB114E8F3B6E9F66B86ADA3880C0755FB0601(L_2, NULL);
 		__this->___AssetType = L_3;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___AssetType), (void*)L_3);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/AssetFile.cs:96>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/AssetFile.cs:96>
 		intptr_t L_4 = ___0_o;
 		String_t* L_5;
 		L_5 = CLIB_ppf_AssetDetails_GetDownloadStatus_mED60EA7CD536F9636DC5B7B5748A2DC3F158DC37(L_4, NULL);
 		__this->___DownloadStatus = L_5;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___DownloadStatus), (void*)L_5);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/AssetFile.cs:97>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/AssetFile.cs:97>
 		intptr_t L_6 = ___0_o;
 		String_t* L_7;
 		L_7 = CLIB_ppf_AssetDetails_GetIapStatus_m8E562F5D48D1EB6014C7763684112C5D7D0F2251(L_6, NULL);
 		__this->___IapStatus = L_7;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___IapStatus), (void*)L_7);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/AssetFile.cs:98>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/AssetFile.cs:98>
 		intptr_t L_8 = ___0_o;
 		String_t* L_9;
 		L_9 = CLIB_ppf_AssetDetails_GetFilepath_m0C39ABF75009F407A268D9422BD13D2608C9E7BA(L_8, NULL);
 		__this->___Filepath = L_9;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___Filepath), (void*)L_9);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/AssetFile.cs:99>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/AssetFile.cs:99>
 		intptr_t L_10 = ___0_o;
 		String_t* L_11;
 		L_11 = CLIB_ppf_AssetDetails_GetMetadata_m6B7DF5682E75B9C137FF575CE26FADA96D6784FC(L_10, NULL);
 		__this->___Metadata = L_11;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___Metadata), (void*)L_11);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/AssetFile.cs:100>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/AssetFile.cs:100>
 		intptr_t L_12 = ___0_o;
 		String_t* L_13;
 		L_13 = CLIB_ppf_AssetDetails_GetFilename_m9A6AF247B29775D4CB01F5B14F6C5E61CE865A35(L_12, NULL);
 		__this->___Filename = L_13;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___Filename), (void*)L_13);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/AssetFile.cs:101>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/AssetFile.cs:101>
 		intptr_t L_14 = ___0_o;
 		int32_t L_15;
 		L_15 = CLIB_ppf_AssetDetails_GetVersion_m0E2E4F9D9EE10CC8BDE443880FB18C192F144A17(L_14, NULL);
 		__this->___Version = L_15;
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/AssetFile.cs:102>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/AssetFile.cs:102>
 		intptr_t L_16 = ___0_o;
 		String_t* L_17;
 		L_17 = CLIB_ppf_AssetDetails_GetIapSku_m38C9DF49A059A0D83B4AC0DFBE3DD25440E9DD8B(L_16, NULL);
 		__this->___IapSku = L_17;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___IapSku), (void*)L_17);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/AssetFile.cs:103>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/AssetFile.cs:103>
 		intptr_t L_18 = ___0_o;
 		String_t* L_19;
 		L_19 = CLIB_ppf_AssetDetails_GetIapName_m88BB2AEB76425C40DBA8CA36A664CB95709E765C(L_18, NULL);
 		__this->___IapName = L_19;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___IapName), (void*)L_19);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/AssetFile.cs:104>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/AssetFile.cs:104>
 		intptr_t L_20 = ___0_o;
 		String_t* L_21;
 		L_21 = CLIB_ppf_AssetDetails_GetIapPrice_m2C04DE9C3B27FB1FE33D5B6F645AB8F7DC88DC37(L_20, NULL);
 		__this->___IapPrice = L_21;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___IapPrice), (void*)L_21);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/AssetFile.cs:105>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/AssetFile.cs:105>
 		intptr_t L_22 = ___0_o;
 		String_t* L_23;
 		L_23 = CLIB_ppf_AssetDetails_GetIapCurrency_mC01C4AF66437ADCBABC46EFF3C6152675A871D30(L_22, NULL);
 		__this->___IapCurrency = L_23;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___IapCurrency), (void*)L_23);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/AssetFile.cs:106>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/AssetFile.cs:106>
 		intptr_t L_24 = ___0_o;
 		String_t* L_25;
 		L_25 = CLIB_ppf_AssetDetails_GetIapDescription_mD42158477344196D02B31BC337131244BF447E6C(L_24, NULL);
 		__this->___IapDescription = L_25;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___IapDescription), (void*)L_25);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/AssetFile.cs:107>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/AssetFile.cs:107>
 		intptr_t L_26 = ___0_o;
 		String_t* L_27;
 		L_27 = CLIB_ppf_AssetDetails_GetIapIcon_m8AB0CB439BA3BAEF078786F8375137E843C02948(L_26, NULL);
 		__this->___IapIcon = L_27;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___IapIcon), (void*)L_27);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/AssetFile.cs:108>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/AssetFile.cs:108>
 		return;
 	}
 }
@@ -9468,7 +9468,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AssetDetails__ctor_mBEA8F407B875F1B5BD9F
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 78428
+// Method Definition Index: 88482
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AssetDetailsList__ctor_mC012BBCD469522E1B2FCC0005EE98B0FFB3A8C9A (AssetDetailsList_tB4AE1D412F214C001FEA90572C4244B92F4CF797* __this, intptr_t ___0_a, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9483,26 +9483,26 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AssetDetailsList__ctor_mC012BBCD469522E1
 	int32_t V_0 = 0;
 	int32_t V_1 = 0;
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/AssetFile.cs:116>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/AssetFile.cs:116>
 		MessageArray_1__ctor_mB185D5F8F245E3548B7E1F83E5D80079D940BEA1(__this, MessageArray_1__ctor_mB185D5F8F245E3548B7E1F83E5D80079D940BEA1_RuntimeMethod_var);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/AssetFile.cs:118>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/AssetFile.cs:118>
 		intptr_t L_0 = ___0_a;
 		uintptr_t L_1;
 		L_1 = CLIB_ppf_AssetDetailsArray_GetSize_m433BBD041067F04F5A10E4555861C8C0E8E96343(L_0, NULL);
 		uint32_t L_2;
 		L_2 = UIntPtr_op_Explicit_m7802FC2BA4C3A18601BB8B58ED4708E0F07663E8(L_1, NULL);
 		V_0 = L_2;
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/AssetFile.cs:119>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/AssetFile.cs:119>
 		int32_t L_3 = V_0;
 		List_1_set_Capacity_m587217153D2FA93F4FC0889992B6BA1FA2D95A87(__this, L_3, List_1_set_Capacity_m587217153D2FA93F4FC0889992B6BA1FA2D95A87_RuntimeMethod_var);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/AssetFile.cs:120>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/AssetFile.cs:120>
 		V_1 = 0;
 		goto IL_0039;
 	}
 
 IL_001d:
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/AssetFile.cs:122>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/AssetFile.cs:122>
 		intptr_t L_4 = ___0_a;
 		int32_t L_5 = V_1;
 		uintptr_t L_6;
@@ -9512,14 +9512,14 @@ IL_001d:
 		AssetDetails_t8F8B8199F92068253768AABE9EB4314FFB926AE2* L_8 = (AssetDetails_t8F8B8199F92068253768AABE9EB4314FFB926AE2*)il2cpp_codegen_object_new(AssetDetails_t8F8B8199F92068253768AABE9EB4314FFB926AE2_il2cpp_TypeInfo_var);
 		AssetDetails__ctor_mBEA8F407B875F1B5BD9F8828669D9ED98AAF4CB7(L_8, L_7, NULL);
 		List_1_Add_mCEA246871367366985CC1373045B5CAC13DDECA6_inline(__this, L_8, List_1_Add_mCEA246871367366985CC1373045B5CAC13DDECA6_RuntimeMethod_var);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/AssetFile.cs:120>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/AssetFile.cs:120>
 		int32_t L_9 = V_1;
 		V_1 = ((int32_t)il2cpp_codegen_add(L_9, 1));
 	}
 
 IL_0039:
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/AssetFile.cs:120>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/AssetFile.cs:120>
 		int32_t L_10 = V_1;
 		int32_t L_11 = V_0;
 		if ((((int32_t)L_10) < ((int32_t)L_11)))
@@ -9528,13 +9528,13 @@ IL_0039:
 		}
 	}
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/AssetFile.cs:125>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/AssetFile.cs:125>
 		intptr_t L_12 = ___0_a;
 		String_t* L_13;
 		L_13 = CLIB_ppf_AssetDetailsArray_GetNextPageParam_m8A0847EFFB18FFFE801E963116D144755C8294A5(L_12, NULL);
 		((MessageArray_1_t3588ACF0944917D806087EF192359A96F2EF26D6*)__this)->___NextPageParam = L_13;
 		Il2CppCodeGenWriteBarrier((void**)(&((MessageArray_1_t3588ACF0944917D806087EF192359A96F2EF26D6*)__this)->___NextPageParam), (void*)L_13);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/AssetFile.cs:126>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/AssetFile.cs:126>
 		return;
 	}
 }
@@ -9546,24 +9546,24 @@ IL_0039:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 78429
+// Method Definition Index: 88483
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AssetFileDeleteForSafety__ctor_mA1DF1CEE228473B86B7058EB9830C09A46BE2288 (AssetFileDeleteForSafety_tE0658EB374DF5E9FFEB4D95D7CF5CDBA40E8EABA* __this, intptr_t ___0_o, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/AssetFile.cs:141>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/AssetFile.cs:141>
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/AssetFile.cs:143>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/AssetFile.cs:143>
 		intptr_t L_0 = ___0_o;
 		uint64_t L_1;
 		L_1 = CLIB_ppf_AssetFileDeleteForSafety_GetAssetId_m0A5642ABB68637F41417042A90035B6AF9359E3C(L_0, NULL);
 		__this->___AssetId = L_1;
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/AssetFile.cs:144>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/AssetFile.cs:144>
 		intptr_t L_2 = ___0_o;
 		String_t* L_3;
 		L_3 = CLIB_ppf_AssetFileDeleteForSafety_GetReason_m0D6348551BAFED2CE1F6C17624F15893CB41C677(L_2, NULL);
 		__this->___Reason = L_3;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___Reason), (void*)L_3);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/AssetFile.cs:145>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/AssetFile.cs:145>
 		return;
 	}
 }
@@ -9575,29 +9575,29 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AssetFileDeleteForSafety__ctor_mA1DF1CEE
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 78430
+// Method Definition Index: 88484
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AssetFileDeleteResult__ctor_mC14021AC0F3BEB45E3B4B5BD3863AAB167501868 (AssetFileDeleteResult_t69B9AFEF34255AED9E99D39461203AD4310CC434* __this, intptr_t ___0_o, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/AssetFile.cs:162>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/AssetFile.cs:162>
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/AssetFile.cs:164>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/AssetFile.cs:164>
 		intptr_t L_0 = ___0_o;
 		String_t* L_1;
 		L_1 = CLIB_ppf_AssetFileDeleteResult_GetFilepath_mB84C04D52EBD9346D092B9D2161D62AB381C406A(L_0, NULL);
 		__this->___Filepath = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___Filepath), (void*)L_1);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/AssetFile.cs:165>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/AssetFile.cs:165>
 		intptr_t L_2 = ___0_o;
 		bool L_3;
 		L_3 = CLIB_ppf_AssetFileDeleteResult_GetSuccess_mDB773D149D3628F18AFCDE385558CCB796C961B5(L_2, NULL);
 		__this->___Success = L_3;
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/AssetFile.cs:166>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/AssetFile.cs:166>
 		intptr_t L_4 = ___0_o;
 		uint64_t L_5;
 		L_5 = CLIB_ppf_AssetFileDeleteResult_GetAssetId_m864E006BC66298F8F1C5C2E3249226C0FE6AE5A8(L_4, NULL);
 		__this->___AssetId = L_5;
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/AssetFile.cs:167>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/AssetFile.cs:167>
 		return;
 	}
 }
@@ -9609,29 +9609,29 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AssetFileDeleteResult__ctor_mC14021AC0F3
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 78431
+// Method Definition Index: 88485
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AssetFileDownloadCancelResult__ctor_mF6853F13948239A7B5E245537DA63E95AA535BA8 (AssetFileDownloadCancelResult_t3DBDC2912716D7BF23B8B8C7CC417C90AD405B43* __this, intptr_t ___0_o, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/AssetFile.cs:182>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/AssetFile.cs:182>
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/AssetFile.cs:184>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/AssetFile.cs:184>
 		intptr_t L_0 = ___0_o;
 		String_t* L_1;
 		L_1 = CLIB_ppf_AssetFileDownloadCancelResult_GetFilepath_mA20231654B8597E8CE8C9D499A7B6AACADE4AF1B(L_0, NULL);
 		__this->___Filepath = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___Filepath), (void*)L_1);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/AssetFile.cs:185>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/AssetFile.cs:185>
 		intptr_t L_2 = ___0_o;
 		bool L_3;
 		L_3 = CLIB_ppf_AssetFileDownloadCancelResult_GetSuccess_m1FEC0B12273C3D5CB158C214AFC7B381AD9A1ACE(L_2, NULL);
 		__this->___Success = L_3;
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/AssetFile.cs:186>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/AssetFile.cs:186>
 		intptr_t L_4 = ___0_o;
 		uint64_t L_5;
 		L_5 = CLIB_ppf_AssetFileDownloadCancelResult_GetAssetId_mA7AC7A878088611C0D01507973C984AE25020C0C(L_4, NULL);
 		__this->___AssetId = L_5;
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/AssetFile.cs:187>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/AssetFile.cs:187>
 		return;
 	}
 }
@@ -9643,24 +9643,24 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AssetFileDownloadCancelResult__ctor_mF68
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 78432
+// Method Definition Index: 88486
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AssetFileDownloadResult__ctor_m5B6A97F829C862AA9E310F31ABD62222D6F211D4 (AssetFileDownloadResult_tD0B1698C03580D6A8A9CD407B09D147D0F02F639* __this, intptr_t ___0_o, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/AssetFile.cs:199>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/AssetFile.cs:199>
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/AssetFile.cs:201>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/AssetFile.cs:201>
 		intptr_t L_0 = ___0_o;
 		uint64_t L_1;
 		L_1 = CLIB_ppf_AssetFileDownloadResult_GetAssetId_m084817E52E3DCB845C1C1DA28486F2EADD4451C2(L_0, NULL);
 		__this->___AssetId = L_1;
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/AssetFile.cs:202>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/AssetFile.cs:202>
 		intptr_t L_2 = ___0_o;
 		String_t* L_3;
 		L_3 = CLIB_ppf_AssetFileDownloadResult_GetFilepath_mC92EC74711BD43A2E3D64FF4273A40A7DDAEA5EC(L_2, NULL);
 		__this->___Filepath = L_3;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___Filepath), (void*)L_3);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/AssetFile.cs:203>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/AssetFile.cs:203>
 		return;
 	}
 }
@@ -9672,33 +9672,33 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AssetFileDownloadResult__ctor_m5B6A97F82
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 78433
+// Method Definition Index: 88487
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AssetFileDownloadUpdate__ctor_m64EE082158C5EE8715D02147D6815DE0B0E9610F (AssetFileDownloadUpdate_tBAD90D69A25568EC45F334942C219ABFBD5DA6E2* __this, intptr_t ___0_o, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/AssetFile.cs:224>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/AssetFile.cs:224>
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/AssetFile.cs:226>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/AssetFile.cs:226>
 		intptr_t L_0 = ___0_o;
 		uint64_t L_1;
 		L_1 = CLIB_ppf_AssetFileDownloadUpdate_GetAssetId_m0B5861262081CF39932B510FE0532CDBADDB18E9(L_0, NULL);
 		__this->___AssetId = L_1;
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/AssetFile.cs:227>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/AssetFile.cs:227>
 		intptr_t L_2 = ___0_o;
 		uint64_t L_3;
 		L_3 = CLIB_ppf_AssetFileDownloadUpdate_GetBytesTotal_m2578FBE12DAEFE371E2A0F0D94E5571372F27BDD(L_2, NULL);
 		__this->___BytesTotal = L_3;
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/AssetFile.cs:228>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/AssetFile.cs:228>
 		intptr_t L_4 = ___0_o;
 		int64_t L_5;
 		L_5 = CLIB_ppf_AssetFileDownloadUpdate_GetBytesTransferred_mA46C09C8767665DE93EB0E4EBE8B12D485EB205A(L_4, NULL);
 		__this->___BytesTransferred = L_5;
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/AssetFile.cs:229>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/AssetFile.cs:229>
 		intptr_t L_6 = ___0_o;
 		int32_t L_7;
 		L_7 = CLIB_ppf_AssetFileDownloadUpdate_GetCompleteStatus_mA680F3622C6096FE2807B34E7D3BB600BD2AE36E(L_6, NULL);
 		__this->___CompleteStatus = L_7;
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/AssetFile.cs:230>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/AssetFile.cs:230>
 		return;
 	}
 }
@@ -9710,36 +9710,36 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AssetFileDownloadUpdate__ctor_m64EE08215
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 78434
+// Method Definition Index: 88488
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AssetStatus__ctor_m77769BA88433031AB374DD2CF6B704703D86EE98 (AssetStatus_t1D527E1B3D8881BD413FE56B7E928774704F8206* __this, intptr_t ___0_o, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/AssetFile.cs:250>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/AssetFile.cs:250>
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/AssetFile.cs:252>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/AssetFile.cs:252>
 		intptr_t L_0 = ___0_o;
 		uint64_t L_1;
 		L_1 = CLIB_ppf_AssetStatus_GetAssetId_mBD919DEE87A88BF455AD0DF2E0BAB83C51EA95B5(L_0, NULL);
 		__this->___AssetId = L_1;
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/AssetFile.cs:253>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/AssetFile.cs:253>
 		intptr_t L_2 = ___0_o;
 		String_t* L_3;
 		L_3 = CLIB_ppf_AssetStatus_GetFilename_mAA6D2BF9B08A31F4AF83AD3B47EAAF817257B4BE(L_2, NULL);
 		__this->___Filename = L_3;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___Filename), (void*)L_3);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/AssetFile.cs:254>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/AssetFile.cs:254>
 		intptr_t L_4 = ___0_o;
 		String_t* L_5;
 		L_5 = CLIB_ppf_AssetStatus_GetFilepath_mFEC1C050C3A3CD55F6FDF44EA1385690D9D25E51(L_4, NULL);
 		__this->___Filepath = L_5;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___Filepath), (void*)L_5);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/AssetFile.cs:255>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/AssetFile.cs:255>
 		intptr_t L_6 = ___0_o;
 		String_t* L_7;
 		L_7 = CLIB_ppf_AssetStatus_GetDownloadStatus_m28B0087E3075BADB1EE9C62106743BBA74F2ADD1(L_6, NULL);
 		__this->___DownloadStatus = L_7;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___DownloadStatus), (void*)L_7);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/AssetFile.cs:256>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/AssetFile.cs:256>
 		return;
 	}
 }
@@ -9751,21 +9751,21 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AssetStatus__ctor_m77769BA88433031AB374D
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 78435
+// Method Definition Index: 88489
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChallengeOptions__ctor_m2E4BEEF7754A8322451EE9B1C3282920AD76F1A6 (ChallengeOptions_t9A8A307A2A43C1E1022510A14E02515DF5191DD8* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Challenge.cs:22>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Challenge.cs:22>
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Challenge.cs:24>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Challenge.cs:24>
 		intptr_t L_0;
 		L_0 = CLIB_ppf_ChallengeOptions_Create_m28D5B612C88C3522258407C203552F10E7189140(NULL);
 		__this->___Handle = L_0;
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Challenge.cs:25>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Challenge.cs:25>
 		return;
 	}
 }
-// Method Definition Index: 78436
+// Method Definition Index: 88490
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChallengeOptions_SetEndDate_mDA233FB5E2B650E0397787428A0ADDEEB9DD2140 (ChallengeOptions_t9A8A307A2A43C1E1022510A14E02515DF5191DD8* __this, DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9776,7 +9776,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChallengeOptions_SetEndDate_mDA233FB5E2B
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Challenge.cs:30>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Challenge.cs:30>
 		intptr_t L_0 = __this->___Handle;
 		DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D L_1 = ___0_value;
 		il2cpp_codegen_runtime_class_init_inline(TimeUtil_t5452C06092BC6F084DE46286E7F0D4FA1E970C36_il2cpp_TypeInfo_var);
@@ -9786,59 +9786,59 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChallengeOptions_SetEndDate_mDA233FB5E2B
 		uint64_t L_3;
 		L_3 = Convert_ToUInt64_m53C3A45C87A06F25957619222B04EABFD214373C(L_2, NULL);
 		CLIB_ppf_ChallengeOptions_SetEndDate_mF4902730467C441843A26599A5E156C0A9FDB10A(L_0, L_3, NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Challenge.cs:31>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Challenge.cs:31>
 		return;
 	}
 }
-// Method Definition Index: 78437
+// Method Definition Index: 88491
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChallengeOptions_SetIncludeActiveChallenges_mD26CE951E3AEB35BF11A3EF9CD80DF944A4A580B (ChallengeOptions_t9A8A307A2A43C1E1022510A14E02515DF5191DD8* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Challenge.cs:36>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Challenge.cs:36>
 		intptr_t L_0 = __this->___Handle;
 		bool L_1 = ___0_value;
 		CLIB_ppf_ChallengeOptions_SetIncludeActiveChallenges_m8C145331B3DCD21F60DE0E333527F0A7A93AA4F0(L_0, L_1, NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Challenge.cs:37>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Challenge.cs:37>
 		return;
 	}
 }
-// Method Definition Index: 78438
+// Method Definition Index: 88492
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChallengeOptions_SetIncludeFutureChallenges_mA4260BAEBA89513A4E76DACA815E50A04E76F2B1 (ChallengeOptions_t9A8A307A2A43C1E1022510A14E02515DF5191DD8* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Challenge.cs:42>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Challenge.cs:42>
 		intptr_t L_0 = __this->___Handle;
 		bool L_1 = ___0_value;
 		CLIB_ppf_ChallengeOptions_SetIncludeFutureChallenges_m94B3A8141A52A1B7F7275ED9CAA4A70EA6D62D7F(L_0, L_1, NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Challenge.cs:43>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Challenge.cs:43>
 		return;
 	}
 }
-// Method Definition Index: 78439
+// Method Definition Index: 88493
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChallengeOptions_SetIncludePastChallenges_m45E3A2B1CDB0AC464A7757C4D212316728AF6124 (ChallengeOptions_t9A8A307A2A43C1E1022510A14E02515DF5191DD8* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Challenge.cs:48>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Challenge.cs:48>
 		intptr_t L_0 = __this->___Handle;
 		bool L_1 = ___0_value;
 		CLIB_ppf_ChallengeOptions_SetIncludePastChallenges_m7CDE72B71B97C616393B8DFE1DD5D13C29501D7D(L_0, L_1, NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Challenge.cs:49>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Challenge.cs:49>
 		return;
 	}
 }
-// Method Definition Index: 78440
+// Method Definition Index: 88494
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChallengeOptions_SetLeaderboardName_m9B6CA1355C85B5A974000C119845D32C97E5D4F7 (ChallengeOptions_t9A8A307A2A43C1E1022510A14E02515DF5191DD8* __this, String_t* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Challenge.cs:54>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Challenge.cs:54>
 		intptr_t L_0 = __this->___Handle;
 		String_t* L_1 = ___0_value;
 		CLIB_ppf_ChallengeOptions_SetLeaderboardName_m91E5B54B48A198FFB8059C9EA7BC6B50D2F4C186(L_0, L_1, NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Challenge.cs:55>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Challenge.cs:55>
 		return;
 	}
 }
-// Method Definition Index: 78441
+// Method Definition Index: 88495
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChallengeOptions_SetStartDate_mF2F3EE59E210F88F5ACD2495A5D4EDF36A1775F8 (ChallengeOptions_t9A8A307A2A43C1E1022510A14E02515DF5191DD8* __this, DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9849,7 +9849,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChallengeOptions_SetStartDate_mF2F3EE59E
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Challenge.cs:60>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Challenge.cs:60>
 		intptr_t L_0 = __this->___Handle;
 		DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D L_1 = ___0_value;
 		il2cpp_codegen_runtime_class_init_inline(TimeUtil_t5452C06092BC6F084DE46286E7F0D4FA1E970C36_il2cpp_TypeInfo_var);
@@ -9859,51 +9859,51 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChallengeOptions_SetStartDate_mF2F3EE59E
 		uint64_t L_3;
 		L_3 = Convert_ToUInt64_m53C3A45C87A06F25957619222B04EABFD214373C(L_2, NULL);
 		CLIB_ppf_ChallengeOptions_SetStartDate_m00B9A69ACAD71F33AD0BDE547AE02411E62B4D10(L_0, L_3, NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Challenge.cs:61>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Challenge.cs:61>
 		return;
 	}
 }
-// Method Definition Index: 78442
+// Method Definition Index: 88496
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChallengeOptions_SetTitle_m820E41942175F8D4AF93B24FE043A5070F20BD99 (ChallengeOptions_t9A8A307A2A43C1E1022510A14E02515DF5191DD8* __this, String_t* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Challenge.cs:66>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Challenge.cs:66>
 		intptr_t L_0 = __this->___Handle;
 		String_t* L_1 = ___0_value;
 		CLIB_ppf_ChallengeOptions_SetTitle_m413EA0AEA4EC27ECC6358A97994A87EEB31C69A8(L_0, L_1, NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Challenge.cs:67>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Challenge.cs:67>
 		return;
 	}
 }
-// Method Definition Index: 78443
+// Method Definition Index: 88497
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChallengeOptions_SetViewerFilter_m08A885AC74C522B5BB864C9FC0E22FF6E4D3DB7E (ChallengeOptions_t9A8A307A2A43C1E1022510A14E02515DF5191DD8* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Challenge.cs:72>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Challenge.cs:72>
 		intptr_t L_0 = __this->___Handle;
 		int32_t L_1 = ___0_value;
 		CLIB_ppf_ChallengeOptions_SetViewerFilter_mBB2183526B05441DCF1B93575FEC458ACDC15D6B(L_0, L_1, NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Challenge.cs:73>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Challenge.cs:73>
 		return;
 	}
 }
-// Method Definition Index: 78444
+// Method Definition Index: 88498
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChallengeOptions_SetVisibility_m577194240D8635F55AE827A3143920E275A2BFE3 (ChallengeOptions_t9A8A307A2A43C1E1022510A14E02515DF5191DD8* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Challenge.cs:78>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Challenge.cs:78>
 		intptr_t L_0 = __this->___Handle;
 		int32_t L_1 = ___0_value;
 		CLIB_ppf_ChallengeOptions_SetVisibility_mF62A54CE695BC12D40A25151308E3C18EB57B1AE(L_0, L_1, NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Challenge.cs:79>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Challenge.cs:79>
 		return;
 	}
 }
-// Method Definition Index: 78445
+// Method Definition Index: 88499
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t ChallengeOptions_op_Explicit_mC373A0A038484BA5BB13D5B20BE0550722523E4C (ChallengeOptions_t9A8A307A2A43C1E1022510A14E02515DF5191DD8* ___0_options, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Challenge.cs:83>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Challenge.cs:83>
 		ChallengeOptions_t9A8A307A2A43C1E1022510A14E02515DF5191DD8* L_0 = ___0_options;
 		if (L_0)
 		{
@@ -9922,7 +9922,7 @@ IL_0009:
 		return L_2;
 	}
 }
-// Method Definition Index: 78446
+// Method Definition Index: 88500
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChallengeOptions_Finalize_m93DF0C049D8F3A3BF80EC9801AF3E68C75ABC8F9 (ChallengeOptions_t9A8A307A2A43C1E1022510A14E02515DF5191DD8* __this, const RuntimeMethod* method) 
 {
 	{
@@ -9931,14 +9931,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChallengeOptions_Finalize_m93DF0C049D8F3
 
 FINALLY_000d:
 			{
-				//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Challenge.cs:89>
+				//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Challenge.cs:89>
 				Object_Finalize_mC98C96301CCABFE00F1A7EF8E15DF507CACD42B2(__this, NULL);
 				return;
 			}
 		});
 		try
 		{
-			//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Challenge.cs:88>
+			//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Challenge.cs:88>
 			intptr_t L_0 = __this->___Handle;
 			CLIB_ppf_ChallengeOptions_Destroy_m499648832560882E78FB7E6905C97A2B36F12B31(L_0, NULL);
 			goto IL_0014;
@@ -9951,15 +9951,15 @@ FINALLY_000d:
 
 IL_0014:
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Challenge.cs:89>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Challenge.cs:89>
 		return;
 	}
 }
-// Method Definition Index: 78447
+// Method Definition Index: 88501
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t ChallengeOptions_GetHandle_m485A6EEF3D4D9E805583E87DED3F2F77D6AC2DBC (ChallengeOptions_t9A8A307A2A43C1E1022510A14E02515DF5191DD8* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Challenge.cs:95>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Challenge.cs:95>
 		intptr_t L_0 = __this->___Handle;
 		return L_0;
 	}
@@ -9972,7 +9972,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t ChallengeOptions_GetHandle_m485A6EEF
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 78448
+// Method Definition Index: 88502
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Challenge__ctor_m874B7BFA0E469D7E10DCB22ACDB3790700D8EA8F (Challenge_t4D4126711B52D78CEDA93B79EC0EFF69927E3971* __this, intptr_t ___0_o, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -9991,9 +9991,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Challenge__ctor_m874B7BFA0E469D7E10DCB22
 	Exception_t* V_3 = NULL;
 	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 1> __active_exceptions;
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Challenge.cs:130>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Challenge.cs:130>
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Challenge.cs:132>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Challenge.cs:132>
 		intptr_t L_0 = ___0_o;
 		int32_t L_1;
 		L_1 = CLIB_ppf_Challenge_GetCreationType_m54722CFBBA46F0D71C731D213729B7CEB0C58CD5(L_0, NULL);
@@ -10001,7 +10001,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Challenge__ctor_m874B7BFA0E469D7E10DCB22
 	}
 	try
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Challenge.cs:136>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Challenge.cs:136>
 		intptr_t L_2 = ___0_o;
 		uint64_t L_3;
 		L_3 = CLIB_ppf_Challenge_GetEndDate_mCBDF7A2ED8714C96DA08DAF97248744C3F7157E8(L_2, NULL);
@@ -10009,7 +10009,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Challenge__ctor_m874B7BFA0E469D7E10DCB22
 		DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D L_4;
 		L_4 = TimeUtil_SecondsToDateTime_m5DC84ED0EEB5AB8AAF833B2F5FF5E9F075C165F4(L_3, NULL);
 		__this->___EndDate = L_4;
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Challenge.cs:137>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Challenge.cs:137>
 		goto IL_0043;
 	}
 	catch(Il2CppExceptionWrapper& e)
@@ -10025,9 +10025,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Challenge__ctor_m874B7BFA0E469D7E10DCB22
 CATCH_0025:
 	{
 		Exception_t* L_5 = ((Exception_t*)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t*));;
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Challenge.cs:138>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Challenge.cs:138>
 		V_0 = L_5;
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Challenge.cs:140>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Challenge.cs:140>
 		intptr_t L_6 = ___0_o;
 		uint64_t L_7;
 		L_7 = CLIB_ppf_Challenge_GetEndDate_mCBDF7A2ED8714C96DA08DAF97248744C3F7157E8(L_6, NULL);
@@ -10038,24 +10038,24 @@ CATCH_0025:
 		L_11 = String_Format_mFB7DA489BD99F4670881FF50EC017BFB0A5C0987(((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral73ECF991CB2C809BD76AEB6EF481BB2C816E93F3)), L_9, L_10, NULL);
 		il2cpp_codegen_runtime_class_init_inline(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var)));
 		Debug_LogWarning_m33EF1B897E0C7C6FF538989610BFAFFEF4628CA9(L_11, NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Challenge.cs:141>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Challenge.cs:141>
 		IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
 		goto IL_0043;
 	}
 
 IL_0043:
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Challenge.cs:143>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Challenge.cs:143>
 		intptr_t L_12 = ___0_o;
 		uint64_t L_13;
 		L_13 = CLIB_ppf_Challenge_GetID_mD003C6246D2607B8CD23B585BA9E86559BBD0F89(L_12, NULL);
 		__this->___ID = L_13;
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Challenge.cs:145>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Challenge.cs:145>
 		intptr_t L_14 = ___0_o;
 		intptr_t L_15;
 		L_15 = CLIB_ppf_Challenge_GetInvitedUsers_m4DF924A13B70554F30FAB4587F806B628C5FF915(L_14, NULL);
 		V_1 = L_15;
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Challenge.cs:146>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Challenge.cs:146>
 		intptr_t L_16 = V_1;
 		bool L_17;
 		L_17 = IntPtr_op_Equality_m7D9CDCDE9DC2A0C2C614633F4921E90187FAB271_inline(L_16, 0, NULL);
@@ -10065,7 +10065,7 @@ IL_0043:
 		}
 	}
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Challenge.cs:148>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Challenge.cs:148>
 		__this->___InvitedUsersOptional = (UserList_t5DD5257033AB7F06FBA7064529EE1C57F3ACAD2F*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___InvitedUsersOptional), (void*)(UserList_t5DD5257033AB7F06FBA7064529EE1C57F3ACAD2F*)NULL);
 		goto IL_0078;
@@ -10073,7 +10073,7 @@ IL_0043:
 
 IL_006c:
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Challenge.cs:152>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Challenge.cs:152>
 		intptr_t L_18 = V_1;
 		UserList_t5DD5257033AB7F06FBA7064529EE1C57F3ACAD2F* L_19 = (UserList_t5DD5257033AB7F06FBA7064529EE1C57F3ACAD2F*)il2cpp_codegen_object_new(UserList_t5DD5257033AB7F06FBA7064529EE1C57F3ACAD2F_il2cpp_TypeInfo_var);
 		UserList__ctor_m4FEB49DD26A4410363EE489A1D289C8725776F4D(L_19, L_18, NULL);
@@ -10083,7 +10083,7 @@ IL_006c:
 
 IL_0078:
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Challenge.cs:155>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Challenge.cs:155>
 		intptr_t L_20 = ___0_o;
 		intptr_t L_21;
 		L_21 = CLIB_ppf_Challenge_GetLeaderboard_m2D06346ECDCADDE7C68C5F2CFBBC5E7EA4713C40(L_20, NULL);
@@ -10091,12 +10091,12 @@ IL_0078:
 		Leaderboard__ctor_m2A2DEAE53680BB01FA25EF33302C76475BC2445A(L_22, L_21, NULL);
 		__this->___Leaderboard = L_22;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___Leaderboard), (void*)L_22);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Challenge.cs:157>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Challenge.cs:157>
 		intptr_t L_23 = ___0_o;
 		intptr_t L_24;
 		L_24 = CLIB_ppf_Challenge_GetParticipants_m8874B80EBB40D1B07BA5B32800D3297E6F1BE178(L_23, NULL);
 		V_2 = L_24;
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Challenge.cs:158>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Challenge.cs:158>
 		intptr_t L_25 = V_2;
 		bool L_26;
 		L_26 = IntPtr_op_Equality_m7D9CDCDE9DC2A0C2C614633F4921E90187FAB271_inline(L_25, 0, NULL);
@@ -10106,7 +10106,7 @@ IL_0078:
 		}
 	}
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Challenge.cs:160>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Challenge.cs:160>
 		__this->___ParticipantsOptional = (UserList_t5DD5257033AB7F06FBA7064529EE1C57F3ACAD2F*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___ParticipantsOptional), (void*)(UserList_t5DD5257033AB7F06FBA7064529EE1C57F3ACAD2F*)NULL);
 		goto IL_00b2;
@@ -10114,7 +10114,7 @@ IL_0078:
 
 IL_00a6:
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Challenge.cs:164>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Challenge.cs:164>
 		intptr_t L_27 = V_2;
 		UserList_t5DD5257033AB7F06FBA7064529EE1C57F3ACAD2F* L_28 = (UserList_t5DD5257033AB7F06FBA7064529EE1C57F3ACAD2F*)il2cpp_codegen_object_new(UserList_t5DD5257033AB7F06FBA7064529EE1C57F3ACAD2F_il2cpp_TypeInfo_var);
 		UserList__ctor_m4FEB49DD26A4410363EE489A1D289C8725776F4D(L_28, L_27, NULL);
@@ -10127,7 +10127,7 @@ IL_00b2:
 	}
 	try
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Challenge.cs:169>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Challenge.cs:169>
 		intptr_t L_29 = ___0_o;
 		uint64_t L_30;
 		L_30 = CLIB_ppf_Challenge_GetStartDate_m8AAA44D2E70AAADCB8EC1C80098C161CDE23A967(L_29, NULL);
@@ -10135,7 +10135,7 @@ IL_00b2:
 		DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D L_31;
 		L_31 = TimeUtil_SecondsToDateTime_m5DC84ED0EEB5AB8AAF833B2F5FF5E9F075C165F4(L_30, NULL);
 		__this->___StartDate = L_31;
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Challenge.cs:170>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Challenge.cs:170>
 		goto IL_00e4;
 	}
 	catch(Il2CppExceptionWrapper& e)
@@ -10151,9 +10151,9 @@ IL_00b2:
 CATCH_00c6:
 	{
 		Exception_t* L_32 = ((Exception_t*)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t*));;
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Challenge.cs:171>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Challenge.cs:171>
 		V_3 = L_32;
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Challenge.cs:173>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Challenge.cs:173>
 		intptr_t L_33 = ___0_o;
 		uint64_t L_34;
 		L_34 = CLIB_ppf_Challenge_GetStartDate_m8AAA44D2E70AAADCB8EC1C80098C161CDE23A967(L_33, NULL);
@@ -10164,25 +10164,25 @@ CATCH_00c6:
 		L_38 = String_Format_mFB7DA489BD99F4670881FF50EC017BFB0A5C0987(((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral4C05F264F2827749B257C389B7C1B994AD67E8C3)), L_36, L_37, NULL);
 		il2cpp_codegen_runtime_class_init_inline(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var)));
 		Debug_LogWarning_m33EF1B897E0C7C6FF538989610BFAFFEF4628CA9(L_38, NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Challenge.cs:174>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Challenge.cs:174>
 		IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
 		goto IL_00e4;
 	}
 
 IL_00e4:
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Challenge.cs:176>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Challenge.cs:176>
 		intptr_t L_39 = ___0_o;
 		String_t* L_40;
 		L_40 = CLIB_ppf_Challenge_GetTitle_m4F7315685093D3CA0959F8F5EFF7EAAB1147C71E(L_39, NULL);
 		__this->___Title = L_40;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___Title), (void*)L_40);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Challenge.cs:177>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Challenge.cs:177>
 		intptr_t L_41 = ___0_o;
 		int32_t L_42;
 		L_42 = CLIB_ppf_Challenge_GetVisibility_m7689009EADB3EB1AA23DD990122020B47FA3B720(L_41, NULL);
 		__this->___Visibility = L_42;
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Challenge.cs:178>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Challenge.cs:178>
 		return;
 	}
 }
@@ -10194,7 +10194,7 @@ IL_00e4:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 78449
+// Method Definition Index: 88503
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChallengeList__ctor_m590F163693CD06432A1421F1831D1ECB1E9E3F12 (ChallengeList_t46D99E7063774C36EF661DC3875AADDFC03E12D2* __this, intptr_t ___0_a, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10218,14 +10218,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChallengeList__ctor_m590F163693CD06432A1
 	String_t* G_B6_0 = NULL;
 	ChallengeList_t46D99E7063774C36EF661DC3875AADDFC03E12D2* G_B6_1 = NULL;
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Challenge.cs:184>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Challenge.cs:184>
 		MessageArray_1__ctor_mC023B4EA85DD7FE3EAA208D782D302DBDBAF0695(__this, MessageArray_1__ctor_mC023B4EA85DD7FE3EAA208D782D302DBDBAF0695_RuntimeMethod_var);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Challenge.cs:186>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Challenge.cs:186>
 		intptr_t L_0 = ___0_a;
 		uint64_t L_1;
 		L_1 = CLIB_ppf_ChallengeArray_GetTotalCount_m1DF20B06D266246E545B890BDD803210C57CFF11(L_0, NULL);
 		__this->___TotalCount = L_1;
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Challenge.cs:187>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Challenge.cs:187>
 		intptr_t L_2 = ___0_a;
 		bool L_3;
 		L_3 = CLIB_ppf_ChallengeArray_HasNextPage_m8F637C349327898187C00BB1964E0EE7D2990583(L_2, NULL);
@@ -10254,7 +10254,7 @@ IL_0027:
 		NullCheck(G_B3_1);
 		((MessageArray_1_t3AD15036E7E447220D0A42DE4FB31045C546D530*)G_B3_1)->___NextPageParam = G_B3_0;
 		Il2CppCodeGenWriteBarrier((void**)(&((MessageArray_1_t3AD15036E7E447220D0A42DE4FB31045C546D530*)G_B3_1)->___NextPageParam), (void*)G_B3_0);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Challenge.cs:188>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Challenge.cs:188>
 		intptr_t L_5 = ___0_a;
 		bool L_6;
 		L_6 = CLIB_ppf_ChallengeArray_HasPreviousPage_m489DF72D11CEE7B26316A8CA8B03908A0522241C(L_5, NULL);
@@ -10283,24 +10283,24 @@ IL_0041:
 		NullCheck(G_B6_1);
 		((MessageArray_1_t3AD15036E7E447220D0A42DE4FB31045C546D530*)G_B6_1)->___PreviousPageParam = G_B6_0;
 		Il2CppCodeGenWriteBarrier((void**)(&((MessageArray_1_t3AD15036E7E447220D0A42DE4FB31045C546D530*)G_B6_1)->___PreviousPageParam), (void*)G_B6_0);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Challenge.cs:189>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Challenge.cs:189>
 		intptr_t L_8 = ___0_a;
 		uintptr_t L_9;
 		L_9 = CLIB_ppf_ChallengeArray_GetSize_m19A7CA4D96B1793CC7526D13557AF0E443291460(L_8, NULL);
 		uint32_t L_10;
 		L_10 = UIntPtr_op_Explicit_m7802FC2BA4C3A18601BB8B58ED4708E0F07663E8(L_9, NULL);
 		V_0 = L_10;
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Challenge.cs:190>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Challenge.cs:190>
 		int32_t L_11 = V_0;
 		List_1_set_Capacity_mD8859A91DF45D79EC817B5FD13518AA8FEC1A777(__this, L_11, List_1_set_Capacity_mD8859A91DF45D79EC817B5FD13518AA8FEC1A777_RuntimeMethod_var);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Challenge.cs:191>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Challenge.cs:191>
 		V_1 = 0;
 		goto IL_0078;
 	}
 
 IL_005d:
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Challenge.cs:193>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Challenge.cs:193>
 		intptr_t L_12 = ___0_a;
 		uint32_t L_13 = V_1;
 		uintptr_t L_14;
@@ -10310,14 +10310,14 @@ IL_005d:
 		Challenge_t4D4126711B52D78CEDA93B79EC0EFF69927E3971* L_16 = (Challenge_t4D4126711B52D78CEDA93B79EC0EFF69927E3971*)il2cpp_codegen_object_new(Challenge_t4D4126711B52D78CEDA93B79EC0EFF69927E3971_il2cpp_TypeInfo_var);
 		Challenge__ctor_m874B7BFA0E469D7E10DCB22ACDB3790700D8EA8F(L_16, L_15, NULL);
 		List_1_Add_m1BA57A9C6578828099352E29E2BDA8357F2EFCD0_inline(__this, L_16, List_1_Add_m1BA57A9C6578828099352E29E2BDA8357F2EFCD0_RuntimeMethod_var);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Challenge.cs:191>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Challenge.cs:191>
 		uint32_t L_17 = V_1;
 		V_1 = ((int32_t)il2cpp_codegen_add((int32_t)L_17, 1));
 	}
 
 IL_0078:
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Challenge.cs:191>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Challenge.cs:191>
 		uint32_t L_18 = V_1;
 		int32_t L_19 = V_0;
 		if ((((int64_t)((int64_t)(uint64_t)((uint32_t)L_18))) < ((int64_t)((int64_t)L_19))))
@@ -10326,7 +10326,7 @@ IL_0078:
 		}
 	}
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Challenge.cs:195>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Challenge.cs:195>
 		return;
 	}
 }
@@ -10338,7 +10338,7 @@ IL_0078:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 78450
+// Method Definition Index: 88504
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChallengeEntry__ctor_mD68661A405B254CB2F675286E7CE8419B3B304A1 (ChallengeEntry_t16F06D309BE271B368F93F4F66001E1270B6EEAB* __this, intptr_t ___0_o, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10354,42 +10354,42 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChallengeEntry__ctor_mD68661A405B254CB2F
 	Exception_t* V_2 = NULL;
 	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 1> __active_exceptions;
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Challenge.cs:226>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Challenge.cs:226>
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Challenge.cs:228>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Challenge.cs:228>
 		intptr_t L_0 = ___0_o;
 		String_t* L_1;
 		L_1 = CLIB_ppf_ChallengeEntry_GetDisplayScore_m67936B244D533E7B57F43A1D2B04BB8F9CB4D499(L_0, NULL);
 		__this->___DisplayScore = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___DisplayScore), (void*)L_1);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Challenge.cs:229>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Challenge.cs:229>
 		intptr_t L_2 = ___0_o;
 		intptr_t L_3;
 		L_3 = CLIB_ppf_ChallengeEntry_GetExtraData_m4EA44F5AB49FD115736AE0A8DB570F88AA92C55C(L_2, NULL);
 		V_0 = L_3;
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Challenge.cs:230>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Challenge.cs:230>
 		intptr_t L_4 = ___0_o;
 		uint32_t L_5;
 		L_5 = CLIB_ppf_ChallengeEntry_GetExtraDataLength_m56C802D4C29D806C6E8AD2F85E04FF4A60BAFCEE(L_4, NULL);
 		V_1 = L_5;
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Challenge.cs:231>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Challenge.cs:231>
 		intptr_t L_6 = V_0;
 		uint32_t L_7 = V_1;
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_8;
 		L_8 = MarshalUtil_ByteArrayFromNative_m3285FDD06424A5CB82BD0EE8C63BBB8F8C2482DB(L_6, L_7, NULL);
 		__this->___ExtraData = L_8;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___ExtraData), (void*)L_8);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Challenge.cs:232>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Challenge.cs:232>
 		intptr_t L_9 = ___0_o;
 		uint64_t L_10;
 		L_10 = CLIB_ppf_ChallengeEntry_GetID_mA93758CC818587B6660FC3CEA39BF8BBBD23C2BD(L_9, NULL);
 		__this->___ID = L_10;
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Challenge.cs:233>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Challenge.cs:233>
 		intptr_t L_11 = ___0_o;
 		int32_t L_12;
 		L_12 = CLIB_ppf_ChallengeEntry_GetRank_m9C9213605C2B9413A8E14D06B4D59955A5A50D73(L_11, NULL);
 		__this->___Rank = L_12;
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Challenge.cs:234>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Challenge.cs:234>
 		intptr_t L_13 = ___0_o;
 		int64_t L_14;
 		L_14 = CLIB_ppf_ChallengeEntry_GetScore_m51C80C491AF519ECBBAAF4CD22BAA2A8AB48ED0A(L_13, NULL);
@@ -10397,7 +10397,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChallengeEntry__ctor_mD68661A405B254CB2F
 	}
 	try
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Challenge.cs:238>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Challenge.cs:238>
 		intptr_t L_15 = ___0_o;
 		uint64_t L_16;
 		L_16 = CLIB_ppf_ChallengeEntry_GetTimestamp_mE4222E9BCD2E2B7A0BCDA4A9B73CCB9BAD76C807(L_15, NULL);
@@ -10405,7 +10405,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChallengeEntry__ctor_mD68661A405B254CB2F
 		DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D L_17;
 		L_17 = TimeUtil_SecondsToDateTime_m5DC84ED0EEB5AB8AAF833B2F5FF5E9F075C165F4(L_16, NULL);
 		__this->___Timestamp = L_17;
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Challenge.cs:239>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Challenge.cs:239>
 		goto IL_0082;
 	}
 	catch(Il2CppExceptionWrapper& e)
@@ -10421,9 +10421,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChallengeEntry__ctor_mD68661A405B254CB2F
 CATCH_0064:
 	{
 		Exception_t* L_18 = ((Exception_t*)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t*));;
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Challenge.cs:240>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Challenge.cs:240>
 		V_2 = L_18;
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Challenge.cs:242>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Challenge.cs:242>
 		intptr_t L_19 = ___0_o;
 		uint64_t L_20;
 		L_20 = CLIB_ppf_ChallengeEntry_GetTimestamp_mE4222E9BCD2E2B7A0BCDA4A9B73CCB9BAD76C807(L_19, NULL);
@@ -10434,14 +10434,14 @@ CATCH_0064:
 		L_24 = String_Format_mFB7DA489BD99F4670881FF50EC017BFB0A5C0987(((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral399A0FC4CB5C00718DE77B8FB9DE3E6A8C8B50BE)), L_22, L_23, NULL);
 		il2cpp_codegen_runtime_class_init_inline(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var)));
 		Debug_LogWarning_m33EF1B897E0C7C6FF538989610BFAFFEF4628CA9(L_24, NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Challenge.cs:243>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Challenge.cs:243>
 		IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
 		goto IL_0082;
 	}
 
 IL_0082:
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Challenge.cs:245>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Challenge.cs:245>
 		intptr_t L_25 = ___0_o;
 		intptr_t L_26;
 		L_26 = CLIB_ppf_ChallengeEntry_GetUser_m2BCB9AFF38A65B6137FC60AC761A01D0B6FB3A8B(L_25, NULL);
@@ -10449,7 +10449,7 @@ IL_0082:
 		User__ctor_m0A17383A33457E27EB6AD299C81C77AC1802E0D1(L_27, L_26, NULL);
 		__this->___User = L_27;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___User), (void*)L_27);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Challenge.cs:246>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Challenge.cs:246>
 		return;
 	}
 }
@@ -10461,7 +10461,7 @@ IL_0082:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 78451
+// Method Definition Index: 88505
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChallengeEntryList__ctor_mE32548CF4E83DD21C0F12934D315A4E7C4D31AD6 (ChallengeEntryList_tF2741C9A3F98553DC191BB26844528DC5525BB87* __this, intptr_t ___0_a, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10485,14 +10485,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ChallengeEntryList__ctor_mE32548CF4E83DD
 	String_t* G_B6_0 = NULL;
 	ChallengeEntryList_tF2741C9A3F98553DC191BB26844528DC5525BB87* G_B6_1 = NULL;
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Challenge.cs:252>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Challenge.cs:252>
 		MessageArray_1__ctor_mA5A42AA1E725EA805913577703E01D8889C8B184(__this, MessageArray_1__ctor_mA5A42AA1E725EA805913577703E01D8889C8B184_RuntimeMethod_var);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Challenge.cs:254>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Challenge.cs:254>
 		intptr_t L_0 = ___0_a;
 		uint64_t L_1;
 		L_1 = CLIB_ppf_ChallengeEntryArray_GetTotalCount_mC0727FFA226C37F8292D50EF06980CA813721A7B(L_0, NULL);
 		__this->___TotalCount = L_1;
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Challenge.cs:255>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Challenge.cs:255>
 		intptr_t L_2 = ___0_a;
 		bool L_3;
 		L_3 = CLIB_ppf_ChallengeEntryArray_HasNextPage_m17DD52B8EBF5733D4FDD9999005177A8FA5E66CA(L_2, NULL);
@@ -10521,7 +10521,7 @@ IL_0027:
 		NullCheck(G_B3_1);
 		((MessageArray_1_t7879F9CC787398F1DCC478C7DFC9D19EB4D4837E*)G_B3_1)->___NextPageParam = G_B3_0;
 		Il2CppCodeGenWriteBarrier((void**)(&((MessageArray_1_t7879F9CC787398F1DCC478C7DFC9D19EB4D4837E*)G_B3_1)->___NextPageParam), (void*)G_B3_0);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Challenge.cs:256>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Challenge.cs:256>
 		intptr_t L_5 = ___0_a;
 		bool L_6;
 		L_6 = CLIB_ppf_ChallengeEntryArray_HasPreviousPage_m2E70F20E0BA239B512B68698C9D13E0C1AAA993C(L_5, NULL);
@@ -10550,24 +10550,24 @@ IL_0041:
 		NullCheck(G_B6_1);
 		((MessageArray_1_t7879F9CC787398F1DCC478C7DFC9D19EB4D4837E*)G_B6_1)->___PreviousPageParam = G_B6_0;
 		Il2CppCodeGenWriteBarrier((void**)(&((MessageArray_1_t7879F9CC787398F1DCC478C7DFC9D19EB4D4837E*)G_B6_1)->___PreviousPageParam), (void*)G_B6_0);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Challenge.cs:257>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Challenge.cs:257>
 		intptr_t L_8 = ___0_a;
 		uintptr_t L_9;
 		L_9 = CLIB_ppf_ChallengeEntryArray_GetSize_m2F77700C22B836B21C1CEE5F29CF52EF0729C3A9(L_8, NULL);
 		uint32_t L_10;
 		L_10 = UIntPtr_op_Explicit_m7802FC2BA4C3A18601BB8B58ED4708E0F07663E8(L_9, NULL);
 		V_0 = L_10;
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Challenge.cs:258>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Challenge.cs:258>
 		int32_t L_11 = V_0;
 		List_1_set_Capacity_m5832DE315E2469EA21365A385436DD5F7824940A(__this, L_11, List_1_set_Capacity_m5832DE315E2469EA21365A385436DD5F7824940A_RuntimeMethod_var);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Challenge.cs:259>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Challenge.cs:259>
 		V_1 = 0;
 		goto IL_0078;
 	}
 
 IL_005d:
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Challenge.cs:261>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Challenge.cs:261>
 		intptr_t L_12 = ___0_a;
 		uint32_t L_13 = V_1;
 		uintptr_t L_14;
@@ -10577,14 +10577,14 @@ IL_005d:
 		ChallengeEntry_t16F06D309BE271B368F93F4F66001E1270B6EEAB* L_16 = (ChallengeEntry_t16F06D309BE271B368F93F4F66001E1270B6EEAB*)il2cpp_codegen_object_new(ChallengeEntry_t16F06D309BE271B368F93F4F66001E1270B6EEAB_il2cpp_TypeInfo_var);
 		ChallengeEntry__ctor_mD68661A405B254CB2F675286E7CE8419B3B304A1(L_16, L_15, NULL);
 		List_1_Add_m1914F43100B594ABF59084FCF1FCFA2D848E9025_inline(__this, L_16, List_1_Add_m1914F43100B594ABF59084FCF1FCFA2D848E9025_RuntimeMethod_var);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Challenge.cs:259>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Challenge.cs:259>
 		uint32_t L_17 = V_1;
 		V_1 = ((int32_t)il2cpp_codegen_add((int32_t)L_17, 1));
 	}
 
 IL_0078:
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Challenge.cs:259>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Challenge.cs:259>
 		uint32_t L_18 = V_1;
 		int32_t L_19 = V_0;
 		if ((((int64_t)((int64_t)(uint64_t)((uint32_t)L_18))) < ((int64_t)((int64_t)L_19))))
@@ -10593,7 +10593,7 @@ IL_0078:
 		}
 	}
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Challenge.cs:263>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Challenge.cs:263>
 		return;
 	}
 }
@@ -10605,55 +10605,55 @@ IL_0078:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 78452
+// Method Definition Index: 88506
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t KVPairArray_get_Size_m791FA5D137AE74B4A1AA97C39AEDE37A9916EE10 (KVPairArray_t2D18141BDF81CCF74F01AD0CD6D940BFF0D65E1F* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Common.cs:19>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Common.cs:19>
 		uint32_t L_0 = __this->___U3CSizeU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 78453
+// Method Definition Index: 88507
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void KVPairArray_set_Size_mEF25D67ACDCEB5A98B41B65D53C7752DCDC51F4C (KVPairArray_t2D18141BDF81CCF74F01AD0CD6D940BFF0D65E1F* __this, uint32_t ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Common.cs:19>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Common.cs:19>
 		uint32_t L_0 = ___0_value;
 		__this->___U3CSizeU3Ek__BackingField = L_0;
 		return;
 	}
 }
-// Method Definition Index: 78454
+// Method Definition Index: 88508
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t KVPairArray_GetHandle_m389281C5195EBBD58347A4189B74F7C0A502DDA9 (KVPairArray_t2D18141BDF81CCF74F01AD0CD6D940BFF0D65E1F* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Common.cs:24>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Common.cs:24>
 		intptr_t L_0 = __this->___Handle;
 		return L_0;
 	}
 }
-// Method Definition Index: 78455
+// Method Definition Index: 88509
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void KVPairArray__ctor_m4F6917590761EBFF6B9B805FEE49015DB7768BA1 (KVPairArray_t2D18141BDF81CCF74F01AD0CD6D940BFF0D65E1F* __this, uint32_t ___0_size, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Common.cs:27>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Common.cs:27>
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Common.cs:29>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Common.cs:29>
 		uint32_t L_0 = ___0_size;
 		KVPairArray_set_Size_mEF25D67ACDCEB5A98B41B65D53C7752DCDC51F4C_inline(__this, L_0, NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Common.cs:30>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Common.cs:30>
 		uint32_t L_1 = ___0_size;
 		uintptr_t L_2;
 		L_2 = UIntPtr_op_Explicit_mD94DCD8965DD2E7D5A3370A04CCEDBE5937C078C(L_1, NULL);
 		intptr_t L_3;
 		L_3 = CLIB_ppf_KeyValuePairArray_Create_m6F54BFFE5EE7E6ABA1752058D12134CF2CBD97F6(L_2, NULL);
 		__this->___Handle = L_3;
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Common.cs:31>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Common.cs:31>
 		return;
 	}
 }
-// Method Definition Index: 78456
+// Method Definition Index: 88510
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void KVPairArray_Finalize_mA12E637E27AB493FECE735C2FC709D0EB4D95C75 (KVPairArray_t2D18141BDF81CCF74F01AD0CD6D940BFF0D65E1F* __this, const RuntimeMethod* method) 
 {
 	{
@@ -10662,17 +10662,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void KVPairArray_Finalize_mA12E637E27AB493FEC
 
 FINALLY_0018:
 			{
-				//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Common.cs:37>
+				//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Common.cs:37>
 				Object_Finalize_mC98C96301CCABFE00F1A7EF8E15DF507CACD42B2(__this, NULL);
 				return;
 			}
 		});
 		try
 		{
-			//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Common.cs:35>
+			//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Common.cs:35>
 			intptr_t L_0 = __this->___Handle;
 			CLIB_ppf_KeyValuePairArray_Destroy_m13DB772246A8F5676AEB1C20C90B353652110DF6(L_0, NULL);
-			//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Common.cs:36>
+			//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Common.cs:36>
 			__this->___Handle = 0;
 			goto IL_001f;
 		}
@@ -10684,11 +10684,11 @@ FINALLY_0018:
 
 IL_001f:
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Common.cs:37>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Common.cs:37>
 		return;
 	}
 }
-// Method Definition Index: 78457
+// Method Definition Index: 88511
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KVPair_t3B78D7F4C5A144597A4D25D3E998B119380117F0* KVPairArray_GetElement_mBCB16A773753147C85E56DE455DA4AE059191BDA (KVPairArray_t2D18141BDF81CCF74F01AD0CD6D940BFF0D65E1F* __this, uint32_t ___0_index, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -10698,7 +10698,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KVPair_t3B78D7F4C5A144597A4D25D3E998B11938011
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Common.cs:41>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Common.cs:41>
 		intptr_t L_0 = __this->___Handle;
 		uint32_t L_1 = ___0_index;
 		uintptr_t L_2;
@@ -10718,143 +10718,143 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR KVPair_t3B78D7F4C5A144597A4D25D3E998B11938011
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 78458
+// Method Definition Index: 88512
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void KVPair__ctor_mD1C402192A97E94D6EF9356F05E69FEFFDA1906A (KVPair_t3B78D7F4C5A144597A4D25D3E998B119380117F0* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Common.cs:48>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Common.cs:48>
 		__this->___destroyable = (bool)1;
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Common.cs:50>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Common.cs:50>
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Common.cs:52>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Common.cs:52>
 		intptr_t L_0;
 		L_0 = CLIB_ppf_KeyValuePair_Create_mA79AD02F3A312A65355B495A08360391C01B5FF6(NULL);
 		__this->___Handle = L_0;
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Common.cs:53>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Common.cs:53>
 		return;
 	}
 }
-// Method Definition Index: 78459
+// Method Definition Index: 88513
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void KVPair__ctor_m28A5FAFB2A42292D238E2A51A86E88A6EA1C8E70 (KVPair_t3B78D7F4C5A144597A4D25D3E998B119380117F0* __this, intptr_t ___0_o, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Common.cs:48>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Common.cs:48>
 		__this->___destroyable = (bool)1;
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Common.cs:55>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Common.cs:55>
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Common.cs:57>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Common.cs:57>
 		intptr_t L_0 = ___0_o;
 		__this->___Handle = L_0;
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Common.cs:58>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Common.cs:58>
 		__this->___destroyable = (bool)0;
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Common.cs:59>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Common.cs:59>
 		return;
 	}
 }
-// Method Definition Index: 78460
+// Method Definition Index: 88514
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void KVPair_SetIntValue_m4022E86A4D16FE34A363D1D83A499E46D576C1BB (KVPair_t3B78D7F4C5A144597A4D25D3E998B119380117F0* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Common.cs:63>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Common.cs:63>
 		intptr_t L_0 = __this->___Handle;
 		int32_t L_1 = ___0_value;
 		CLIB_ppf_KeyValuePair_SetIntValue_mC497AAC5BC9441B3EDA5F76157E0A277C98EF91A(L_0, L_1, NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Common.cs:64>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Common.cs:64>
 		return;
 	}
 }
-// Method Definition Index: 78461
+// Method Definition Index: 88515
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void KVPair_SetStringValue_mECC788009B804AFBA8737D4BB560D8359002C7A8 (KVPair_t3B78D7F4C5A144597A4D25D3E998B119380117F0* __this, String_t* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Common.cs:68>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Common.cs:68>
 		intptr_t L_0 = __this->___Handle;
 		String_t* L_1 = ___0_value;
 		CLIB_ppf_KeyValuePair_SetStringValue_m5F0A5632F7637FDC3C126481941D9FF3B71E0755(L_0, L_1, NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Common.cs:69>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Common.cs:69>
 		return;
 	}
 }
-// Method Definition Index: 78462
+// Method Definition Index: 88516
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void KVPair_SetDoubleValue_mAED848E9BAE1EE8DC5113E7B31D22F47EEADD83F (KVPair_t3B78D7F4C5A144597A4D25D3E998B119380117F0* __this, double ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Common.cs:73>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Common.cs:73>
 		intptr_t L_0 = __this->___Handle;
 		double L_1 = ___0_value;
 		CLIB_ppf_KeyValuePair_SetDoubleValue_mA7E44BB1493EDBEBCFFF44F05D9C3F85A1FE2CF8(L_0, L_1, NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Common.cs:74>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Common.cs:74>
 		return;
 	}
 }
-// Method Definition Index: 78463
+// Method Definition Index: 88517
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t KVPair_GetIntValue_m1442D0348BDFB42E7AFC2AED90A6E42CC87607FC (KVPair_t3B78D7F4C5A144597A4D25D3E998B119380117F0* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Common.cs:78>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Common.cs:78>
 		intptr_t L_0 = __this->___Handle;
 		int32_t L_1;
 		L_1 = CLIB_ppf_KeyValuePair_GetIntValue_m7AE0ECBD0C910DC87AEC76B78841152854253699(L_0, NULL);
 		return L_1;
 	}
 }
-// Method Definition Index: 78464
+// Method Definition Index: 88518
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* KVPair_GetStringValue_m7F2275CC86A9B8A127A25FBB5177A1BFBEC686AF (KVPair_t3B78D7F4C5A144597A4D25D3E998B119380117F0* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Common.cs:83>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Common.cs:83>
 		intptr_t L_0 = __this->___Handle;
 		String_t* L_1;
 		L_1 = CLIB_ppf_KeyValuePair_GetStringValue_mF16E2228192E638B64886EEE165C82BF11CDDE52(L_0, NULL);
 		return L_1;
 	}
 }
-// Method Definition Index: 78465
+// Method Definition Index: 88519
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double KVPair_GetDoubleValue_mBD7D726BEA28E90D6F6B02A10C089A26828AC7F9 (KVPair_t3B78D7F4C5A144597A4D25D3E998B119380117F0* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Common.cs:88>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Common.cs:88>
 		intptr_t L_0 = __this->___Handle;
 		double L_1;
 		L_1 = CLIB_ppf_KeyValuePair_GetDoubleValue_m56CD38E0B7348C51FEB3465E61382C9AD1E09BF9(L_0, NULL);
 		return L_1;
 	}
 }
-// Method Definition Index: 78466
+// Method Definition Index: 88520
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void KVPair_SetKey_m1D117E89B96B556874E3E70BAC0AA38789DF5C3C (KVPair_t3B78D7F4C5A144597A4D25D3E998B119380117F0* __this, String_t* ___0_key, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Common.cs:93>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Common.cs:93>
 		intptr_t L_0 = __this->___Handle;
 		String_t* L_1 = ___0_key;
 		CLIB_ppf_KeyValuePair_SetKey_m3B06ECCBEEB5CC87ADD5FFAD6981F87D295FBA38(L_0, L_1, NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Common.cs:94>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Common.cs:94>
 		return;
 	}
 }
-// Method Definition Index: 78467
+// Method Definition Index: 88521
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* KVPair_GetKey_m963F223634D6846B456D58CBE7E3D1E457D834A0 (KVPair_t3B78D7F4C5A144597A4D25D3E998B119380117F0* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Common.cs:98>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Common.cs:98>
 		intptr_t L_0 = __this->___Handle;
 		String_t* L_1;
 		L_1 = CLIB_ppf_KeyValuePair_GetKey_mEF5F8BDB87CC7F89999AC4E17C117D2DDB1B9218(L_0, NULL);
 		return L_1;
 	}
 }
-// Method Definition Index: 78468
+// Method Definition Index: 88522
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t KVPair_GetValueType_m9464A0576B73D8BC8C598466F76AEFEFCEAEB093 (KVPair_t3B78D7F4C5A144597A4D25D3E998B119380117F0* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Common.cs:103>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Common.cs:103>
 		intptr_t L_0 = __this->___Handle;
 		int32_t L_1;
 		L_1 = CLIB_ppf_KeyValuePair_GetValueType_mCFC2798E5D55D9D7D07EEA1C75CAC1016AD60887(L_0, NULL);
 		return L_1;
 	}
 }
-// Method Definition Index: 78469
+// Method Definition Index: 88523
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void KVPair_Finalize_mD56D4EC7772C1094BCF20EE12881ED15B0B987D4 (KVPair_t3B78D7F4C5A144597A4D25D3E998B119380117F0* __this, const RuntimeMethod* method) 
 {
 	{
@@ -10863,7 +10863,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void KVPair_Finalize_mD56D4EC7772C1094BCF20EE
 
 FINALLY_0020:
 			{
-				//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Common.cs:113>
+				//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Common.cs:113>
 				Object_Finalize_mC98C96301CCABFE00F1A7EF8E15DF507CACD42B2(__this, NULL);
 				return;
 			}
@@ -10871,7 +10871,7 @@ FINALLY_0020:
 		try
 		{
 			{
-				//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Common.cs:108>
+				//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Common.cs:108>
 				bool L_0 = __this->___destroyable;
 				if (!L_0)
 				{
@@ -10879,10 +10879,10 @@ FINALLY_0020:
 				}
 			}
 			{
-				//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Common.cs:110>
+				//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Common.cs:110>
 				intptr_t L_1 = __this->___Handle;
 				CLIB_ppf_KeyValuePair_Destroy_m7B7220611476C9701A52F66D112E43D92CEB565E(L_1, NULL);
-				//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Common.cs:111>
+				//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Common.cs:111>
 				__this->___Handle = 0;
 			}
 
@@ -10899,7 +10899,7 @@ IL_001e_1:
 
 IL_0027:
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Common.cs:113>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Common.cs:113>
 		return;
 	}
 }
@@ -10911,24 +10911,24 @@ IL_0027:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 78470
+// Method Definition Index: 88524
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DetectSensitiveResult__ctor_m8AB12882BD96F72BE43FFDA5B67519FC734818FD (DetectSensitiveResult_t3F811A4C213815D1A2E488BCC02B4F0927C06381* __this, intptr_t ___0_o, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Compliance.cs:25>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Compliance.cs:25>
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Compliance.cs:27>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Compliance.cs:27>
 		intptr_t L_0 = ___0_o;
 		String_t* L_1;
 		L_1 = CLIB_ppf_DetectSensitiveResult_GetFilteredText_mDDDE2F0034C8E04BD2EB83A613CA4C05E7E0E480(L_0, NULL);
 		__this->___FilteredText = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___FilteredText), (void*)L_1);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Compliance.cs:28>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Compliance.cs:28>
 		intptr_t L_2 = ___0_o;
 		int32_t L_3;
 		L_3 = CLIB_ppf_DetectSensitiveResult_GetProposal_m2B9E448CE776FE5A9AA77F4E80A63057ACD3B486(L_2, NULL);
 		__this->___Proposal = L_3;
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Compliance.cs:29>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Compliance.cs:29>
 		return;
 	}
 }
@@ -10940,25 +10940,25 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DetectSensitiveResult__ctor_m8AB12882BD9
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 78471
+// Method Definition Index: 88525
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CaptureInfo__ctor_m37807B6D793D0C2EE7004FD38C0BFB9768B9B515 (CaptureInfo_t522928357E5822ACBC5FC59A060BDBABFF3DF575* __this, intptr_t ___0_o, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Highlight.cs:31>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Highlight.cs:31>
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Highlight.cs:33>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Highlight.cs:33>
 		intptr_t L_0 = ___0_o;
 		String_t* L_1;
 		L_1 = CLIB_ppf_CaptureInfo_GetImagePath_m244258184C6AB978A2BFDAF65ECF8871FCEB2970(L_0, NULL);
 		__this->___ImagePath = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___ImagePath), (void*)L_1);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Highlight.cs:34>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Highlight.cs:34>
 		intptr_t L_2 = ___0_o;
 		String_t* L_3;
 		L_3 = CLIB_ppf_CaptureInfo_GetJobId_m82FD585826C8CA38269BAEF8BEC2D7978471A759(L_2, NULL);
 		__this->___JobId = L_3;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___JobId), (void*)L_3);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Highlight.cs:35>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Highlight.cs:35>
 		return;
 	}
 }
@@ -10970,40 +10970,40 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CaptureInfo__ctor_m37807B6D793D0C2EE7004
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 78472
+// Method Definition Index: 88526
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RecordInfo__ctor_m62B1FA6DDC2D03A3F8FFF3239A1D7D7209897627 (RecordInfo_t391FC28285898D9D06E379287A88F5A4BA4A6019* __this, intptr_t ___0_o, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Highlight.cs:65>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Highlight.cs:65>
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Highlight.cs:67>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Highlight.cs:67>
 		intptr_t L_0 = ___0_o;
 		String_t* L_1;
 		L_1 = CLIB_ppf_RecordInfo_GetVideoPath_m2E2AC69C63DA6D160606CA864BE72D887FD21DFB(L_0, NULL);
 		__this->___VideoPath = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___VideoPath), (void*)L_1);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Highlight.cs:68>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Highlight.cs:68>
 		intptr_t L_2 = ___0_o;
 		int32_t L_3;
 		L_3 = CLIB_ppf_RecordInfo_GetDurationInMilliSeconds_mD05B3267C985B017CFA3735A226AD903B734529B(L_2, NULL);
 		__this->___DurationInMilliSeconds = L_3;
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Highlight.cs:69>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Highlight.cs:69>
 		intptr_t L_4 = ___0_o;
 		int32_t L_5;
 		L_5 = CLIB_ppf_RecordInfo_GetWidth_mF57EE42B5F16E2C0D601AEDD9C38BB2EBDDC38C5(L_4, NULL);
 		__this->___Width = L_5;
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Highlight.cs:70>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Highlight.cs:70>
 		intptr_t L_6 = ___0_o;
 		int32_t L_7;
 		L_7 = CLIB_ppf_RecordInfo_GetHeight_m0E4967A34E1AFFFD63FC6FF56EBB8C8DA70175ED(L_6, NULL);
 		__this->___Height = L_7;
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Highlight.cs:71>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Highlight.cs:71>
 		intptr_t L_8 = ___0_o;
 		String_t* L_9;
 		L_9 = CLIB_ppf_RecordInfo_GetJobId_mFDA5187B9A0231E5990963F53ACE5B15899C8FBC(L_8, NULL);
 		__this->___JobId = L_9;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___JobId), (void*)L_9);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Highlight.cs:72>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Highlight.cs:72>
 		return;
 	}
 }
@@ -11015,7 +11015,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RecordInfo__ctor_m62B1FA6DDC2D03A3F8FFF3
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 78473
+// Method Definition Index: 88527
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SessionMedia__ctor_mB07225E10E8D33F70802F145706CB104A3BBF565 (SessionMedia_tCFC23B02299EDBE3E3749B48286C4CD403C89A07* __this, intptr_t ___0_o, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11032,28 +11032,28 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SessionMedia__ctor_mB07225E10E8D33F70802
 	int32_t V_2 = 0;
 	int32_t V_3 = 0;
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Highlight.cs:90>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Highlight.cs:90>
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Highlight.cs:93>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Highlight.cs:93>
 		intptr_t L_0 = ___0_o;
 		uintptr_t L_1;
 		L_1 = CLIB_ppf_SessionMedia_GetImagesSize_m6FD9B49191EC82E4DE3DC9A12E99107797452A8F(L_0, NULL);
 		uint32_t L_2;
 		L_2 = UIntPtr_op_Explicit_m7802FC2BA4C3A18601BB8B58ED4708E0F07663E8(L_1, NULL);
 		V_0 = L_2;
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Highlight.cs:94>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Highlight.cs:94>
 		int32_t L_3 = V_0;
 		CaptureInfoU5BU5D_tFA6FAA7D7AE3BBB1688FD52AE43DE5032184993E* L_4 = (CaptureInfoU5BU5D_tFA6FAA7D7AE3BBB1688FD52AE43DE5032184993E*)(CaptureInfoU5BU5D_tFA6FAA7D7AE3BBB1688FD52AE43DE5032184993E*)SZArrayNew(CaptureInfoU5BU5D_tFA6FAA7D7AE3BBB1688FD52AE43DE5032184993E_il2cpp_TypeInfo_var, (uint32_t)L_3);
 		__this->___Images = L_4;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___Images), (void*)L_4);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Highlight.cs:95>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Highlight.cs:95>
 		V_1 = 0;
 		goto IL_0040;
 	}
 
 IL_0022:
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Highlight.cs:97>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Highlight.cs:97>
 		CaptureInfoU5BU5D_tFA6FAA7D7AE3BBB1688FD52AE43DE5032184993E* L_5 = __this->___Images;
 		int32_t L_6 = V_1;
 		intptr_t L_7 = ___0_o;
@@ -11067,14 +11067,14 @@ IL_0022:
 		NullCheck(L_5);
 		ArrayElementTypeCheck (L_5, L_11);
 		(L_5)->SetAt(static_cast<il2cpp_array_size_t>(L_6), (CaptureInfo_t522928357E5822ACBC5FC59A060BDBABFF3DF575*)L_11);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Highlight.cs:95>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Highlight.cs:95>
 		int32_t L_12 = V_1;
 		V_1 = ((int32_t)il2cpp_codegen_add(L_12, 1));
 	}
 
 IL_0040:
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Highlight.cs:95>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Highlight.cs:95>
 		int32_t L_13 = V_1;
 		int32_t L_14 = V_0;
 		if ((((int32_t)L_13) < ((int32_t)L_14)))
@@ -11083,26 +11083,26 @@ IL_0040:
 		}
 	}
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Highlight.cs:101>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Highlight.cs:101>
 		intptr_t L_15 = ___0_o;
 		uintptr_t L_16;
 		L_16 = CLIB_ppf_SessionMedia_GetVideosSize_m09B378F0FC0DC9F7869EDAFCF8399CE5E0E188FF(L_15, NULL);
 		uint32_t L_17;
 		L_17 = UIntPtr_op_Explicit_m7802FC2BA4C3A18601BB8B58ED4708E0F07663E8(L_16, NULL);
 		V_2 = L_17;
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Highlight.cs:102>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Highlight.cs:102>
 		int32_t L_18 = V_2;
 		RecordInfoU5BU5D_t1505D0DB4C486883C741B73244F4130B5AF19854* L_19 = (RecordInfoU5BU5D_t1505D0DB4C486883C741B73244F4130B5AF19854*)(RecordInfoU5BU5D_t1505D0DB4C486883C741B73244F4130B5AF19854*)SZArrayNew(RecordInfoU5BU5D_t1505D0DB4C486883C741B73244F4130B5AF19854_il2cpp_TypeInfo_var, (uint32_t)L_18);
 		__this->___Videos = L_19;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___Videos), (void*)L_19);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Highlight.cs:103>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Highlight.cs:103>
 		V_3 = 0;
 		goto IL_007e;
 	}
 
 IL_0060:
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Highlight.cs:105>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Highlight.cs:105>
 		RecordInfoU5BU5D_t1505D0DB4C486883C741B73244F4130B5AF19854* L_20 = __this->___Videos;
 		int32_t L_21 = V_3;
 		intptr_t L_22 = ___0_o;
@@ -11116,14 +11116,14 @@ IL_0060:
 		NullCheck(L_20);
 		ArrayElementTypeCheck (L_20, L_26);
 		(L_20)->SetAt(static_cast<il2cpp_array_size_t>(L_21), (RecordInfo_t391FC28285898D9D06E379287A88F5A4BA4A6019*)L_26);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Highlight.cs:103>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Highlight.cs:103>
 		int32_t L_27 = V_3;
 		V_3 = ((int32_t)il2cpp_codegen_add(L_27, 1));
 	}
 
 IL_007e:
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Highlight.cs:103>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Highlight.cs:103>
 		int32_t L_28 = V_3;
 		int32_t L_29 = V_2;
 		if ((((int32_t)L_28) < ((int32_t)L_29)))
@@ -11132,7 +11132,7 @@ IL_007e:
 		}
 	}
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Highlight.cs:108>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Highlight.cs:108>
 		return;
 	}
 }
@@ -11144,92 +11144,92 @@ IL_007e:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 78474
+// Method Definition Index: 88528
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Product__ctor_m2B89360C220C7AF2D5772983DFFA37D45E959C80 (Product_t1507FCF7293FA1250C325F33FEA9C46DBD487D66* __this, intptr_t ___0_o, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/IAP.cs:66>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/IAP.cs:66>
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/IAP.cs:68>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/IAP.cs:68>
 		intptr_t L_0 = ___0_o;
 		String_t* L_1;
 		L_1 = CLIB_ppf_Product_GetDescription_mD1B0779646243AA5FB9688ECB436C3440DFAC700(L_0, NULL);
 		__this->___Description = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___Description), (void*)L_1);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/IAP.cs:69>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/IAP.cs:69>
 		intptr_t L_2 = ___0_o;
 		String_t* L_3;
 		L_3 = CLIB_ppf_Product_GetDetailDescription_mA8F954985EF6C5BCC48B2507AE5BC313094C8DDD(L_2, NULL);
 		__this->___DetailDescription = L_3;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___DetailDescription), (void*)L_3);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/IAP.cs:70>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/IAP.cs:70>
 		intptr_t L_4 = ___0_o;
 		String_t* L_5;
 		L_5 = CLIB_ppf_Product_GetPrice_m8652C7A00E9EFC1916452594FD90B1843AE19354(L_4, NULL);
 		__this->___Price = L_5;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___Price), (void*)L_5);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/IAP.cs:71>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/IAP.cs:71>
 		intptr_t L_6 = ___0_o;
 		String_t* L_7;
 		L_7 = CLIB_ppf_Product_GetCurrency_mEE194462F6866E2D1DD209839973F97868925AE8(L_6, NULL);
 		__this->___Currency = L_7;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___Currency), (void*)L_7);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/IAP.cs:72>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/IAP.cs:72>
 		intptr_t L_8 = ___0_o;
 		String_t* L_9;
 		L_9 = CLIB_ppf_Product_GetName_mD6CBAC72CD5E96A0445933B767E72A7A92C3DD29(L_8, NULL);
 		__this->___Name = L_9;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___Name), (void*)L_9);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/IAP.cs:73>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/IAP.cs:73>
 		intptr_t L_10 = ___0_o;
 		String_t* L_11;
 		L_11 = CLIB_ppf_Product_GetSKU_m43A370DCC294314B0C85CE1D82303A8134C1AF01(L_10, NULL);
 		__this->___SKU = L_11;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___SKU), (void*)L_11);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/IAP.cs:74>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/IAP.cs:74>
 		intptr_t L_12 = ___0_o;
 		String_t* L_13;
 		L_13 = CLIB_ppf_Product_GetIcon_m4DA4D8820C994B721BAF067740422F0AE7E92DB7(L_12, NULL);
 		__this->___Icon = L_13;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___Icon), (void*)L_13);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/IAP.cs:75>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/IAP.cs:75>
 		intptr_t L_14 = ___0_o;
 		int32_t L_15;
 		L_15 = CLIB_ppf_Product_GetAddonsType_m6B3F5E884CA75B4401A176ADF3C525AEAC1543D3(L_14, NULL);
 		__this->___AddonsType = L_15;
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/IAP.cs:76>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/IAP.cs:76>
 		intptr_t L_16 = ___0_o;
 		int32_t L_17;
 		L_17 = CLIB_ppf_Product_GetPeriodType_mFB4E69F348D9C29A8EEAD2627734E7081BD16F8D(L_16, NULL);
 		__this->___PeriodType = L_17;
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/IAP.cs:77>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/IAP.cs:77>
 		intptr_t L_18 = ___0_o;
 		int32_t L_19;
 		L_19 = CLIB_ppf_Product_GetTrialPeriodUnit_mAC8F88A36DE9ACFF22503D38484AF9A21D31466F(L_18, NULL);
 		__this->___TrialPeriodUnit = L_19;
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/IAP.cs:78>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/IAP.cs:78>
 		intptr_t L_20 = ___0_o;
 		int32_t L_21;
 		L_21 = CLIB_ppf_Product_GetTrialPeriodValue_m0B7A544E5F45A6C9C6582C60469F06FD953298C4(L_20, NULL);
 		__this->___TrialPeriodValue = L_21;
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/IAP.cs:79>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/IAP.cs:79>
 		intptr_t L_22 = ___0_o;
 		String_t* L_23;
 		L_23 = CLIB_ppf_Product_GetOuterId_m267AFFBDEE32F2C381823A9B6BD748DC47F6BDAB(L_22, NULL);
 		__this->___OuterId = L_23;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___OuterId), (void*)L_23);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/IAP.cs:80>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/IAP.cs:80>
 		intptr_t L_24 = ___0_o;
 		String_t* L_25;
 		L_25 = CLIB_ppf_Product_GetOriginalPrice_m235B0BE70565566B7689EEB90B7BEB398A3F433D(L_24, NULL);
 		__this->___OriginalPrice = L_25;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___OriginalPrice), (void*)L_25);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/IAP.cs:81>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/IAP.cs:81>
 		intptr_t L_26 = ___0_o;
 		bool L_27;
 		L_27 = CLIB_ppf_Product_IsContinuous_m020687081765F96283B5981EBF0772FE172D147F(L_26, NULL);
 		__this->___IsContinuous = L_27;
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/IAP.cs:82>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/IAP.cs:82>
 		return;
 	}
 }
@@ -11241,7 +11241,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Product__ctor_m2B89360C220C7AF2D5772983D
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 78475
+// Method Definition Index: 88529
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ProductList__ctor_mEFB4D04F2EEAF14DA4A1685980EDD46C0E2E9141 (ProductList_t60557078ACE42730D11C630A551C5ECF6DD48160* __this, intptr_t ___0_a, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11256,26 +11256,26 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ProductList__ctor_mEFB4D04F2EEAF14DA4A16
 	int32_t V_0 = 0;
 	int32_t V_1 = 0;
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/IAP.cs:90>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/IAP.cs:90>
 		MessageArray_1__ctor_m070935432E3EC3110B908F76DBAF98885CFDDB32(__this, MessageArray_1__ctor_m070935432E3EC3110B908F76DBAF98885CFDDB32_RuntimeMethod_var);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/IAP.cs:92>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/IAP.cs:92>
 		intptr_t L_0 = ___0_a;
 		uintptr_t L_1;
 		L_1 = CLIB_ppf_ProductArray_GetSize_m97628B5E987760A2E7A917DFEE15F7F853EFF096(L_0, NULL);
 		uint32_t L_2;
 		L_2 = UIntPtr_op_Explicit_m7802FC2BA4C3A18601BB8B58ED4708E0F07663E8(L_1, NULL);
 		V_0 = L_2;
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/IAP.cs:93>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/IAP.cs:93>
 		int32_t L_3 = V_0;
 		List_1_set_Capacity_m450A27888E6E123248BB184BB5FA984716BEEA65(__this, L_3, List_1_set_Capacity_m450A27888E6E123248BB184BB5FA984716BEEA65_RuntimeMethod_var);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/IAP.cs:94>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/IAP.cs:94>
 		V_1 = 0;
 		goto IL_0039;
 	}
 
 IL_001d:
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/IAP.cs:96>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/IAP.cs:96>
 		intptr_t L_4 = ___0_a;
 		int32_t L_5 = V_1;
 		uintptr_t L_6;
@@ -11285,14 +11285,14 @@ IL_001d:
 		Product_t1507FCF7293FA1250C325F33FEA9C46DBD487D66* L_8 = (Product_t1507FCF7293FA1250C325F33FEA9C46DBD487D66*)il2cpp_codegen_object_new(Product_t1507FCF7293FA1250C325F33FEA9C46DBD487D66_il2cpp_TypeInfo_var);
 		Product__ctor_m2B89360C220C7AF2D5772983DFFA37D45E959C80(L_8, L_7, NULL);
 		List_1_Add_mAC66765B1249EE653786600439164EBFDD4CD46B_inline(__this, L_8, List_1_Add_mAC66765B1249EE653786600439164EBFDD4CD46B_RuntimeMethod_var);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/IAP.cs:94>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/IAP.cs:94>
 		int32_t L_9 = V_1;
 		V_1 = ((int32_t)il2cpp_codegen_add(L_9, 1));
 	}
 
 IL_0039:
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/IAP.cs:94>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/IAP.cs:94>
 		int32_t L_10 = V_1;
 		int32_t L_11 = V_0;
 		if ((((int32_t)L_10) < ((int32_t)L_11)))
@@ -11301,13 +11301,13 @@ IL_0039:
 		}
 	}
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/IAP.cs:99>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/IAP.cs:99>
 		intptr_t L_12 = ___0_a;
 		String_t* L_13;
 		L_13 = CLIB_ppf_ProductArray_GetNextPageParam_mA37EED0D81F0DD2F3341B70951CB11AD180773AC(L_12, NULL);
 		((MessageArray_1_tC6F5900777FE83D0B145BC0F27D11D16A33673A0*)__this)->___NextPageParam = L_13;
 		Il2CppCodeGenWriteBarrier((void**)(&((MessageArray_1_tC6F5900777FE83D0B145BC0F27D11D16A33673A0*)__this)->___NextPageParam), (void*)L_13);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/IAP.cs:100>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/IAP.cs:100>
 		return;
 	}
 }
@@ -11319,7 +11319,7 @@ IL_0039:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 78476
+// Method Definition Index: 88530
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Purchase__ctor_m7632482DEC5F4C2996224366FAE1009D916A6CCF (Purchase_t4EB26AC15A7E0936D3E6722DA01B1DF84A3D469A* __this, intptr_t ___0_o, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11329,9 +11329,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Purchase__ctor_m7632482DEC5F4C2996224366
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/IAP.cs:145>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/IAP.cs:145>
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/IAP.cs:147>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/IAP.cs:147>
 		intptr_t L_0 = ___0_o;
 		int64_t L_1;
 		L_1 = CLIB_ppf_Purchase_GetExpirationTime_mA67E34B8181562A639DC76496A6A3DB2798E5463(L_0, NULL);
@@ -11339,71 +11339,71 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Purchase__ctor_m7632482DEC5F4C2996224366
 		DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D L_2;
 		L_2 = TimeUtil_MilliSecondsToDateTime_mF1197E9C5865487072B28200D665A6AEEA15F54C(L_1, NULL);
 		__this->___ExpirationTime = L_2;
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/IAP.cs:148>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/IAP.cs:148>
 		intptr_t L_3 = ___0_o;
 		int64_t L_4;
 		L_4 = CLIB_ppf_Purchase_GetGrantTime_mBA17D386F2842A720F4240C23007B174F8178612(L_3, NULL);
 		DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D L_5;
 		L_5 = TimeUtil_MilliSecondsToDateTime_mF1197E9C5865487072B28200D665A6AEEA15F54C(L_4, NULL);
 		__this->___GrantTime = L_5;
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/IAP.cs:149>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/IAP.cs:149>
 		intptr_t L_6 = ___0_o;
 		String_t* L_7;
 		L_7 = CLIB_ppf_Purchase_GetID_mDC7B79E2B3572603BF51704168A5612DE29A69EE(L_6, NULL);
 		__this->___ID = L_7;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___ID), (void*)L_7);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/IAP.cs:150>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/IAP.cs:150>
 		intptr_t L_8 = ___0_o;
 		String_t* L_9;
 		L_9 = CLIB_ppf_Purchase_GetSKU_mA89770C220CF5AC77D41E117519FD3CE8C58742D(L_8, NULL);
 		__this->___SKU = L_9;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___SKU), (void*)L_9);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/IAP.cs:151>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/IAP.cs:151>
 		intptr_t L_10 = ___0_o;
 		String_t* L_11;
 		L_11 = CLIB_ppf_Purchase_GetIcon_mBC898A37C6D4B800F2F92036C9C114B8170DB8E0(L_10, NULL);
 		__this->___Icon = L_11;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___Icon), (void*)L_11);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/IAP.cs:152>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/IAP.cs:152>
 		intptr_t L_12 = ___0_o;
 		int32_t L_13;
 		L_13 = CLIB_ppf_Purchase_GetAddonsType_m82F2A1C27298CE21B4DEF36E71E733D0CA5F76A8(L_12, NULL);
 		__this->___AddonsType = L_13;
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/IAP.cs:153>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/IAP.cs:153>
 		intptr_t L_14 = ___0_o;
 		String_t* L_15;
 		L_15 = CLIB_ppf_Purchase_GetOuterId_mD609AFEEFA9C7086F96C8CB4F64D14D72C403618(L_14, NULL);
 		__this->___OuterId = L_15;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___OuterId), (void*)L_15);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/IAP.cs:154>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/IAP.cs:154>
 		intptr_t L_16 = ___0_o;
 		int32_t L_17;
 		L_17 = CLIB_ppf_Purchase_GetCurrentPeriodType_mB7967308B7B6E9428DD24C233BB82EBD854D5C82(L_16, NULL);
 		__this->___CurrentPeriodType = L_17;
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/IAP.cs:155>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/IAP.cs:155>
 		intptr_t L_18 = ___0_o;
 		int32_t L_19;
 		L_19 = CLIB_ppf_Purchase_GetNextPeriodType_m3D1B5702CE7ADE0657FD3F47EEE7CC4DC0B625FB(L_18, NULL);
 		__this->___NextPeriodType = L_19;
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/IAP.cs:156>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/IAP.cs:156>
 		intptr_t L_20 = ___0_o;
 		int64_t L_21;
 		L_21 = CLIB_ppf_Purchase_GetNextPayTime_mEC3DEFC0111F54758740837010589B4975729D08(L_20, NULL);
 		DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D L_22;
 		L_22 = TimeUtil_MilliSecondsToDateTime_mF1197E9C5865487072B28200D665A6AEEA15F54C(L_21, NULL);
 		__this->___NextPayTime = L_22;
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/IAP.cs:157>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/IAP.cs:157>
 		intptr_t L_23 = ___0_o;
 		int32_t L_24;
 		L_24 = CLIB_ppf_Purchase_GetDiscountType_mFC8540A1E5708C25F478127E8EE94190B4B52F65(L_23, NULL);
 		__this->___DiscountType = L_24;
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/IAP.cs:158>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/IAP.cs:158>
 		intptr_t L_25 = ___0_o;
 		String_t* L_26;
 		L_26 = CLIB_ppf_Purchase_GetOrderComment_mD71C08EAF31B97086796ED9D408729953687F545(L_25, NULL);
 		__this->___OrderComment = L_26;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___OrderComment), (void*)L_26);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/IAP.cs:159>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/IAP.cs:159>
 		return;
 	}
 }
@@ -11415,7 +11415,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Purchase__ctor_m7632482DEC5F4C2996224366
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 78477
+// Method Definition Index: 88531
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PurchaseList__ctor_m5E57010B8B89CEBD9571D9831E52011ABE8B30A4 (PurchaseList_tE73ABD4A2D17ED67A2A410C78B54519A32A16C03* __this, intptr_t ___0_a, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11430,26 +11430,26 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PurchaseList__ctor_m5E57010B8B89CEBD9571
 	int32_t V_0 = 0;
 	int32_t V_1 = 0;
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/IAP.cs:167>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/IAP.cs:167>
 		MessageArray_1__ctor_m42C5998DCEE5808E1E75BDC255282820B0FCDE4E(__this, MessageArray_1__ctor_m42C5998DCEE5808E1E75BDC255282820B0FCDE4E_RuntimeMethod_var);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/IAP.cs:169>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/IAP.cs:169>
 		intptr_t L_0 = ___0_a;
 		uintptr_t L_1;
 		L_1 = CLIB_ppf_PurchaseArray_GetSize_mA0DD6A9962FE6027F7479292AB1B5738FD1A882E(L_0, NULL);
 		uint32_t L_2;
 		L_2 = UIntPtr_op_Explicit_m7802FC2BA4C3A18601BB8B58ED4708E0F07663E8(L_1, NULL);
 		V_0 = L_2;
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/IAP.cs:170>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/IAP.cs:170>
 		int32_t L_3 = V_0;
 		List_1_set_Capacity_mAE4CCF57EB35D4AFBB85D1E658B88B9226F3EDB6(__this, L_3, List_1_set_Capacity_mAE4CCF57EB35D4AFBB85D1E658B88B9226F3EDB6_RuntimeMethod_var);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/IAP.cs:171>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/IAP.cs:171>
 		V_1 = 0;
 		goto IL_0039;
 	}
 
 IL_001d:
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/IAP.cs:173>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/IAP.cs:173>
 		intptr_t L_4 = ___0_a;
 		int32_t L_5 = V_1;
 		uintptr_t L_6;
@@ -11459,14 +11459,14 @@ IL_001d:
 		Purchase_t4EB26AC15A7E0936D3E6722DA01B1DF84A3D469A* L_8 = (Purchase_t4EB26AC15A7E0936D3E6722DA01B1DF84A3D469A*)il2cpp_codegen_object_new(Purchase_t4EB26AC15A7E0936D3E6722DA01B1DF84A3D469A_il2cpp_TypeInfo_var);
 		Purchase__ctor_m7632482DEC5F4C2996224366FAE1009D916A6CCF(L_8, L_7, NULL);
 		List_1_Add_mEADFAAEBDAE002FF709831869BFB21C97F3E6545_inline(__this, L_8, List_1_Add_mEADFAAEBDAE002FF709831869BFB21C97F3E6545_RuntimeMethod_var);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/IAP.cs:171>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/IAP.cs:171>
 		int32_t L_9 = V_1;
 		V_1 = ((int32_t)il2cpp_codegen_add(L_9, 1));
 	}
 
 IL_0039:
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/IAP.cs:171>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/IAP.cs:171>
 		int32_t L_10 = V_1;
 		int32_t L_11 = V_0;
 		if ((((int32_t)L_10) < ((int32_t)L_11)))
@@ -11475,13 +11475,13 @@ IL_0039:
 		}
 	}
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/IAP.cs:176>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/IAP.cs:176>
 		intptr_t L_12 = ___0_a;
 		String_t* L_13;
 		L_13 = CLIB_ppf_PurchaseArray_GetNextPageParam_mA8D3B2B96F786E717986A0BF59D3A48083195025(L_12, NULL);
 		((MessageArray_1_t05AA39A5AA11CCE42EA326113EC8CB01D26F8E92*)__this)->___NextPageParam = L_13;
 		Il2CppCodeGenWriteBarrier((void**)(&((MessageArray_1_t05AA39A5AA11CCE42EA326113EC8CB01D26F8E92*)__this)->___NextPageParam), (void*)L_13);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/IAP.cs:177>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/IAP.cs:177>
 		return;
 	}
 }
@@ -11493,7 +11493,7 @@ IL_0039:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 78478
+// Method Definition Index: 88532
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SubscriptionStatus__ctor_mD5354B2DD20B48D6865C8C88C76E62FB1E98C9E7 (SubscriptionStatus_tB2999CB0297F3E98A32D66E36872B688BD5ABA17* __this, intptr_t ___0_o, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11503,21 +11503,21 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SubscriptionStatus__ctor_mD5354B2DD20B48
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/IAP.cs:212>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/IAP.cs:212>
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/IAP.cs:214>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/IAP.cs:214>
 		intptr_t L_0 = ___0_o;
 		String_t* L_1;
 		L_1 = CLIB_ppf_SubscriptionStatus_GetSKU_m5595F9F55F1503D5561F9EF34CEDEC817BBFB1F8(L_0, NULL);
 		__this->___SKU = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___SKU), (void*)L_1);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/IAP.cs:215>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/IAP.cs:215>
 		intptr_t L_2 = ___0_o;
 		String_t* L_3;
 		L_3 = CLIB_ppf_SubscriptionStatus_GetOuterId_mFD523578B31BFC34A584F37C0DA6EC8F05C5EDDA(L_2, NULL);
 		__this->___OuterId = L_3;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___OuterId), (void*)L_3);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/IAP.cs:216>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/IAP.cs:216>
 		intptr_t L_4 = ___0_o;
 		int64_t L_5;
 		L_5 = CLIB_ppf_SubscriptionStatus_GetStartTime_m6BF1EF8ADCBB86DD1B4C18FE01E60275AC3B6D13(L_4, NULL);
@@ -11525,39 +11525,39 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SubscriptionStatus__ctor_mD5354B2DD20B48
 		DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D L_6;
 		L_6 = TimeUtil_MilliSecondsToDateTime_mF1197E9C5865487072B28200D665A6AEEA15F54C(L_5, NULL);
 		__this->___StartTime = L_6;
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/IAP.cs:217>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/IAP.cs:217>
 		intptr_t L_7 = ___0_o;
 		int64_t L_8;
 		L_8 = CLIB_ppf_SubscriptionStatus_GetEndTime_m706198F960CC228B8DB969F5D06E4C469DFB8054(L_7, NULL);
 		DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D L_9;
 		L_9 = TimeUtil_MilliSecondsToDateTime_mF1197E9C5865487072B28200D665A6AEEA15F54C(L_8, NULL);
 		__this->___EndTime = L_9;
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/IAP.cs:218>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/IAP.cs:218>
 		intptr_t L_10 = ___0_o;
 		int32_t L_11;
 		L_11 = CLIB_ppf_SubscriptionStatus_GetPeriodType_m21BFF84CCB3DAC33C671214718143CADF98BE13C(L_10, NULL);
 		__this->___PeriodType = L_11;
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/IAP.cs:219>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/IAP.cs:219>
 		intptr_t L_12 = ___0_o;
 		int32_t L_13;
 		L_13 = CLIB_ppf_SubscriptionStatus_GetEntitlementStatus_m17EB83072450EFEDC2003F5A91C30E6941180F3E(L_12, NULL);
 		__this->___EntitlementStatus = L_13;
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/IAP.cs:220>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/IAP.cs:220>
 		intptr_t L_14 = ___0_o;
 		int32_t L_15;
 		L_15 = CLIB_ppf_SubscriptionStatus_GetCancelReason_m9CA3C5B29A788E48D6C6270839F6844522CF167B(L_14, NULL);
 		__this->___CancelReason = L_15;
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/IAP.cs:221>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/IAP.cs:221>
 		intptr_t L_16 = ___0_o;
 		bool L_17;
 		L_17 = CLIB_ppf_SubscriptionStatus_GetIsFreeTrial_m6B838DA3E66F24F6177D7484F7AEF298BA6BA71E(L_16, NULL);
 		__this->___IsFreeTrial = L_17;
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/IAP.cs:222>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/IAP.cs:222>
 		intptr_t L_18 = ___0_o;
 		int32_t L_19;
 		L_19 = CLIB_ppf_SubscriptionStatus_GetNextPeriod_mA29187B347B2E79C402190E2F129BE3BA51222B4(L_18, NULL);
 		__this->___NextPeriod = L_19;
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/IAP.cs:223>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/IAP.cs:223>
 		return;
 	}
 }
@@ -11569,7 +11569,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SubscriptionStatus__ctor_mD5354B2DD20B48
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 78479
+// Method Definition Index: 88533
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Leaderboard__ctor_m2A2DEAE53680BB01FA25EF33302C76475BC2445A (Leaderboard_t6D83DEF000B68074D583D0D92AED4AE1EFB14595* __this, intptr_t ___0_o, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11581,25 +11581,25 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Leaderboard__ctor_m2A2DEAE53680BB01FA25E
 	intptr_t V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Leaderboard.cs:33>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Leaderboard.cs:33>
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Leaderboard.cs:35>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Leaderboard.cs:35>
 		intptr_t L_0 = ___0_o;
 		String_t* L_1;
 		L_1 = CLIB_ppf_Leaderboard_GetApiName_m3C44DFA46E56BAC07EDB706A4ADBAB260BBB5512(L_0, NULL);
 		__this->___ApiName = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___ApiName), (void*)L_1);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Leaderboard.cs:36>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Leaderboard.cs:36>
 		intptr_t L_2 = ___0_o;
 		uint64_t L_3;
 		L_3 = CLIB_ppf_Leaderboard_GetID_mB2B837031119D9D620AEC7AB717267B55611A1A6(L_2, NULL);
 		__this->___ID = L_3;
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Leaderboard.cs:37>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Leaderboard.cs:37>
 		intptr_t L_4 = ___0_o;
 		intptr_t L_5;
 		L_5 = CLIB_ppf_Leaderboard_GetDestination_mFCB9EC7188152DBA1F8B8EE64BBE49A9A16F6AB6(L_4, NULL);
 		V_0 = L_5;
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Leaderboard.cs:38>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Leaderboard.cs:38>
 		intptr_t L_6 = V_0;
 		bool L_7;
 		L_7 = IntPtr_op_Equality_m7D9CDCDE9DC2A0C2C614633F4921E90187FAB271_inline(L_6, 0, NULL);
@@ -11609,7 +11609,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Leaderboard__ctor_m2A2DEAE53680BB01FA25E
 		}
 	}
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Leaderboard.cs:39>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Leaderboard.cs:39>
 		__this->___DestinationOptional = (Destination_tA15CF6CD249A4E5BB7F74D6807F786FABDE29211*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___DestinationOptional), (void*)(Destination_tA15CF6CD249A4E5BB7F74D6807F786FABDE29211*)NULL);
 		return;
@@ -11617,13 +11617,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Leaderboard__ctor_m2A2DEAE53680BB01FA25E
 
 IL_003a:
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Leaderboard.cs:41>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Leaderboard.cs:41>
 		intptr_t L_8 = V_0;
 		Destination_tA15CF6CD249A4E5BB7F74D6807F786FABDE29211* L_9 = (Destination_tA15CF6CD249A4E5BB7F74D6807F786FABDE29211*)il2cpp_codegen_object_new(Destination_tA15CF6CD249A4E5BB7F74D6807F786FABDE29211_il2cpp_TypeInfo_var);
 		Destination__ctor_mB1261B84D715AED778CC96E68B1F2C0907CF8543(L_9, L_8, NULL);
 		__this->___DestinationOptional = L_9;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___DestinationOptional), (void*)L_9);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Leaderboard.cs:42>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Leaderboard.cs:42>
 		return;
 	}
 }
@@ -11635,7 +11635,7 @@ IL_003a:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 78480
+// Method Definition Index: 88534
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LeaderboardList__ctor_m081285F5CA0D77E487C83DDFFF5C9FE1AB70F18C (LeaderboardList_t8BED638069122AD476155B80846591364CB07B06* __this, intptr_t ___0_a, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11655,14 +11655,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LeaderboardList__ctor_m081285F5CA0D77E48
 	String_t* G_B3_0 = NULL;
 	LeaderboardList_t8BED638069122AD476155B80846591364CB07B06* G_B3_1 = NULL;
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Leaderboard.cs:50>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Leaderboard.cs:50>
 		MessageArray_1__ctor_mDF051A62863C8BF176120076EFE94E48880CCF09(__this, MessageArray_1__ctor_mDF051A62863C8BF176120076EFE94E48880CCF09_RuntimeMethod_var);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Leaderboard.cs:53>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Leaderboard.cs:53>
 		intptr_t L_0 = ___0_a;
 		uint64_t L_1;
 		L_1 = CLIB_ppf_LeaderboardArray_GetTotalCount_mE26F608C8EEAEE8C90A61F15B1E9C307667351DD(L_0, NULL);
 		__this->___TotalCount = L_1;
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Leaderboard.cs:54>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Leaderboard.cs:54>
 		intptr_t L_2 = ___0_a;
 		bool L_3;
 		L_3 = CLIB_ppf_LeaderboardArray_HasNextPage_m0283D91B507A12D29EAD6557E14EB38EF65ACB87(L_2, NULL);
@@ -11691,24 +11691,24 @@ IL_0027:
 		NullCheck(G_B3_1);
 		((MessageArray_1_tF4173B1C53148BB935C764587034896F121CCA0A*)G_B3_1)->___NextPageParam = G_B3_0;
 		Il2CppCodeGenWriteBarrier((void**)(&((MessageArray_1_tF4173B1C53148BB935C764587034896F121CCA0A*)G_B3_1)->___NextPageParam), (void*)G_B3_0);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Leaderboard.cs:55>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Leaderboard.cs:55>
 		intptr_t L_5 = ___0_a;
 		uintptr_t L_6;
 		L_6 = CLIB_ppf_LeaderboardArray_GetSize_mE4CDF1698DDEB674D5D80707B8C773850F1AD373(L_5, NULL);
 		uint32_t L_7;
 		L_7 = UIntPtr_op_Explicit_m7802FC2BA4C3A18601BB8B58ED4708E0F07663E8(L_6, NULL);
 		V_0 = L_7;
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Leaderboard.cs:56>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Leaderboard.cs:56>
 		int32_t L_8 = V_0;
 		List_1_set_Capacity_m963CDE36EB1DC3435DF73BC25E0C47DCB90B73EA(__this, L_8, List_1_set_Capacity_m963CDE36EB1DC3435DF73BC25E0C47DCB90B73EA_RuntimeMethod_var);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Leaderboard.cs:57>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Leaderboard.cs:57>
 		V_1 = 0;
 		goto IL_005f;
 	}
 
 IL_0043:
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Leaderboard.cs:59>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Leaderboard.cs:59>
 		intptr_t L_9 = ___0_a;
 		int32_t L_10 = V_1;
 		uintptr_t L_11;
@@ -11718,14 +11718,14 @@ IL_0043:
 		Leaderboard_t6D83DEF000B68074D583D0D92AED4AE1EFB14595* L_13 = (Leaderboard_t6D83DEF000B68074D583D0D92AED4AE1EFB14595*)il2cpp_codegen_object_new(Leaderboard_t6D83DEF000B68074D583D0D92AED4AE1EFB14595_il2cpp_TypeInfo_var);
 		Leaderboard__ctor_m2A2DEAE53680BB01FA25EF33302C76475BC2445A(L_13, L_12, NULL);
 		List_1_Add_mCC5C1CBC4EADCF51A55299EAD6C37250FC897458_inline(__this, L_13, List_1_Add_mCC5C1CBC4EADCF51A55299EAD6C37250FC897458_RuntimeMethod_var);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Leaderboard.cs:57>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Leaderboard.cs:57>
 		int32_t L_14 = V_1;
 		V_1 = ((int32_t)il2cpp_codegen_add(L_14, 1));
 	}
 
 IL_005f:
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Leaderboard.cs:57>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Leaderboard.cs:57>
 		int32_t L_15 = V_1;
 		int32_t L_16 = V_0;
 		if ((((int32_t)L_15) < ((int32_t)L_16)))
@@ -11734,7 +11734,7 @@ IL_005f:
 		}
 	}
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Leaderboard.cs:61>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Leaderboard.cs:61>
 		return;
 	}
 }
@@ -11746,23 +11746,23 @@ IL_005f:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 78481
+// Method Definition Index: 88535
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SupplementaryMetric__ctor_m4344D6AE0DB6BE0F5D79A62F613F6AD477BEC46C (SupplementaryMetric_t28C1258D6CB519A099746C713C51A1F14C2C242A* __this, intptr_t ___0_o, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Leaderboard.cs:73>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Leaderboard.cs:73>
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Leaderboard.cs:75>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Leaderboard.cs:75>
 		intptr_t L_0 = ___0_o;
 		uint64_t L_1;
 		L_1 = CLIB_ppf_SupplementaryMetric_GetID_m8BE37395168CC4A43F55FAEF84F4802666BC08A6(L_0, NULL);
 		__this->___ID = L_1;
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Leaderboard.cs:76>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Leaderboard.cs:76>
 		intptr_t L_2 = ___0_o;
 		int64_t L_3;
 		L_3 = CLIB_ppf_SupplementaryMetric_GetMetric_mF5AAFFA6AB2EB9FF451C3BB1520B107077164497(L_2, NULL);
 		__this->___Metric = L_3;
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Leaderboard.cs:77>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Leaderboard.cs:77>
 		return;
 	}
 }
@@ -11774,7 +11774,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SupplementaryMetric__ctor_m4344D6AE0DB6B
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 78482
+// Method Definition Index: 88536
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LeaderboardEntry__ctor_mFA163C827FC8CB49FC78292F3659A08DA0D2602A (LeaderboardEntry_tDFA599CDDC7EC20F2041B9BCF885BAE5A8B7DF9F* __this, intptr_t ___0_o, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11791,47 +11791,47 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LeaderboardEntry__ctor_mFA163C827FC8CB49
 	intptr_t V_2;
 	memset((&V_2), 0, sizeof(V_2));
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Leaderboard.cs:101>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Leaderboard.cs:101>
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Leaderboard.cs:103>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Leaderboard.cs:103>
 		intptr_t L_0 = ___0_o;
 		String_t* L_1;
 		L_1 = CLIB_ppf_LeaderboardEntry_GetDisplayScore_mEE5F0A6BE447A93D8283FE72064D9C4CCD850808(L_0, NULL);
 		__this->___DisplayScore = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___DisplayScore), (void*)L_1);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Leaderboard.cs:104>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Leaderboard.cs:104>
 		intptr_t L_2 = ___0_o;
 		intptr_t L_3;
 		L_3 = CLIB_ppf_LeaderboardEntry_GetExtraData_m0A15944A0014F6A15EF55660F3FBBA7A4E4E6E4C(L_2, NULL);
 		V_0 = L_3;
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Leaderboard.cs:105>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Leaderboard.cs:105>
 		intptr_t L_4 = ___0_o;
 		uint32_t L_5;
 		L_5 = CLIB_ppf_LeaderboardEntry_GetExtraDataLength_m87680D3362D47D7097051C8CFE4843AC9B7DEC1C(L_4, NULL);
 		V_1 = L_5;
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Leaderboard.cs:106>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Leaderboard.cs:106>
 		intptr_t L_6 = V_0;
 		uint32_t L_7 = V_1;
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_8;
 		L_8 = MarshalUtil_ByteArrayFromNative_m3285FDD06424A5CB82BD0EE8C63BBB8F8C2482DB(L_6, L_7, NULL);
 		__this->___ExtraData = L_8;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___ExtraData), (void*)L_8);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Leaderboard.cs:107>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Leaderboard.cs:107>
 		intptr_t L_9 = ___0_o;
 		uint64_t L_10;
 		L_10 = CLIB_ppf_LeaderboardEntry_GetID_m729C4E3230616AB7987BF79BDCA2F9F6DCA6A61B(L_9, NULL);
 		__this->___ID = L_10;
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Leaderboard.cs:108>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Leaderboard.cs:108>
 		intptr_t L_11 = ___0_o;
 		int32_t L_12;
 		L_12 = CLIB_ppf_LeaderboardEntry_GetRank_m74818B002D623F894496C066DB61A372241E9D9F(L_11, NULL);
 		__this->___Rank = L_12;
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Leaderboard.cs:109>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Leaderboard.cs:109>
 		intptr_t L_13 = ___0_o;
 		int64_t L_14;
 		L_14 = CLIB_ppf_LeaderboardEntry_GetScore_m3806DB60A56B51FEF526D0A9C766B9A17318A355(L_13, NULL);
 		__this->___Score = L_14;
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Leaderboard.cs:110>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Leaderboard.cs:110>
 		intptr_t L_15 = ___0_o;
 		uint64_t L_16;
 		L_16 = CLIB_ppf_LeaderboardEntry_GetTimestamp_m235480C0DC5A324DE8AAC7DE40C52531DC9D1AB6(L_15, NULL);
@@ -11839,7 +11839,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LeaderboardEntry__ctor_mFA163C827FC8CB49
 		DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D L_17;
 		L_17 = TimeUtil_SecondsToDateTime_m5DC84ED0EEB5AB8AAF833B2F5FF5E9F075C165F4(L_16, NULL);
 		__this->___Timestamp = L_17;
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Leaderboard.cs:111>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Leaderboard.cs:111>
 		intptr_t L_18 = ___0_o;
 		intptr_t L_19;
 		L_19 = CLIB_ppf_LeaderboardEntry_GetUser_m1D2A3F19B7EE38A6DD695B8FECAEBD5C19518E31(L_18, NULL);
@@ -11847,12 +11847,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LeaderboardEntry__ctor_mFA163C827FC8CB49
 		User__ctor_m0A17383A33457E27EB6AD299C81C77AC1802E0D1(L_20, L_19, NULL);
 		__this->___User = L_20;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___User), (void*)L_20);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Leaderboard.cs:113>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Leaderboard.cs:113>
 		intptr_t L_21 = ___0_o;
 		intptr_t L_22;
 		L_22 = CLIB_ppf_LeaderboardEntry_GetSupplementaryMetric_m2867CD031D7DA78D4D040918983A0CB8A6514422(L_21, NULL);
 		V_2 = L_22;
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Leaderboard.cs:114>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Leaderboard.cs:114>
 		intptr_t L_23 = V_2;
 		bool L_24;
 		L_24 = IntPtr_op_Equality_m7D9CDCDE9DC2A0C2C614633F4921E90187FAB271_inline(L_23, 0, NULL);
@@ -11862,7 +11862,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LeaderboardEntry__ctor_mFA163C827FC8CB49
 		}
 	}
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Leaderboard.cs:116>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Leaderboard.cs:116>
 		__this->___SupplementaryMetricOptional = (SupplementaryMetric_t28C1258D6CB519A099746C713C51A1F14C2C242A*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___SupplementaryMetricOptional), (void*)(SupplementaryMetric_t28C1258D6CB519A099746C713C51A1F14C2C242A*)NULL);
 		return;
@@ -11870,13 +11870,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LeaderboardEntry__ctor_mFA163C827FC8CB49
 
 IL_008f:
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Leaderboard.cs:120>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Leaderboard.cs:120>
 		intptr_t L_25 = V_2;
 		SupplementaryMetric_t28C1258D6CB519A099746C713C51A1F14C2C242A* L_26 = (SupplementaryMetric_t28C1258D6CB519A099746C713C51A1F14C2C242A*)il2cpp_codegen_object_new(SupplementaryMetric_t28C1258D6CB519A099746C713C51A1F14C2C242A_il2cpp_TypeInfo_var);
 		SupplementaryMetric__ctor_m4344D6AE0DB6BE0F5D79A62F613F6AD477BEC46C(L_26, L_25, NULL);
 		__this->___SupplementaryMetricOptional = L_26;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___SupplementaryMetricOptional), (void*)L_26);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Leaderboard.cs:123>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Leaderboard.cs:123>
 		return;
 	}
 }
@@ -11888,7 +11888,7 @@ IL_008f:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 78483
+// Method Definition Index: 88537
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LeaderboardEntryList__ctor_mA7DD0E76A29DD8A4360F294F4C63ADA264A42FF1 (LeaderboardEntryList_t6B5536586844053D032CB41222DC969C7FC0DC8D* __this, intptr_t ___0_a, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -11912,9 +11912,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LeaderboardEntryList__ctor_mA7DD0E76A29D
 	String_t* G_B6_0 = NULL;
 	LeaderboardEntryList_t6B5536586844053D032CB41222DC969C7FC0DC8D* G_B6_1 = NULL;
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Leaderboard.cs:132>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Leaderboard.cs:132>
 		MessageArray_1__ctor_mC6CA9C8AA50186FFCDF3CA2E5A30AE34E21DE5D2(__this, MessageArray_1__ctor_mC6CA9C8AA50186FFCDF3CA2E5A30AE34E21DE5D2_RuntimeMethod_var);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Leaderboard.cs:134>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Leaderboard.cs:134>
 		intptr_t L_0 = ___0_a;
 		bool L_1;
 		L_1 = CLIB_ppf_LeaderboardEntryArray_HasNextPage_mBE803587B662F538084710F22E2172B41AF7BFBE(L_0, NULL);
@@ -11943,7 +11943,7 @@ IL_001b:
 		NullCheck(G_B3_1);
 		((MessageArray_1_tB8E04BD481F9ACE36C3AC7750EC6E3168CF6ED31*)G_B3_1)->___NextPageParam = G_B3_0;
 		Il2CppCodeGenWriteBarrier((void**)(&((MessageArray_1_tB8E04BD481F9ACE36C3AC7750EC6E3168CF6ED31*)G_B3_1)->___NextPageParam), (void*)G_B3_0);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Leaderboard.cs:135>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Leaderboard.cs:135>
 		intptr_t L_3 = ___0_a;
 		bool L_4;
 		L_4 = CLIB_ppf_LeaderboardEntryArray_HasPreviousPage_mC57A7D0351CC71FD09239FBBFADAB6696FB89AEA(L_3, NULL);
@@ -11972,24 +11972,24 @@ IL_0035:
 		NullCheck(G_B6_1);
 		((MessageArray_1_tB8E04BD481F9ACE36C3AC7750EC6E3168CF6ED31*)G_B6_1)->___PreviousPageParam = G_B6_0;
 		Il2CppCodeGenWriteBarrier((void**)(&((MessageArray_1_tB8E04BD481F9ACE36C3AC7750EC6E3168CF6ED31*)G_B6_1)->___PreviousPageParam), (void*)G_B6_0);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Leaderboard.cs:136>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Leaderboard.cs:136>
 		intptr_t L_6 = ___0_a;
 		uintptr_t L_7;
 		L_7 = CLIB_ppf_LeaderboardEntryArray_GetSize_m5515778739F91A78D5C16C00D24E6C2A1D6414A7(L_6, NULL);
 		uint32_t L_8;
 		L_8 = UIntPtr_op_Explicit_m7802FC2BA4C3A18601BB8B58ED4708E0F07663E8(L_7, NULL);
 		V_0 = L_8;
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Leaderboard.cs:137>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Leaderboard.cs:137>
 		int32_t L_9 = V_0;
 		List_1_set_Capacity_m4B212271F60F59CA181E583E2FA1000A14E49C55(__this, L_9, List_1_set_Capacity_m4B212271F60F59CA181E583E2FA1000A14E49C55_RuntimeMethod_var);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Leaderboard.cs:138>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Leaderboard.cs:138>
 		V_1 = 0;
 		goto IL_006c;
 	}
 
 IL_0051:
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Leaderboard.cs:140>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Leaderboard.cs:140>
 		intptr_t L_10 = ___0_a;
 		uint32_t L_11 = V_1;
 		uintptr_t L_12;
@@ -11999,14 +11999,14 @@ IL_0051:
 		LeaderboardEntry_tDFA599CDDC7EC20F2041B9BCF885BAE5A8B7DF9F* L_14 = (LeaderboardEntry_tDFA599CDDC7EC20F2041B9BCF885BAE5A8B7DF9F*)il2cpp_codegen_object_new(LeaderboardEntry_tDFA599CDDC7EC20F2041B9BCF885BAE5A8B7DF9F_il2cpp_TypeInfo_var);
 		LeaderboardEntry__ctor_mFA163C827FC8CB49FC78292F3659A08DA0D2602A(L_14, L_13, NULL);
 		List_1_Add_m9BB55A99B1916D012AB4E3E0A2CAB3E7EFA4513D_inline(__this, L_14, List_1_Add_m9BB55A99B1916D012AB4E3E0A2CAB3E7EFA4513D_RuntimeMethod_var);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Leaderboard.cs:138>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Leaderboard.cs:138>
 		uint32_t L_15 = V_1;
 		V_1 = ((int32_t)il2cpp_codegen_add((int32_t)L_15, 1));
 	}
 
 IL_006c:
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Leaderboard.cs:138>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Leaderboard.cs:138>
 		uint32_t L_16 = V_1;
 		int32_t L_17 = V_0;
 		if ((((int64_t)((int64_t)(uint64_t)((uint32_t)L_16))) < ((int64_t)((int64_t)L_17))))
@@ -12015,12 +12015,12 @@ IL_006c:
 		}
 	}
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Leaderboard.cs:143>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Leaderboard.cs:143>
 		intptr_t L_18 = ___0_a;
 		uint64_t L_19;
 		L_19 = CLIB_ppf_LeaderboardEntryArray_GetTotalCount_m9F341000A8F8BE7E5D7985791DD5525CFBC782EB(L_18, NULL);
 		__this->___TotalCount = L_19;
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Leaderboard.cs:144>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Leaderboard.cs:144>
 		return;
 	}
 }
@@ -12032,7 +12032,7 @@ IL_006c:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 78484
+// Method Definition Index: 88538
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MatchmakingAdminSnapshot__ctor_m17C01478ACBD07391C18DD67F372B6471E2E971F (MatchmakingAdminSnapshot_tF75B3A1A51D503587990BECC068C30E7671EE451* __this, intptr_t ___0_o, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -12042,9 +12042,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MatchmakingAdminSnapshot__ctor_m17C01478
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Matchmaking.cs:26>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Matchmaking.cs:26>
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Matchmaking.cs:28>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Matchmaking.cs:28>
 		intptr_t L_0 = ___0_o;
 		intptr_t L_1;
 		L_1 = CLIB_ppf_MatchmakingAdminSnapshot_GetCandidates_m0CB683248FD83BD4A535EBD9CC3A1336C206673D(L_0, NULL);
@@ -12052,12 +12052,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MatchmakingAdminSnapshot__ctor_m17C01478
 		MatchmakingAdminSnapshotCandidateList__ctor_m50F375A22DF5875C52AB1E3D16267248A6433AD9(L_2, L_1, NULL);
 		__this->___CandidateList = L_2;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___CandidateList), (void*)L_2);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Matchmaking.cs:29>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Matchmaking.cs:29>
 		intptr_t L_3 = ___0_o;
 		double L_4;
 		L_4 = CLIB_ppf_MatchmakingAdminSnapshot_GetMyCurrentThreshold_m1D6BE3E5F0A324CEE7B071C54CEDB4B6A18048AC(L_3, NULL);
 		__this->___MyCurrentThreshold = L_4;
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Matchmaking.cs:30>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Matchmaking.cs:30>
 		return;
 	}
 }
@@ -12069,28 +12069,28 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MatchmakingAdminSnapshot__ctor_m17C01478
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 78485
+// Method Definition Index: 88539
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MatchmakingAdminSnapshotCandidate__ctor_m3F82611D0119A6464ECE680CFF74F29F07BD7B5F (MatchmakingAdminSnapshotCandidate_t2325F5337C73FF55AB6D932F2A14C97E3A813CCC* __this, intptr_t ___0_o, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Matchmaking.cs:43>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Matchmaking.cs:43>
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Matchmaking.cs:45>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Matchmaking.cs:45>
 		intptr_t L_0 = ___0_o;
 		bool L_1;
 		L_1 = CLIB_ppf_MatchmakingAdminSnapshotCandidate_GetCanMatch_mDB3D34E534353B6F04752F4DF3457864650CCAD8(L_0, NULL);
 		__this->___CanMatch = L_1;
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Matchmaking.cs:46>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Matchmaking.cs:46>
 		intptr_t L_2 = ___0_o;
 		double L_3;
 		L_3 = CLIB_ppf_MatchmakingAdminSnapshotCandidate_GetMyTotalScore_mCF7A89A0A4901CF46E22531D1A06EDE19C62B3DE(L_2, NULL);
 		__this->___MyTotalScore = L_3;
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Matchmaking.cs:47>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Matchmaking.cs:47>
 		intptr_t L_4 = ___0_o;
 		double L_5;
 		L_5 = CLIB_ppf_MatchmakingAdminSnapshotCandidate_GetTheirCurrentThreshold_mF9F6AE9503B4234FB10B4B3EBDC01B4EA6365A8B(L_4, NULL);
 		__this->___TheirCurrentThreshold = L_5;
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Matchmaking.cs:48>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Matchmaking.cs:48>
 		return;
 	}
 }
@@ -12102,7 +12102,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MatchmakingAdminSnapshotCandidate__ctor_
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 78486
+// Method Definition Index: 88540
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MatchmakingAdminSnapshotCandidateList__ctor_m50F375A22DF5875C52AB1E3D16267248A6433AD9 (MatchmakingAdminSnapshotCandidateList_tCB8BE369951F7307CA9A1AF9C7FE4B6253339C94* __this, intptr_t ___0_a, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -12117,33 +12117,33 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MatchmakingAdminSnapshotCandidateList__c
 	int32_t V_0 = 0;
 	int32_t V_1 = 0;
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Matchmaking.cs:57>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Matchmaking.cs:57>
 		MessageArray_1__ctor_mE5F28B4391D395F2076F7B3E76B2E9481C2151D5(__this, MessageArray_1__ctor_mE5F28B4391D395F2076F7B3E76B2E9481C2151D5_RuntimeMethod_var);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Matchmaking.cs:59>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Matchmaking.cs:59>
 		intptr_t L_0 = ___0_a;
 		uintptr_t L_1;
 		L_1 = CLIB_ppf_MatchmakingAdminSnapshotCandidateArray_GetSize_m8A34154291D351ADB872A315BDFFF8F4829F13B1(L_0, NULL);
 		uint32_t L_2;
 		L_2 = UIntPtr_op_Explicit_m7802FC2BA4C3A18601BB8B58ED4708E0F07663E8(L_1, NULL);
 		V_0 = L_2;
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Matchmaking.cs:60>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Matchmaking.cs:60>
 		int32_t L_3 = V_0;
 		List_1_set_Capacity_m9C560D90140238E989BCCCBF65E8EB846AF78497(__this, L_3, List_1_set_Capacity_m9C560D90140238E989BCCCBF65E8EB846AF78497_RuntimeMethod_var);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Matchmaking.cs:61>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Matchmaking.cs:61>
 		intptr_t L_4 = ___0_a;
 		uintptr_t L_5;
 		L_5 = CLIB_ppf_MatchmakingAdminSnapshotCandidateArray_GetTotalCount_m32171B9F840C1BB58BC5133F6996B70DB522AB8A(L_4, NULL);
 		uint64_t L_6;
 		L_6 = UIntPtr_op_Explicit_mC39E70F0324C1C514A3044790BC19C5FC4C58E1C(L_5, NULL);
 		__this->___TotalCount = L_6;
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Matchmaking.cs:62>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Matchmaking.cs:62>
 		V_1 = 0;
 		goto IL_004a;
 	}
 
 IL_002e:
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Matchmaking.cs:64>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Matchmaking.cs:64>
 		intptr_t L_7 = ___0_a;
 		int32_t L_8 = V_1;
 		uintptr_t L_9;
@@ -12153,14 +12153,14 @@ IL_002e:
 		MatchmakingAdminSnapshotCandidate_t2325F5337C73FF55AB6D932F2A14C97E3A813CCC* L_11 = (MatchmakingAdminSnapshotCandidate_t2325F5337C73FF55AB6D932F2A14C97E3A813CCC*)il2cpp_codegen_object_new(MatchmakingAdminSnapshotCandidate_t2325F5337C73FF55AB6D932F2A14C97E3A813CCC_il2cpp_TypeInfo_var);
 		MatchmakingAdminSnapshotCandidate__ctor_m3F82611D0119A6464ECE680CFF74F29F07BD7B5F(L_11, L_10, NULL);
 		List_1_Add_mE84497F7EEB65DCBE2B85C3A5F3FF2DC6422FED0_inline(__this, L_11, List_1_Add_mE84497F7EEB65DCBE2B85C3A5F3FF2DC6422FED0_RuntimeMethod_var);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Matchmaking.cs:62>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Matchmaking.cs:62>
 		int32_t L_12 = V_1;
 		V_1 = ((int32_t)il2cpp_codegen_add(L_12, 1));
 	}
 
 IL_004a:
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Matchmaking.cs:62>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Matchmaking.cs:62>
 		int32_t L_13 = V_1;
 		int32_t L_14 = V_0;
 		if ((((int32_t)L_13) < ((int32_t)L_14)))
@@ -12169,7 +12169,7 @@ IL_004a:
 		}
 	}
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Matchmaking.cs:66>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Matchmaking.cs:66>
 		return;
 	}
 }
@@ -12181,7 +12181,7 @@ IL_004a:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 78487
+// Method Definition Index: 88541
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MatchmakingBrowseResult__ctor_m101E8779EA83ECCC58E6FA35A6AFB285A717C331 (MatchmakingBrowseResult_tC20A58B18DE8FF7F9A4E7450063ACB8FC38D2C58* __this, intptr_t ___0_o, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -12192,9 +12192,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MatchmakingBrowseResult__ctor_m101E8779E
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Matchmaking.cs:77>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Matchmaking.cs:77>
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Matchmaking.cs:79>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Matchmaking.cs:79>
 		intptr_t L_0 = ___0_o;
 		intptr_t L_1;
 		L_1 = CLIB_ppf_MatchmakingBrowseResult_GetEnqueueResult_m62835610E7E862A8F90CD939A40FA4B7F8B04DAA(L_0, NULL);
@@ -12202,7 +12202,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MatchmakingBrowseResult__ctor_m101E8779E
 		MatchmakingEnqueueResult__ctor_m1DBC53F8E1F86E378EBEAC70B8F4970AB5E522B2(L_2, L_1, NULL);
 		__this->___EnqueueResult = L_2;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___EnqueueResult), (void*)L_2);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Matchmaking.cs:80>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Matchmaking.cs:80>
 		intptr_t L_3 = ___0_o;
 		intptr_t L_4;
 		L_4 = CLIB_ppf_MatchmakingBrowseResult_GetRooms_m1B6E3043995372FDD6DEA166137833B3BE1BC7DE(L_3, NULL);
@@ -12210,7 +12210,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MatchmakingBrowseResult__ctor_m101E8779E
 		MatchmakingRoomList__ctor_mBF3ED0010AE228A6D6F3C03B33A5766A8DC45A2C(L_5, L_4, NULL);
 		__this->___MatchmakingRooms = L_5;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___MatchmakingRooms), (void*)L_5);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Matchmaking.cs:81>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Matchmaking.cs:81>
 		return;
 	}
 }
@@ -12222,7 +12222,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MatchmakingBrowseResult__ctor_m101E8779E
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 78488
+// Method Definition Index: 88542
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MatchmakingEnqueueResult__ctor_m1DBC53F8E1F86E378EBEAC70B8F4970AB5E522B2 (MatchmakingEnqueueResult_t620CF96FB5A92A1783E9882E651C0CA76E2E3D8D* __this, intptr_t ___0_o, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -12234,14 +12234,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MatchmakingEnqueueResult__ctor_m1DBC53F8
 	intptr_t V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Matchmaking.cs:101>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Matchmaking.cs:101>
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Matchmaking.cs:104>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Matchmaking.cs:104>
 		intptr_t L_0 = ___0_o;
 		intptr_t L_1;
 		L_1 = CLIB_ppf_MatchmakingEnqueueResult_GetAdminSnapshot_m87701284D7265519A6B100F8F6B159259DFF3118(L_0, NULL);
 		V_0 = L_1;
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Matchmaking.cs:105>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Matchmaking.cs:105>
 		intptr_t L_2 = V_0;
 		bool L_3;
 		L_3 = IntPtr_op_Equality_m7D9CDCDE9DC2A0C2C614633F4921E90187FAB271_inline(L_2, 0, NULL);
@@ -12251,7 +12251,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MatchmakingEnqueueResult__ctor_m1DBC53F8
 		}
 	}
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Matchmaking.cs:107>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Matchmaking.cs:107>
 		__this->___AdminSnapshotOptional = (MatchmakingAdminSnapshot_tF75B3A1A51D503587990BECC068C30E7671EE451*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___AdminSnapshotOptional), (void*)(MatchmakingAdminSnapshot_tF75B3A1A51D503587990BECC068C30E7671EE451*)NULL);
 		goto IL_002f;
@@ -12259,7 +12259,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MatchmakingEnqueueResult__ctor_m1DBC53F8
 
 IL_0023:
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Matchmaking.cs:111>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Matchmaking.cs:111>
 		intptr_t L_4 = V_0;
 		MatchmakingAdminSnapshot_tF75B3A1A51D503587990BECC068C30E7671EE451* L_5 = (MatchmakingAdminSnapshot_tF75B3A1A51D503587990BECC068C30E7671EE451*)il2cpp_codegen_object_new(MatchmakingAdminSnapshot_tF75B3A1A51D503587990BECC068C30E7671EE451_il2cpp_TypeInfo_var);
 		MatchmakingAdminSnapshot__ctor_m17C01478ACBD07391C18DD67F372B6471E2E971F(L_5, L_4, NULL);
@@ -12269,33 +12269,33 @@ IL_0023:
 
 IL_002f:
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Matchmaking.cs:115>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Matchmaking.cs:115>
 		intptr_t L_6 = ___0_o;
 		uint32_t L_7;
 		L_7 = CLIB_ppf_MatchmakingEnqueueResult_GetAverageWait_m8FECAEC6709FA5A2FBDE7DC205D6E57D43941828(L_6, NULL);
 		__this->___AverageWait = L_7;
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Matchmaking.cs:116>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Matchmaking.cs:116>
 		intptr_t L_8 = ___0_o;
 		uint32_t L_9;
 		L_9 = CLIB_ppf_MatchmakingEnqueueResult_GetMatchesInLastHourCount_mF388BE2C8932701C42D1DF7D08AB933AC7231408(L_8, NULL);
 		__this->___MatchesInLastHourCount = L_9;
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Matchmaking.cs:117>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Matchmaking.cs:117>
 		intptr_t L_10 = ___0_o;
 		uint32_t L_11;
 		L_11 = CLIB_ppf_MatchmakingEnqueueResult_GetMaxExpectedWait_m25210EB92326DFE11D42E0F5B3524485D68A3A42(L_10, NULL);
 		__this->___MaxExpectedWait = L_11;
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Matchmaking.cs:118>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Matchmaking.cs:118>
 		intptr_t L_12 = ___0_o;
 		String_t* L_13;
 		L_13 = CLIB_ppf_MatchmakingEnqueueResult_GetPool_mA9A02C7043D099D9D62B0F36DC1C628E73FF858C(L_12, NULL);
 		__this->___Pool = L_13;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___Pool), (void*)L_13);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Matchmaking.cs:119>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Matchmaking.cs:119>
 		intptr_t L_14 = ___0_o;
 		uint32_t L_15;
 		L_15 = CLIB_ppf_MatchmakingEnqueueResult_GetRecentMatchPercentage_mBB8931E1C1A4577CD3C44C8591700B5A4948B4EC(L_14, NULL);
 		__this->___RecentMatchPercentage = L_15;
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Matchmaking.cs:120>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Matchmaking.cs:120>
 		return;
 	}
 }
@@ -12307,7 +12307,7 @@ IL_002f:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 78489
+// Method Definition Index: 88543
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MatchmakingEnqueueResultAndRoom__ctor_mFC020AD2EF28241926570B5722672EF24C5EFADA (MatchmakingEnqueueResultAndRoom_t01215772818E3385FC96DCE8D46E9906FCA8D9FC* __this, intptr_t ___0_o, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -12318,9 +12318,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MatchmakingEnqueueResultAndRoom__ctor_mF
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Matchmaking.cs:131>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Matchmaking.cs:131>
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Matchmaking.cs:133>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Matchmaking.cs:133>
 		intptr_t L_0 = ___0_o;
 		intptr_t L_1;
 		L_1 = CLIB_ppf_MatchmakingEnqueueResultAndRoom_GetMatchmakingEnqueueResult_mED20A27D4CFF9F5276D9AC63FE29F1B6C5A7AB15(L_0, NULL);
@@ -12328,7 +12328,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MatchmakingEnqueueResultAndRoom__ctor_mF
 		MatchmakingEnqueueResult__ctor_m1DBC53F8E1F86E378EBEAC70B8F4970AB5E522B2(L_2, L_1, NULL);
 		__this->___MatchmakingEnqueueResult = L_2;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___MatchmakingEnqueueResult), (void*)L_2);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Matchmaking.cs:134>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Matchmaking.cs:134>
 		intptr_t L_3 = ___0_o;
 		intptr_t L_4;
 		L_4 = CLIB_ppf_MatchmakingEnqueueResultAndRoom_GetRoom_m86009926F9CA13C7F5CD77CEF97F249D6740B792(L_3, NULL);
@@ -12336,7 +12336,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MatchmakingEnqueueResultAndRoom__ctor_mF
 		Room__ctor_mB6AF794D98BC22F1081870DD63E403520D1172A4(L_5, L_4, NULL);
 		__this->___Room = L_5;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___Room), (void*)L_5);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Matchmaking.cs:135>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Matchmaking.cs:135>
 		return;
 	}
 }
@@ -12348,7 +12348,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MatchmakingEnqueueResultAndRoom__ctor_mF
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 78490
+// Method Definition Index: 88544
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MatchmakingRoom__ctor_m46F4C484B14D0EFE7025B8533694403B300BA600 (MatchmakingRoom_t564ECF1B3DF437F6B3DE5EC03A5E173193CE6C74* __this, intptr_t ___0_o, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -12358,14 +12358,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MatchmakingRoom__ctor_m46F4C484B14D0EFE7
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Matchmaking.cs:149>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Matchmaking.cs:149>
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Matchmaking.cs:151>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Matchmaking.cs:151>
 		intptr_t L_0 = ___0_o;
 		uint32_t L_1;
 		L_1 = CLIB_ppf_MatchmakingRoom_GetPingTime_mAA23B36D8A287BA035E6ED85F526D3F14AF78DC1(L_0, NULL);
 		__this->___PingTime = L_1;
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Matchmaking.cs:152>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Matchmaking.cs:152>
 		intptr_t L_2 = ___0_o;
 		intptr_t L_3;
 		L_3 = CLIB_ppf_MatchmakingRoom_GetRoom_m0E5CBF5B108FE569A7F3FDA771CA8C6C1F9212A7(L_2, NULL);
@@ -12373,12 +12373,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MatchmakingRoom__ctor_m46F4C484B14D0EFE7
 		Room__ctor_mB6AF794D98BC22F1081870DD63E403520D1172A4(L_4, L_3, NULL);
 		__this->___Room = L_4;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___Room), (void*)L_4);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Matchmaking.cs:153>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Matchmaking.cs:153>
 		intptr_t L_5 = ___0_o;
 		bool L_6;
 		L_6 = CLIB_ppf_MatchmakingRoom_HasPingTime_mDC473D8557C77E6171E24B8FEBB87135C971F025(L_5, NULL);
 		__this->___HasPingTime = L_6;
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Matchmaking.cs:154>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Matchmaking.cs:154>
 		return;
 	}
 }
@@ -12390,7 +12390,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MatchmakingRoom__ctor_m46F4C484B14D0EFE7
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 78491
+// Method Definition Index: 88545
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MatchmakingRoomList__ctor_mBF3ED0010AE228A6D6F3C03B33A5766A8DC45A2C (MatchmakingRoomList_t97325021F617542B368184443F745CC637C866B7* __this, intptr_t ___0_a, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -12405,31 +12405,31 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MatchmakingRoomList__ctor_mBF3ED0010AE22
 	int32_t V_0 = 0;
 	uint32_t V_1 = 0;
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Matchmaking.cs:163>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Matchmaking.cs:163>
 		MessageArray_1__ctor_mB4514016DE6C8FA4D4FA07951B03B60B17241AF4(__this, MessageArray_1__ctor_mB4514016DE6C8FA4D4FA07951B03B60B17241AF4_RuntimeMethod_var);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Matchmaking.cs:165>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Matchmaking.cs:165>
 		intptr_t L_0 = ___0_a;
 		int32_t L_1;
 		L_1 = CLIB_ppf_MatchmakingRoomArray_GetTotalCount_mBFC4A61756F15490A4E65617803E4DF9555076DD(L_0, NULL);
 		__this->___TotalCount = L_1;
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Matchmaking.cs:166>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Matchmaking.cs:166>
 		intptr_t L_2 = ___0_a;
 		uintptr_t L_3;
 		L_3 = CLIB_ppf_MatchmakingRoomArray_GetSize_m3E0F05F00CAB266C337B39C36066975FA408CE99(L_2, NULL);
 		uint32_t L_4;
 		L_4 = UIntPtr_op_Explicit_m7802FC2BA4C3A18601BB8B58ED4708E0F07663E8(L_3, NULL);
 		V_0 = L_4;
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Matchmaking.cs:167>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Matchmaking.cs:167>
 		int32_t L_5 = V_0;
 		List_1_set_Capacity_mFAD4171F2861E97F209DAECB9E5C50BCD34018E4(__this, L_5, List_1_set_Capacity_mFAD4171F2861E97F209DAECB9E5C50BCD34018E4_RuntimeMethod_var);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Matchmaking.cs:168>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Matchmaking.cs:168>
 		V_1 = 0;
 		goto IL_0044;
 	}
 
 IL_0029:
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Matchmaking.cs:170>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Matchmaking.cs:170>
 		intptr_t L_6 = ___0_a;
 		uint32_t L_7 = V_1;
 		uintptr_t L_8;
@@ -12439,14 +12439,14 @@ IL_0029:
 		MatchmakingRoom_t564ECF1B3DF437F6B3DE5EC03A5E173193CE6C74* L_10 = (MatchmakingRoom_t564ECF1B3DF437F6B3DE5EC03A5E173193CE6C74*)il2cpp_codegen_object_new(MatchmakingRoom_t564ECF1B3DF437F6B3DE5EC03A5E173193CE6C74_il2cpp_TypeInfo_var);
 		MatchmakingRoom__ctor_m46F4C484B14D0EFE7025B8533694403B300BA600(L_10, L_9, NULL);
 		List_1_Add_mC7D6941F0CB7269D1259683EB81DAF543E912E13_inline(__this, L_10, List_1_Add_mC7D6941F0CB7269D1259683EB81DAF543E912E13_RuntimeMethod_var);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Matchmaking.cs:168>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Matchmaking.cs:168>
 		uint32_t L_11 = V_1;
 		V_1 = ((int32_t)il2cpp_codegen_add((int32_t)L_11, 1));
 	}
 
 IL_0044:
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Matchmaking.cs:168>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Matchmaking.cs:168>
 		uint32_t L_12 = V_1;
 		int32_t L_13 = V_0;
 		if ((((int64_t)((int64_t)(uint64_t)((uint32_t)L_12))) < ((int64_t)((int64_t)L_13))))
@@ -12455,7 +12455,7 @@ IL_0044:
 		}
 	}
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Matchmaking.cs:172>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Matchmaking.cs:172>
 		return;
 	}
 }
@@ -12467,43 +12467,43 @@ IL_0044:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 78492
+// Method Definition Index: 88546
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MatchmakingStats__ctor_mCD836C7E6D18085BEC85B00E26821CDC9389F801 (MatchmakingStats_tA7354632354901085E56D8553EF6B4A584424184* __this, intptr_t ___0_o, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Matchmaking.cs:192>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Matchmaking.cs:192>
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Matchmaking.cs:194>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Matchmaking.cs:194>
 		intptr_t L_0 = ___0_o;
 		uint32_t L_1;
 		L_1 = CLIB_ppf_MatchmakingStats_GetDrawCount_mF4A456FC1B4466E8C9811C09BE8182AAD7457C59(L_0, NULL);
 		__this->___DrawCount = L_1;
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Matchmaking.cs:195>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Matchmaking.cs:195>
 		intptr_t L_2 = ___0_o;
 		uint32_t L_3;
 		L_3 = CLIB_ppf_MatchmakingStats_GetLossCount_mBB791178F0B33C965D307702642E9AF81E5DD8B9(L_2, NULL);
 		__this->___LossCount = L_3;
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Matchmaking.cs:196>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Matchmaking.cs:196>
 		intptr_t L_4 = ___0_o;
 		uint32_t L_5;
 		L_5 = CLIB_ppf_MatchmakingStats_GetSkillLevel_mA2724D972FC9C34685DE2133B15F24A310985F03(L_4, NULL);
 		__this->___SkillLevel = L_5;
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Matchmaking.cs:197>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Matchmaking.cs:197>
 		intptr_t L_6 = ___0_o;
 		double L_7;
 		L_7 = CLIB_ppf_MatchmakingStats_GetSkillMean_mBF97220B599E89F923BF50B2093551F627A4D1E3(L_6, NULL);
 		__this->___SkillMean = L_7;
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Matchmaking.cs:198>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Matchmaking.cs:198>
 		intptr_t L_8 = ___0_o;
 		double L_9;
 		L_9 = CLIB_ppf_MatchmakingStats_GetSkillStandardDeviation_m2325D7197971CD4E7B360EFDD698D579CD8E518F(L_8, NULL);
 		__this->___SkillStandardDeviation = L_9;
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Matchmaking.cs:199>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Matchmaking.cs:199>
 		intptr_t L_10 = ___0_o;
 		uint32_t L_11;
 		L_11 = CLIB_ppf_MatchmakingStats_GetWinCount_mEBFA9453303F0D58F10B941BD5EFA84A672FC6AE(L_10, NULL);
 		__this->___WinCount = L_11;
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Matchmaking.cs:200>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Matchmaking.cs:200>
 		return;
 	}
 }
@@ -12515,7 +12515,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MatchmakingStats__ctor_mCD836C7E6D18085B
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 78493
+// Method Definition Index: 88547
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RoomInviteNotification__ctor_mDA79BD8FFD71AA71B259F71C4F7ADC58D97C8801 (RoomInviteNotification_t056C5D7720D5A52379CEB33A2BEB26EDB399E048* __this, intptr_t ___0_o, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -12527,31 +12527,31 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RoomInviteNotification__ctor_mDA79BD8FFD
 	UnityException_tA1EC1E95ADE689CF6EB7FAFF77C160AE1F559067* V_0 = NULL;
 	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 1> __active_exceptions;
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Notification.cs:33>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Notification.cs:33>
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Notification.cs:35>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Notification.cs:35>
 		intptr_t L_0 = ___0_o;
 		uint64_t L_1;
 		L_1 = CLIB_ppf_RoomInviteNotification_GetID_mD6D10056CC12F0A434A6CC2740DDC1A952FEDB2D(L_0, NULL);
 		__this->___ID = L_1;
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Notification.cs:36>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Notification.cs:36>
 		intptr_t L_2 = ___0_o;
 		uint64_t L_3;
 		L_3 = CLIB_ppf_RoomInviteNotification_GetRoomID_mE73AAC70259740E82090E8687216CD4AC29DD87C(L_2, NULL);
 		__this->___RoomID = L_3;
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Notification.cs:37>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Notification.cs:37>
 		intptr_t L_4 = ___0_o;
 		String_t* L_5;
 		L_5 = CLIB_ppf_RoomInviteNotification_GetSenderID_m1D46374A1FAB8BADEEE67D5DBCCBE18DAE4A354F(L_4, NULL);
 		__this->___SenderID = L_5;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___SenderID), (void*)L_5);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Notification.cs:38>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Notification.cs:38>
 		DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D* L_6 = (DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D*)(&__this->___SentTime);
 		il2cpp_codegen_initobj(L_6, sizeof(DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D));
 	}
 	try
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Notification.cs:41>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Notification.cs:41>
 		intptr_t L_7 = ___0_o;
 		uint64_t L_8;
 		L_8 = CLIB_ppf_RoomInviteNotification_GetSentTime_mAEC1C6674E386A69539B2FA682BBBF2459DD0B19(L_7, NULL);
@@ -12559,7 +12559,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RoomInviteNotification__ctor_mDA79BD8FFD
 		DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D L_9;
 		L_9 = TimeUtil_SecondsToDateTime_m5DC84ED0EEB5AB8AAF833B2F5FF5E9F075C165F4(L_8, NULL);
 		__this->___SentTime = L_9;
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Notification.cs:42>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Notification.cs:42>
 		goto IL_005c;
 	}
 	catch(Il2CppExceptionWrapper& e)
@@ -12575,21 +12575,21 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RoomInviteNotification__ctor_mDA79BD8FFD
 CATCH_0049:
 	{
 		UnityException_tA1EC1E95ADE689CF6EB7FAFF77C160AE1F559067* L_10 = ((UnityException_tA1EC1E95ADE689CF6EB7FAFF77C160AE1F559067*)IL2CPP_GET_ACTIVE_EXCEPTION(UnityException_tA1EC1E95ADE689CF6EB7FAFF77C160AE1F559067*));;
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Notification.cs:43>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Notification.cs:43>
 		V_0 = L_10;
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Notification.cs:45>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Notification.cs:45>
 		UnityException_tA1EC1E95ADE689CF6EB7FAFF77C160AE1F559067* L_11 = V_0;
 		String_t* L_12;
 		L_12 = String_Format_mA8DBB4C2516B9723C5A41E6CB1E2FAF4BBE96DD8(((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral9BBB32CCC21BB366F147DF39A51834651CDC854F)), L_11, NULL);
 		il2cpp_codegen_runtime_class_init_inline(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var)));
 		Debug_LogWarning_m33EF1B897E0C7C6FF538989610BFAFFEF4628CA9(L_12, NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Notification.cs:46>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Notification.cs:46>
 		IL2CPP_RETHROW_MANAGED_EXCEPTION(IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*));
 	}
 
 IL_005c:
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Notification.cs:48>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Notification.cs:48>
 		return;
 	}
 }
@@ -12601,7 +12601,7 @@ IL_005c:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 78494
+// Method Definition Index: 88548
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RoomInviteNotificationList__ctor_m73A4AA4D73528CD773599E60DF850261321BF738 (RoomInviteNotificationList_t1203312F5F6E7E53899A09886C7716CD0C55D9A6* __this, intptr_t ___0_a, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -12621,14 +12621,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RoomInviteNotificationList__ctor_m73A4AA
 	String_t* G_B3_0 = NULL;
 	RoomInviteNotificationList_t1203312F5F6E7E53899A09886C7716CD0C55D9A6* G_B3_1 = NULL;
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Notification.cs:57>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Notification.cs:57>
 		MessageArray_1__ctor_mFF477189E1B6F9EDC567DBA6165ECCB6EEA64992(__this, MessageArray_1__ctor_mFF477189E1B6F9EDC567DBA6165ECCB6EEA64992_RuntimeMethod_var);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Notification.cs:59>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Notification.cs:59>
 		intptr_t L_0 = ___0_a;
 		int32_t L_1;
 		L_1 = CLIB_ppf_RoomInviteNotificationArray_GetTotalCount_m49BDB4D93FC555216E86B5DD8275B6DAB19850CB(L_0, NULL);
 		__this->___TotalCount = L_1;
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Notification.cs:60>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Notification.cs:60>
 		intptr_t L_2 = ___0_a;
 		bool L_3;
 		L_3 = CLIB_ppf_RoomInviteNotificationArray_HasNextPage_mE7D2FE60429DA2B997AE8CDA87FF5B48626A119E(L_2, NULL);
@@ -12657,24 +12657,24 @@ IL_0027:
 		NullCheck(G_B3_1);
 		((MessageArray_1_t48F2634F7CE492870D7F60BCDB4ECBAEABA4E185*)G_B3_1)->___NextPageParam = G_B3_0;
 		Il2CppCodeGenWriteBarrier((void**)(&((MessageArray_1_t48F2634F7CE492870D7F60BCDB4ECBAEABA4E185*)G_B3_1)->___NextPageParam), (void*)G_B3_0);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Notification.cs:61>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Notification.cs:61>
 		intptr_t L_5 = ___0_a;
 		uintptr_t L_6;
 		L_6 = CLIB_ppf_RoomInviteNotificationArray_GetSize_m8DB92AE82619BEEE1AB8BC0669A94B56E6C03FBA(L_5, NULL);
 		uint32_t L_7;
 		L_7 = UIntPtr_op_Explicit_m7802FC2BA4C3A18601BB8B58ED4708E0F07663E8(L_6, NULL);
 		V_0 = L_7;
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Notification.cs:62>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Notification.cs:62>
 		int32_t L_8 = V_0;
 		List_1_set_Capacity_mD5F6FA2BE282F629E5D80DDC855BCC02C875A92C(__this, L_8, List_1_set_Capacity_mD5F6FA2BE282F629E5D80DDC855BCC02C875A92C_RuntimeMethod_var);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Notification.cs:63>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Notification.cs:63>
 		V_1 = 0;
 		goto IL_005e;
 	}
 
 IL_0043:
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Notification.cs:65>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Notification.cs:65>
 		intptr_t L_9 = ___0_a;
 		uint32_t L_10 = V_1;
 		uintptr_t L_11;
@@ -12684,14 +12684,14 @@ IL_0043:
 		RoomInviteNotification_t056C5D7720D5A52379CEB33A2BEB26EDB399E048* L_13 = (RoomInviteNotification_t056C5D7720D5A52379CEB33A2BEB26EDB399E048*)il2cpp_codegen_object_new(RoomInviteNotification_t056C5D7720D5A52379CEB33A2BEB26EDB399E048_il2cpp_TypeInfo_var);
 		RoomInviteNotification__ctor_mDA79BD8FFD71AA71B259F71C4F7ADC58D97C8801(L_13, L_12, NULL);
 		List_1_Add_mD38485CA318AF8F55C5985FACCBAA11B2D534F69_inline(__this, L_13, List_1_Add_mD38485CA318AF8F55C5985FACCBAA11B2D534F69_RuntimeMethod_var);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Notification.cs:63>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Notification.cs:63>
 		uint32_t L_14 = V_1;
 		V_1 = ((int32_t)il2cpp_codegen_add((int32_t)L_14, 1));
 	}
 
 IL_005e:
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Notification.cs:63>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Notification.cs:63>
 		uint32_t L_15 = V_1;
 		int32_t L_16 = V_0;
 		if ((((int64_t)((int64_t)(uint64_t)((uint32_t)L_15))) < ((int64_t)((int64_t)L_16))))
@@ -12700,7 +12700,7 @@ IL_005e:
 		}
 	}
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Notification.cs:67>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Notification.cs:67>
 		return;
 	}
 }
@@ -12712,27 +12712,27 @@ IL_005e:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 78495
+// Method Definition Index: 88549
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Packet__ctor_m5C43214F5C91CFF8027D837A947DB120FC5FE09F (Packet_tE7ABCB3CA16D45A82E180266269EC1B89F8054A9* __this, intptr_t ___0_handler, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Packet.cs:28>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Packet.cs:28>
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Packet.cs:30>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Packet.cs:30>
 		intptr_t L_0 = ___0_handler;
 		__this->___handler = L_0;
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Packet.cs:31>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Packet.cs:31>
 		intptr_t L_1 = ___0_handler;
 		uintptr_t L_2;
 		L_2 = CLIB_ppf_Packet_GetSize_mB04A129338AA0D2154D3DB303C4DFC6D64311858(L_1, NULL);
 		uint64_t L_3;
 		L_3 = UIntPtr_op_Explicit_mC39E70F0324C1C514A3044790BC19C5FC4C58E1C(L_2, NULL);
 		__this->___size = L_3;
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Packet.cs:32>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Packet.cs:32>
 		return;
 	}
 }
-// Method Definition Index: 78496
+// Method Definition Index: 88550
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint64_t Packet_GetBytes_mA6CF76305AA065D7CC120D0883D390B69CAC4529 (Packet_tE7ABCB3CA16D45A82E180266269EC1B89F8054A9* __this, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___0_dest, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -12742,7 +12742,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint64_t Packet_GetBytes_mA6CF76305AA065D7CC1
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Packet.cs:37>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Packet.cs:37>
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_0 = ___0_dest;
 		NullCheck(L_0);
 		uint64_t L_1 = __this->___size;
@@ -12752,7 +12752,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint64_t Packet_GetBytes_mA6CF76305AA065D7CC1
 		}
 	}
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Packet.cs:39>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Packet.cs:39>
 		intptr_t L_2 = __this->___handler;
 		intptr_t L_3;
 		L_3 = CLIB_ppf_Packet_GetBytes_mF023FD284DEE919E175C1C48DBE2D22D6EE97381(L_2, NULL);
@@ -12760,14 +12760,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint64_t Packet_GetBytes_mA6CF76305AA065D7CC1
 		uint64_t L_5 = __this->___size;
 		il2cpp_codegen_runtime_class_init_inline(Marshal_tD976A56A90263C3CE2B780D4B1CADADE2E70B4A7_il2cpp_TypeInfo_var);
 		Marshal_Copy_mF7402FFDB520EA1B8D1C32B368DBEE4B13F1BE77(L_3, L_4, 0, ((int32_t)L_5), NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Packet.cs:40>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Packet.cs:40>
 		uint64_t L_6 = __this->___size;
 		return L_6;
 	}
 
 IL_002b:
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Packet.cs:44>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Packet.cs:44>
 		uint64_t L_7 = __this->___size;
 		uint64_t L_8 = L_7;
 		RuntimeObject* L_9 = Box(il2cpp_defaults.uint64_class, &L_8);
@@ -12778,7 +12778,7 @@ IL_002b:
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_11, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Packet_GetBytes_mA6CF76305AA065D7CC120D0883D390B69CAC4529_RuntimeMethod_var)));
 	}
 }
-// Method Definition Index: 78497
+// Method Definition Index: 88551
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Packet_GetBytes_m338C6646444C8C294FFFE5686F1EABAF17C06784 (Packet_tE7ABCB3CA16D45A82E180266269EC1B89F8054A9* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -12791,7 +12791,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Packet_GetBytes_m338C6646444C8C294F
 	}
 	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* V_0 = NULL;
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Packet.cs:51>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Packet.cs:51>
 		uint64_t L_0 = __this->___size;
 		if ((!(((uint64_t)L_0) > ((uint64_t)((int64_t)0)))))
 		{
@@ -12799,12 +12799,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Packet_GetBytes_m338C6646444C8C294F
 		}
 	}
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Packet.cs:53>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Packet.cs:53>
 		uint64_t L_1 = __this->___size;
 		if ((uint64_t)(L_1) > INTPTR_MAX) IL2CPP_RAISE_MANAGED_EXCEPTION(il2cpp_codegen_get_overflow_exception(), Packet_GetBytes_m338C6646444C8C294FFFE5686F1EABAF17C06784_RuntimeMethod_var);
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_2 = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)SZArrayNew(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var, (uint32_t)((intptr_t)L_1));
 		V_0 = L_2;
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Packet.cs:54>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Packet.cs:54>
 		intptr_t L_3 = __this->___handler;
 		intptr_t L_4;
 		L_4 = CLIB_ppf_Packet_GetBytes_mF023FD284DEE919E175C1C48DBE2D22D6EE97381(L_3, NULL);
@@ -12812,7 +12812,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Packet_GetBytes_m338C6646444C8C294F
 		uint64_t L_6 = __this->___size;
 		il2cpp_codegen_runtime_class_init_inline(Marshal_tD976A56A90263C3CE2B780D4B1CADADE2E70B4A7_il2cpp_TypeInfo_var);
 		Marshal_Copy_mF7402FFDB520EA1B8D1C32B368DBEE4B13F1BE77(L_4, L_5, 0, ((int32_t)L_6), NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Packet.cs:55>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Packet.cs:55>
 		Encoding_t65CDEF28CF20A7B8C92E85A4E808920C2465F095* L_7;
 		L_7 = Encoding_get_UTF8_m9FA98A53CE96FD6D02982625C5246DD36C1235C9(NULL);
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_8 = V_0;
@@ -12824,32 +12824,32 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Packet_GetBytes_m338C6646444C8C294F
 
 IL_003c:
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Packet.cs:59>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Packet.cs:59>
 		String_t* L_10 = ((String_t_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_defaults.string_class))->___Empty;
 		return L_10;
 	}
 }
-// Method Definition Index: 78498
+// Method Definition Index: 88552
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Packet_get_SenderId_mB8BFEDC8A6E6F97D55A2B5B5B04A25C834E853D3 (Packet_tE7ABCB3CA16D45A82E180266269EC1B89F8054A9* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Packet.cs:66>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Packet.cs:66>
 		intptr_t L_0 = __this->___handler;
 		String_t* L_1;
 		L_1 = CLIB_ppf_Packet_GetSenderID_m94CE0688625FD51880BEAA2CDBE9C28EEAB7CD97(L_0, NULL);
 		return L_1;
 	}
 }
-// Method Definition Index: 78499
+// Method Definition Index: 88553
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint64_t Packet_get_Size_m1F6CA0C7A29793E39D7C97D8888B66E0A5C90DD5 (Packet_tE7ABCB3CA16D45A82E180266269EC1B89F8054A9* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Packet.cs:71>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Packet.cs:71>
 		uint64_t L_0 = __this->___size;
 		return L_0;
 	}
 }
-// Method Definition Index: 78500
+// Method Definition Index: 88554
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Packet_Finalize_m3D78A8A8A722F914BEA161A7459856B1C0AE59FB (Packet_tE7ABCB3CA16D45A82E180266269EC1B89F8054A9* __this, const RuntimeMethod* method) 
 {
 	{
@@ -12858,14 +12858,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Packet_Finalize_m3D78A8A8A722F914BEA161A
 
 FINALLY_0008:
 			{
-				//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Packet.cs:80>
+				//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Packet.cs:80>
 				Object_Finalize_mC98C96301CCABFE00F1A7EF8E15DF507CACD42B2(__this, NULL);
 				return;
 			}
 		});
 		try
 		{
-			//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Packet.cs:79>
+			//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Packet.cs:79>
 			Packet_Dispose_m31A384FDEF4FA99104B062F2739AC7EE812A1D12(__this, NULL);
 			goto IL_000f;
 		}
@@ -12877,11 +12877,11 @@ FINALLY_0008:
 
 IL_000f:
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Packet.cs:80>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Packet.cs:80>
 		return;
 	}
 }
-// Method Definition Index: 78501
+// Method Definition Index: 88555
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Packet_Dispose_m31A384FDEF4FA99104B062F2739AC7EE812A1D12 (Packet_tE7ABCB3CA16D45A82E180266269EC1B89F8054A9* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -12891,13 +12891,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Packet_Dispose_m31A384FDEF4FA99104B062F2
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Packet.cs:85>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Packet.cs:85>
 		intptr_t L_0 = __this->___handler;
 		CLIB_ppf_Packet_Free_m0922C9E7C571AAC53155733B5BC94C8A1299078E(L_0, NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Packet.cs:86>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Packet.cs:86>
 		il2cpp_codegen_runtime_class_init_inline(GC_t920F9CF6EBB7C787E5010A4352E1B587F356DC58_il2cpp_TypeInfo_var);
 		GC_SuppressFinalize_m71815DBD5A0CD2EA1BE43317B08B7A14949EDC65(__this, NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Packet.cs:87>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Packet.cs:87>
 		return;
 	}
 }
@@ -12909,31 +12909,31 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Packet_Dispose_m31A384FDEF4FA99104B062F2
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 78502
+// Method Definition Index: 88556
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Destination__ctor_mB1261B84D715AED778CC96E68B1F2C0907CF8543 (Destination_tA15CF6CD249A4E5BB7F74D6807F786FABDE29211* __this, intptr_t ___0_o, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Presence.cs:33>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Presence.cs:33>
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Presence.cs:35>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Presence.cs:35>
 		intptr_t L_0 = ___0_o;
 		String_t* L_1;
 		L_1 = CLIB_ppf_Destination_GetApiName_m0358EA5D0C2969A214D5D61E0F49A4F1CA223B48(L_0, NULL);
 		__this->___ApiName = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___ApiName), (void*)L_1);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Presence.cs:36>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Presence.cs:36>
 		intptr_t L_2 = ___0_o;
 		String_t* L_3;
 		L_3 = CLIB_ppf_Destination_GetDeeplinkMessage_mB3126F2C2D771F7FE39D1A7394AEA01BD6D976A0(L_2, NULL);
 		__this->___DeeplinkMessage = L_3;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___DeeplinkMessage), (void*)L_3);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Presence.cs:37>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Presence.cs:37>
 		intptr_t L_4 = ___0_o;
 		String_t* L_5;
 		L_5 = CLIB_ppf_Destination_GetDisplayName_m57C826273ECA1263EC1434BE117FA7D369745BD7(L_4, NULL);
 		__this->___DisplayName = L_5;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___DisplayName), (void*)L_5);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Presence.cs:38>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Presence.cs:38>
 		return;
 	}
 }
@@ -12945,7 +12945,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Destination__ctor_mB1261B84D715AED778CC9
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 78503
+// Method Definition Index: 88557
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DestinationList__ctor_m047765177D1DB62F5343E709061ABE0D74F92683 (DestinationList_t41BB93309FA194DCC59A75DF41CE7FE6FC8E08EF* __this, intptr_t ___0_a, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -12960,26 +12960,26 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DestinationList__ctor_m047765177D1DB62F5
 	int32_t V_0 = 0;
 	int32_t V_1 = 0;
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Presence.cs:46>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Presence.cs:46>
 		MessageArray_1__ctor_m070B185DC9BE9A46B820CFCFED8A57D14830275F(__this, MessageArray_1__ctor_m070B185DC9BE9A46B820CFCFED8A57D14830275F_RuntimeMethod_var);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Presence.cs:48>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Presence.cs:48>
 		intptr_t L_0 = ___0_a;
 		uintptr_t L_1;
 		L_1 = CLIB_ppf_DestinationArray_GetSize_mA1EDBE551B0CC115EA4775DBE0582B063C1353D6(L_0, NULL);
 		uint32_t L_2;
 		L_2 = UIntPtr_op_Explicit_m7802FC2BA4C3A18601BB8B58ED4708E0F07663E8(L_1, NULL);
 		V_0 = L_2;
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Presence.cs:49>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Presence.cs:49>
 		int32_t L_3 = V_0;
 		List_1_set_Capacity_mA24D986986B27033E4B1A500D132B53EAF4F974D(__this, L_3, List_1_set_Capacity_mA24D986986B27033E4B1A500D132B53EAF4F974D_RuntimeMethod_var);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Presence.cs:50>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Presence.cs:50>
 		V_1 = 0;
 		goto IL_0039;
 	}
 
 IL_001d:
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Presence.cs:52>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Presence.cs:52>
 		intptr_t L_4 = ___0_a;
 		int32_t L_5 = V_1;
 		uintptr_t L_6;
@@ -12989,14 +12989,14 @@ IL_001d:
 		Destination_tA15CF6CD249A4E5BB7F74D6807F786FABDE29211* L_8 = (Destination_tA15CF6CD249A4E5BB7F74D6807F786FABDE29211*)il2cpp_codegen_object_new(Destination_tA15CF6CD249A4E5BB7F74D6807F786FABDE29211_il2cpp_TypeInfo_var);
 		Destination__ctor_mB1261B84D715AED778CC96E68B1F2C0907CF8543(L_8, L_7, NULL);
 		List_1_Add_m4F59D0CC812DAC6ECC6BFC85CDD3210501B8FFD0_inline(__this, L_8, List_1_Add_m4F59D0CC812DAC6ECC6BFC85CDD3210501B8FFD0_RuntimeMethod_var);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Presence.cs:50>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Presence.cs:50>
 		int32_t L_9 = V_1;
 		V_1 = ((int32_t)il2cpp_codegen_add(L_9, 1));
 	}
 
 IL_0039:
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Presence.cs:50>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Presence.cs:50>
 		int32_t L_10 = V_1;
 		int32_t L_11 = V_0;
 		if ((((int32_t)L_10) < ((int32_t)L_11)))
@@ -13005,13 +13005,13 @@ IL_0039:
 		}
 	}
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Presence.cs:55>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Presence.cs:55>
 		intptr_t L_12 = ___0_a;
 		String_t* L_13;
 		L_13 = CLIB_ppf_DestinationArray_GetNextPageParam_m91A57A95DE03A15CED98D64A436A189075C78E85(L_12, NULL);
 		((MessageArray_1_t77601FC32D4AB8164AF6BDA2F26DA8D5510A8C1D*)__this)->___NextPageParam = L_13;
 		Il2CppCodeGenWriteBarrier((void**)(&((MessageArray_1_t77601FC32D4AB8164AF6BDA2F26DA8D5510A8C1D*)__this)->___NextPageParam), (void*)L_13);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Presence.cs:56>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Presence.cs:56>
 		return;
 	}
 }
@@ -13023,7 +13023,7 @@ IL_0039:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 78504
+// Method Definition Index: 88558
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ApplicationInvite__ctor_m0A9B118AFC2B0FB82F841901E3AE34B083AFF954 (ApplicationInvite_t95D2E15775E4CD15D060CDF6CF25EDB854EB67D7* __this, intptr_t ___0_o, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -13034,9 +13034,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ApplicationInvite__ctor_m0A9B118AFC2B0FB
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Presence.cs:83>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Presence.cs:83>
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Presence.cs:85>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Presence.cs:85>
 		intptr_t L_0 = ___0_o;
 		intptr_t L_1;
 		L_1 = CLIB_ppf_ApplicationInvite_GetDestination_mA84E56331981169F0CFFDA755B04A556AE7D952A(L_0, NULL);
@@ -13044,7 +13044,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ApplicationInvite__ctor_m0A9B118AFC2B0FB
 		Destination__ctor_mB1261B84D715AED778CC96E68B1F2C0907CF8543(L_2, L_1, NULL);
 		__this->___Destination = L_2;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___Destination), (void*)L_2);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Presence.cs:86>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Presence.cs:86>
 		intptr_t L_3 = ___0_o;
 		intptr_t L_4;
 		L_4 = CLIB_ppf_ApplicationInvite_GetRecipient_m01707F7228F5D1B789120759EB5427B8046580E8(L_3, NULL);
@@ -13052,29 +13052,29 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ApplicationInvite__ctor_m0A9B118AFC2B0FB
 		User__ctor_m0A17383A33457E27EB6AD299C81C77AC1802E0D1(L_5, L_4, NULL);
 		__this->___Recipient = L_5;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___Recipient), (void*)L_5);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Presence.cs:87>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Presence.cs:87>
 		intptr_t L_6 = ___0_o;
 		uint64_t L_7;
 		L_7 = CLIB_ppf_ApplicationInvite_GetID_m3DB722CF432C2AFF8FB726B0DB2FA15A83019D95(L_6, NULL);
 		__this->___ID = L_7;
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Presence.cs:88>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Presence.cs:88>
 		intptr_t L_8 = ___0_o;
 		bool L_9;
 		L_9 = CLIB_ppf_ApplicationInvite_GetIsActive_m7DBE6151519B3634BEAD930EC7B8FF9A35255C60(L_8, NULL);
 		__this->___IsActive = L_9;
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Presence.cs:89>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Presence.cs:89>
 		intptr_t L_10 = ___0_o;
 		String_t* L_11;
 		L_11 = CLIB_ppf_ApplicationInvite_GetLobbySessionId_m80D075C4696B4D93B5527C540B20C6BC65C85572(L_10, NULL);
 		__this->___LobbySessionId = L_11;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___LobbySessionId), (void*)L_11);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Presence.cs:90>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Presence.cs:90>
 		intptr_t L_12 = ___0_o;
 		String_t* L_13;
 		L_13 = CLIB_ppf_ApplicationInvite_GetMatchSessionId_m801472832EC6DBE1432DD98D8E32395D7BE1A84F(L_12, NULL);
 		__this->___MatchSessionId = L_13;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___MatchSessionId), (void*)L_13);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Presence.cs:91>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Presence.cs:91>
 		return;
 	}
 }
@@ -13086,7 +13086,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ApplicationInvite__ctor_m0A9B118AFC2B0FB
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 78505
+// Method Definition Index: 88559
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ApplicationInviteList__ctor_mF3D2F58B366BD4BF1634F9EF207061494C7826FE (ApplicationInviteList_tCFA701E5249821E8B9BBFD13F595859AFFAB19DB* __this, intptr_t ___0_a, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -13101,26 +13101,26 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ApplicationInviteList__ctor_mF3D2F58B366
 	int32_t V_0 = 0;
 	int32_t V_1 = 0;
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Presence.cs:99>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Presence.cs:99>
 		MessageArray_1__ctor_m667099D521C9333D86ABAA3B49FBF8DF9D833999(__this, MessageArray_1__ctor_m667099D521C9333D86ABAA3B49FBF8DF9D833999_RuntimeMethod_var);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Presence.cs:101>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Presence.cs:101>
 		intptr_t L_0 = ___0_a;
 		uintptr_t L_1;
 		L_1 = CLIB_ppf_ApplicationInviteArray_GetSize_m2DF9E43B4A0A2176BD28C9B1DDD4CD560A05E1AD(L_0, NULL);
 		uint32_t L_2;
 		L_2 = UIntPtr_op_Explicit_m7802FC2BA4C3A18601BB8B58ED4708E0F07663E8(L_1, NULL);
 		V_0 = L_2;
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Presence.cs:102>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Presence.cs:102>
 		int32_t L_3 = V_0;
 		List_1_set_Capacity_mCA9040FB8D0912244F96B1C4B829379A6145F529(__this, L_3, List_1_set_Capacity_mCA9040FB8D0912244F96B1C4B829379A6145F529_RuntimeMethod_var);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Presence.cs:103>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Presence.cs:103>
 		V_1 = 0;
 		goto IL_0039;
 	}
 
 IL_001d:
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Presence.cs:105>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Presence.cs:105>
 		intptr_t L_4 = ___0_a;
 		int32_t L_5 = V_1;
 		uintptr_t L_6;
@@ -13130,14 +13130,14 @@ IL_001d:
 		ApplicationInvite_t95D2E15775E4CD15D060CDF6CF25EDB854EB67D7* L_8 = (ApplicationInvite_t95D2E15775E4CD15D060CDF6CF25EDB854EB67D7*)il2cpp_codegen_object_new(ApplicationInvite_t95D2E15775E4CD15D060CDF6CF25EDB854EB67D7_il2cpp_TypeInfo_var);
 		ApplicationInvite__ctor_m0A9B118AFC2B0FB82F841901E3AE34B083AFF954(L_8, L_7, NULL);
 		List_1_Add_m184EE05AA8961970FF60E58756ED8BE4F017374E_inline(__this, L_8, List_1_Add_m184EE05AA8961970FF60E58756ED8BE4F017374E_RuntimeMethod_var);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Presence.cs:103>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Presence.cs:103>
 		int32_t L_9 = V_1;
 		V_1 = ((int32_t)il2cpp_codegen_add(L_9, 1));
 	}
 
 IL_0039:
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Presence.cs:103>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Presence.cs:103>
 		int32_t L_10 = V_1;
 		int32_t L_11 = V_0;
 		if ((((int32_t)L_10) < ((int32_t)L_11)))
@@ -13146,13 +13146,13 @@ IL_0039:
 		}
 	}
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Presence.cs:108>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Presence.cs:108>
 		intptr_t L_12 = ___0_a;
 		String_t* L_13;
 		L_13 = CLIB_ppf_ApplicationInviteArray_GetNextPageParam_mB55F86F34B099B43F98135C6CD57C7586FD1F18D(L_12, NULL);
 		((MessageArray_1_tBD7F57C2576E156E6CA055C10BDF9CF1A640AAB8*)__this)->___NextPageParam = L_13;
 		Il2CppCodeGenWriteBarrier((void**)(&((MessageArray_1_tBD7F57C2576E156E6CA055C10BDF9CF1A640AAB8*)__this)->___NextPageParam), (void*)L_13);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Presence.cs:109>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Presence.cs:109>
 		return;
 	}
 }
@@ -13164,7 +13164,7 @@ IL_0039:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 78506
+// Method Definition Index: 88560
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SendInvitesResult__ctor_m669F65E6C225768F1BA741341D73F7180B4E03F3 (SendInvitesResult_tF1FCB62C7DDA973DC7DDE54DC9DEEF5FC77B8B57* __this, intptr_t ___0_o, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -13174,9 +13174,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SendInvitesResult__ctor_m669F65E6C225768
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Presence.cs:120>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Presence.cs:120>
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Presence.cs:122>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Presence.cs:122>
 		intptr_t L_0 = ___0_o;
 		intptr_t L_1;
 		L_1 = CLIB_ppf_SendInvitesResult_GetInvites_mB909189924E191656201ACF2753F80A4286267E0(L_0, NULL);
@@ -13184,7 +13184,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SendInvitesResult__ctor_m669F65E6C225768
 		ApplicationInviteList__ctor_mF3D2F58B366BD4BF1634F9EF207061494C7826FE(L_2, L_1, NULL);
 		__this->___Invites = L_2;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___Invites), (void*)L_2);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Presence.cs:123>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Presence.cs:123>
 		return;
 	}
 }
@@ -13196,43 +13196,43 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SendInvitesResult__ctor_m669F65E6C225768
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 78507
+// Method Definition Index: 88561
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PresenceJoinIntent__ctor_m592B2B2ABFC03E0612F7E14D9FA75415A108C5D0 (PresenceJoinIntent_t708F6CB20BA715DA328B67F38BFD1376DF6364D3* __this, intptr_t ___0_o, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Presence.cs:147>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Presence.cs:147>
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Presence.cs:149>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Presence.cs:149>
 		intptr_t L_0 = ___0_o;
 		String_t* L_1;
 		L_1 = CLIB_ppf_PresenceJoinIntent_GetDeeplinkMessage_mEC5BD9E839DAEC976EA134948DD816E5B9261B37(L_0, NULL);
 		__this->___DeeplinkMessage = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___DeeplinkMessage), (void*)L_1);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Presence.cs:150>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Presence.cs:150>
 		intptr_t L_2 = ___0_o;
 		String_t* L_3;
 		L_3 = CLIB_ppf_PresenceJoinIntent_GetDestinationApiName_mF87288B9573B0363E84219192BA157F0A9BD072D(L_2, NULL);
 		__this->___DestinationApiName = L_3;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___DestinationApiName), (void*)L_3);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Presence.cs:151>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Presence.cs:151>
 		intptr_t L_4 = ___0_o;
 		String_t* L_5;
 		L_5 = CLIB_ppf_PresenceJoinIntent_GetLobbySessionId_m3D139C17978DC32D20928AB0EAC3303180A3D18D(L_4, NULL);
 		__this->___LobbySessionId = L_5;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___LobbySessionId), (void*)L_5);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Presence.cs:152>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Presence.cs:152>
 		intptr_t L_6 = ___0_o;
 		String_t* L_7;
 		L_7 = CLIB_ppf_PresenceJoinIntent_GetMatchSessionId_m6A00ED473DCD613E13BFC9A97E1897C05F57EE8C(L_6, NULL);
 		__this->___MatchSessionId = L_7;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___MatchSessionId), (void*)L_7);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Presence.cs:153>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Presence.cs:153>
 		intptr_t L_8 = ___0_o;
 		String_t* L_9;
 		L_9 = CLIB_ppf_PresenceJoinIntent_GetExtra_m939574DE3F4E9C43D212B73D89EB729266F724E0(L_8, NULL);
 		__this->___Extra = L_9;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___Extra), (void*)L_9);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Presence.cs:154>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Presence.cs:154>
 		return;
 	}
 }
@@ -13244,45 +13244,45 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PresenceJoinIntent__ctor_m592B2B2ABFC03E
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 78508
+// Method Definition Index: 88562
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RtcBinaryMessageReceived__ctor_m68DAEA37EDB5FEF2C0E7E7A194894468CCE61039 (RtcBinaryMessageReceived_t27A81B34E30B69FD73D308AEBB3C92201FA00FB2* __this, intptr_t ___0_o, const RuntimeMethod* method) 
 {
 	intptr_t V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	int32_t V_1 = 0;
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/RTC.cs:32>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/RTC.cs:32>
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/RTC.cs:34>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/RTC.cs:34>
 		intptr_t L_0 = ___0_o;
 		String_t* L_1;
 		L_1 = CLIB_ppf_RtcBinaryMessageReceived_GetUserId_m478FB5FD03D4B5E3C7B64D81EC4302871E488983(L_0, NULL);
 		__this->___UserId = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___UserId), (void*)L_1);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/RTC.cs:35>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/RTC.cs:35>
 		intptr_t L_2 = ___0_o;
 		intptr_t L_3;
 		L_3 = CLIB_ppf_RtcBinaryMessageReceived_GetData_m81ABEA3C4B96053A8A7C3E8BFCD88E62BAE4ACE4(L_2, NULL);
 		V_0 = L_3;
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/RTC.cs:36>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/RTC.cs:36>
 		intptr_t L_4 = ___0_o;
 		int32_t L_5;
 		L_5 = CLIB_ppf_RtcBinaryMessageReceived_GetLength_m6D5E0F8F65662C06B8EF7878D9B63BEA03F0149B(L_4, NULL);
 		V_1 = L_5;
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/RTC.cs:37>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/RTC.cs:37>
 		intptr_t L_6 = V_0;
 		int32_t L_7 = V_1;
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_8;
 		L_8 = MarshalUtil_ByteArrayFromNative_m3285FDD06424A5CB82BD0EE8C63BBB8F8C2482DB(L_6, L_7, NULL);
 		__this->___Data = L_8;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___Data), (void*)L_8);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/RTC.cs:38>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/RTC.cs:38>
 		intptr_t L_9 = ___0_o;
 		String_t* L_10;
 		L_10 = CLIB_ppf_RtcBinaryMessageReceived_GetRoomId_mEF08BBA5951DE0FF99FA66EABC400270CBCEFDCB(L_9, NULL);
 		__this->___RoomId = L_10;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___RoomId), (void*)L_10);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/RTC.cs:39>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/RTC.cs:39>
 		return;
 	}
 }
@@ -13294,46 +13294,46 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RtcBinaryMessageReceived__ctor_m68DAEA37
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 78509
+// Method Definition Index: 88563
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RtcAudioFrame__ctor_mAF8A3A50316BDC0FFFE39C0FCF28E25F185B5E9A (RtcAudioFrame_t300062CFB69D590AAC05453E8CB2D5F3DDED8B59* __this, intptr_t ___0_o, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/RTC.cs:63>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/RTC.cs:63>
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/RTC.cs:65>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/RTC.cs:65>
 		intptr_t L_0 = ___0_o;
 		int32_t L_1;
 		L_1 = CLIB_ppf_RtcAudioFrame_GetChannel_mD6D1E07ADF59FE9E2028C71EDC07401E81580C37(L_0, NULL);
 		__this->___Channel = L_1;
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/RTC.cs:66>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/RTC.cs:66>
 		intptr_t L_2 = ___0_o;
 		int64_t L_3;
 		L_3 = CLIB_ppf_RtcAudioFrame_GetDataSize_m0F23B0997DD19BB022CC11AE23C5EB3A8F4717E2(L_2, NULL);
 		__this->___DataSize = L_3;
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/RTC.cs:67>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/RTC.cs:67>
 		intptr_t L_4 = ___0_o;
 		int32_t L_5;
 		L_5 = CLIB_ppf_RtcAudioFrame_GetSampleRate_mA4E8F41486076F9DA889BC35E9B3BDBC9C166D15(L_4, NULL);
 		__this->___SampleRate = L_5;
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/RTC.cs:68>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/RTC.cs:68>
 		intptr_t L_6 = ___0_o;
 		int64_t L_7;
 		L_7 = CLIB_ppf_RtcAudioFrame_GetTimeStampInUs_m0041CF3BD08AF21B83680DE3C14DE3B3EE7A9DD6(L_6, NULL);
 		__this->___TimeStampInUs = L_7;
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/RTC.cs:69>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/RTC.cs:69>
 		intptr_t L_8 = ___0_o;
 		intptr_t L_9;
 		L_9 = CLIB_ppf_RtcAudioFrame_GetData_m7CE07FFC43BA3BDA471CD5CC6091152AE9D51FAD(L_8, NULL);
 		__this->___Data = L_9;
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/RTC.cs:70>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/RTC.cs:70>
 		return;
 	}
 }
-// Method Definition Index: 78510
+// Method Definition Index: 88564
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* RtcAudioFrame_GetData_m40190CFA38F67C5EA55F3963E96660955E242AD3 (RtcAudioFrame_t300062CFB69D590AAC05453E8CB2D5F3DDED8B59* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/RTC.cs:74>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/RTC.cs:74>
 		intptr_t L_0 = __this->___Data;
 		int64_t L_1 = __this->___DataSize;
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_2;
@@ -13341,7 +13341,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A8261
 		return L_2;
 	}
 }
-// Method Definition Index: 78511
+// Method Definition Index: 88565
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RtcAudioFrame_SetData_m26BE8873272F1424F9E4EC2B4932075214E026A5 (RtcAudioFrame_t300062CFB69D590AAC05453E8CB2D5F3DDED8B59* __this, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___0_data, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -13351,13 +13351,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RtcAudioFrame_SetData_m26BE8873272F1424F
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/RTC.cs:79>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/RTC.cs:79>
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_0 = ___0_data;
 		intptr_t L_1 = __this->___Data;
 		int64_t L_2 = __this->___DataSize;
 		il2cpp_codegen_runtime_class_init_inline(Marshal_tD976A56A90263C3CE2B780D4B1CADADE2E70B4A7_il2cpp_TypeInfo_var);
 		Marshal_Copy_m0FD7BFE70EE28FC67B67A6225AD58F95FEE7EB85(L_0, 0, L_1, ((int32_t)L_2), NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/RTC.cs:80>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/RTC.cs:80>
 		return;
 	}
 }
@@ -13369,29 +13369,29 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RtcAudioFrame_SetData_m26BE8873272F1424F
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 78512
+// Method Definition Index: 88566
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RtcMessageSendResult__ctor_m47D9BEA1D198088E92B9AEA378DDF2993FEE316E (RtcMessageSendResult_t175C63F675CA721C614F552DAED8AD5CDD8D19D9* __this, intptr_t ___0_o, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/RTC.cs:98>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/RTC.cs:98>
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/RTC.cs:100>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/RTC.cs:100>
 		intptr_t L_0 = ___0_o;
 		int64_t L_1;
 		L_1 = CLIB_ppf_RtcMessageSendResult_GetMessageId_m84BFDE85197263777DC7E3A4A4CE0448B3F35B4D(L_0, NULL);
 		__this->___MessageId = L_1;
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/RTC.cs:101>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/RTC.cs:101>
 		intptr_t L_2 = ___0_o;
 		int32_t L_3;
 		L_3 = CLIB_ppf_RtcMessageSendResult_GetError_m1D6E956099B565274366B009ED16FFA6314D8906(L_2, NULL);
 		__this->___Error = L_3;
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/RTC.cs:102>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/RTC.cs:102>
 		intptr_t L_4 = ___0_o;
 		String_t* L_5;
 		L_5 = CLIB_ppf_RtcMessageSendResult_GetRoomId_m075541A68FE8AF0FB5C647A738BCFE390FA79DCD(L_4, NULL);
 		__this->___RoomId = L_5;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___RoomId), (void*)L_5);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/RTC.cs:103>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/RTC.cs:103>
 		return;
 	}
 }
@@ -13403,35 +13403,35 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RtcMessageSendResult__ctor_m47D9BEA1D198
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 78513
+// Method Definition Index: 88567
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RtcUserUnPublishInfo__ctor_mC9D23482725E312E7C768F1DF446C317B3C1D54F (RtcUserUnPublishInfo_tF48236E711888E683F08D6FC0716FE12A582E99A* __this, intptr_t ___0_o, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/RTC.cs:124>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/RTC.cs:124>
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/RTC.cs:126>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/RTC.cs:126>
 		intptr_t L_0 = ___0_o;
 		String_t* L_1;
 		L_1 = CLIB_ppf_RtcUserUnPublishInfo_GetUserId_m2AD74BDEC261D1B4EFF2BC75EE2B63DE7C7128B8(L_0, NULL);
 		__this->___UserId = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___UserId), (void*)L_1);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/RTC.cs:127>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/RTC.cs:127>
 		intptr_t L_2 = ___0_o;
 		int32_t L_3;
 		L_3 = CLIB_ppf_RtcUserUnPublishInfo_GetMediaStreamType_mEBAA1257A91DA1176359E5FFBC22BA5E4CA7827B(L_2, NULL);
 		__this->___MediaStreamType = L_3;
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/RTC.cs:128>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/RTC.cs:128>
 		intptr_t L_4 = ___0_o;
 		int32_t L_5;
 		L_5 = CLIB_ppf_RtcUserUnPublishInfo_GetReason_m5523F98C749506DC858C9B6FCC488A4B8893482D(L_4, NULL);
 		__this->___Reason = L_5;
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/RTC.cs:129>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/RTC.cs:129>
 		intptr_t L_6 = ___0_o;
 		String_t* L_7;
 		L_7 = CLIB_ppf_RtcUserUnPublishInfo_GetRoomId_m862D932E2E63653FC3C8C219E2854A6E8467487D(L_6, NULL);
 		__this->___RoomId = L_7;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___RoomId), (void*)L_7);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/RTC.cs:130>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/RTC.cs:130>
 		return;
 	}
 }
@@ -13443,30 +13443,30 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RtcUserUnPublishInfo__ctor_mC9D23482725E
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 78514
+// Method Definition Index: 88568
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RtcUserPublishInfo__ctor_m7F8F28605A4333DBEAB0CD5E00CA744567B09491 (RtcUserPublishInfo_t8873B6131F1DFF54983FEA638F386647C53ABE2F* __this, intptr_t ___0_o, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/RTC.cs:149>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/RTC.cs:149>
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/RTC.cs:151>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/RTC.cs:151>
 		intptr_t L_0 = ___0_o;
 		String_t* L_1;
 		L_1 = CLIB_ppf_RtcUserPublishInfo_GetUserId_mD536E2D18A7FE9469C68A1A896006B66283C29AF(L_0, NULL);
 		__this->___UserId = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___UserId), (void*)L_1);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/RTC.cs:152>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/RTC.cs:152>
 		intptr_t L_2 = ___0_o;
 		int32_t L_3;
 		L_3 = CLIB_ppf_RtcUserPublishInfo_GetMediaStreamType_mD685C6967DBF6EBD5CE2D69A128001E3013B78BF(L_2, NULL);
 		__this->___MediaStreamType = L_3;
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/RTC.cs:153>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/RTC.cs:153>
 		intptr_t L_4 = ___0_o;
 		String_t* L_5;
 		L_5 = CLIB_ppf_RtcUserPublishInfo_GetRoomId_m7E3EFAE76F5A2203078B101139E1BC358479DC15(L_4, NULL);
 		__this->___RoomId = L_5;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___RoomId), (void*)L_5);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/RTC.cs:154>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/RTC.cs:154>
 		return;
 	}
 }
@@ -13478,31 +13478,31 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RtcUserPublishInfo__ctor_m7F8F28605A4333
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 78515
+// Method Definition Index: 88569
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RtcRoomMessageReceived__ctor_m8D86C9D5AA77B39D55575DC04AF8B1E4E3F24C4E (RtcRoomMessageReceived_t2BDF5904A9D3EEF6D72D964485D208779637F7DD* __this, intptr_t ___0_o, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/RTC.cs:173>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/RTC.cs:173>
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/RTC.cs:175>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/RTC.cs:175>
 		intptr_t L_0 = ___0_o;
 		String_t* L_1;
 		L_1 = CLIB_ppf_RtcRoomMessageReceived_GetUserId_m71EB1F5F678313095D8363D6E9BFCBCC6360B7EB(L_0, NULL);
 		__this->___UserId = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___UserId), (void*)L_1);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/RTC.cs:176>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/RTC.cs:176>
 		intptr_t L_2 = ___0_o;
 		String_t* L_3;
 		L_3 = CLIB_ppf_RtcRoomMessageReceived_GetMessage_m518329CB1155942FF688118A63F4646C1F761A36(L_2, NULL);
 		__this->___Message = L_3;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___Message), (void*)L_3);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/RTC.cs:177>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/RTC.cs:177>
 		intptr_t L_4 = ___0_o;
 		String_t* L_5;
 		L_5 = CLIB_ppf_RtcRoomMessageReceived_GetRoomId_mBDCA14ED6669936E2FC042828E41B5E047E62D73(L_4, NULL);
 		__this->___RoomId = L_5;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___RoomId), (void*)L_5);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/RTC.cs:178>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/RTC.cs:178>
 		return;
 	}
 }
@@ -13514,31 +13514,31 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RtcRoomMessageReceived__ctor_m8D86C9D5AA
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 78516
+// Method Definition Index: 88570
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RtcUserMessageReceived__ctor_mA15829E6AAF21A3F2A08AE972367B1A998C3440E (RtcUserMessageReceived_t156E2473096464ECCB4B298A7644E6C572A6292E* __this, intptr_t ___0_o, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/RTC.cs:196>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/RTC.cs:196>
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/RTC.cs:198>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/RTC.cs:198>
 		intptr_t L_0 = ___0_o;
 		String_t* L_1;
 		L_1 = CLIB_ppf_RtcUserMessageReceived_GetUserId_mF533611B5554D19A87DDA117D6392B36F696FA32(L_0, NULL);
 		__this->___UserId = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___UserId), (void*)L_1);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/RTC.cs:199>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/RTC.cs:199>
 		intptr_t L_2 = ___0_o;
 		String_t* L_3;
 		L_3 = CLIB_ppf_RtcUserMessageReceived_GetMessage_m42471F11BBB06C03967CE05084E2B39601BB8948(L_2, NULL);
 		__this->___Message = L_3;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___Message), (void*)L_3);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/RTC.cs:200>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/RTC.cs:200>
 		intptr_t L_4 = ___0_o;
 		String_t* L_5;
 		L_5 = CLIB_ppf_RtcUserMessageReceived_GetRoomId_m1BF852B51AEFEFE6234A5DFB619CF2557EB958EC(L_4, NULL);
 		__this->___RoomId = L_5;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___RoomId), (void*)L_5);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/RTC.cs:201>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/RTC.cs:201>
 		return;
 	}
 }
@@ -13550,7 +13550,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RtcUserMessageReceived__ctor_mA15829E6AA
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 78517
+// Method Definition Index: 88571
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RtcStreamSyncInfo__ctor_mBAE942B8B6AEBBC8BCB241FE9042B4E51AFEFBC3 (RtcStreamSyncInfo_tDF6615A963654FDED33B6E427CC2377459A814C8* __this, intptr_t ___0_o, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -13563,9 +13563,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RtcStreamSyncInfo__ctor_mBAE942B8B6AEBBC
 	memset((&V_0), 0, sizeof(V_0));
 	int32_t V_1 = 0;
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/RTC.cs:219>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/RTC.cs:219>
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/RTC.cs:221>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/RTC.cs:221>
 		intptr_t L_0 = ___0_o;
 		intptr_t L_1;
 		L_1 = CLIB_ppf_RtcStreamSyncInfo_GetStreamKey_m322991CAE437275C9D8B083BBB49873B5EACF8EE(L_0, NULL);
@@ -13573,29 +13573,29 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RtcStreamSyncInfo__ctor_mBAE942B8B6AEBBC
 		RtcRemoteStreamKey__ctor_mA8181CF8D33199DCDEE57AE098F0FF9558C00875(L_2, L_1, NULL);
 		__this->___StreamKey = L_2;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___StreamKey), (void*)L_2);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/RTC.cs:222>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/RTC.cs:222>
 		intptr_t L_3 = ___0_o;
 		int32_t L_4;
 		L_4 = CLIB_ppf_RtcStreamSyncInfo_GetStreamType_mFA1FDA3DF9B685216E5D800FFEA53B9F26B666CE(L_3, NULL);
 		__this->___StreamType = L_4;
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/RTC.cs:223>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/RTC.cs:223>
 		intptr_t L_5 = ___0_o;
 		intptr_t L_6;
 		L_6 = CLIB_ppf_RtcStreamSyncInfo_GetData_mE0A7B33ACED6C41D71FAD9C28C47A364CEA6079A(L_5, NULL);
 		V_0 = L_6;
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/RTC.cs:224>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/RTC.cs:224>
 		intptr_t L_7 = ___0_o;
 		int32_t L_8;
 		L_8 = CLIB_ppf_RtcStreamSyncInfo_GetLength_m0F4F4414BD684565B89550F1A09ACF35B4FF33AC(L_7, NULL);
 		V_1 = L_8;
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/RTC.cs:225>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/RTC.cs:225>
 		intptr_t L_9 = V_0;
 		int32_t L_10 = V_1;
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_11;
 		L_11 = MarshalUtil_ByteArrayFromNative_m3285FDD06424A5CB82BD0EE8C63BBB8F8C2482DB(L_9, L_10, NULL);
 		__this->___Data = L_11;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___Data), (void*)L_11);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/RTC.cs:226>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/RTC.cs:226>
 		return;
 	}
 }
@@ -13607,18 +13607,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RtcStreamSyncInfo__ctor_mBAE942B8B6AEBBC
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 78518
+// Method Definition Index: 88572
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RtcAudioPropertyInfo__ctor_mC061C4E479AA1830243454373F9FF6FEDC6C96DD (RtcAudioPropertyInfo_tA10BA2C71B943D7A31ED99324B58ECBC13C05268* __this, intptr_t ___0_o, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/RTC.cs:238>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/RTC.cs:238>
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/RTC.cs:240>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/RTC.cs:240>
 		intptr_t L_0 = ___0_o;
 		int32_t L_1;
 		L_1 = CLIB_ppf_RtcAudioPropertyInfo_GetVolume_m9474186E2E8DC2F5EA26F9BEEC7089C05948945E(L_0, NULL);
 		__this->___Volume = L_1;
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/RTC.cs:241>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/RTC.cs:241>
 		return;
 	}
 }
@@ -13630,40 +13630,40 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RtcAudioPropertyInfo__ctor_mC061C4E479AA
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 78519
+// Method Definition Index: 88573
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RtcJoinRoomResult__ctor_mC049DBA41EE89458E531FE5B02AA9D370B3CCF24 (RtcJoinRoomResult_t7B3739D043DA3F0754EA07F27CC81279A5673D3C* __this, intptr_t ___0_o, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/RTC.cs:265>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/RTC.cs:265>
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/RTC.cs:267>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/RTC.cs:267>
 		intptr_t L_0 = ___0_o;
 		String_t* L_1;
 		L_1 = CLIB_ppf_RtcJoinRoomResult_GetRoomId_m04AE68133066E50638087B9058D7B9B3CBCE8B43(L_0, NULL);
 		__this->___RoomId = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___RoomId), (void*)L_1);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/RTC.cs:268>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/RTC.cs:268>
 		intptr_t L_2 = ___0_o;
 		String_t* L_3;
 		L_3 = CLIB_ppf_RtcJoinRoomResult_GetUserId_m0CFD8C64966F9833BB1CEF57203161AE233B4EF8(L_2, NULL);
 		__this->___UserId = L_3;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___UserId), (void*)L_3);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/RTC.cs:269>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/RTC.cs:269>
 		intptr_t L_4 = ___0_o;
 		int32_t L_5;
 		L_5 = CLIB_ppf_RtcJoinRoomResult_GetErrorCode_mF2A0FC1F97D6650A93B30E7FE911899A1719E966(L_4, NULL);
 		__this->___ErrorCode = L_5;
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/RTC.cs:270>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/RTC.cs:270>
 		intptr_t L_6 = ___0_o;
 		int32_t L_7;
 		L_7 = CLIB_ppf_RtcJoinRoomResult_GetElapsed_m29C0057D84EB39E560E11C9ED4C624624B32AD18(L_6, NULL);
 		__this->___Elapsed = L_7;
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/RTC.cs:271>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/RTC.cs:271>
 		intptr_t L_8 = ___0_o;
 		int32_t L_9;
 		L_9 = CLIB_ppf_RtcJoinRoomResult_GetJoinType_mE542290DDE8C760ABABA9CFB59E5D5CA4A735597(L_8, NULL);
 		__this->___JoinType = L_9;
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/RTC.cs:272>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/RTC.cs:272>
 		return;
 	}
 }
@@ -13675,19 +13675,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RtcJoinRoomResult__ctor_mC049DBA41EE8945
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 78520
+// Method Definition Index: 88574
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RtcLeaveRoomResult__ctor_mB9FE004632192B4B0031279A1C3FAB3165133D42 (RtcLeaveRoomResult_t7FC19B99E6788124464A77D25421776CB62301FF* __this, intptr_t ___0_o, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/RTC.cs:284>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/RTC.cs:284>
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/RTC.cs:286>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/RTC.cs:286>
 		intptr_t L_0 = ___0_o;
 		String_t* L_1;
 		L_1 = CLIB_ppf_RtcLeaveRoomResult_GetRoomId_mB02EE9AE6A9E7FFD51F79BB546AD052AB5F63897(L_0, NULL);
 		__this->___RoomId = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___RoomId), (void*)L_1);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/RTC.cs:287>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/RTC.cs:287>
 		return;
 	}
 }
@@ -13699,7 +13699,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RtcLeaveRoomResult__ctor_mB9FE004632192B
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 78521
+// Method Definition Index: 88575
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RtcLocalAudioPropertiesInfo__ctor_m62EA3EAC77FF4AA26A9A1E437EC790B4BFA936D4 (RtcLocalAudioPropertiesInfo_tDEE2268599EA8C3EC747871F690C5743321ED49E* __this, intptr_t ___0_o, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -13709,14 +13709,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RtcLocalAudioPropertiesInfo__ctor_m62EA3
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/RTC.cs:304>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/RTC.cs:304>
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/RTC.cs:306>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/RTC.cs:306>
 		intptr_t L_0 = ___0_o;
 		int32_t L_1;
 		L_1 = CLIB_ppf_RtcLocalAudioPropertiesInfo_GetStreamIndex_mB7ACF6AB0A3CC4F5500227D3C3D02C89ACAC7DBA(L_0, NULL);
 		__this->___StreamIndex = L_1;
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/RTC.cs:307>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/RTC.cs:307>
 		intptr_t L_2 = ___0_o;
 		intptr_t L_3;
 		L_3 = CLIB_ppf_RtcLocalAudioPropertiesInfo_GetAudioPropertyInfo_mC539E7606ADF0FADFB7ECBD139B35BF7BD0F0D93(L_2, NULL);
@@ -13724,7 +13724,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RtcLocalAudioPropertiesInfo__ctor_m62EA3
 		RtcAudioPropertyInfo__ctor_mC061C4E479AA1830243454373F9FF6FEDC6C96DD(L_4, L_3, NULL);
 		__this->___AudioPropertyInfo = L_4;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___AudioPropertyInfo), (void*)L_4);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/RTC.cs:308>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/RTC.cs:308>
 		return;
 	}
 }
@@ -13736,7 +13736,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RtcLocalAudioPropertiesInfo__ctor_m62EA3
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 78522
+// Method Definition Index: 88576
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RtcLocalAudioPropertiesReport__ctor_m5EC1418129644EF39E90281288475FDD0C14B8D0 (RtcLocalAudioPropertiesReport_t0AA9BC3CF8E0B67661E0CF11B68EBEE27C9D9E7D* __this, intptr_t ___0_o, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -13750,29 +13750,29 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RtcLocalAudioPropertiesReport__ctor_m5EC
 	uint64_t V_0 = 0;
 	uint32_t V_1 = 0;
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/RTC.cs:321>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/RTC.cs:321>
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/RTC.cs:323>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/RTC.cs:323>
 		intptr_t L_0 = ___0_o;
 		uintptr_t L_1;
 		L_1 = CLIB_ppf_RtcLocalAudioPropertiesReport_GetAudioPropertiesInfosSize_mE5764E08811AE948FF5E24E71082CCBCF3912CFE(L_0, NULL);
 		uint64_t L_2;
 		L_2 = UIntPtr_op_Explicit_mC39E70F0324C1C514A3044790BC19C5FC4C58E1C(L_1, NULL);
 		V_0 = L_2;
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/RTC.cs:324>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/RTC.cs:324>
 		uint64_t L_3 = V_0;
 		if ((uint64_t)(L_3) > INTPTR_MAX) IL2CPP_RAISE_MANAGED_EXCEPTION(il2cpp_codegen_get_overflow_exception(), RtcLocalAudioPropertiesReport__ctor_m5EC1418129644EF39E90281288475FDD0C14B8D0_RuntimeMethod_var);
 		RtcLocalAudioPropertiesInfoU5BU5D_tECCE986B1F5EE0EA71E955DE541538066669D2C7* L_4 = (RtcLocalAudioPropertiesInfoU5BU5D_tECCE986B1F5EE0EA71E955DE541538066669D2C7*)(RtcLocalAudioPropertiesInfoU5BU5D_tECCE986B1F5EE0EA71E955DE541538066669D2C7*)SZArrayNew(RtcLocalAudioPropertiesInfoU5BU5D_tECCE986B1F5EE0EA71E955DE541538066669D2C7_il2cpp_TypeInfo_var, (uint32_t)((intptr_t)L_3));
 		__this->___AudioPropertiesInfos = L_4;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___AudioPropertiesInfos), (void*)L_4);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/RTC.cs:325>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/RTC.cs:325>
 		V_1 = 0;
 		goto IL_0040;
 	}
 
 IL_0023:
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/RTC.cs:327>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/RTC.cs:327>
 		RtcLocalAudioPropertiesInfoU5BU5D_tECCE986B1F5EE0EA71E955DE541538066669D2C7* L_5 = __this->___AudioPropertiesInfos;
 		uint32_t L_6 = V_1;
 		intptr_t L_7 = ___0_o;
@@ -13786,14 +13786,14 @@ IL_0023:
 		NullCheck(L_5);
 		ArrayElementTypeCheck (L_5, L_11);
 		(L_5)->SetAt(static_cast<il2cpp_array_size_t>(L_6), (RtcLocalAudioPropertiesInfo_tDEE2268599EA8C3EC747871F690C5743321ED49E*)L_11);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/RTC.cs:325>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/RTC.cs:325>
 		uint32_t L_12 = V_1;
 		V_1 = ((int32_t)il2cpp_codegen_add((int32_t)L_12, 1));
 	}
 
 IL_0040:
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/RTC.cs:325>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/RTC.cs:325>
 		uint32_t L_13 = V_1;
 		uint64_t L_14 = V_0;
 		if ((!(((uint64_t)((int64_t)(uint64_t)((uint32_t)L_13))) >= ((uint64_t)L_14))))
@@ -13802,7 +13802,7 @@ IL_0040:
 		}
 	}
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/RTC.cs:329>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/RTC.cs:329>
 		return;
 	}
 }
@@ -13814,34 +13814,34 @@ IL_0040:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 78523
+// Method Definition Index: 88577
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RtcMediaDeviceChangeInfo__ctor_m8500EDE2340DEFF93732EAEB521C70CB5CE22D6B (RtcMediaDeviceChangeInfo_tB2715659230514BAEF53E2329D648EC92B790850* __this, intptr_t ___0_o, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/RTC.cs:356>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/RTC.cs:356>
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/RTC.cs:358>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/RTC.cs:358>
 		intptr_t L_0 = ___0_o;
 		String_t* L_1;
 		L_1 = CLIB_ppf_RtcMediaDeviceChangeInfo_GetDeviceId_mD080CF35717527AC3A39D3DB669A418A3536FACF(L_0, NULL);
 		__this->___DeviceId = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___DeviceId), (void*)L_1);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/RTC.cs:359>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/RTC.cs:359>
 		intptr_t L_2 = ___0_o;
 		int32_t L_3;
 		L_3 = CLIB_ppf_RtcMediaDeviceChangeInfo_GetDeviceType_mF351F9687B4EE87DB2B92BAB1778D6498534257B(L_2, NULL);
 		__this->___DeviceType = L_3;
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/RTC.cs:360>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/RTC.cs:360>
 		intptr_t L_4 = ___0_o;
 		int32_t L_5;
 		L_5 = CLIB_ppf_RtcMediaDeviceChangeInfo_GetDeviceState_mA052BC17A25AF289F52F5F842AF9360E4322FD78(L_4, NULL);
 		__this->___DeviceState = L_5;
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/RTC.cs:361>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/RTC.cs:361>
 		intptr_t L_6 = ___0_o;
 		int32_t L_7;
 		L_7 = CLIB_ppf_RtcMediaDeviceChangeInfo_GetDeviceError_m5DD51953D1D6B47D38BEA7CAA5BFAAAEBE93BF1B(L_6, NULL);
 		__this->___DeviceError = L_7;
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/RTC.cs:362>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/RTC.cs:362>
 		return;
 	}
 }
@@ -13853,24 +13853,24 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RtcMediaDeviceChangeInfo__ctor_m8500EDE2
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 78524
+// Method Definition Index: 88578
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RtcMuteInfo__ctor_m3C54BEB8F5A442973EBFED444563DE9D02C52DC4 (RtcMuteInfo_t42EFA88A13E9A461000A46AEE9B3BD8017AC5416* __this, intptr_t ___0_o, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/RTC.cs:377>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/RTC.cs:377>
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/RTC.cs:379>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/RTC.cs:379>
 		intptr_t L_0 = ___0_o;
 		String_t* L_1;
 		L_1 = CLIB_ppf_RtcMuteInfo_GetUserId_mECDD26685782CF1C9C0BF2B387FDA97F90855D79(L_0, NULL);
 		__this->___UserId = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___UserId), (void*)L_1);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/RTC.cs:380>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/RTC.cs:380>
 		intptr_t L_2 = ___0_o;
 		int32_t L_3;
 		L_3 = CLIB_ppf_RtcMuteInfo_GetMuteState_m6D2A6AD463AEACC90E5C553AC61B6639BF219F5C(L_2, NULL);
 		__this->___MuteState = L_3;
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/RTC.cs:381>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/RTC.cs:381>
 		return;
 	}
 }
@@ -13882,7 +13882,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RtcMuteInfo__ctor_m3C54BEB8F5A442973EBFE
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 78525
+// Method Definition Index: 88579
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RtcRemoteAudioPropertiesInfo__ctor_mB57DCD21659CC7D50B528459D77BCD195151A538 (RtcRemoteAudioPropertiesInfo_t756C00636961DE878EE3D2DAD934F01DC0DE3C06* __this, intptr_t ___0_o, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -13893,9 +13893,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RtcRemoteAudioPropertiesInfo__ctor_mB57D
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/RTC.cs:394>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/RTC.cs:394>
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/RTC.cs:396>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/RTC.cs:396>
 		intptr_t L_0 = ___0_o;
 		intptr_t L_1;
 		L_1 = CLIB_ppf_RtcRemoteAudioPropertiesInfo_GetStreamKey_m29701F1CAD40F4E3CEA2CB0AFDAF32687C31ED75(L_0, NULL);
@@ -13903,7 +13903,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RtcRemoteAudioPropertiesInfo__ctor_mB57D
 		RtcRemoteStreamKey__ctor_mA8181CF8D33199DCDEE57AE098F0FF9558C00875(L_2, L_1, NULL);
 		__this->___StreamKey = L_2;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___StreamKey), (void*)L_2);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/RTC.cs:397>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/RTC.cs:397>
 		intptr_t L_3 = ___0_o;
 		intptr_t L_4;
 		L_4 = CLIB_ppf_RtcRemoteAudioPropertiesInfo_GetAudioPropertiesInfo_m1FD8D4C46811BE8C893AA9079AAC0821BEA3835C(L_3, NULL);
@@ -13911,7 +13911,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RtcRemoteAudioPropertiesInfo__ctor_mB57D
 		RtcAudioPropertyInfo__ctor_mC061C4E479AA1830243454373F9FF6FEDC6C96DD(L_5, L_4, NULL);
 		__this->___AudioPropertiesInfo = L_5;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___AudioPropertiesInfo), (void*)L_5);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/RTC.cs:398>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/RTC.cs:398>
 		return;
 	}
 }
@@ -13923,7 +13923,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RtcRemoteAudioPropertiesInfo__ctor_mB57D
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 78526
+// Method Definition Index: 88580
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RtcRemoteAudioPropertiesReport__ctor_mF7C56319B7F5278B9D0F6E43EB9DCAA12206AE22 (RtcRemoteAudioPropertiesReport_t575A87A1EE3387315239DA4AF54DAA70B4E5EB78* __this, intptr_t ___0_o, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -13935,9 +13935,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RtcRemoteAudioPropertiesReport__ctor_mF7
 	}
 	uint32_t V_0 = 0;
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/RTC.cs:412>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/RTC.cs:412>
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/RTC.cs:414>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/RTC.cs:414>
 		intptr_t L_0 = ___0_o;
 		uintptr_t L_1;
 		L_1 = CLIB_ppf_RtcRemoteAudioPropertiesReport_GetAudioPropertiesInfosSize_mDC7D1FA23CCCFB05934D0B09620CF7FBEB56BEE7(L_0, NULL);
@@ -13946,14 +13946,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RtcRemoteAudioPropertiesReport__ctor_mF7
 		RtcRemoteAudioPropertiesInfoU5BU5D_t4DD6EF874C9C2844E1101DAE658C91D04DC92952* L_3 = (RtcRemoteAudioPropertiesInfoU5BU5D_t4DD6EF874C9C2844E1101DAE658C91D04DC92952*)(RtcRemoteAudioPropertiesInfoU5BU5D_t4DD6EF874C9C2844E1101DAE658C91D04DC92952*)SZArrayNew(RtcRemoteAudioPropertiesInfoU5BU5D_t4DD6EF874C9C2844E1101DAE658C91D04DC92952_il2cpp_TypeInfo_var, (uint32_t)L_2);
 		__this->___AudioPropertiesInfos = L_3;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___AudioPropertiesInfos), (void*)L_3);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/RTC.cs:415>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/RTC.cs:415>
 		V_0 = 0;
 		goto IL_003d;
 	}
 
 IL_0020:
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/RTC.cs:417>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/RTC.cs:417>
 		RtcRemoteAudioPropertiesInfoU5BU5D_t4DD6EF874C9C2844E1101DAE658C91D04DC92952* L_4 = __this->___AudioPropertiesInfos;
 		uint32_t L_5 = V_0;
 		intptr_t L_6 = ___0_o;
@@ -13967,14 +13967,14 @@ IL_0020:
 		NullCheck(L_4);
 		ArrayElementTypeCheck (L_4, L_10);
 		(L_4)->SetAt(static_cast<il2cpp_array_size_t>(L_5), (RtcRemoteAudioPropertiesInfo_t756C00636961DE878EE3D2DAD934F01DC0DE3C06*)L_10);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/RTC.cs:415>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/RTC.cs:415>
 		uint32_t L_11 = V_0;
 		V_0 = ((int32_t)il2cpp_codegen_add((int32_t)L_11, 1));
 	}
 
 IL_003d:
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/RTC.cs:415>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/RTC.cs:415>
 		uint32_t L_12 = V_0;
 		RtcRemoteAudioPropertiesInfoU5BU5D_t4DD6EF874C9C2844E1101DAE658C91D04DC92952* L_13 = __this->___AudioPropertiesInfos;
 		NullCheck(L_13);
@@ -13984,12 +13984,12 @@ IL_003d:
 		}
 	}
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/RTC.cs:420>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/RTC.cs:420>
 		intptr_t L_14 = ___0_o;
 		int32_t L_15;
 		L_15 = CLIB_ppf_RtcRemoteAudioPropertiesReport_GetTotalRemoteVolume_mE273A923B61FEB94104FCE5F74F2F13D73111A8D(L_14, NULL);
 		__this->___TotalRemoteVolume = L_15;
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/RTC.cs:421>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/RTC.cs:421>
 		return;
 	}
 }
@@ -14001,30 +14001,30 @@ IL_003d:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 78527
+// Method Definition Index: 88581
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RtcRemoteStreamKey__ctor_mA8181CF8D33199DCDEE57AE098F0FF9558C00875 (RtcRemoteStreamKey_tA69532F8EF7C977014612F775D146C3038C61E0E* __this, intptr_t ___0_o, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/RTC.cs:439>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/RTC.cs:439>
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/RTC.cs:441>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/RTC.cs:441>
 		intptr_t L_0 = ___0_o;
 		String_t* L_1;
 		L_1 = CLIB_ppf_RtcRemoteStreamKey_GetRoomId_mEC240EDB6E553C1BB7858D3EC192E7F4EC6ABF8C(L_0, NULL);
 		__this->___RoomId = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___RoomId), (void*)L_1);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/RTC.cs:442>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/RTC.cs:442>
 		intptr_t L_2 = ___0_o;
 		String_t* L_3;
 		L_3 = CLIB_ppf_RtcRemoteStreamKey_GetUserId_m752740195D7553E90ACC9A9F5DB55FF828F32C1B(L_2, NULL);
 		__this->___UserId = L_3;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___UserId), (void*)L_3);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/RTC.cs:443>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/RTC.cs:443>
 		intptr_t L_4 = ___0_o;
 		int32_t L_5;
 		L_5 = CLIB_ppf_RtcRemoteStreamKey_GetStreamIndex_m04DA08988BEFC2FDBA1A4FF953FA21C17B7C46BF(L_4, NULL);
 		__this->___RtcStreamIndex = L_5;
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/RTC.cs:444>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/RTC.cs:444>
 		return;
 	}
 }
@@ -14036,24 +14036,24 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RtcRemoteStreamKey__ctor_mA8181CF8D33199
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 78528
+// Method Definition Index: 88582
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RtcRoomError__ctor_m217646918A21BB202206C9A9AE150E02749192BC (RtcRoomError_t9E2842355A967FB7C0C5170BBAE107B299384383* __this, intptr_t ___0_o, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/RTC.cs:459>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/RTC.cs:459>
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/RTC.cs:461>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/RTC.cs:461>
 		intptr_t L_0 = ___0_o;
 		int32_t L_1;
 		L_1 = CLIB_ppf_RtcRoomError_GetCode_mD43CFDED25CF9BB29B81733140B7861B5E74B1D0(L_0, NULL);
 		__this->___Code = L_1;
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/RTC.cs:462>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/RTC.cs:462>
 		intptr_t L_2 = ___0_o;
 		String_t* L_3;
 		L_3 = CLIB_ppf_RtcRoomError_GetRoomId_m49DD269CFA22AE87ABAD01B04A2226B96F44278A(L_2, NULL);
 		__this->___RoomId = L_3;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___RoomId), (void*)L_3);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/RTC.cs:463>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/RTC.cs:463>
 		return;
 	}
 }
@@ -14065,29 +14065,29 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RtcRoomError__ctor_m217646918A21BB202206
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 78529
+// Method Definition Index: 88583
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RtcRoomStats__ctor_mEC96AB8DB2C5DF4D934943EB7AFED398165F3766 (RtcRoomStats_t82FFF1123D5D67FC8D0027DD78C0BCD933C419CE* __this, intptr_t ___0_o, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/RTC.cs:481>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/RTC.cs:481>
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/RTC.cs:483>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/RTC.cs:483>
 		intptr_t L_0 = ___0_o;
 		int32_t L_1;
 		L_1 = CLIB_ppf_RtcRoomStats_GetTotalDuration_mD290C803D191A9D7F8494D918DAA7A60BE53C1A8(L_0, NULL);
 		__this->___TotalDuration = L_1;
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/RTC.cs:484>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/RTC.cs:484>
 		intptr_t L_2 = ___0_o;
 		int32_t L_3;
 		L_3 = CLIB_ppf_RtcRoomStats_GetUserCount_m5FF2D4018EFCF23C3BFA492DD1AEAB0AC181EDD1(L_2, NULL);
 		__this->___UserCount = L_3;
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/RTC.cs:485>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/RTC.cs:485>
 		intptr_t L_4 = ___0_o;
 		String_t* L_5;
 		L_5 = CLIB_ppf_RtcRoomStats_GetRoomId_m0714FFD58930EF37598D7173AF86AB6BC4A4C59B(L_4, NULL);
 		__this->___RoomId = L_5;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___RoomId), (void*)L_5);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/RTC.cs:486>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/RTC.cs:486>
 		return;
 	}
 }
@@ -14099,24 +14099,24 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RtcRoomStats__ctor_mEC96AB8DB2C5DF4D9349
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 78530
+// Method Definition Index: 88584
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RtcRoomWarn__ctor_m7CDFA2A91713BE86F1329061C8C1268EB01F7FBB (RtcRoomWarn_t606796009EEE6543FEC76C7457FB6F8156C06BD4* __this, intptr_t ___0_o, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/RTC.cs:501>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/RTC.cs:501>
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/RTC.cs:503>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/RTC.cs:503>
 		intptr_t L_0 = ___0_o;
 		int32_t L_1;
 		L_1 = CLIB_ppf_RtcRoomWarn_GetCode_mA07CDF200989FBD62FF5D36AA6D7A0FF859E07FD(L_0, NULL);
 		__this->___Code = L_1;
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/RTC.cs:504>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/RTC.cs:504>
 		intptr_t L_2 = ___0_o;
 		String_t* L_3;
 		L_3 = CLIB_ppf_RtcRoomWarn_GetRoomId_mCF5B71B2EED77BA0CC8955E9821C260EEE40B0A1(L_2, NULL);
 		__this->___RoomId = L_3;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___RoomId), (void*)L_3);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/RTC.cs:505>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/RTC.cs:505>
 		return;
 	}
 }
@@ -14128,36 +14128,36 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RtcRoomWarn__ctor_m7CDFA2A91713BE86F1329
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 78531
+// Method Definition Index: 88585
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RtcUserJoinInfo__ctor_mE3B9C66118A91C8F980048A6DE9735CB1874B7EA (RtcUserJoinInfo_t2B639AA4EA2CEC3216FF167FA01780A3F6B7B747* __this, intptr_t ___0_o, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/RTC.cs:526>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/RTC.cs:526>
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/RTC.cs:528>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/RTC.cs:528>
 		intptr_t L_0 = ___0_o;
 		String_t* L_1;
 		L_1 = CLIB_ppf_RtcUserJoinInfo_GetUserId_mAB7DC7757B17BA43E1F677E0DAF097FA82EE45ED(L_0, NULL);
 		__this->___UserId = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___UserId), (void*)L_1);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/RTC.cs:529>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/RTC.cs:529>
 		intptr_t L_2 = ___0_o;
 		String_t* L_3;
 		L_3 = CLIB_ppf_RtcUserJoinInfo_GetUserExtra_mBEE960EDE2EAE2185937FE1EF20899A103B2B95C(L_2, NULL);
 		__this->___UserExtra = L_3;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___UserExtra), (void*)L_3);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/RTC.cs:530>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/RTC.cs:530>
 		intptr_t L_4 = ___0_o;
 		int32_t L_5;
 		L_5 = CLIB_ppf_RtcUserJoinInfo_GetElapsed_mCA4C9F7D363B7069999375A725496EC51950A75D(L_4, NULL);
 		__this->___Elapsed = L_5;
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/RTC.cs:531>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/RTC.cs:531>
 		intptr_t L_6 = ___0_o;
 		String_t* L_7;
 		L_7 = CLIB_ppf_RtcUserJoinInfo_GetRoomId_m42A8B4AC3AFBCEF578550E778512120FBFFEC536(L_6, NULL);
 		__this->___RoomId = L_7;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___RoomId), (void*)L_7);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/RTC.cs:532>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/RTC.cs:532>
 		return;
 	}
 }
@@ -14169,30 +14169,30 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RtcUserJoinInfo__ctor_mE3B9C66118A91C8F9
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 78532
+// Method Definition Index: 88586
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RtcUserLeaveInfo__ctor_mDD91E36255CD46659679A2F2E649779737F37ED7 (RtcUserLeaveInfo_tC24C9CCF5AEE733D5431F5C973C813C2C36C54FE* __this, intptr_t ___0_o, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/RTC.cs:550>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/RTC.cs:550>
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/RTC.cs:552>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/RTC.cs:552>
 		intptr_t L_0 = ___0_o;
 		String_t* L_1;
 		L_1 = CLIB_ppf_RtcUserLeaveInfo_GetUserId_mAEC74CE8B7BDB7860BD0DD256209ACAC6DBFA654(L_0, NULL);
 		__this->___UserId = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___UserId), (void*)L_1);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/RTC.cs:553>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/RTC.cs:553>
 		intptr_t L_2 = ___0_o;
 		int32_t L_3;
 		L_3 = CLIB_ppf_RtcUserLeaveInfo_GetOfflineReason_m086FDF661763803175EC997688F200A36E1BFEE8(L_2, NULL);
 		__this->___OfflineReason = L_3;
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/RTC.cs:554>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/RTC.cs:554>
 		intptr_t L_4 = ___0_o;
 		String_t* L_5;
 		L_5 = CLIB_ppf_RtcUserLeaveInfo_GetRoomId_m518491FFC6B2A1CE2F13233721EECC2909230CF1(L_4, NULL);
 		__this->___RoomId = L_5;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___RoomId), (void*)L_5);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/RTC.cs:555>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/RTC.cs:555>
 		return;
 	}
 }
@@ -14204,7 +14204,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RtcUserLeaveInfo__ctor_mDD91E36255CD4665
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 78533
+// Method Definition Index: 88587
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Room__ctor_mB6AF794D98BC22F1081870DD63E403520D1172A4 (Room_tBD64D83E5B1B76A68476651AB2E548F1587A1135* __this, intptr_t ___0_o, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -14219,14 +14219,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Room__ctor_mB6AF794D98BC22F1081870DD63E4
 	intptr_t V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Room.cs:49>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Room.cs:49>
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Room.cs:51>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Room.cs:51>
 		intptr_t L_0 = ___0_o;
 		uint32_t L_1;
 		L_1 = CLIB_ppf_Room_GetPlayerNumber_mF381C436C9F47A2382903E4ECEE26D94F7B4CC4C(L_0, NULL);
 		__this->___PlayerNumber = L_1;
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Room.cs:52>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Room.cs:52>
 		intptr_t L_2 = ___0_o;
 		intptr_t L_3;
 		L_3 = CLIB_ppf_Room_GetDataStore_mD837F6F5F9D8454C3CED911061B3182798B58A75(L_2, NULL);
@@ -14234,54 +14234,54 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Room__ctor_mB6AF794D98BC22F1081870DD63E4
 		L_4 = CLIB_DataStoreFromNative_m765A5372300BCCB3279F02A012FDDF4E30ED626A(L_3, NULL);
 		__this->___DataStore = L_4;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___DataStore), (void*)L_4);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Room.cs:53>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Room.cs:53>
 		intptr_t L_5 = ___0_o;
 		String_t* L_6;
 		L_6 = CLIB_ppf_Room_GetDescription_m0B3F47015616F855934978A1E3363FF8133B2B2D(L_5, NULL);
 		__this->___Description = L_6;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___Description), (void*)L_6);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Room.cs:54>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Room.cs:54>
 		intptr_t L_7 = ___0_o;
 		uint64_t L_8;
 		L_8 = CLIB_ppf_Room_GetID_mA3F30744CFD4B32773033B92C35D36EDCFC52302(L_7, NULL);
 		__this->___RoomId = L_8;
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Room.cs:55>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Room.cs:55>
 		intptr_t L_9 = ___0_o;
 		bool L_10;
 		L_10 = CLIB_ppf_Room_GetIsMembershipLocked_m1B8FC8CD5743C03D290C0D1252D3254AE6E36137(L_9, NULL);
 		__this->___IsMembershipLocked = L_10;
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Room.cs:56>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Room.cs:56>
 		intptr_t L_11 = ___0_o;
 		int32_t L_12;
 		L_12 = CLIB_ppf_Room_GetJoinPolicy_m9D566A4693F674501E54329CA22962C45D4356AB(L_11, NULL);
 		__this->___RoomJoinPolicy = L_12;
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Room.cs:57>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Room.cs:57>
 		intptr_t L_13 = ___0_o;
 		int32_t L_14;
 		L_14 = CLIB_ppf_Room_GetJoinability_mCA89ED58AAB4D55330CFFB99E77AD3126DB2C52A(L_13, NULL);
 		__this->___RoomJoinability = L_14;
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Room.cs:58>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Room.cs:58>
 		intptr_t L_15 = ___0_o;
 		uint32_t L_16;
 		L_16 = CLIB_ppf_Room_GetMaxUsers_m72EAD2F61A6C02DFC70142B2D8FA1D8B623B6159(L_15, NULL);
 		__this->___MaxUsers = L_16;
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Room.cs:59>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Room.cs:59>
 		intptr_t L_17 = ___0_o;
 		String_t* L_18;
 		L_18 = CLIB_ppf_Room_GetName_m87A770FD459F4539848860C47986204CCEE10162(L_17, NULL);
 		__this->___Name = L_18;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___Name), (void*)L_18);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Room.cs:60>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Room.cs:60>
 		intptr_t L_19 = ___0_o;
 		int32_t L_20;
 		L_20 = CLIB_ppf_Room_GetType_mA5FCEBA4DC0D3B9D9DDCE628BFC7009C0398FF4B(L_19, NULL);
 		__this->___RoomType = L_20;
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Room.cs:62>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Room.cs:62>
 		intptr_t L_21 = ___0_o;
 		intptr_t L_22;
 		L_22 = CLIB_ppf_Room_GetOwner_m431345003BF1B39434CBC260A90E38C1D582180C(L_21, NULL);
 		V_0 = L_22;
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Room.cs:63>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Room.cs:63>
 		intptr_t L_23 = V_0;
 		bool L_24;
 		L_24 = IntPtr_op_Equality_m7D9CDCDE9DC2A0C2C614633F4921E90187FAB271_inline(L_23, 0, NULL);
@@ -14291,7 +14291,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Room__ctor_mB6AF794D98BC22F1081870DD63E4
 		}
 	}
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Room.cs:65>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Room.cs:65>
 		__this->___OwnerOptional = (User_t37DF053AC9F41CDB2B22463F16BE016A70A2C2A4*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___OwnerOptional), (void*)(User_t37DF053AC9F41CDB2B22463F16BE016A70A2C2A4*)NULL);
 		goto IL_00ac;
@@ -14299,7 +14299,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Room__ctor_mB6AF794D98BC22F1081870DD63E4
 
 IL_00a0:
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Room.cs:69>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Room.cs:69>
 		intptr_t L_25 = V_0;
 		User_t37DF053AC9F41CDB2B22463F16BE016A70A2C2A4* L_26 = (User_t37DF053AC9F41CDB2B22463F16BE016A70A2C2A4*)il2cpp_codegen_object_new(User_t37DF053AC9F41CDB2B22463F16BE016A70A2C2A4_il2cpp_TypeInfo_var);
 		User__ctor_m0A17383A33457E27EB6AD299C81C77AC1802E0D1(L_26, L_25, NULL);
@@ -14309,12 +14309,12 @@ IL_00a0:
 
 IL_00ac:
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Room.cs:74>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Room.cs:74>
 		intptr_t L_27 = ___0_o;
 		intptr_t L_28;
 		L_28 = CLIB_ppf_Room_GetUsers_mEEBAF8CF27478C8D3DACBACBF5465AC8A887F4A9(L_27, NULL);
 		V_1 = L_28;
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Room.cs:75>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Room.cs:75>
 		intptr_t L_29 = V_1;
 		bool L_30;
 		L_30 = IntPtr_op_Equality_m7D9CDCDE9DC2A0C2C614633F4921E90187FAB271_inline(L_29, 0, NULL);
@@ -14324,7 +14324,7 @@ IL_00ac:
 		}
 	}
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Room.cs:77>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Room.cs:77>
 		__this->___UsersOptional = (UserList_t5DD5257033AB7F06FBA7064529EE1C57F3ACAD2F*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___UsersOptional), (void*)(UserList_t5DD5257033AB7F06FBA7064529EE1C57F3ACAD2F*)NULL);
 		return;
@@ -14332,13 +14332,13 @@ IL_00ac:
 
 IL_00c8:
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Room.cs:81>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Room.cs:81>
 		intptr_t L_31 = V_1;
 		UserList_t5DD5257033AB7F06FBA7064529EE1C57F3ACAD2F* L_32 = (UserList_t5DD5257033AB7F06FBA7064529EE1C57F3ACAD2F*)il2cpp_codegen_object_new(UserList_t5DD5257033AB7F06FBA7064529EE1C57F3ACAD2F_il2cpp_TypeInfo_var);
 		UserList__ctor_m4FEB49DD26A4410363EE489A1D289C8725776F4D(L_32, L_31, NULL);
 		__this->___UsersOptional = L_32;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___UsersOptional), (void*)L_32);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Room.cs:84>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Room.cs:84>
 		return;
 	}
 }
@@ -14350,7 +14350,7 @@ IL_00c8:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 78534
+// Method Definition Index: 88588
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RoomList__ctor_mEBDDF23698AD7ED54D4673ADB003D6182A4A0CD3 (RoomList_t3B275914D4B281B7FAB5C1AD597F11D664367694* __this, intptr_t ___0_a, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -14370,24 +14370,24 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RoomList__ctor_mEBDDF23698AD7ED54D4673AD
 	String_t* G_B3_0 = NULL;
 	RoomList_t3B275914D4B281B7FAB5C1AD597F11D664367694* G_B3_1 = NULL;
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Room.cs:97>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Room.cs:97>
 		MessageArray_1__ctor_m44916C4D5F46A3D4CB182D99F9E370CBFA347B97(__this, MessageArray_1__ctor_m44916C4D5F46A3D4CB182D99F9E370CBFA347B97_RuntimeMethod_var);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Room.cs:99>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Room.cs:99>
 		intptr_t L_0 = ___0_a;
 		int32_t L_1;
 		L_1 = CLIB_ppf_RoomArray_GetTotalCount_m2661AEA71C41F53C8AC1225268F82F5EF5D80A57(L_0, NULL);
 		__this->___TotalCount = L_1;
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Room.cs:100>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Room.cs:100>
 		intptr_t L_2 = ___0_a;
 		int32_t L_3;
 		L_3 = CLIB_ppf_RoomArray_GetPageIndex_m62BC5997CFD307B686887BF746D683DE74791386(L_2, NULL);
 		__this->___CurIndex = L_3;
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Room.cs:101>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Room.cs:101>
 		intptr_t L_4 = ___0_a;
 		int32_t L_5;
 		L_5 = CLIB_ppf_RoomArray_GetPageSize_m500EFA10A28E0EA6400521CBDAB553FA9E815793(L_4, NULL);
 		__this->___PageSize = L_5;
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Room.cs:102>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Room.cs:102>
 		intptr_t L_6 = ___0_a;
 		bool L_7;
 		L_7 = CLIB_ppf_RoomArray_HasNextPage_m5E21A22CDD09E128D8185D93CBBD970AB7386B33(L_6, NULL);
@@ -14416,24 +14416,24 @@ IL_003f:
 		NullCheck(G_B3_1);
 		((MessageArray_1_t13175CA17EF1C58A6CE16C1C5CC33E66B189C0DB*)G_B3_1)->___NextPageParam = G_B3_0;
 		Il2CppCodeGenWriteBarrier((void**)(&((MessageArray_1_t13175CA17EF1C58A6CE16C1C5CC33E66B189C0DB*)G_B3_1)->___NextPageParam), (void*)G_B3_0);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Room.cs:103>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Room.cs:103>
 		intptr_t L_9 = ___0_a;
 		uintptr_t L_10;
 		L_10 = CLIB_ppf_RoomArray_GetSize_mE6F66F2A0AA5392B901AAC29B48B609CB25319D9(L_9, NULL);
 		uint32_t L_11;
 		L_11 = UIntPtr_op_Explicit_m7802FC2BA4C3A18601BB8B58ED4708E0F07663E8(L_10, NULL);
 		V_0 = L_11;
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Room.cs:104>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Room.cs:104>
 		int32_t L_12 = V_0;
 		List_1_set_Capacity_m5D4C4FA3EEC9734BCBF629BCC57F31DB95D20AC3(__this, L_12, List_1_set_Capacity_m5D4C4FA3EEC9734BCBF629BCC57F31DB95D20AC3_RuntimeMethod_var);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Room.cs:105>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Room.cs:105>
 		V_1 = 0;
 		goto IL_0076;
 	}
 
 IL_005b:
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Room.cs:107>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Room.cs:107>
 		intptr_t L_13 = ___0_a;
 		uint32_t L_14 = V_1;
 		uintptr_t L_15;
@@ -14443,14 +14443,14 @@ IL_005b:
 		Room_tBD64D83E5B1B76A68476651AB2E548F1587A1135* L_17 = (Room_tBD64D83E5B1B76A68476651AB2E548F1587A1135*)il2cpp_codegen_object_new(Room_tBD64D83E5B1B76A68476651AB2E548F1587A1135_il2cpp_TypeInfo_var);
 		Room__ctor_mB6AF794D98BC22F1081870DD63E403520D1172A4(L_17, L_16, NULL);
 		List_1_Add_mD04F4301A11C785E216B4D3B39B7BBA17AC556D0_inline(__this, L_17, List_1_Add_mD04F4301A11C785E216B4D3B39B7BBA17AC556D0_RuntimeMethod_var);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Room.cs:105>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Room.cs:105>
 		uint32_t L_18 = V_1;
 		V_1 = ((int32_t)il2cpp_codegen_add((int32_t)L_18, 1));
 	}
 
 IL_0076:
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Room.cs:105>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Room.cs:105>
 		uint32_t L_19 = V_1;
 		int32_t L_20 = V_0;
 		if ((((int64_t)((int64_t)(uint64_t)((uint32_t)L_19))) < ((int64_t)((int64_t)L_20))))
@@ -14459,7 +14459,7 @@ IL_0076:
 		}
 	}
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Room.cs:109>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Room.cs:109>
 		return;
 	}
 }
@@ -14471,24 +14471,24 @@ IL_0076:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 78535
+// Method Definition Index: 88589
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AsrResult__ctor_mD74BAFECAE819544CF068FE7AE3BB1C7838AD349 (AsrResult_t004816647ADC1F06A8D0AE66C355906FB022BEA5* __this, intptr_t ___0_o, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Speech.cs:33>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Speech.cs:33>
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Speech.cs:35>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Speech.cs:35>
 		intptr_t L_0 = ___0_o;
 		String_t* L_1;
 		L_1 = CLIB_ppf_AsrResult_GetText_m98DC33A218EA20F4007023A3C9A9DAE655DC3981(L_0, NULL);
 		__this->___Text = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___Text), (void*)L_1);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Speech.cs:36>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Speech.cs:36>
 		intptr_t L_2 = ___0_o;
 		bool L_3;
 		L_3 = CLIB_ppf_AsrResult_GetIsFinalResult_mFA662FC4CE8DA4E8B6D4721940DF8F350863BDC1(L_2, NULL);
 		__this->___IsFinalResult = L_3;
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Speech.cs:37>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Speech.cs:37>
 		return;
 	}
 }
@@ -14500,30 +14500,30 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AsrResult__ctor_mD74BAFECAE819544CF068FE
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 78536
+// Method Definition Index: 88590
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SpeechError__ctor_m024F1E267FD9A5927AF077A6CA675E8CC4DA612D (SpeechError_t370B79F899E733FECFC5D12BFA22AB0E146C96FB* __this, intptr_t ___0_o, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Speech.cs:58>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Speech.cs:58>
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Speech.cs:60>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Speech.cs:60>
 		intptr_t L_0 = ___0_o;
 		String_t* L_1;
 		L_1 = CLIB_ppf_SpeechError_GetMessage_mA9F88B85A0105651418FE850415A6DE0EBF73C02(L_0, NULL);
 		__this->___Message = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___Message), (void*)L_1);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Speech.cs:61>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Speech.cs:61>
 		intptr_t L_2 = ___0_o;
 		int32_t L_3;
 		L_3 = CLIB_ppf_SpeechError_GetCode_m776FFB712F888806C1F3EF2832E6FBF703D3CD54(L_2, NULL);
 		__this->___Code = L_3;
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Speech.cs:62>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Speech.cs:62>
 		intptr_t L_4 = ___0_o;
 		String_t* L_5;
 		L_5 = CLIB_ppf_SpeechError_GetSessionId_m0CA11F6BAED5DB0FB2839B213E0E17E1A8B4F600(L_4, NULL);
 		__this->___SessionId = L_5;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___SessionId), (void*)L_5);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Speech.cs:63>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Speech.cs:63>
 		return;
 	}
 }
@@ -14535,7 +14535,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SpeechError__ctor_m024F1E267FD9A5927AF07
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 78537
+// Method Definition Index: 88591
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SportDailySummary__ctor_m414B482BE61A12E06A1A9AD9754172A30A153607 (SportDailySummary_t1202315FC8419F0C908ACF448A0DF4EF207756F0* __this, intptr_t ___0_o, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -14545,14 +14545,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SportDailySummary__ctor_m414B482BE61A12E
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Sport.cs:42>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Sport.cs:42>
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Sport.cs:44>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Sport.cs:44>
 		intptr_t L_0 = ___0_o;
 		int64_t L_1;
 		L_1 = CLIB_ppf_SportDailySummary_GetId_mD0C7B8787EAE9F59909A790CAFD2571868596D6E(L_0, NULL);
 		__this->___Id = L_1;
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Sport.cs:45>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Sport.cs:45>
 		intptr_t L_2 = ___0_o;
 		int64_t L_3;
 		L_3 = CLIB_ppf_SportDailySummary_GetDate_mD2688B53970514537C71524FA509B773751E0E6D(L_2, NULL);
@@ -14560,27 +14560,27 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SportDailySummary__ctor_m414B482BE61A12E
 		DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D L_4;
 		L_4 = TimeUtil_MilliSecondsToDateTime_mF1197E9C5865487072B28200D665A6AEEA15F54C(L_3, NULL);
 		__this->___Date = L_4;
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Sport.cs:46>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Sport.cs:46>
 		intptr_t L_5 = ___0_o;
 		int32_t L_6;
 		L_6 = CLIB_ppf_SportDailySummary_GetDurationInSeconds_mB3CC475B83BD6172711D50E395583FA551AEC8F6(L_5, NULL);
 		__this->___DurationInSeconds = L_6;
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Sport.cs:47>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Sport.cs:47>
 		intptr_t L_7 = ___0_o;
 		int32_t L_8;
 		L_8 = CLIB_ppf_SportDailySummary_GetPlanDurationInMinutes_m5D35BAF66BE477FBA087DFCD04BF3F17710ADB7E(L_7, NULL);
 		__this->___PlanDurationInMinutes = L_8;
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Sport.cs:48>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Sport.cs:48>
 		intptr_t L_9 = ___0_o;
 		double L_10;
 		L_10 = CLIB_ppf_SportDailySummary_GetCalorie_m6E4BE90C8F10CAE8521D8B445EDF93C0B19B5D64(L_9, NULL);
 		__this->___Calorie = L_10;
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Sport.cs:49>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Sport.cs:49>
 		intptr_t L_11 = ___0_o;
 		double L_12;
 		L_12 = CLIB_ppf_SportDailySummary_GetPlanCalorie_mB82EC6532FB7EF2001A89D37929F321D7E1B73AF(L_11, NULL);
 		__this->___PlanCalorie = L_12;
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Sport.cs:50>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Sport.cs:50>
 		return;
 	}
 }
@@ -14592,7 +14592,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SportDailySummary__ctor_m414B482BE61A12E
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 78538
+// Method Definition Index: 88592
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SportDailySummaryList__ctor_m8FC1C7E60CC6DE1D8123051A2C7BDA886BD91FE2 (SportDailySummaryList_tDB9E5A80ED100417F113C33891F04F9CF8DB5BC6* __this, intptr_t ___0_a, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -14607,26 +14607,26 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SportDailySummaryList__ctor_m8FC1C7E60CC
 	int32_t V_0 = 0;
 	int32_t V_1 = 0;
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Sport.cs:58>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Sport.cs:58>
 		MessageArray_1__ctor_m1A4632C39F931579FEBF2FEA60B370A49C699D53(__this, MessageArray_1__ctor_m1A4632C39F931579FEBF2FEA60B370A49C699D53_RuntimeMethod_var);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Sport.cs:60>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Sport.cs:60>
 		intptr_t L_0 = ___0_a;
 		uintptr_t L_1;
 		L_1 = CLIB_ppf_SportDailySummaryArray_GetSize_m5095964C0C481DE77230E452B5B019EA2BD8C993(L_0, NULL);
 		uint32_t L_2;
 		L_2 = UIntPtr_op_Explicit_m7802FC2BA4C3A18601BB8B58ED4708E0F07663E8(L_1, NULL);
 		V_0 = L_2;
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Sport.cs:61>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Sport.cs:61>
 		int32_t L_3 = V_0;
 		List_1_set_Capacity_m7C5EB735CBD98B3B2B64F7FA49954FD5ED73D728(__this, L_3, List_1_set_Capacity_m7C5EB735CBD98B3B2B64F7FA49954FD5ED73D728_RuntimeMethod_var);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Sport.cs:62>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Sport.cs:62>
 		V_1 = 0;
 		goto IL_0039;
 	}
 
 IL_001d:
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Sport.cs:64>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Sport.cs:64>
 		intptr_t L_4 = ___0_a;
 		int32_t L_5 = V_1;
 		uintptr_t L_6;
@@ -14636,14 +14636,14 @@ IL_001d:
 		SportDailySummary_t1202315FC8419F0C908ACF448A0DF4EF207756F0* L_8 = (SportDailySummary_t1202315FC8419F0C908ACF448A0DF4EF207756F0*)il2cpp_codegen_object_new(SportDailySummary_t1202315FC8419F0C908ACF448A0DF4EF207756F0_il2cpp_TypeInfo_var);
 		SportDailySummary__ctor_m414B482BE61A12E06A1A9AD9754172A30A153607(L_8, L_7, NULL);
 		List_1_Add_mB7F4419CE7EA8D9E393B3D5CF160812DB776DD9C_inline(__this, L_8, List_1_Add_mB7F4419CE7EA8D9E393B3D5CF160812DB776DD9C_RuntimeMethod_var);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Sport.cs:62>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Sport.cs:62>
 		int32_t L_9 = V_1;
 		V_1 = ((int32_t)il2cpp_codegen_add(L_9, 1));
 	}
 
 IL_0039:
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Sport.cs:62>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Sport.cs:62>
 		int32_t L_10 = V_1;
 		int32_t L_11 = V_0;
 		if ((((int32_t)L_10) < ((int32_t)L_11)))
@@ -14652,7 +14652,7 @@ IL_0039:
 		}
 	}
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Sport.cs:66>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Sport.cs:66>
 		return;
 	}
 }
@@ -14664,7 +14664,7 @@ IL_0039:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 78539
+// Method Definition Index: 88593
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SportSummary__ctor_mE98EC8E61F32FF6863DA6F8712DED3A2AD97AB6B (SportSummary_t6193CC64BC93B9813F42F50B37479017FB3067D1* __this, intptr_t ___0_o, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -14674,19 +14674,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SportSummary__ctor_mE98EC8E61F32FF6863DA
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Sport.cs:86>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Sport.cs:86>
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Sport.cs:88>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Sport.cs:88>
 		intptr_t L_0 = ___0_o;
 		int64_t L_1;
 		L_1 = CLIB_ppf_SportSummary_GetDurationInSeconds_mEA277BCC9042996C88F05700B6F5F5E141CACE11(L_0, NULL);
 		__this->___DurationInSeconds = ((int32_t)L_1);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Sport.cs:89>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Sport.cs:89>
 		intptr_t L_2 = ___0_o;
 		double L_3;
 		L_3 = CLIB_ppf_SportSummary_GetCalorie_mD0DED681090542C6772B89E941887D99F79C493F(L_2, NULL);
 		__this->___Calorie = L_3;
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Sport.cs:90>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Sport.cs:90>
 		intptr_t L_4 = ___0_o;
 		int64_t L_5;
 		L_5 = CLIB_ppf_SportSummary_GetStartTime_m8B1F09B26AF08C93109B09230F61E765F14E5AB1(L_4, NULL);
@@ -14694,14 +14694,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SportSummary__ctor_mE98EC8E61F32FF6863DA
 		DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D L_6;
 		L_6 = TimeUtil_MilliSecondsToDateTime_mF1197E9C5865487072B28200D665A6AEEA15F54C(L_5, NULL);
 		__this->___StartTime = L_6;
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Sport.cs:91>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Sport.cs:91>
 		intptr_t L_7 = ___0_o;
 		int64_t L_8;
 		L_8 = CLIB_ppf_SportSummary_GetEndTime_m0D4A52380219D1A445CFA7F717EE13AD0040D9D9(L_7, NULL);
 		DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D L_9;
 		L_9 = TimeUtil_MilliSecondsToDateTime_mF1197E9C5865487072B28200D665A6AEEA15F54C(L_8, NULL);
 		__this->___EndTime = L_9;
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Sport.cs:92>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Sport.cs:92>
 		return;
 	}
 }
@@ -14713,7 +14713,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SportSummary__ctor_mE98EC8E61F32FF6863DA
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 78540
+// Method Definition Index: 88594
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SportUserInfo__ctor_m3DB7227F31818D9566EFD97958D27345D78AD1AC (SportUserInfo_tFA26719517B940DC321942A68AE48D23AFAE5D78* __this, intptr_t ___0_o, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -14723,14 +14723,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SportUserInfo__ctor_m3DB7227F31818D9566E
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Sport.cs:122>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Sport.cs:122>
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Sport.cs:124>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Sport.cs:124>
 		intptr_t L_0 = ___0_o;
 		int32_t L_1;
 		L_1 = CLIB_ppf_SportUserInfo_GetGender_m4BA39777D6E8DCADBDD516A351E5525C79C2C632(L_0, NULL);
 		__this->___Gender = L_1;
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Sport.cs:125>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Sport.cs:125>
 		intptr_t L_2 = ___0_o;
 		int64_t L_3;
 		L_3 = CLIB_ppf_SportUserInfo_GetBirthday_m96446A5C5EE2E53AE7E9219F54BFC6069DC46779(L_2, NULL);
@@ -14738,37 +14738,37 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SportUserInfo__ctor_m3DB7227F31818D9566E
 		DateTime_t66193957C73913903DDAD89FEDC46139BCA5802D L_4;
 		L_4 = TimeUtil_MilliSecondsToDateTime_mF1197E9C5865487072B28200D665A6AEEA15F54C(L_3, NULL);
 		__this->___Birthday = L_4;
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Sport.cs:126>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Sport.cs:126>
 		intptr_t L_5 = ___0_o;
 		int32_t L_6;
 		L_6 = CLIB_ppf_SportUserInfo_GetStature_m5308010D0B887831F1D027C7A7CA6EE4C3198C0B(L_5, NULL);
 		__this->___Stature = L_6;
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Sport.cs:127>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Sport.cs:127>
 		intptr_t L_7 = ___0_o;
 		int32_t L_8;
 		L_8 = CLIB_ppf_SportUserInfo_GetWeight_m0917EEEDE18EEF40D96E5800918CB2A182350954(L_7, NULL);
 		__this->___Weight = L_8;
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Sport.cs:128>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Sport.cs:128>
 		intptr_t L_9 = ___0_o;
 		int32_t L_10;
 		L_10 = CLIB_ppf_SportUserInfo_GetSportLevel_m50993DC43A4FF63D1F69C20072C1C4A4F6130ED3(L_9, NULL);
 		__this->___SportLevel = L_10;
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Sport.cs:129>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Sport.cs:129>
 		intptr_t L_11 = ___0_o;
 		int32_t L_12;
 		L_12 = CLIB_ppf_SportUserInfo_GetDailyDurationInMinutes_m94D2A7F60CFA76305B38B721A092F32A2E3F9AA0(L_11, NULL);
 		__this->___DailyDurationInMinutes = L_12;
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Sport.cs:130>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Sport.cs:130>
 		intptr_t L_13 = ___0_o;
 		int32_t L_14;
 		L_14 = CLIB_ppf_SportUserInfo_GetDaysPerWeek_m6E4BFC9A8DFEB59492044F6B588646D21334B26D(L_13, NULL);
 		__this->___DaysPerWeek = L_14;
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Sport.cs:131>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Sport.cs:131>
 		intptr_t L_15 = ___0_o;
 		int32_t L_16;
 		L_16 = CLIB_ppf_SportUserInfo_GetSportTarget_m9C89EC1396CC22229A482F2095B6BD0662E2FEED(L_15, NULL);
 		__this->___SportTarget = L_16;
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Sport.cs:132>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Sport.cs:132>
 		return;
 	}
 }
@@ -14780,106 +14780,106 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SportUserInfo__ctor_m3DB7227F31818D9566E
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 78541
+// Method Definition Index: 88595
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void User__ctor_m0A17383A33457E27EB6AD299C81C77AC1802E0D1 (User_t37DF053AC9F41CDB2B22463F16BE016A70A2C2A4* __this, intptr_t ___0_obj, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/User.cs:71>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/User.cs:71>
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/User.cs:73>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/User.cs:73>
 		intptr_t L_0 = ___0_obj;
 		String_t* L_1;
 		L_1 = CLIB_ppf_User_GetDisplayName_m6495233A8495D847FA8F01794081DDDC82EC514D(L_0, NULL);
 		__this->___DisplayName = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___DisplayName), (void*)L_1);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/User.cs:74>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/User.cs:74>
 		intptr_t L_2 = ___0_obj;
 		String_t* L_3;
 		L_3 = CLIB_ppf_User_GetImageUrl_mF54B7F71B18B868BE97323D8F9D8D4B7FDDDCF6D(L_2, NULL);
 		__this->___ImageUrl = L_3;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___ImageUrl), (void*)L_3);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/User.cs:75>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/User.cs:75>
 		intptr_t L_4 = ___0_obj;
 		String_t* L_5;
 		L_5 = CLIB_ppf_User_GetID_mFCED817FC648DDC3918EB0D56652F88342640033(L_4, NULL);
 		__this->___ID = L_5;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___ID), (void*)L_5);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/User.cs:76>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/User.cs:76>
 		intptr_t L_6 = ___0_obj;
 		String_t* L_7;
 		L_7 = CLIB_ppf_User_GetInviteToken_m758417F040077D7413AD6E6B70A8F90C3DC44D17(L_6, NULL);
 		__this->___InviteToken = L_7;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___InviteToken), (void*)L_7);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/User.cs:77>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/User.cs:77>
 		intptr_t L_8 = ___0_obj;
 		int32_t L_9;
 		L_9 = CLIB_ppf_User_GetPresenceStatus_m56F7990DB626B12C02E9C31E46DF1F2E3E71BE9F(L_8, NULL);
 		__this->___PresenceStatus = L_9;
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/User.cs:78>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/User.cs:78>
 		intptr_t L_10 = ___0_obj;
 		int32_t L_11;
 		L_11 = CLIB_ppf_User_GetGender_mC6AA156708699C5B255F83D1B42FFDD20E56095E(L_10, NULL);
 		__this->___Gender = L_11;
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/User.cs:79>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/User.cs:79>
 		intptr_t L_12 = ___0_obj;
 		String_t* L_13;
 		L_13 = CLIB_ppf_User_GetPresence_m256411CC38F04771EA51021A5DE7730E181FB3CF(L_12, NULL);
 		__this->___Presence = L_13;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___Presence), (void*)L_13);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/User.cs:80>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/User.cs:80>
 		intptr_t L_14 = ___0_obj;
 		String_t* L_15;
 		L_15 = CLIB_ppf_User_GetPresenceDeeplinkMessage_m2DA0CD3BE73EAD3BF0FE8F11629220E7F0B71276(L_14, NULL);
 		__this->___PresenceDeeplinkMessage = L_15;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___PresenceDeeplinkMessage), (void*)L_15);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/User.cs:81>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/User.cs:81>
 		intptr_t L_16 = ___0_obj;
 		String_t* L_17;
 		L_17 = CLIB_ppf_User_GetPresenceDestinationApiName_mCAE5F575A00155B4B2E55B8D9B2A6814F90195CF(L_16, NULL);
 		__this->___PresenceDestinationApiName = L_17;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___PresenceDestinationApiName), (void*)L_17);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/User.cs:82>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/User.cs:82>
 		intptr_t L_18 = ___0_obj;
 		String_t* L_19;
 		L_19 = CLIB_ppf_User_GetPresenceLobbySessionId_m702C4BD3E75BD3EF160174ECB05F70F145051A26(L_18, NULL);
 		__this->___PresenceLobbySessionId = L_19;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___PresenceLobbySessionId), (void*)L_19);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/User.cs:83>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/User.cs:83>
 		intptr_t L_20 = ___0_obj;
 		String_t* L_21;
 		L_21 = CLIB_ppf_User_GetPresenceMatchSessionId_m7FA4BBC2A376AEAC6CA8B25AFF69C76ACA3788CB(L_20, NULL);
 		__this->___PresenceMatchSessionId = L_21;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___PresenceMatchSessionId), (void*)L_21);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/User.cs:84>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/User.cs:84>
 		intptr_t L_22 = ___0_obj;
 		String_t* L_23;
 		L_23 = CLIB_ppf_User_GetPresenceExtra_m12730CEEC5DC9E8737B6E2915C30F90F27D1F2C3(L_22, NULL);
 		__this->___PresenceExtra = L_23;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___PresenceExtra), (void*)L_23);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/User.cs:85>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/User.cs:85>
 		intptr_t L_24 = ___0_obj;
 		bool L_25;
 		L_25 = CLIB_ppf_User_GetPresenceIsJoinable_mFFA9BCA736B46C756A8ED1120DE8DE7DFF6BE133(L_24, NULL);
 		__this->___PresenceIsJoinable = L_25;
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/User.cs:86>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/User.cs:86>
 		intptr_t L_26 = ___0_obj;
 		String_t* L_27;
 		L_27 = CLIB_ppf_User_GetSmallImageUrl_m16BE75B35032EA60BE97C76FBE1F9436F7B5BD89(L_26, NULL);
 		__this->___SmallImageUrl = L_27;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___SmallImageUrl), (void*)L_27);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/User.cs:87>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/User.cs:87>
 		intptr_t L_28 = ___0_obj;
 		String_t* L_29;
 		L_29 = CLIB_ppf_User_GetInviteToken_m758417F040077D7413AD6E6B70A8F90C3DC44D17(L_28, NULL);
 		__this->___InviteToken = L_29;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___InviteToken), (void*)L_29);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/User.cs:88>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/User.cs:88>
 		intptr_t L_30 = ___0_obj;
 		String_t* L_31;
 		L_31 = CLIB_ppf_User_GetStoreRegion_mE2E6D71E336324B0AF7AC2196293C613B85624BF(L_30, NULL);
 		__this->___StoreRegion = L_31;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___StoreRegion), (void*)L_31);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/User.cs:89>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/User.cs:89>
 		return;
 	}
 }
@@ -14891,7 +14891,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void User__ctor_m0A17383A33457E27EB6AD299C81C
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 78542
+// Method Definition Index: 88596
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UserList__ctor_m4FEB49DD26A4410363EE489A1D289C8725776F4D (UserList_t5DD5257033AB7F06FBA7064529EE1C57F3ACAD2F* __this, intptr_t ___0_a, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -14906,26 +14906,26 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UserList__ctor_m4FEB49DD26A4410363EE489A
 	int32_t V_0 = 0;
 	int32_t V_1 = 0;
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/User.cs:97>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/User.cs:97>
 		MessageArray_1__ctor_m67D3B507B26914F09606DA7A23A8061AC239B379(__this, MessageArray_1__ctor_m67D3B507B26914F09606DA7A23A8061AC239B379_RuntimeMethod_var);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/User.cs:99>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/User.cs:99>
 		intptr_t L_0 = ___0_a;
 		uintptr_t L_1;
 		L_1 = CLIB_ppf_UserArray_GetSize_m303552B1FB5CE41D8FAB1842B601C9FF0D24B8ED(L_0, NULL);
 		uint32_t L_2;
 		L_2 = UIntPtr_op_Explicit_m7802FC2BA4C3A18601BB8B58ED4708E0F07663E8(L_1, NULL);
 		V_0 = L_2;
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/User.cs:100>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/User.cs:100>
 		int32_t L_3 = V_0;
 		List_1_set_Capacity_m53C9442D7A2C89C4DC109B654F6515D05DE52B16(__this, L_3, List_1_set_Capacity_m53C9442D7A2C89C4DC109B654F6515D05DE52B16_RuntimeMethod_var);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/User.cs:101>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/User.cs:101>
 		V_1 = 0;
 		goto IL_0039;
 	}
 
 IL_001d:
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/User.cs:103>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/User.cs:103>
 		intptr_t L_4 = ___0_a;
 		int32_t L_5 = V_1;
 		uintptr_t L_6;
@@ -14935,14 +14935,14 @@ IL_001d:
 		User_t37DF053AC9F41CDB2B22463F16BE016A70A2C2A4* L_8 = (User_t37DF053AC9F41CDB2B22463F16BE016A70A2C2A4*)il2cpp_codegen_object_new(User_t37DF053AC9F41CDB2B22463F16BE016A70A2C2A4_il2cpp_TypeInfo_var);
 		User__ctor_m0A17383A33457E27EB6AD299C81C77AC1802E0D1(L_8, L_7, NULL);
 		List_1_Add_mFA38C07130F30DDA8AFCD688E19E79D20832CF90_inline(__this, L_8, List_1_Add_mFA38C07130F30DDA8AFCD688E19E79D20832CF90_RuntimeMethod_var);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/User.cs:101>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/User.cs:101>
 		int32_t L_9 = V_1;
 		V_1 = ((int32_t)il2cpp_codegen_add(L_9, 1));
 	}
 
 IL_0039:
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/User.cs:101>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/User.cs:101>
 		int32_t L_10 = V_1;
 		int32_t L_11 = V_0;
 		if ((((int32_t)L_10) < ((int32_t)L_11)))
@@ -14951,13 +14951,13 @@ IL_0039:
 		}
 	}
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/User.cs:106>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/User.cs:106>
 		intptr_t L_12 = ___0_a;
 		String_t* L_13;
 		L_13 = CLIB_ppf_UserArray_GetNextPageParam_m4698658C6DF4F21C3429E5BE1AE5C6D3AFAA395C(L_12, NULL);
 		((MessageArray_1_t3FBFD71C2ED89BC1E98F61EFDB0C5C6DADE06A17*)__this)->___NextPageParam = L_13;
 		Il2CppCodeGenWriteBarrier((void**)(&((MessageArray_1_t3FBFD71C2ED89BC1E98F61EFDB0C5C6DADE06A17*)__this)->___NextPageParam), (void*)L_13);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/User.cs:107>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/User.cs:107>
 		return;
 	}
 }
@@ -14969,19 +14969,19 @@ IL_0039:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 78543
+// Method Definition Index: 88597
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OrgScopedID__ctor_m8B947B00E380275E6DE53DC460E4A2B9637CD51F (OrgScopedID_tE7AFDD1678D708DC9371763230892D40F965A581* __this, intptr_t ___0_o, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/User.cs:120>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/User.cs:120>
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/User.cs:122>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/User.cs:122>
 		intptr_t L_0 = ___0_o;
 		String_t* L_1;
 		L_1 = CLIB_ppf_OrgScopedID_GetID_mA71FE5E5CCADE9A14878DB489CC90E98B2B18580(L_0, NULL);
 		__this->___ID = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___ID), (void*)L_1);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/User.cs:123>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/User.cs:123>
 		return;
 	}
 }
@@ -14993,23 +14993,23 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OrgScopedID__ctor_m8B947B00E380275E6DE53
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 78544
+// Method Definition Index: 88598
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LaunchFriendResult__ctor_m0E0F34D600BA68115EB544FC32B7B909613982E1 (LaunchFriendResult_tE14F761B20423DF2AA66723EEB659CEA351551A1* __this, intptr_t ___0_obj, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/User.cs:137>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/User.cs:137>
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/User.cs:139>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/User.cs:139>
 		intptr_t L_0 = ___0_obj;
 		bool L_1;
 		L_1 = CLIB_ppf_LaunchFriendRequestFlowResult_GetDidCancel_m049AD52959673162088772F82B3176442B1CA202(L_0, NULL);
 		__this->___DidCancel = L_1;
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/User.cs:140>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/User.cs:140>
 		intptr_t L_2 = ___0_obj;
 		bool L_3;
 		L_3 = CLIB_ppf_LaunchFriendRequestFlowResult_GetDidSendRequest_m426F17F796ACB947A2E2BE3787834E3BF2E45E30(L_2, NULL);
 		__this->___DidSendRequest = L_3;
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/User.cs:141>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/User.cs:141>
 		return;
 	}
 }
@@ -15021,7 +15021,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LaunchFriendResult__ctor_m0E0F34D600BA68
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 78545
+// Method Definition Index: 88599
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UserRoom__ctor_m3E7FC1E25A29BBC8B65D0404A85D40F8A29023EE (UserRoom_t4A96B7A9523274CA1C6722C4E90D12991C3B11DB* __this, intptr_t ___0_o, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -15034,9 +15034,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UserRoom__ctor_m3E7FC1E25A29BBC8B65D0404
 	intptr_t V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/User.cs:153>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/User.cs:153>
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/User.cs:155>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/User.cs:155>
 		intptr_t L_0 = ___0_o;
 		intptr_t L_1;
 		L_1 = CLIB_ppf_UserAndRoom_GetUser_m530AD82C352C6974FC63728017898AA4DE1B7B6A(L_0, NULL);
@@ -15044,12 +15044,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UserRoom__ctor_m3E7FC1E25A29BBC8B65D0404
 		User__ctor_m0A17383A33457E27EB6AD299C81C77AC1802E0D1(L_2, L_1, NULL);
 		__this->___User = L_2;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___User), (void*)L_2);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/User.cs:156>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/User.cs:156>
 		intptr_t L_3 = ___0_o;
 		intptr_t L_4;
 		L_4 = CLIB_ppf_UserAndRoom_GetRoom_mA50990611C540C1B797CD00EEB25E5E4EFEABE04(L_3, NULL);
 		V_0 = L_4;
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/User.cs:157>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/User.cs:157>
 		intptr_t L_5 = V_0;
 		bool L_6;
 		L_6 = IntPtr_op_Inequality_m90EFC9C4CAD9A33E309F2DDF98EE4E1DD253637B_inline(L_5, 0, NULL);
@@ -15059,7 +15059,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UserRoom__ctor_m3E7FC1E25A29BBC8B65D0404
 		}
 	}
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/User.cs:159>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/User.cs:159>
 		intptr_t L_7 = V_0;
 		Room_tBD64D83E5B1B76A68476651AB2E548F1587A1135* L_8 = (Room_tBD64D83E5B1B76A68476651AB2E548F1587A1135*)il2cpp_codegen_object_new(Room_tBD64D83E5B1B76A68476651AB2E548F1587A1135_il2cpp_TypeInfo_var);
 		Room__ctor_mB6AF794D98BC22F1081870DD63E403520D1172A4(L_8, L_7, NULL);
@@ -15069,7 +15069,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UserRoom__ctor_m3E7FC1E25A29BBC8B65D0404
 
 IL_0037:
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/User.cs:161>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/User.cs:161>
 		return;
 	}
 }
@@ -15081,7 +15081,7 @@ IL_0037:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 78546
+// Method Definition Index: 88600
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UserRoomList__ctor_mFFF359CD38182A01E577DA619D6C042F2B0FF55C (UserRoomList_t4AA0685A4D566E046B275555AC21E1A102C16A73* __this, intptr_t ___0_a, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -15096,26 +15096,26 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UserRoomList__ctor_mFFF359CD38182A01E577
 	int32_t V_0 = 0;
 	int32_t V_1 = 0;
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/User.cs:169>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/User.cs:169>
 		MessageArray_1__ctor_mAA26037C5A2D6E5B1A17B51AFAA9B774B6089B55(__this, MessageArray_1__ctor_mAA26037C5A2D6E5B1A17B51AFAA9B774B6089B55_RuntimeMethod_var);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/User.cs:171>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/User.cs:171>
 		intptr_t L_0 = ___0_a;
 		uintptr_t L_1;
 		L_1 = CLIB_ppf_UserAndRoomArray_GetSize_mCB6FEA277D47CA3F634B69E732D83DA24AE0EAD7(L_0, NULL);
 		uint32_t L_2;
 		L_2 = UIntPtr_op_Explicit_m7802FC2BA4C3A18601BB8B58ED4708E0F07663E8(L_1, NULL);
 		V_0 = L_2;
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/User.cs:172>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/User.cs:172>
 		int32_t L_3 = V_0;
 		List_1_set_Capacity_m5DBD95CCEA8193924616281AFF64AA00130E135C(__this, L_3, List_1_set_Capacity_m5DBD95CCEA8193924616281AFF64AA00130E135C_RuntimeMethod_var);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/User.cs:173>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/User.cs:173>
 		V_1 = 0;
 		goto IL_0039;
 	}
 
 IL_001d:
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/User.cs:175>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/User.cs:175>
 		intptr_t L_4 = ___0_a;
 		int32_t L_5 = V_1;
 		uintptr_t L_6;
@@ -15125,14 +15125,14 @@ IL_001d:
 		UserRoom_t4A96B7A9523274CA1C6722C4E90D12991C3B11DB* L_8 = (UserRoom_t4A96B7A9523274CA1C6722C4E90D12991C3B11DB*)il2cpp_codegen_object_new(UserRoom_t4A96B7A9523274CA1C6722C4E90D12991C3B11DB_il2cpp_TypeInfo_var);
 		UserRoom__ctor_m3E7FC1E25A29BBC8B65D0404A85D40F8A29023EE(L_8, L_7, NULL);
 		List_1_Add_mA524A94B70C813C1BA791AF84F038FC221A00FC8_inline(__this, L_8, List_1_Add_mA524A94B70C813C1BA791AF84F038FC221A00FC8_RuntimeMethod_var);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/User.cs:173>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/User.cs:173>
 		int32_t L_9 = V_1;
 		V_1 = ((int32_t)il2cpp_codegen_add(L_9, 1));
 	}
 
 IL_0039:
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/User.cs:173>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/User.cs:173>
 		int32_t L_10 = V_1;
 		int32_t L_11 = V_0;
 		if ((((int32_t)L_10) < ((int32_t)L_11)))
@@ -15141,13 +15141,13 @@ IL_0039:
 		}
 	}
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/User.cs:178>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/User.cs:178>
 		intptr_t L_12 = ___0_a;
 		String_t* L_13;
 		L_13 = CLIB_ppf_UserAndRoomArray_GetNextPageParam_mA2D3FE47D469C868C7F452C0E3E0CA8ED3653510(L_12, NULL);
 		((MessageArray_1_tBDB39162E4555FCBD64BB106117908AC8831F004*)__this)->___NextPageParam = L_13;
 		Il2CppCodeGenWriteBarrier((void**)(&((MessageArray_1_tBDB39162E4555FCBD64BB106117908AC8831F004*)__this)->___NextPageParam), (void*)L_13);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/User.cs:179>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/User.cs:179>
 		return;
 	}
 }
@@ -15167,7 +15167,7 @@ IL_0039:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 78547
+// Method Definition Index: 88601
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PermissionResult__ctor_mCB821885F8026F74C2180290301E13E52D9F9C15 (PermissionResult_t235EBFBF617C649652D95D6EEB96D6C1E66EE3CF* __this, intptr_t ___0_o, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -15179,28 +15179,28 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void PermissionResult__ctor_mCB821885F8026F74
 	int32_t V_0 = 0;
 	int32_t V_1 = 0;
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/User.cs:225>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/User.cs:225>
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/User.cs:228>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/User.cs:228>
 		intptr_t L_0 = ___0_o;
 		uintptr_t L_1;
 		L_1 = CLIB_ppf_PermissionResult_GetAuthorizedPermissionsSize_m4379AB6D3FB2839EB21C9523AB5F93908E3A7413(L_0, NULL);
 		uint32_t L_2;
 		L_2 = UIntPtr_op_Explicit_m7802FC2BA4C3A18601BB8B58ED4708E0F07663E8(L_1, NULL);
 		V_0 = L_2;
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/User.cs:229>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/User.cs:229>
 		int32_t L_3 = V_0;
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_4 = (StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)SZArrayNew(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248_il2cpp_TypeInfo_var, (uint32_t)L_3);
 		__this->___AuthorizedPermissions = L_4;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___AuthorizedPermissions), (void*)L_4);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/User.cs:230>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/User.cs:230>
 		V_1 = 0;
 		goto IL_003b;
 	}
 
 IL_0022:
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/User.cs:232>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/User.cs:232>
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_5 = __this->___AuthorizedPermissions;
 		int32_t L_6 = V_1;
 		intptr_t L_7 = ___0_o;
@@ -15211,14 +15211,14 @@ IL_0022:
 		L_10 = CLIB_ppf_PermissionResult_GetAuthorizedPermissions_mFAA231129FD3E515528A631EE1D69968E581EACB(L_7, L_9, NULL);
 		NullCheck(L_5);
 		(L_5)->SetAt(static_cast<il2cpp_array_size_t>(L_6), (String_t*)L_10);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/User.cs:230>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/User.cs:230>
 		int32_t L_11 = V_1;
 		V_1 = ((int32_t)il2cpp_codegen_add(L_11, 1));
 	}
 
 IL_003b:
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/User.cs:230>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/User.cs:230>
 		int32_t L_12 = V_1;
 		int32_t L_13 = V_0;
 		if ((((int32_t)L_12) < ((int32_t)L_13)))
@@ -15227,19 +15227,19 @@ IL_003b:
 		}
 	}
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/User.cs:236>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/User.cs:236>
 		intptr_t L_14 = ___0_o;
 		String_t* L_15;
 		L_15 = CLIB_ppf_PermissionResult_GetAccessToken_mC5F06ECD94631D7386D345B6979FC2F369B8D920(L_14, NULL);
 		__this->___AccessToken = L_15;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___AccessToken), (void*)L_15);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/User.cs:237>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/User.cs:237>
 		intptr_t L_16 = ___0_o;
 		String_t* L_17;
 		L_17 = CLIB_ppf_PermissionResult_GetUserID_mA1FDD0446E05016439D2010D77C6A8A067948A69(L_16, NULL);
 		__this->___UserID = L_17;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___UserID), (void*)L_17);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/User.cs:238>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/User.cs:238>
 		return;
 	}
 }
@@ -15251,7 +15251,7 @@ IL_003b:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 78548
+// Method Definition Index: 88602
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UserRelationResult__ctor_mF2D858814FEABDB3475A9BF35592D67E4D8C25D8 (UserRelationResult_t4C1646A5BAF0830D84E5A417EAB9BD502A1ACD3D* __this, intptr_t ___0_o, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -15266,44 +15266,44 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UserRelationResult__ctor_mF2D858814FEABD
 	String_t* V_2 = NULL;
 	int32_t V_3 = 0;
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/User.cs:250>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/User.cs:250>
 		Dictionary_2__ctor_m742B839DF18EB8A76B381A28B11F1FAB2FFDC0CC(__this, Dictionary_2__ctor_m742B839DF18EB8A76B381A28B11F1FAB2FFDC0CC_RuntimeMethod_var);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/User.cs:253>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/User.cs:253>
 		intptr_t L_0 = ___0_o;
 		int32_t L_1;
 		L_1 = CLIB_ppf_UserRelationResult_GetRelationsSize_mF8875AAC141FDE96F53DC11824C80F2E1839CC09(L_0, NULL);
 		V_0 = L_1;
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/User.cs:254>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/User.cs:254>
 		V_1 = 0;
 		goto IL_002d;
 	}
 
 IL_0011:
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/User.cs:256>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/User.cs:256>
 		intptr_t L_2 = ___0_o;
 		int32_t L_3 = V_1;
 		String_t* L_4;
 		L_4 = CLIB_ppf_UserRelationResult_GetRelationsKey_mB73EF1DCBFF1C89887585243DF714E3FA5754125(L_2, L_3, NULL);
 		V_2 = L_4;
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/User.cs:257>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/User.cs:257>
 		intptr_t L_5 = ___0_o;
 		int32_t L_6 = V_1;
 		int32_t L_7;
 		L_7 = CLIB_ppf_UserRelationResult_GetRelationsValue_m0A26F5C1B9E1C97580698AF2E7AD3B613DEB8850(L_5, L_6, NULL);
 		V_3 = L_7;
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/User.cs:258>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/User.cs:258>
 		String_t* L_8 = V_2;
 		int32_t L_9 = V_3;
 		Dictionary_2_Add_m4A0CF999D0DF4986DF249FD0DB95889F2FD423A9(__this, L_8, L_9, Dictionary_2_Add_m4A0CF999D0DF4986DF249FD0DB95889F2FD423A9_RuntimeMethod_var);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/User.cs:254>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/User.cs:254>
 		int32_t L_10 = V_1;
 		V_1 = ((int32_t)il2cpp_codegen_add(L_10, 1));
 	}
 
 IL_002d:
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/User.cs:254>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/User.cs:254>
 		int32_t L_11 = V_1;
 		int32_t L_12 = V_0;
 		if ((((int32_t)L_11) < ((int32_t)L_12)))
@@ -15312,7 +15312,7 @@ IL_002d:
 		}
 	}
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/User.cs:261>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/User.cs:261>
 		return;
 	}
 }
@@ -15324,29 +15324,29 @@ IL_002d:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 78549
+// Method Definition Index: 88603
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EntitlementCheckResult__ctor_m4945D2A4DFBFE69CB799C0187A598086F20BB81F (EntitlementCheckResult_tDCC132CD30FB7907CB5575B3C629531914BCD061* __this, intptr_t ___0_o, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/User.cs:279>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/User.cs:279>
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/User.cs:281>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/User.cs:281>
 		intptr_t L_0 = ___0_o;
 		bool L_1;
 		L_1 = CLIB_ppf_EntitlementCheckResult_GetHasEntitlement_mE806526F233A0C0C2E5C19CF2B79FBF63A3C8F18(L_0, NULL);
 		__this->___HasEntitlement = L_1;
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/User.cs:282>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/User.cs:282>
 		intptr_t L_2 = ___0_o;
 		int32_t L_3;
 		L_3 = CLIB_ppf_EntitlementCheckResult_GetStatusCode_m6FC69C3765542D93B42BC88E313E868EBDD49D7B(L_2, NULL);
 		__this->___StatusCode = L_3;
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/User.cs:283>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/User.cs:283>
 		intptr_t L_4 = ___0_o;
 		String_t* L_5;
 		L_5 = CLIB_ppf_EntitlementCheckResult_GetStatusMessage_m83B8F941AE4DF09661F8BC0EED9AD8FD1F09E4BF(L_4, NULL);
 		__this->___StatusMessage = L_5;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___StatusMessage), (void*)L_5);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/User.cs:284>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/User.cs:284>
 		return;
 	}
 }
@@ -15358,7 +15358,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EntitlementCheckResult__ctor_m4945D2A4DF
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 78550
+// Method Definition Index: 88604
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SimpleDemo_Start_m1F51948771757E048165957CC25FAF1B6985F145 (SimpleDemo_tB73BB92662E2E45C09FAD8C176DC8690E0FD4195* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -15375,14 +15375,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SimpleDemo_Start_m1F51948771757E04816595
 	UnityException_tA1EC1E95ADE689CF6EB7FAFF77C160AE1F559067* V_1 = NULL;
 	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 1> __active_exceptions;
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Samples/SimpleDemo.cs:21>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Samples/SimpleDemo.cs:21>
 		bool L_0 = __this->___useAsyncInit;
 		bool L_1 = L_0;
 		RuntimeObject* L_2 = Box(il2cpp_defaults.boolean_class, &L_1);
 		String_t* L_3;
 		L_3 = String_Format_mA8DBB4C2516B9723C5A41E6CB1E2FAF4BBE96DD8(_stringLiteral4711236842612E0241200A841882573A4D49C0D3, L_2, NULL);
 		SimpleDemo_Log_m62FA177CD0CF6D603ED9007ECB86EB58799159F0(__this, L_3, NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Samples/SimpleDemo.cs:22>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Samples/SimpleDemo.cs:22>
 		bool L_4 = __this->___useAsyncInit;
 		if (!L_4)
 		{
@@ -15391,23 +15391,23 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SimpleDemo_Start_m1F51948771757E04816595
 	}
 	try
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Samples/SimpleDemo.cs:26>
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Samples/SimpleDemo.cs:27>
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Samples/SimpleDemo.cs:28>
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Samples/SimpleDemo.cs:29>
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Samples/SimpleDemo.cs:30>
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Samples/SimpleDemo.cs:31>
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Samples/SimpleDemo.cs:32>
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Samples/SimpleDemo.cs:33>
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Samples/SimpleDemo.cs:34>
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Samples/SimpleDemo.cs:35>
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Samples/SimpleDemo.cs:36>
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Samples/SimpleDemo.cs:37>
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Samples/SimpleDemo.cs:38>
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Samples/SimpleDemo.cs:39>
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Samples/SimpleDemo.cs:40>
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Samples/SimpleDemo.cs:41>
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Samples/SimpleDemo.cs:42>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Samples/SimpleDemo.cs:26>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Samples/SimpleDemo.cs:27>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Samples/SimpleDemo.cs:28>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Samples/SimpleDemo.cs:29>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Samples/SimpleDemo.cs:30>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Samples/SimpleDemo.cs:31>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Samples/SimpleDemo.cs:32>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Samples/SimpleDemo.cs:33>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Samples/SimpleDemo.cs:34>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Samples/SimpleDemo.cs:35>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Samples/SimpleDemo.cs:36>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Samples/SimpleDemo.cs:37>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Samples/SimpleDemo.cs:38>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Samples/SimpleDemo.cs:39>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Samples/SimpleDemo.cs:40>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Samples/SimpleDemo.cs:41>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Samples/SimpleDemo.cs:42>
 		il2cpp_codegen_runtime_class_init_inline(CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_il2cpp_TypeInfo_var);
 		Task_1_t733E89BDEF2E1BD0B822AE037A0F380656723ACE* L_5;
 		L_5 = CoreService_AsyncInitialize_m8A638C8765E79B40AA6320F400C97845B73DDD39((String_t*)NULL, NULL);
@@ -15416,7 +15416,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SimpleDemo_Start_m1F51948771757E04816595
 		NullCheck(L_5);
 		Task_1_t733E89BDEF2E1BD0B822AE037A0F380656723ACE* L_7;
 		L_7 = Task_1_OnComplete_m35202096110B84EDEDE3B5E67432C170C35F885B(L_5, L_6, Task_1_OnComplete_m35202096110B84EDEDE3B5E67432C170C35F885B_RuntimeMethod_var);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Samples/SimpleDemo.cs:43>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Samples/SimpleDemo.cs:43>
 		goto IL_0074;
 	}
 	catch(Il2CppExceptionWrapper& e)
@@ -15432,14 +15432,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SimpleDemo_Start_m1F51948771757E04816595
 CATCH_003d:
 	{
 		Exception_t* L_8 = ((Exception_t*)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t*));;
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Samples/SimpleDemo.cs:44>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Samples/SimpleDemo.cs:44>
 		V_0 = L_8;
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Samples/SimpleDemo.cs:46>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Samples/SimpleDemo.cs:46>
 		Exception_t* L_9 = V_0;
 		String_t* L_10;
 		L_10 = String_Format_mA8DBB4C2516B9723C5A41E6CB1E2FAF4BBE96DD8(((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteralCD98202A6EC5293093FBD559FA1C99CE6B98344E)), L_9, NULL);
 		SimpleDemo_Log_m62FA177CD0CF6D603ED9007ECB86EB58799159F0(__this, L_10, NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Samples/SimpleDemo.cs:47>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Samples/SimpleDemo.cs:47>
 		IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
 		goto IL_0074;
 	}
@@ -15449,10 +15449,10 @@ IL_0051:
 	}
 	try
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Samples/SimpleDemo.cs:54>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Samples/SimpleDemo.cs:54>
 		il2cpp_codegen_runtime_class_init_inline(CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_il2cpp_TypeInfo_var);
 		CoreService_Initialize_m188D60D285D9A378B766140AF97D433B09073039((String_t*)NULL, NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Samples/SimpleDemo.cs:55>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Samples/SimpleDemo.cs:55>
 		goto IL_006e;
 	}
 	catch(Il2CppExceptionWrapper& e)
@@ -15468,30 +15468,30 @@ IL_0051:
 CATCH_005a:
 	{
 		UnityException_tA1EC1E95ADE689CF6EB7FAFF77C160AE1F559067* L_11 = ((UnityException_tA1EC1E95ADE689CF6EB7FAFF77C160AE1F559067*)IL2CPP_GET_ACTIVE_EXCEPTION(UnityException_tA1EC1E95ADE689CF6EB7FAFF77C160AE1F559067*));;
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Samples/SimpleDemo.cs:56>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Samples/SimpleDemo.cs:56>
 		V_1 = L_11;
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Samples/SimpleDemo.cs:58>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Samples/SimpleDemo.cs:58>
 		UnityException_tA1EC1E95ADE689CF6EB7FAFF77C160AE1F559067* L_12 = V_1;
 		String_t* L_13;
 		L_13 = String_Format_mA8DBB4C2516B9723C5A41E6CB1E2FAF4BBE96DD8(((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral89DED4B57F2A5D3967765BE97C28C32EDC26B793)), L_12, NULL);
 		SimpleDemo_Log_m62FA177CD0CF6D603ED9007ECB86EB58799159F0(__this, L_13, NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Samples/SimpleDemo.cs:59>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Samples/SimpleDemo.cs:59>
 		IL2CPP_RETHROW_MANAGED_EXCEPTION(IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*));
 	}
 
 IL_006e:
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Samples/SimpleDemo.cs:62>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Samples/SimpleDemo.cs:62>
 		SimpleDemo_EnterDemo_mC8D76400FCF45640B119D265459272BCF763B723(__this, NULL);
 	}
 
 IL_0074:
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Samples/SimpleDemo.cs:64>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Samples/SimpleDemo.cs:64>
 		return;
 	}
 }
-// Method Definition Index: 78551
+// Method Definition Index: 88605
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SimpleDemo_EnterDemo_mC8D76400FCF45640B119D265459272BCF763B723 (SimpleDemo_tB73BB92662E2E45C09FAD8C176DC8690E0FD4195* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -15506,17 +15506,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SimpleDemo_EnterDemo_mC8D76400FCF45640B1
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Samples/SimpleDemo.cs:68>
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Samples/SimpleDemo.cs:69>
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Samples/SimpleDemo.cs:70>
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Samples/SimpleDemo.cs:71>
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Samples/SimpleDemo.cs:72>
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Samples/SimpleDemo.cs:73>
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Samples/SimpleDemo.cs:74>
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Samples/SimpleDemo.cs:75>
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Samples/SimpleDemo.cs:76>
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Samples/SimpleDemo.cs:77>
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Samples/SimpleDemo.cs:78>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Samples/SimpleDemo.cs:68>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Samples/SimpleDemo.cs:69>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Samples/SimpleDemo.cs:70>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Samples/SimpleDemo.cs:71>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Samples/SimpleDemo.cs:72>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Samples/SimpleDemo.cs:73>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Samples/SimpleDemo.cs:74>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Samples/SimpleDemo.cs:75>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Samples/SimpleDemo.cs:76>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Samples/SimpleDemo.cs:77>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Samples/SimpleDemo.cs:78>
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_0 = (StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)SZArrayNew(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248_il2cpp_TypeInfo_var, (uint32_t)2);
 		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_1 = L_0;
 		NullCheck(L_1);
@@ -15531,11 +15531,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SimpleDemo_EnterDemo_mC8D76400FCF45640B1
 		NullCheck(L_3);
 		Task_1_tE3764055BFBB9E941E6BE5F6DF0B487A7B6B9BDF* L_5;
 		L_5 = Task_1_OnComplete_m320B333161C5C0070440A132234F801A7BC74020(L_3, L_4, Task_1_OnComplete_m320B333161C5C0070440A132234F801A7BC74020_RuntimeMethod_var);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Samples/SimpleDemo.cs:79>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Samples/SimpleDemo.cs:79>
 		return;
 	}
 }
-// Method Definition Index: 78552
+// Method Definition Index: 88606
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SimpleDemo_getUser_m35B04756C5973CB7C1F3F6F98DF3C4F37FB88F56 (SimpleDemo_tB73BB92662E2E45C09FAD8C176DC8690E0FD4195* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -15547,18 +15547,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SimpleDemo_getUser_m35B04756C5973CB7C1F3
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Samples/SimpleDemo.cs:83>
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Samples/SimpleDemo.cs:84>
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Samples/SimpleDemo.cs:85>
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Samples/SimpleDemo.cs:86>
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Samples/SimpleDemo.cs:87>
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Samples/SimpleDemo.cs:88>
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Samples/SimpleDemo.cs:89>
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Samples/SimpleDemo.cs:90>
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Samples/SimpleDemo.cs:91>
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Samples/SimpleDemo.cs:92>
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Samples/SimpleDemo.cs:93>
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Samples/SimpleDemo.cs:94>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Samples/SimpleDemo.cs:83>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Samples/SimpleDemo.cs:84>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Samples/SimpleDemo.cs:85>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Samples/SimpleDemo.cs:86>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Samples/SimpleDemo.cs:87>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Samples/SimpleDemo.cs:88>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Samples/SimpleDemo.cs:89>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Samples/SimpleDemo.cs:90>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Samples/SimpleDemo.cs:91>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Samples/SimpleDemo.cs:92>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Samples/SimpleDemo.cs:93>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Samples/SimpleDemo.cs:94>
 		Task_1_tB52620DC9E610A2CFD02FD23959DC3FB04599E42* L_0;
 		L_0 = UserService_GetLoggedInUser_mEF12425F8814F7C5E08382C6C5E00CEE18073E8B(NULL);
 		Handler_t3014C5064A71B62349A0B6C599C034BA36D6E17E* L_1 = (Handler_t3014C5064A71B62349A0B6C599C034BA36D6E17E*)il2cpp_codegen_object_new(Handler_t3014C5064A71B62349A0B6C599C034BA36D6E17E_il2cpp_TypeInfo_var);
@@ -15566,11 +15566,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SimpleDemo_getUser_m35B04756C5973CB7C1F3
 		NullCheck(L_0);
 		Task_1_tB52620DC9E610A2CFD02FD23959DC3FB04599E42* L_2;
 		L_2 = Task_1_OnComplete_m7241FFC878E940C536582E977114C52EDFE412BE(L_0, L_1, Task_1_OnComplete_m7241FFC878E940C536582E977114C52EDFE412BE_RuntimeMethod_var);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Samples/SimpleDemo.cs:95>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Samples/SimpleDemo.cs:95>
 		return;
 	}
 }
-// Method Definition Index: 78553
+// Method Definition Index: 88607
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* SimpleDemo_DownloadImage_m5AD82188A53C0A2A70C567A27C366282FCB09E94 (SimpleDemo_tB73BB92662E2E45C09FAD8C176DC8690E0FD4195* __this, String_t* ___0_mediaUrl, RawImage_tFF12F7DB574FBDC1863CF607C7A12A5D9F8D6179* ___1_rawImage, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -15599,7 +15599,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* SimpleDemo_DownloadImage_m5AD8
 		return L_4;
 	}
 }
-// Method Definition Index: 78554
+// Method Definition Index: 88608
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SimpleDemo_Log_m62FA177CD0CF6D603ED9007ECB86EB58799159F0 (SimpleDemo_tB73BB92662E2E45C09FAD8C176DC8690E0FD4195* __this, String_t* ___0_s, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -15609,30 +15609,30 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SimpleDemo_Log_m62FA177CD0CF6D603ED9007E
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Samples/SimpleDemo.cs:114>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Samples/SimpleDemo.cs:114>
 		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_0 = __this->___logText;
 		String_t* L_1 = ___0_s;
 		NullCheck(L_0);
 		VirtualActionInvoker1< String_t* >::Invoke(75, L_0, L_1);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Samples/SimpleDemo.cs:115>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Samples/SimpleDemo.cs:115>
 		String_t* L_2 = ___0_s;
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_2, NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Samples/SimpleDemo.cs:116>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Samples/SimpleDemo.cs:116>
 		return;
 	}
 }
-// Method Definition Index: 78555
+// Method Definition Index: 88609
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SimpleDemo__ctor_m31D25AE403EE0EA1FB17834FF5FD05DEDD702DE1 (SimpleDemo_tB73BB92662E2E45C09FAD8C176DC8690E0FD4195* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Samples/SimpleDemo.cs:12>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Samples/SimpleDemo.cs:12>
 		__this->___useAsyncInit = (bool)1;
 		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
 		return;
 	}
 }
-// Method Definition Index: 78556
+// Method Definition Index: 88610
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SimpleDemo_U3CStartU3Eb__4_0_m8CEF654CAA456652353B08AD57EF5DACAAAB556D (SimpleDemo_tB73BB92662E2E45C09FAD8C176DC8690E0FD4195* __this, Message_1_t58D0E25C5F7D6B97F64C48CFE6DA11BE5D1A3EF1* ___0_m, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -15645,7 +15645,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SimpleDemo_U3CStartU3Eb__4_0_m8CEF654CAA
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Samples/SimpleDemo.cs:28>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Samples/SimpleDemo.cs:28>
 		Message_1_t58D0E25C5F7D6B97F64C48CFE6DA11BE5D1A3EF1* L_0 = ___0_m;
 		NullCheck(L_0);
 		bool L_1;
@@ -15656,7 +15656,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SimpleDemo_U3CStartU3Eb__4_0_m8CEF654CAA
 		}
 	}
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Samples/SimpleDemo.cs:30>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Samples/SimpleDemo.cs:30>
 		Message_1_t58D0E25C5F7D6B97F64C48CFE6DA11BE5D1A3EF1* L_2 = ___0_m;
 		NullCheck(L_2);
 		Error_t3CA63648FA025A8FBA63EA102526BE2F757CAF88* L_3;
@@ -15674,13 +15674,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SimpleDemo_U3CStartU3Eb__4_0_m8CEF654CAA
 		String_t* L_10;
 		L_10 = String_Format_mFB7DA489BD99F4670881FF50EC017BFB0A5C0987(_stringLiteral17F876F233361D29F71A2CA748E8C6128A4464BE, L_6, L_9, NULL);
 		SimpleDemo_Log_m62FA177CD0CF6D603ED9007ECB86EB58799159F0(__this, L_10, NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Samples/SimpleDemo.cs:31>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Samples/SimpleDemo.cs:31>
 		return;
 	}
 
 IL_0034:
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Samples/SimpleDemo.cs:34>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Samples/SimpleDemo.cs:34>
 		Message_1_t58D0E25C5F7D6B97F64C48CFE6DA11BE5D1A3EF1* L_11 = ___0_m;
 		NullCheck(L_11);
 		int32_t L_12 = L_11->___Data;
@@ -15699,7 +15699,7 @@ IL_0034:
 		}
 	}
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Samples/SimpleDemo.cs:36>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Samples/SimpleDemo.cs:36>
 		Message_1_t58D0E25C5F7D6B97F64C48CFE6DA11BE5D1A3EF1* L_15 = ___0_m;
 		NullCheck(L_15);
 		int32_t L_16 = L_15->___Data;
@@ -15708,21 +15708,21 @@ IL_0034:
 		String_t* L_19;
 		L_19 = String_Format_mA8DBB4C2516B9723C5A41E6CB1E2FAF4BBE96DD8(_stringLiteralFFF368B92F042A6F27288FB4036FCD460758F47B, L_18, NULL);
 		SimpleDemo_Log_m62FA177CD0CF6D603ED9007ECB86EB58799159F0(__this, L_19, NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Samples/SimpleDemo.cs:37>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Samples/SimpleDemo.cs:37>
 		return;
 	}
 
 IL_0061:
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Samples/SimpleDemo.cs:40>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Samples/SimpleDemo.cs:40>
 		SimpleDemo_Log_m62FA177CD0CF6D603ED9007ECB86EB58799159F0(__this, _stringLiteral2756C3F879AF25F2833BF607BB657D6246B88DF3, NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Samples/SimpleDemo.cs:41>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Samples/SimpleDemo.cs:41>
 		SimpleDemo_EnterDemo_mC8D76400FCF45640B119D265459272BCF763B723(__this, NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Samples/SimpleDemo.cs:42>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Samples/SimpleDemo.cs:42>
 		return;
 	}
 }
-// Method Definition Index: 78557
+// Method Definition Index: 88611
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SimpleDemo_U3CEnterDemoU3Eb__5_0_m177780F4F6EC2BAF980E03603F1050A5E5940F11 (SimpleDemo_tB73BB92662E2E45C09FAD8C176DC8690E0FD4195* __this, Message_1_t457063293F5E86604105C51764B8EB632AA81945* ___0_m, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -15734,7 +15734,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SimpleDemo_U3CEnterDemoU3Eb__5_0_m177780
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Samples/SimpleDemo.cs:70>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Samples/SimpleDemo.cs:70>
 		Message_1_t457063293F5E86604105C51764B8EB632AA81945* L_0 = ___0_m;
 		NullCheck(L_0);
 		bool L_1;
@@ -15745,7 +15745,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SimpleDemo_U3CEnterDemoU3Eb__5_0_m177780
 		}
 	}
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Samples/SimpleDemo.cs:72>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Samples/SimpleDemo.cs:72>
 		Message_1_t457063293F5E86604105C51764B8EB632AA81945* L_2 = ___0_m;
 		NullCheck(L_2);
 		Error_t3CA63648FA025A8FBA63EA102526BE2F757CAF88* L_3 = ((Message_t2DF6F94E79BCFC7D36B4D1219F09D5DF8D241F83*)L_2)->___Error;
@@ -15761,13 +15761,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SimpleDemo_U3CEnterDemoU3Eb__5_0_m177780
 		String_t* L_10;
 		L_10 = String_Format_mFB7DA489BD99F4670881FF50EC017BFB0A5C0987(_stringLiteral84D6EACB0A96EDCCCEF46D2C88A45B685E4996E2, L_6, L_9, NULL);
 		SimpleDemo_Log_m62FA177CD0CF6D603ED9007ECB86EB58799159F0(__this, L_10, NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Samples/SimpleDemo.cs:73>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Samples/SimpleDemo.cs:73>
 		return;
 	}
 
 IL_0034:
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Samples/SimpleDemo.cs:76>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Samples/SimpleDemo.cs:76>
 		Message_1_t457063293F5E86604105C51764B8EB632AA81945* L_11 = ___0_m;
 		NullCheck(L_11);
 		PermissionResult_t235EBFBF617C649652D95D6EEB96D6C1E66EE3CF* L_12 = L_11->___Data;
@@ -15778,13 +15778,13 @@ IL_0034:
 		String_t* L_15;
 		L_15 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteral4B8EE1D99E55FDC8FBE52391086C2F425F6AA626, L_14, NULL);
 		SimpleDemo_Log_m62FA177CD0CF6D603ED9007ECB86EB58799159F0(__this, L_15, NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Samples/SimpleDemo.cs:77>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Samples/SimpleDemo.cs:77>
 		SimpleDemo_getUser_m35B04756C5973CB7C1F3F6F98DF3C4F37FB88F56(__this, NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Samples/SimpleDemo.cs:78>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Samples/SimpleDemo.cs:78>
 		return;
 	}
 }
-// Method Definition Index: 78558
+// Method Definition Index: 88612
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SimpleDemo_U3CgetUserU3Eb__6_0_mCC18EBE12D82481458FD41732726F882551508FF (SimpleDemo_tB73BB92662E2E45C09FAD8C176DC8690E0FD4195* __this, Message_1_tE6876B2F0C46A93682EA4E2DD435A5D3F37E73C2* ___0_m, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -15797,7 +15797,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SimpleDemo_U3CgetUserU3Eb__6_0_mCC18EBE1
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Samples/SimpleDemo.cs:85>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Samples/SimpleDemo.cs:85>
 		Message_1_tE6876B2F0C46A93682EA4E2DD435A5D3F37E73C2* L_0 = ___0_m;
 		NullCheck(L_0);
 		bool L_1;
@@ -15808,7 +15808,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SimpleDemo_U3CgetUserU3Eb__6_0_mCC18EBE1
 		}
 	}
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Samples/SimpleDemo.cs:87>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Samples/SimpleDemo.cs:87>
 		Message_1_tE6876B2F0C46A93682EA4E2DD435A5D3F37E73C2* L_2 = ___0_m;
 		NullCheck(L_2);
 		Error_t3CA63648FA025A8FBA63EA102526BE2F757CAF88* L_3 = ((Message_t2DF6F94E79BCFC7D36B4D1219F09D5DF8D241F83*)L_2)->___Error;
@@ -15825,13 +15825,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SimpleDemo_U3CgetUserU3Eb__6_0_mCC18EBE1
 		L_10 = String_Format_mFB7DA489BD99F4670881FF50EC017BFB0A5C0987(_stringLiteral89DB2D99D71D2BFDF5BE40CCB2C9A0F3763DD1A4, L_6, L_9, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_10, NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Samples/SimpleDemo.cs:88>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Samples/SimpleDemo.cs:88>
 		return;
 	}
 
 IL_0033:
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Samples/SimpleDemo.cs:91>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Samples/SimpleDemo.cs:91>
 		Message_1_tE6876B2F0C46A93682EA4E2DD435A5D3F37E73C2* L_11 = ___0_m;
 		NullCheck(L_11);
 		User_t37DF053AC9F41CDB2B22463F16BE016A70A2C2A4* L_12 = L_11->___Data;
@@ -15842,7 +15842,7 @@ IL_0033:
 		L_15 = SimpleDemo_DownloadImage_m5AD82188A53C0A2A70C567A27C366282FCB09E94(__this, L_13, L_14, NULL);
 		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_16;
 		L_16 = MonoBehaviour_StartCoroutine_m4CAFF732AA28CD3BDC5363B44A863575530EC812(__this, L_15, NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Samples/SimpleDemo.cs:92>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Samples/SimpleDemo.cs:92>
 		Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62* L_17 = __this->___nameText;
 		Message_1_tE6876B2F0C46A93682EA4E2DD435A5D3F37E73C2* L_18 = ___0_m;
 		NullCheck(L_18);
@@ -15851,7 +15851,7 @@ IL_0033:
 		String_t* L_20 = L_19->___DisplayName;
 		NullCheck(L_17);
 		VirtualActionInvoker1< String_t* >::Invoke(75, L_17, L_20);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Samples/SimpleDemo.cs:93>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Samples/SimpleDemo.cs:93>
 		Message_1_tE6876B2F0C46A93682EA4E2DD435A5D3F37E73C2* L_21 = ___0_m;
 		NullCheck(L_21);
 		User_t37DF053AC9F41CDB2B22463F16BE016A70A2C2A4* L_22 = L_21->___Data;
@@ -15865,7 +15865,7 @@ IL_0033:
 		String_t* L_27;
 		L_27 = String_Concat_m093934F71A9B351911EE46311674ED463B180006(_stringLiteral9F2FC455622BDBE357503CE0FA4CBF83FF54FE04, L_23, _stringLiteral99A5C4ED7B3FAB6ED3A26CA5392626EAAACE7B0A, L_26, NULL);
 		SimpleDemo_Log_m62FA177CD0CF6D603ED9007ECB86EB58799159F0(__this, L_27, NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Samples/SimpleDemo.cs:94>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Samples/SimpleDemo.cs:94>
 		return;
 	}
 }
@@ -15877,7 +15877,7 @@ IL_0033:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 78559
+// Method Definition Index: 88613
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CDownloadImageU3Ed__7__ctor_mD97A09CDDEC301DE3704B12E5D3412B449DF0697 (U3CDownloadImageU3Ed__7_t12CD4C58AE44E71AC9B06FF3969E6AD7057D8367* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) 
 {
 	{
@@ -15887,14 +15887,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CDownloadImageU3Ed__7__ctor_mD97A09CDD
 		return;
 	}
 }
-// Method Definition Index: 78560
+// Method Definition Index: 88614
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CDownloadImageU3Ed__7_System_IDisposable_Dispose_m924BDF10FF6EA0A2260AAC1D7D156A39FB62DA72 (U3CDownloadImageU3Ed__7_t12CD4C58AE44E71AC9B06FF3969E6AD7057D8367* __this, const RuntimeMethod* method) 
 {
 	{
 		return;
 	}
 }
-// Method Definition Index: 78561
+// Method Definition Index: 88615
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CDownloadImageU3Ed__7_MoveNext_m491893E0E2E12353D6727EB234F62D66BB9A44C3 (U3CDownloadImageU3Ed__7_t12CD4C58AE44E71AC9B06FF3969E6AD7057D8367* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -15932,13 +15932,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CDownloadImageU3Ed__7_MoveNext_m491893
 IL_0017:
 	{
 		__this->___U3CU3E1__state = (-1);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Samples/SimpleDemo.cs:99>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Samples/SimpleDemo.cs:99>
 		String_t* L_4 = __this->___mediaUrl;
 		UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* L_5;
 		L_5 = UnityWebRequestTexture_GetTexture_mEEC74BBC5190D4012A0B87C5D439AF59E22EF2EF(L_4, NULL);
 		__this->___U3CrequestU3E5__2 = L_5;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CrequestU3E5__2), (void*)L_5);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Samples/SimpleDemo.cs:100>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Samples/SimpleDemo.cs:100>
 		UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* L_6 = __this->___U3CrequestU3E5__2;
 		NullCheck(L_6);
 		UnityWebRequestAsyncOperation_t14BE94558FF3A2CFC2EFBE2511A3A88252042B8C* L_7;
@@ -15952,7 +15952,7 @@ IL_0017:
 IL_0049:
 	{
 		__this->___U3CU3E1__state = (-1);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Samples/SimpleDemo.cs:101>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Samples/SimpleDemo.cs:101>
 		UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* L_8 = __this->___U3CrequestU3E5__2;
 		NullCheck(L_8);
 		int64_t L_9;
@@ -15963,7 +15963,7 @@ IL_0049:
 		}
 	}
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Samples/SimpleDemo.cs:103>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Samples/SimpleDemo.cs:103>
 		SimpleDemo_tB73BB92662E2E45C09FAD8C176DC8690E0FD4195* L_10 = V_1;
 		NullCheck(L_10);
 		SimpleDemo_Log_m62FA177CD0CF6D603ED9007ECB86EB58799159F0(L_10, _stringLiteralCBE3AB8700B962CFC2BA454CED3E5EC7EB5AC5C1, NULL);
@@ -15972,7 +15972,7 @@ IL_0049:
 
 IL_0070:
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Samples/SimpleDemo.cs:107>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Samples/SimpleDemo.cs:107>
 		RawImage_tFF12F7DB574FBDC1863CF607C7A12A5D9F8D6179* L_11 = __this->___rawImage;
 		UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* L_12 = __this->___U3CrequestU3E5__2;
 		NullCheck(L_12);
@@ -15983,7 +15983,7 @@ IL_0070:
 		L_14 = DownloadHandlerTexture_get_texture_m170B5539995EB5984E98E426F52983589F7BEB7C(((DownloadHandlerTexture_t45E2D719000AA1594E648810F0B57A77FA7C568C*)CastclassSealed((RuntimeObject*)L_13, DownloadHandlerTexture_t45E2D719000AA1594E648810F0B57A77FA7C568C_il2cpp_TypeInfo_var)), NULL);
 		NullCheck(L_11);
 		RawImage_set_texture_mC016318C95CC17A826D57DD219DBCB6DFD295C02(L_11, L_14, NULL);
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Samples/SimpleDemo.cs:108>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Samples/SimpleDemo.cs:108>
 		RawImage_tFF12F7DB574FBDC1863CF607C7A12A5D9F8D6179* L_15 = __this->___rawImage;
 		NullCheck(L_15);
 		Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF* L_16;
@@ -16004,11 +16004,11 @@ IL_0070:
 
 IL_00ba:
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Samples/SimpleDemo.cs:110>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Samples/SimpleDemo.cs:110>
 		return (bool)0;
 	}
 }
-// Method Definition Index: 78562
+// Method Definition Index: 88616
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CDownloadImageU3Ed__7_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m5E9617890DD9C00491F8A23ACF0E6255A1C0A3E4 (U3CDownloadImageU3Ed__7_t12CD4C58AE44E71AC9B06FF3969E6AD7057D8367* __this, const RuntimeMethod* method) 
 {
 	{
@@ -16016,7 +16016,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CDownloadImageU3Ed__7_System
 		return L_0;
 	}
 }
-// Method Definition Index: 78563
+// Method Definition Index: 88617
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CDownloadImageU3Ed__7_System_Collections_IEnumerator_Reset_m9518B33BC141B6CA28A96185DC117A0318E13001 (U3CDownloadImageU3Ed__7_t12CD4C58AE44E71AC9B06FF3969E6AD7057D8367* __this, const RuntimeMethod* method) 
 {
 	{
@@ -16025,7 +16025,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CDownloadImageU3Ed__7_System_Collectio
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CDownloadImageU3Ed__7_System_Collections_IEnumerator_Reset_m9518B33BC141B6CA28A96185DC117A0318E13001_RuntimeMethod_var)));
 	}
 }
-// Method Definition Index: 78564
+// Method Definition Index: 88618
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CDownloadImageU3Ed__7_System_Collections_IEnumerator_get_Current_m2965D2A1CE24A0DE24B062109B27D9037F8F4BA0 (U3CDownloadImageU3Ed__7_t12CD4C58AE44E71AC9B06FF3969E6AD7057D8367* __this, const RuntimeMethod* method) 
 {
 	{
@@ -16060,22 +16060,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CDownloadImageU3Ed__7_System
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-// Method Definition Index: 78308
+// Method Definition Index: 88362
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t ProcessAudioFrameFunction_Invoke_m5EC2CDFD611F5CDC64BD8A36A025E8C08FF061D6_inline (ProcessAudioFrameFunction_tA63B392DEA3AFF4C8FD9068F4A056EBB4F21E8A5* __this, RtcAudioFrame_t300062CFB69D590AAC05453E8CB2D5F3DDED8B59* ___0_frame, const RuntimeMethod* method) 
 {
 	typedef int32_t (*FunctionPointerType) (RuntimeObject*, RtcAudioFrame_t300062CFB69D590AAC05453E8CB2D5F3DDED8B59*, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_frame, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 78378
+// Method Definition Index: 88432
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR intptr_t RoomOptions_GetHandle_m0C9DCC01EC26AC5586AC037C2FC3A8A8C389F247_inline (RoomOptions_tC6C155D94F2675BA84336CA56BCDEBEA022835B7* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/Room.cs:733>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/Room.cs:733>
 		intptr_t L_0 = __this->___Handle;
 		return L_0;
 	}
 }
-// Method Definition Index: 78139
+// Method Definition Index: 88193
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool CoreService_IsInitialized_m425C6E2D600C2F37C0E507442B95D47CA2E60A19_inline (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -16085,31 +16085,31 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool CoreService_IsInitialized_m4
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Service/Core.cs:43>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Service/Core.cs:43>
 		il2cpp_codegen_runtime_class_init_inline(CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_il2cpp_TypeInfo_var);
 		bool L_0 = ((CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_StaticFields*)il2cpp_codegen_static_fields_for(CoreService_t4DFB7E380E9F9FE1CC69655706D948165B6D7014_il2cpp_TypeInfo_var))->___Initialized;
 		return L_0;
 	}
 }
-// Method Definition Index: 78454
+// Method Definition Index: 88508
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR intptr_t KVPairArray_GetHandle_m389281C5195EBBD58347A4189B74F7C0A502DDA9_inline (KVPairArray_t2D18141BDF81CCF74F01AD0CD6D940BFF0D65E1F* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Common.cs:24>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Common.cs:24>
 		intptr_t L_0 = __this->___Handle;
 		return L_0;
 	}
 }
-// Method Definition Index: 78452
+// Method Definition Index: 88506
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR uint32_t KVPairArray_get_Size_m791FA5D137AE74B4A1AA97C39AEDE37A9916EE10_inline (KVPairArray_t2D18141BDF81CCF74F01AD0CD6D940BFF0D65E1F* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Common.cs:19>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Common.cs:19>
 		uint32_t L_0 = __this->___U3CSizeU3Ek__BackingField;
 		return L_0;
 	}
 }
-// Method Definition Index: 3301
+// Method Definition Index: 3796
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool IntPtr_op_Equality_m7D9CDCDE9DC2A0C2C614633F4921E90187FAB271_inline (intptr_t ___0_value1, intptr_t ___1_value2, const RuntimeMethod* method) 
 {
 	{
@@ -16118,17 +16118,17 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool IntPtr_op_Equality_m7D9CDCDE
 		return (bool)((((intptr_t)L_0) == ((intptr_t)L_1))? 1 : 0);
 	}
 }
-// Method Definition Index: 78453
+// Method Definition Index: 88507
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void KVPairArray_set_Size_mEF25D67ACDCEB5A98B41B65D53C7752DCDC51F4C_inline (KVPairArray_t2D18141BDF81CCF74F01AD0CD6D940BFF0D65E1F* __this, uint32_t ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Models/Common.cs:19>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Models/Common.cs:19>
 		uint32_t L_0 = ___0_value;
 		__this->___U3CSizeU3Ek__BackingField = L_0;
 		return;
 	}
 }
-// Method Definition Index: 3302
+// Method Definition Index: 3797
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool IntPtr_op_Inequality_m90EFC9C4CAD9A33E309F2DDF98EE4E1DD253637B_inline (intptr_t ___0_value1, intptr_t ___1_value2, const RuntimeMethod* method) 
 {
 	{
@@ -16137,16 +16137,16 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool IntPtr_op_Inequality_m90EFC9
 		return (bool)((((int32_t)((((intptr_t)L_0) == ((intptr_t)L_1))? 1 : 0)) == ((int32_t)0))? 1 : 0);
 	}
 }
-// Method Definition Index: 77972
+// Method Definition Index: 88026
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Error_t3CA63648FA025A8FBA63EA102526BE2F757CAF88* Message_GetError_mF2A3F96565CB80619FBD1DFE8E7C9FB1A0BA5A99_inline (Message_t2DF6F94E79BCFC7D36B4D1219F09D5DF8D241F83* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/kyng7/Downloads/PICO Unity Integration SDK-3.3.0-20250917/Platform/Scripts/Framework/Message.cs:81>
+		//<source_info:./PICO Unity Integration SDK-3.4.0-20260226/Platform/Scripts/Framework/Message.cs:81>
 		Error_t3CA63648FA025A8FBA63EA102526BE2F757CAF88* L_0 = __this->___Error;
 		return L_0;
 	}
 }
-// Method Definition Index: 84089
+// Method Definition Index: 97418
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR DownloadHandler_t1B56C7D3F65D97A1E4B566A14A1E783EA8AE4EBB* UnityWebRequest_get_downloadHandler_m1AA91B23D9D594A4F4FE2975FC356C508528F1D5_inline (UnityWebRequest_t6233B8E22992FC2364A831C1ACB033EF3260C39F* __this, const RuntimeMethod* method) 
 {
 	{
@@ -16154,7 +16154,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR DownloadHandler_t1B56C7D3F65D97A1
 		return L_0;
 	}
 }
-// Method Definition Index: 9088
+// Method Definition Index: 10704
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR KeyValuePair_2_t8119C4668B01DE5BDC84EDBA81EE010B6CA16C5C Enumerator_get_Current_m511016491079A010B4344AA4E125147FAF6D679F_gshared_inline (Enumerator_t628F4A89865D78D3344C93277ACECBDE97BE739A* __this, const RuntimeMethod* method) 
 {
 	{
@@ -16162,7 +16162,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR KeyValuePair_2_t8119C4668B01DE5BD
 		return L_0;
 	}
 }
-// Method Definition Index: 9167
+// Method Definition Index: 10784
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t KeyValuePair_2_get_Key_m380DA6E4F786B9C61012C4427405FC5FD48413A1_gshared_inline (KeyValuePair_2_t8119C4668B01DE5BDC84EDBA81EE010B6CA16C5C* __this, const RuntimeMethod* method) 
 {
 	{
@@ -16170,7 +16170,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t KeyValuePair_2_get_Key_m3
 		return L_0;
 	}
 }
-// Method Definition Index: 9168
+// Method Definition Index: 10785
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t KeyValuePair_2_get_Value_m3F5DAA82C39D5EFEAE4B1F8389E1DD38732777CC_gshared_inline (KeyValuePair_2_t8119C4668B01DE5BDC84EDBA81EE010B6CA16C5C* __this, const RuntimeMethod* method) 
 {
 	{
@@ -16178,7 +16178,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t KeyValuePair_2_get_Value_
 		return L_0;
 	}
 }
-// Method Definition Index: 9088
+// Method Definition Index: 10704
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR KeyValuePair_2_tFC32D2507216293851350D29B64D79F950B55230 Enumerator_get_Current_mE3475384B761E1C7971D3639BD09117FE8363422_gshared_inline (Enumerator_tEA93FE2B778D098F590CA168BEFC4CD85D73A6B9* __this, const RuntimeMethod* method) 
 {
 	{
@@ -16186,7 +16186,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR KeyValuePair_2_tFC32D250721629385
 		return L_0;
 	}
 }
-// Method Definition Index: 9167
+// Method Definition Index: 10784
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* KeyValuePair_2_get_Key_mBD8EA7557C27E6956F2AF29DA3F7499B2F51A282_gshared_inline (KeyValuePair_2_tFC32D2507216293851350D29B64D79F950B55230* __this, const RuntimeMethod* method) 
 {
 	{
@@ -16194,7 +16194,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* KeyValuePair_2_get
 		return L_0;
 	}
 }
-// Method Definition Index: 9168
+// Method Definition Index: 10785
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* KeyValuePair_2_get_Value_mC6BD8075F9C9DDEF7B4D731E5C38EC19103988E7_gshared_inline (KeyValuePair_2_tFC32D2507216293851350D29B64D79F950B55230* __this, const RuntimeMethod* method) 
 {
 	{
@@ -16202,7 +16202,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* KeyValuePair_2_get
 		return L_0;
 	}
 }
-// Method Definition Index: 9187
+// Method Definition Index: 10804
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void List_1_Add_mEBCF994CC3814631017F46A387B1A192ED6C85C7_gshared_inline (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, RuntimeObject* ___0_item, const RuntimeMethod* method) 
 {
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;

@@ -1836,6 +1836,28 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1964602101 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4424519382450549248, guid: 00195bec9cdd881489f6482cd7046e59, type: 3}
+  m_PrefabInstance: {fileID: 5898047300725809284}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e9da80f6e4af1749bae29a54366a57e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::VRPlayer
+--- !u!114 &1964602102 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8540369645950377362, guid: 00195bec9cdd881489f6482cd7046e59, type: 3}
+  m_PrefabInstance: {fileID: 5898047300725809284}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 378411a89480da345945c2f888327a2d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Fusion.Unity::Fusion.NetworkCharacterController
 --- !u!4 &2028136718 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1717954561962503726, guid: f6336ac4ac8b4d34bc5072418cdc62a0, type: 3}
@@ -2050,9 +2072,49 @@ PrefabInstance:
       propertyPath: SortKey
       value: 1831950133
       objectReference: {fileID: 0}
+    - target: {fileID: 4518892714928917506, guid: 00195bec9cdd881489f6482cd7046e59, type: 3}
+      propertyPath: NetworkedBehaviours.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4518892714928917506, guid: 00195bec9cdd881489f6482cd7046e59, type: 3}
+      propertyPath: 'NetworkedBehaviours.Array.data[0]'
+      value: 
+      objectReference: {fileID: 1964602101}
+    - target: {fileID: 4518892714928917506, guid: 00195bec9cdd881489f6482cd7046e59, type: 3}
+      propertyPath: 'NetworkedBehaviours.Array.data[1]'
+      value: 
+      objectReference: {fileID: 1964602102}
+    - target: {fileID: 5241062798124895685, guid: 00195bec9cdd881489f6482cd7046e59, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5241062798124895685, guid: 00195bec9cdd881489f6482cd7046e59, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5241062798124895685, guid: 00195bec9cdd881489f6482cd7046e59, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5804565540302656675, guid: 00195bec9cdd881489f6482cd7046e59, type: 3}
       propertyPath: m_Name
       value: PlayerAvater
+      objectReference: {fileID: 0}
+    - target: {fileID: 5804565540302656675, guid: 00195bec9cdd881489f6482cd7046e59, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6025263607987546630, guid: 00195bec9cdd881489f6482cd7046e59, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6025263607987546630, guid: 00195bec9cdd881489f6482cd7046e59, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6025263607987546630, guid: 00195bec9cdd881489f6482cd7046e59, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -1
       objectReference: {fileID: 0}
     - target: {fileID: 6988459048901820513, guid: 00195bec9cdd881489f6482cd7046e59, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2093,6 +2155,18 @@ PrefabInstance:
     - target: {fileID: 6988459048901820513, guid: 00195bec9cdd881489f6482cd7046e59, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7847084237267255282, guid: 00195bec9cdd881489f6482cd7046e59, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7847084237267255282, guid: 00195bec9cdd881489f6482cd7046e59, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7847084237267255282, guid: 00195bec9cdd881489f6482cd7046e59, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
