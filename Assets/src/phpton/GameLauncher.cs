@@ -58,18 +58,22 @@ public class GameLauncher : MonoBehaviour, INetworkRunnerCallbacks
     // Player Join / Leave
     // =========================
 
-    public void OnPlayerJoined(NetworkRunner runner, PlayerRef player)
+   public void OnPlayerJoined(NetworkRunner runner, PlayerRef player)
 {
     Debug.Log($"Player Joined: {player}");
 
-    // LocalPlayerのみSpawn
     if (player == runner.LocalPlayer)
     {
-        Vector3 spawnPosition = new Vector3(
-            UnityEngine.Random.Range(-2f, 2f),
-            1f,
-            UnityEngine.Random.Range(-2f, 2f)
-        );
+        Vector3 spawnPosition;
+
+        if (player.RawEncoded == 1)
+        {
+            spawnPosition = new Vector3(0, 1, 0);
+        }
+        else
+        {
+            spawnPosition = new Vector3(2, 1, 0);
+        }
 
         runner.Spawn(
             playerPrefab,
