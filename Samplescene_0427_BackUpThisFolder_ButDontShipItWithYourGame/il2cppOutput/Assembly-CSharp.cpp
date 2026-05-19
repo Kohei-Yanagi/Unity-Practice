@@ -3403,7 +3403,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Format_mA8DBB4C2516B9723C5A4
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB (RuntimeObject* ___0_message, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR PlayerRef_tFAC74D9C43A58F5E8E2959C36FFCB98B7E834EDC NetworkRunner_get_LocalPlayer_mC7AB05AEC180A8376D2667583C90F88FE8DB28F7 (NetworkRunner_tEB731E5822AE5C584747D8D3BDA75386725AC12A* __this, const RuntimeMethod* method) ;
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool PlayerRef_op_Equality_mDE02A4E3B6FC2CE8E570A1DFE9A4A58965CDDFB0_inline (PlayerRef_tFAC74D9C43A58F5E8E2959C36FFCB98B7E834EDC ___0_a, PlayerRef_tFAC74D9C43A58F5E8E2959C36FFCB98B7E834EDC ___1_b, const RuntimeMethod* method) ;
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Random_Range_m5236C99A7D8AE6AC9190592DC66016652A2D2494 (float ___0_minInclusive, float ___1_maxInclusive, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t PlayerRef_get_RawEncoded_m6DC8ADD2BFEBB0444C00F49FE5F7DF024D22A481_inline (PlayerRef_tFAC74D9C43A58F5E8E2959C36FFCB98B7E834EDC* __this, const RuntimeMethod* method) ;
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* __this, float ___0_x, float ___1_y, float ___2_z, const RuntimeMethod* method) ;
 inline void Nullable_1__ctor_m75F3ABB694E26670F021136BD3B9E71A65948BC2 (Nullable_1_t9C51B084784B716FFF4ED4575C63CFD8A71A86FE* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_value, const RuntimeMethod* method)
 {
@@ -3834,7 +3834,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameLauncher_OnPlayerJoined_m1A4F950BC5B
 		L_3 = String_Format_mA8DBB4C2516B9723C5A41E6CB1E2FAF4BBE96DD8(_stringLiteral1D8DB1B90C48BC3E8433E7FDA801DD7F38B57E27, L_2, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_3, NULL);
-		//<source_info:C:/Users/kyng7/Unity/Unity-Practice/Assets/src/phpton/GameLauncher.cs:66>
+		//<source_info:C:/Users/kyng7/Unity/Unity-Practice/Assets/src/phpton/GameLauncher.cs:65>
 		PlayerRef_tFAC74D9C43A58F5E8E2959C36FFCB98B7E834EDC L_4 = ___1_player;
 		NetworkRunner_tEB731E5822AE5C584747D8D3BDA75386725AC12A* L_5 = ___0_runner;
 		NullCheck(L_5);
@@ -3845,49 +3845,62 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameLauncher_OnPlayerJoined_m1A4F950BC5B
 		L_7 = PlayerRef_op_Equality_mDE02A4E3B6FC2CE8E570A1DFE9A4A58965CDDFB0_inline(L_4, L_6, NULL);
 		if (!L_7)
 		{
-			goto IL_0072;
+			goto IL_0080;
 		}
 	}
 	{
-		//<source_info:C:/Users/kyng7/Unity/Unity-Practice/Assets/src/phpton/GameLauncher.cs:68>
 		//<source_info:C:/Users/kyng7/Unity/Unity-Practice/Assets/src/phpton/GameLauncher.cs:69>
-		//<source_info:C:/Users/kyng7/Unity/Unity-Practice/Assets/src/phpton/GameLauncher.cs:70>
+		il2cpp_codegen_runtime_class_init_inline(PlayerRef_tFAC74D9C43A58F5E8E2959C36FFCB98B7E834EDC_il2cpp_TypeInfo_var);
+		int32_t L_8;
+		L_8 = PlayerRef_get_RawEncoded_m6DC8ADD2BFEBB0444C00F49FE5F7DF024D22A481_inline((&___1_player), NULL);
+		if ((!(((uint32_t)L_8) == ((uint32_t)1))))
+		{
+			goto IL_0045;
+		}
+	}
+	{
 		//<source_info:C:/Users/kyng7/Unity/Unity-Practice/Assets/src/phpton/GameLauncher.cs:71>
-		//<source_info:C:/Users/kyng7/Unity/Unity-Practice/Assets/src/phpton/GameLauncher.cs:72>
-		float L_8;
-		L_8 = Random_Range_m5236C99A7D8AE6AC9190592DC66016652A2D2494((-2.0f), (2.0f), NULL);
-		float L_9;
-		L_9 = Random_Range_m5236C99A7D8AE6AC9190592DC66016652A2D2494((-2.0f), (2.0f), NULL);
-		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&V_0), L_8, (1.0f), L_9, NULL);
-		//<source_info:C:/Users/kyng7/Unity/Unity-Practice/Assets/src/phpton/GameLauncher.cs:74>
-		//<source_info:C:/Users/kyng7/Unity/Unity-Practice/Assets/src/phpton/GameLauncher.cs:75>
-		//<source_info:C:/Users/kyng7/Unity/Unity-Practice/Assets/src/phpton/GameLauncher.cs:76>
-		//<source_info:C:/Users/kyng7/Unity/Unity-Practice/Assets/src/phpton/GameLauncher.cs:77>
-		//<source_info:C:/Users/kyng7/Unity/Unity-Practice/Assets/src/phpton/GameLauncher.cs:78>
-		//<source_info:C:/Users/kyng7/Unity/Unity-Practice/Assets/src/phpton/GameLauncher.cs:79>
-		NetworkRunner_tEB731E5822AE5C584747D8D3BDA75386725AC12A* L_10 = ___0_runner;
-		NetworkPrefabRef_t2AE0D6B2726E72C122CA631E91D102432C4C3707 L_11 = __this->___playerPrefab;
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_12 = V_0;
-		Nullable_1_t9C51B084784B716FFF4ED4575C63CFD8A71A86FE L_13;
-		memset((&L_13), 0, sizeof(L_13));
-		Nullable_1__ctor_m75F3ABB694E26670F021136BD3B9E71A65948BC2((&L_13), L_12, Nullable_1__ctor_m75F3ABB694E26670F021136BD3B9E71A65948BC2_RuntimeMethod_var);
-		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_14;
-		L_14 = Quaternion_get_identity_m7E701AE095ED10FD5EA0B50ABCFDE2EEFF2173A5_inline(NULL);
-		Nullable_1_tC8106DB4DC621B5BCB8913A244640A1CEDF9DD25 L_15;
-		memset((&L_15), 0, sizeof(L_15));
-		Nullable_1__ctor_mD66F35DE9BE52A35809D09B3F4B8CD1722D3ED3A((&L_15), L_14, Nullable_1__ctor_mD66F35DE9BE52A35809D09B3F4B8CD1722D3ED3A_RuntimeMethod_var);
-		PlayerRef_tFAC74D9C43A58F5E8E2959C36FFCB98B7E834EDC L_16 = ___1_player;
-		Nullable_1_t897B396C6C752586AD4510921C57F944CDE65622 L_17;
-		memset((&L_17), 0, sizeof(L_17));
-		Nullable_1__ctor_mB2794E648CBFFAB16AEC3E495389D00B099FD72D((&L_17), L_16, Nullable_1__ctor_mB2794E648CBFFAB16AEC3E495389D00B099FD72D_RuntimeMethod_var);
-		NullCheck(L_10);
-		NetworkObject_t6AA3B74338F725B9B1C05D73EBC12AF9E9CC0E5C* L_18;
-		L_18 = NetworkRunner_Spawn_m8DBDA02C8703FEC8AFDB693F851F7382DB68E0C4(L_10, L_11, L_13, L_15, L_17, (OnBeforeSpawned_t04E782C697AB6ECB28A59F33950C3ACDF731C16B*)NULL, 0, NULL);
+		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&V_0), (0.0f), (1.0f), (0.0f), NULL);
+		goto IL_005b;
 	}
 
-IL_0072:
+IL_0045:
 	{
+		//<source_info:C:/Users/kyng7/Unity/Unity-Practice/Assets/src/phpton/GameLauncher.cs:75>
+		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&V_0), (2.0f), (1.0f), (0.0f), NULL);
+	}
+
+IL_005b:
+	{
+		//<source_info:C:/Users/kyng7/Unity/Unity-Practice/Assets/src/phpton/GameLauncher.cs:78>
+		//<source_info:C:/Users/kyng7/Unity/Unity-Practice/Assets/src/phpton/GameLauncher.cs:79>
+		//<source_info:C:/Users/kyng7/Unity/Unity-Practice/Assets/src/phpton/GameLauncher.cs:80>
 		//<source_info:C:/Users/kyng7/Unity/Unity-Practice/Assets/src/phpton/GameLauncher.cs:81>
+		//<source_info:C:/Users/kyng7/Unity/Unity-Practice/Assets/src/phpton/GameLauncher.cs:82>
+		//<source_info:C:/Users/kyng7/Unity/Unity-Practice/Assets/src/phpton/GameLauncher.cs:83>
+		NetworkRunner_tEB731E5822AE5C584747D8D3BDA75386725AC12A* L_9 = ___0_runner;
+		NetworkPrefabRef_t2AE0D6B2726E72C122CA631E91D102432C4C3707 L_10 = __this->___playerPrefab;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_11 = V_0;
+		Nullable_1_t9C51B084784B716FFF4ED4575C63CFD8A71A86FE L_12;
+		memset((&L_12), 0, sizeof(L_12));
+		Nullable_1__ctor_m75F3ABB694E26670F021136BD3B9E71A65948BC2((&L_12), L_11, Nullable_1__ctor_m75F3ABB694E26670F021136BD3B9E71A65948BC2_RuntimeMethod_var);
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_13;
+		L_13 = Quaternion_get_identity_m7E701AE095ED10FD5EA0B50ABCFDE2EEFF2173A5_inline(NULL);
+		Nullable_1_tC8106DB4DC621B5BCB8913A244640A1CEDF9DD25 L_14;
+		memset((&L_14), 0, sizeof(L_14));
+		Nullable_1__ctor_mD66F35DE9BE52A35809D09B3F4B8CD1722D3ED3A((&L_14), L_13, Nullable_1__ctor_mD66F35DE9BE52A35809D09B3F4B8CD1722D3ED3A_RuntimeMethod_var);
+		PlayerRef_tFAC74D9C43A58F5E8E2959C36FFCB98B7E834EDC L_15 = ___1_player;
+		Nullable_1_t897B396C6C752586AD4510921C57F944CDE65622 L_16;
+		memset((&L_16), 0, sizeof(L_16));
+		Nullable_1__ctor_mB2794E648CBFFAB16AEC3E495389D00B099FD72D((&L_16), L_15, Nullable_1__ctor_mB2794E648CBFFAB16AEC3E495389D00B099FD72D_RuntimeMethod_var);
+		NullCheck(L_9);
+		NetworkObject_t6AA3B74338F725B9B1C05D73EBC12AF9E9CC0E5C* L_17;
+		L_17 = NetworkRunner_Spawn_m8DBDA02C8703FEC8AFDB693F851F7382DB68E0C4(L_9, L_10, L_12, L_14, L_16, (OnBeforeSpawned_t04E782C697AB6ECB28A59F33950C3ACDF731C16B*)NULL, 0, NULL);
+	}
+
+IL_0080:
+	{
+		//<source_info:C:/Users/kyng7/Unity/Unity-Practice/Assets/src/phpton/GameLauncher.cs:85>
 		return;
 	}
 }
@@ -3903,7 +3916,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameLauncher_OnPlayerLeft_m7084D0EDEA30A
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/kyng7/Unity/Unity-Practice/Assets/src/phpton/GameLauncher.cs:85>
+		//<source_info:C:/Users/kyng7/Unity/Unity-Practice/Assets/src/phpton/GameLauncher.cs:89>
 		PlayerRef_tFAC74D9C43A58F5E8E2959C36FFCB98B7E834EDC L_0 = ___1_player;
 		PlayerRef_tFAC74D9C43A58F5E8E2959C36FFCB98B7E834EDC L_1 = L_0;
 		RuntimeObject* L_2 = Box(PlayerRef_tFAC74D9C43A58F5E8E2959C36FFCB98B7E834EDC_il2cpp_TypeInfo_var, &L_1);
@@ -3911,7 +3924,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameLauncher_OnPlayerLeft_m7084D0EDEA30A
 		L_3 = String_Format_mA8DBB4C2516B9723C5A41E6CB1E2FAF4BBE96DD8(_stringLiteral49BA31F5EE6FBDB9F4B812B19B22C64E0CF730BE, L_2, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_3, NULL);
-		//<source_info:C:/Users/kyng7/Unity/Unity-Practice/Assets/src/phpton/GameLauncher.cs:86>
+		//<source_info:C:/Users/kyng7/Unity/Unity-Practice/Assets/src/phpton/GameLauncher.cs:90>
 		return;
 	}
 }
@@ -3926,10 +3939,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameLauncher_OnConnectedToServer_mABC740
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/kyng7/Unity/Unity-Practice/Assets/src/phpton/GameLauncher.cs:94>
+		//<source_info:C:/Users/kyng7/Unity/Unity-Practice/Assets/src/phpton/GameLauncher.cs:98>
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(_stringLiteral1B13D5D6623F8A151429785DFB96FA31974D7E29, NULL);
-		//<source_info:C:/Users/kyng7/Unity/Unity-Practice/Assets/src/phpton/GameLauncher.cs:95>
+		//<source_info:C:/Users/kyng7/Unity/Unity-Practice/Assets/src/phpton/GameLauncher.cs:99>
 		return;
 	}
 }
@@ -3945,7 +3958,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameLauncher_OnDisconnectedFromServer_mB
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/kyng7/Unity/Unity-Practice/Assets/src/phpton/GameLauncher.cs:99>
+		//<source_info:C:/Users/kyng7/Unity/Unity-Practice/Assets/src/phpton/GameLauncher.cs:103>
 		uint8_t L_0 = ___1_reason;
 		uint8_t L_1 = L_0;
 		RuntimeObject* L_2 = Box(NetDisconnectReason_tC71FA2C971C1F1B42889085DDE52F64821C4EDA8_il2cpp_TypeInfo_var, &L_1);
@@ -3953,7 +3966,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameLauncher_OnDisconnectedFromServer_mB
 		L_3 = String_Format_mA8DBB4C2516B9723C5A41E6CB1E2FAF4BBE96DD8(_stringLiteral74AEC636B952CCBE27BCE01A6A1745A82690F5A6, L_2, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_LogWarning_m33EF1B897E0C7C6FF538989610BFAFFEF4628CA9(L_3, NULL);
-		//<source_info:C:/Users/kyng7/Unity/Unity-Practice/Assets/src/phpton/GameLauncher.cs:100>
+		//<source_info:C:/Users/kyng7/Unity/Unity-Practice/Assets/src/phpton/GameLauncher.cs:104>
 		return;
 	}
 }
@@ -3969,7 +3982,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameLauncher_OnShutdown_m6A2CC59F7069960
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:C:/Users/kyng7/Unity/Unity-Practice/Assets/src/phpton/GameLauncher.cs:104>
+		//<source_info:C:/Users/kyng7/Unity/Unity-Practice/Assets/src/phpton/GameLauncher.cs:108>
 		int32_t L_0 = ___1_shutdownReason;
 		int32_t L_1 = L_0;
 		RuntimeObject* L_2 = Box(ShutdownReason_t70810C4D2DBBD8592C89DC771ED0008CA44D8017_il2cpp_TypeInfo_var, &L_1);
@@ -3977,7 +3990,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameLauncher_OnShutdown_m6A2CC59F7069960
 		L_3 = String_Format_mA8DBB4C2516B9723C5A41E6CB1E2FAF4BBE96DD8(_stringLiteral377540DD34AB24E20909807EBB4289FC7EE5B4A9, L_2, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		Debug_LogWarning_m33EF1B897E0C7C6FF538989610BFAFFEF4628CA9(L_3, NULL);
-		//<source_info:C:/Users/kyng7/Unity/Unity-Practice/Assets/src/phpton/GameLauncher.cs:105>
+		//<source_info:C:/Users/kyng7/Unity/Unity-Practice/Assets/src/phpton/GameLauncher.cs:109>
 		return;
 	}
 }
@@ -3985,7 +3998,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameLauncher_OnShutdown_m6A2CC59F7069960
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameLauncher_OnInput_m9289D0B797870448D662297F6536A91FBD7C2249 (GameLauncher_tC5EDC60D9CDEF6428C5B5B175FBA7C67215ACCE5* __this, NetworkRunner_tEB731E5822AE5C584747D8D3BDA75386725AC12A* ___0_runner, NetworkInput_t8FB09045785B1BAE178F157ACE2B24EEC7E31231 ___1_input, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/kyng7/Unity/Unity-Practice/Assets/src/phpton/GameLauncher.cs:111>
+		//<source_info:C:/Users/kyng7/Unity/Unity-Practice/Assets/src/phpton/GameLauncher.cs:115>
 		return;
 	}
 }
@@ -3993,7 +4006,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameLauncher_OnInput_m9289D0B797870448D6
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameLauncher_OnInputMissing_m4AC098260560F859541C30B6D8D0AD6371E9AE45 (GameLauncher_tC5EDC60D9CDEF6428C5B5B175FBA7C67215ACCE5* __this, NetworkRunner_tEB731E5822AE5C584747D8D3BDA75386725AC12A* ___0_runner, PlayerRef_tFAC74D9C43A58F5E8E2959C36FFCB98B7E834EDC ___1_player, NetworkInput_t8FB09045785B1BAE178F157ACE2B24EEC7E31231 ___2_input, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/kyng7/Unity/Unity-Practice/Assets/src/phpton/GameLauncher.cs:113>
+		//<source_info:C:/Users/kyng7/Unity/Unity-Practice/Assets/src/phpton/GameLauncher.cs:117>
 		return;
 	}
 }
@@ -4001,7 +4014,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameLauncher_OnInputMissing_m4AC09826056
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameLauncher_OnConnectRequest_m358B9EDAF0C64801D640AA15F0A8CBD814CF1B2B (GameLauncher_tC5EDC60D9CDEF6428C5B5B175FBA7C67215ACCE5* __this, NetworkRunner_tEB731E5822AE5C584747D8D3BDA75386725AC12A* ___0_runner, ConnectRequest_t0B36E883FB21681399384CF1BA965DC577148B66* ___1_request, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___2_token, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/kyng7/Unity/Unity-Practice/Assets/src/phpton/GameLauncher.cs:115>
+		//<source_info:C:/Users/kyng7/Unity/Unity-Practice/Assets/src/phpton/GameLauncher.cs:119>
 		return;
 	}
 }
@@ -4009,7 +4022,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameLauncher_OnConnectRequest_m358B9EDAF
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameLauncher_OnConnectFailed_m73457AE06F16A64C178880D83234BC87AC178375 (GameLauncher_tC5EDC60D9CDEF6428C5B5B175FBA7C67215ACCE5* __this, NetworkRunner_tEB731E5822AE5C584747D8D3BDA75386725AC12A* ___0_runner, NetAddress_t2F585AC7C9A03E60B16A9E6E8E88A330A8283678 ___1_remoteAddress, uint8_t ___2_reason, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/kyng7/Unity/Unity-Practice/Assets/src/phpton/GameLauncher.cs:117>
+		//<source_info:C:/Users/kyng7/Unity/Unity-Practice/Assets/src/phpton/GameLauncher.cs:121>
 		return;
 	}
 }
@@ -4017,7 +4030,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameLauncher_OnConnectFailed_m73457AE06F
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameLauncher_OnUserSimulationMessage_mE83E2347D6743AD096BA14015DBB5222C29C7F72 (GameLauncher_tC5EDC60D9CDEF6428C5B5B175FBA7C67215ACCE5* __this, NetworkRunner_tEB731E5822AE5C584747D8D3BDA75386725AC12A* ___0_runner, SimulationMessagePtr_tADE4FF081CDDA852A76EA6701476D3167449C8FB ___1_message, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/kyng7/Unity/Unity-Practice/Assets/src/phpton/GameLauncher.cs:119>
+		//<source_info:C:/Users/kyng7/Unity/Unity-Practice/Assets/src/phpton/GameLauncher.cs:123>
 		return;
 	}
 }
@@ -4025,7 +4038,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameLauncher_OnUserSimulationMessage_mE8
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameLauncher_OnSessionListUpdated_mF2D7D19CE4A4A6D5F982CE3E929DF5844EF38A8A (GameLauncher_tC5EDC60D9CDEF6428C5B5B175FBA7C67215ACCE5* __this, NetworkRunner_tEB731E5822AE5C584747D8D3BDA75386725AC12A* ___0_runner, List_1_t1401F7FA1DF1659F914B5A8D1A6B07E195A110AA* ___1_sessionList, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/kyng7/Unity/Unity-Practice/Assets/src/phpton/GameLauncher.cs:121>
+		//<source_info:C:/Users/kyng7/Unity/Unity-Practice/Assets/src/phpton/GameLauncher.cs:125>
 		return;
 	}
 }
@@ -4033,7 +4046,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameLauncher_OnSessionListUpdated_mF2D7D
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameLauncher_OnCustomAuthenticationResponse_m843F7FB6214FA1E520DE827198D6CE5D2A64535D (GameLauncher_tC5EDC60D9CDEF6428C5B5B175FBA7C67215ACCE5* __this, NetworkRunner_tEB731E5822AE5C584747D8D3BDA75386725AC12A* ___0_runner, Dictionary_2_tA348003A3C1CEFB3096E9D2A0BC7F1AC8EC4F710* ___1_data, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/kyng7/Unity/Unity-Practice/Assets/src/phpton/GameLauncher.cs:123>
+		//<source_info:C:/Users/kyng7/Unity/Unity-Practice/Assets/src/phpton/GameLauncher.cs:127>
 		return;
 	}
 }
@@ -4041,7 +4054,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameLauncher_OnCustomAuthenticationRespo
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameLauncher_OnHostMigration_m1C27AD68038728290732B6620058602ED3D2C6CA (GameLauncher_tC5EDC60D9CDEF6428C5B5B175FBA7C67215ACCE5* __this, NetworkRunner_tEB731E5822AE5C584747D8D3BDA75386725AC12A* ___0_runner, HostMigrationToken_t6249F7ADB7BFF0D8D26E524E085F3912BAA2952D* ___1_hostMigrationToken, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/kyng7/Unity/Unity-Practice/Assets/src/phpton/GameLauncher.cs:125>
+		//<source_info:C:/Users/kyng7/Unity/Unity-Practice/Assets/src/phpton/GameLauncher.cs:129>
 		return;
 	}
 }
@@ -4049,7 +4062,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameLauncher_OnHostMigration_m1C27AD6803
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameLauncher_OnReliableDataReceived_m86C8F3B5DCA7AEBA9D5F2F2B5198FDB029FA3667 (GameLauncher_tC5EDC60D9CDEF6428C5B5B175FBA7C67215ACCE5* __this, NetworkRunner_tEB731E5822AE5C584747D8D3BDA75386725AC12A* ___0_runner, PlayerRef_tFAC74D9C43A58F5E8E2959C36FFCB98B7E834EDC ___1_player, ReliableKey_t97653507AEAB3FE5C63D040BC353B9EEC7551256 ___2_key, ArraySegment_1_t3DC888623B720A071D69279F1FCB95A109195093 ___3_data, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/kyng7/Unity/Unity-Practice/Assets/src/phpton/GameLauncher.cs:127>
+		//<source_info:C:/Users/kyng7/Unity/Unity-Practice/Assets/src/phpton/GameLauncher.cs:131>
 		return;
 	}
 }
@@ -4057,7 +4070,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameLauncher_OnReliableDataReceived_m86C
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameLauncher_OnSceneLoadDone_m2C86ADC38683E6E5F64CF49C455504266CB740C9 (GameLauncher_tC5EDC60D9CDEF6428C5B5B175FBA7C67215ACCE5* __this, NetworkRunner_tEB731E5822AE5C584747D8D3BDA75386725AC12A* ___0_runner, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/kyng7/Unity/Unity-Practice/Assets/src/phpton/GameLauncher.cs:129>
+		//<source_info:C:/Users/kyng7/Unity/Unity-Practice/Assets/src/phpton/GameLauncher.cs:133>
 		return;
 	}
 }
@@ -4065,7 +4078,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameLauncher_OnSceneLoadDone_m2C86ADC386
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameLauncher_OnSceneLoadStart_m58B362FBA170D1A0CD2E72B3D4F93F0F94CE2BEC (GameLauncher_tC5EDC60D9CDEF6428C5B5B175FBA7C67215ACCE5* __this, NetworkRunner_tEB731E5822AE5C584747D8D3BDA75386725AC12A* ___0_runner, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/kyng7/Unity/Unity-Practice/Assets/src/phpton/GameLauncher.cs:131>
+		//<source_info:C:/Users/kyng7/Unity/Unity-Practice/Assets/src/phpton/GameLauncher.cs:135>
 		return;
 	}
 }
@@ -4073,7 +4086,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameLauncher_OnSceneLoadStart_m58B362FBA
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameLauncher_OnObjectEnterAOI_m195A67AAE16B571770C9B1672799107AADEACF7E (GameLauncher_tC5EDC60D9CDEF6428C5B5B175FBA7C67215ACCE5* __this, NetworkRunner_tEB731E5822AE5C584747D8D3BDA75386725AC12A* ___0_runner, NetworkObject_t6AA3B74338F725B9B1C05D73EBC12AF9E9CC0E5C* ___1_obj, PlayerRef_tFAC74D9C43A58F5E8E2959C36FFCB98B7E834EDC ___2_player, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/kyng7/Unity/Unity-Practice/Assets/src/phpton/GameLauncher.cs:133>
+		//<source_info:C:/Users/kyng7/Unity/Unity-Practice/Assets/src/phpton/GameLauncher.cs:137>
 		return;
 	}
 }
@@ -4081,7 +4094,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameLauncher_OnObjectEnterAOI_m195A67AAE
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameLauncher_OnObjectExitAOI_m343BA17749D17C06FA78A48F63FFAC34C6112F99 (GameLauncher_tC5EDC60D9CDEF6428C5B5B175FBA7C67215ACCE5* __this, NetworkRunner_tEB731E5822AE5C584747D8D3BDA75386725AC12A* ___0_runner, NetworkObject_t6AA3B74338F725B9B1C05D73EBC12AF9E9CC0E5C* ___1_obj, PlayerRef_tFAC74D9C43A58F5E8E2959C36FFCB98B7E834EDC ___2_player, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/kyng7/Unity/Unity-Practice/Assets/src/phpton/GameLauncher.cs:135>
+		//<source_info:C:/Users/kyng7/Unity/Unity-Practice/Assets/src/phpton/GameLauncher.cs:139>
 		return;
 	}
 }
@@ -4089,7 +4102,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameLauncher_OnObjectExitAOI_m343BA17749
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameLauncher_OnReliableDataProgress_mEDEA91CB286A4ADC40BAE624EB951B4443210E75 (GameLauncher_tC5EDC60D9CDEF6428C5B5B175FBA7C67215ACCE5* __this, NetworkRunner_tEB731E5822AE5C584747D8D3BDA75386725AC12A* ___0_runner, PlayerRef_tFAC74D9C43A58F5E8E2959C36FFCB98B7E834EDC ___1_player, ReliableKey_t97653507AEAB3FE5C63D040BC353B9EEC7551256 ___2_key, float ___3_progress, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:C:/Users/kyng7/Unity/Unity-Practice/Assets/src/phpton/GameLauncher.cs:144>
+		//<source_info:C:/Users/kyng7/Unity/Unity-Practice/Assets/src/phpton/GameLauncher.cs:148>
 		return;
 	}
 }
@@ -4954,6 +4967,14 @@ IL_0012:
 	{
 		bool L_4 = V_0;
 		return L_4;
+	}
+}
+// Method Definition Index: 43902
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t PlayerRef_get_RawEncoded_m6DC8ADD2BFEBB0444C00F49FE5F7DF024D22A481_inline (PlayerRef_tFAC74D9C43A58F5E8E2959C36FFCB98B7E834EDC* __this, const RuntimeMethod* method) 
+{
+	{
+		int32_t L_0 = __this->____index;
+		return L_0;
 	}
 }
 // Method Definition Index: 48962

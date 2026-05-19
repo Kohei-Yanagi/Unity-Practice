@@ -1991,17 +1991,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1956268790 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 7240618698250949102, guid: 00195bec9cdd881489f6482cd7046e59, type: 3}
-  m_PrefabInstance: {fileID: 5898047300725809284}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d941d632dd3028a4e8e0b8c532ce8e11, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::PlayerNameUI
 --- !u!4 &2028136718 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1717954561962503726, guid: f6336ac4ac8b4d34bc5072418cdc62a0, type: 3}
@@ -2227,14 +2216,6 @@ PrefabInstance:
       propertyPath: SortKey
       value: 1831950133
       objectReference: {fileID: 0}
-    - target: {fileID: 4518892714928917506, guid: 00195bec9cdd881489f6482cd7046e59, type: 3}
-      propertyPath: NetworkedBehaviours.Array.size
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 4518892714928917506, guid: 00195bec9cdd881489f6482cd7046e59, type: 3}
-      propertyPath: 'NetworkedBehaviours.Array.data[2]'
-      value: 
-      objectReference: {fileID: 1956268790}
     - target: {fileID: 5804565540302656675, guid: 00195bec9cdd881489f6482cd7046e59, type: 3}
       propertyPath: m_Name
       value: PlayerAvater
@@ -2283,14 +2264,13 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7583563556727762812, guid: 00195bec9cdd881489f6482cd7046e59, type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 7034248823572545990, guid: 00195bec9cdd881489f6482cd7046e59, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: 00195bec9cdd881489f6482cd7046e59, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:

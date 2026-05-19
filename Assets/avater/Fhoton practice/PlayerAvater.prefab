@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 4117038234076585330}
   - component: {fileID: 6890928633740497277}
   - component: {fileID: 497354589903209854}
+  - component: {fileID: 6813113416363745683}
   m_Layer: 0
   m_Name: righthand
   m_TagString: Untagged
@@ -112,6 +113,23 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &6813113416363745683
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 181963993075450784}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 158639473, guid: e725a070cec140c4caffb81624c8c787, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Fusion.Runtime.dll::Fusion.NetworkTransform
+  _stateAuthorityChangeErrorCorrectionDelta: 0
+  SyncScale: 0
+  SyncParent: 0
+  _autoAOIOverride: 1
+  DisableSharedModeInterpolation: 0
 --- !u!1 &3279389295452796180
 GameObject:
   m_ObjectHideFlags: 0
@@ -124,6 +142,7 @@ GameObject:
   - component: {fileID: 1106965462070897107}
   - component: {fileID: 2163657594363636990}
   - component: {fileID: 4463366604189541403}
+  - component: {fileID: 5540442767359973620}
   m_Layer: 0
   m_Name: head
   m_TagString: Untagged
@@ -224,6 +243,23 @@ SphereCollider:
   serializedVersion: 3
   m_Radius: 0.5
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &5540442767359973620
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3279389295452796180}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 158639473, guid: e725a070cec140c4caffb81624c8c787, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Fusion.Runtime.dll::Fusion.NetworkTransform
+  _stateAuthorityChangeErrorCorrectionDelta: 0
+  SyncScale: 0
+  SyncParent: 0
+  _autoAOIOverride: 1
+  DisableSharedModeInterpolation: 0
 --- !u!1 &5804565540302656675
 GameObject:
   m_ObjectHideFlags: 0
@@ -238,13 +274,14 @@ GameObject:
   - component: {fileID: 7583563556727762812}
   - component: {fileID: 2296370357616288485}
   - component: {fileID: 8540369645950377362}
+  - component: {fileID: 2617646627427563263}
   m_Layer: 0
   m_Name: PlayerAvater
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &6988459048901820513
 Transform:
   m_ObjectHideFlags: 0
@@ -284,6 +321,11 @@ MonoBehaviour:
   NetworkedBehaviours:
   - {fileID: 4424519382450549248}
   - {fileID: 8540369645950377362}
+  - {fileID: 2617646627427563263}
+  - {fileID: 8353099651619734398}
+  - {fileID: 5540442767359973620}
+  - {fileID: 3818512505930776886}
+  - {fileID: 6813113416363745683}
   - {fileID: 7240618698250949102}
   ForceRemoteRenderTimeframe: 0
 --- !u!114 &4424519382450549248
@@ -363,6 +405,24 @@ MonoBehaviour:
   braking: 10
   maxSpeed: 2
   rotationSpeed: 15
+--- !u!114 &2617646627427563263
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5804565540302656675}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e9da80f6e4af1749bae29a54366a57e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::VRPlayer
+  head: {fileID: 0}
+  leftHand: {fileID: 0}
+  rightHand: {fileID: 0}
+  xrHead: {fileID: 0}
+  xrLeftHand: {fileID: 0}
+  xrRightHand: {fileID: 0}
 --- !u!1 &6108964910156160649
 GameObject:
   m_ObjectHideFlags: 0
@@ -375,6 +435,7 @@ GameObject:
   - component: {fileID: 2115154595720075153}
   - component: {fileID: 9033071376747792720}
   - component: {fileID: 1770379940689180977}
+  - component: {fileID: 8353099651619734398}
   m_Layer: 0
   m_Name: Capsule
   m_TagString: Untagged
@@ -477,6 +538,23 @@ CapsuleCollider:
   m_Height: 2
   m_Direction: 1
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &8353099651619734398
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6108964910156160649}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 158639473, guid: e725a070cec140c4caffb81624c8c787, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Fusion.Runtime.dll::Fusion.NetworkTransform
+  _stateAuthorityChangeErrorCorrectionDelta: 0
+  SyncScale: 0
+  SyncParent: 0
+  _autoAOIOverride: 1
+  DisableSharedModeInterpolation: 0
 --- !u!1 &7034248823572545990
 GameObject:
   m_ObjectHideFlags: 0
@@ -607,7 +685,7 @@ MonoBehaviour:
   m_spriteAsset: {fileID: 0}
   m_tintAllSprites: 0
   m_StyleSheet: {fileID: 0}
-  m_TextStyleHashCode: 0
+  m_TextStyleHashCode: -1183493901
   m_overrideHtmlColors: 0
   m_faceColor:
     serializedVersion: 2
@@ -697,6 +775,7 @@ GameObject:
   - component: {fileID: 8320160354621564127}
   - component: {fileID: 8373566233146285380}
   - component: {fileID: 8606561474773603170}
+  - component: {fileID: 3818512505930776886}
   m_Layer: 0
   m_Name: lefthand
   m_TagString: Untagged
@@ -797,3 +876,20 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &3818512505930776886
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8789297008912380370}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 158639473, guid: e725a070cec140c4caffb81624c8c787, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Fusion.Runtime.dll::Fusion.NetworkTransform
+  _stateAuthorityChangeErrorCorrectionDelta: 0
+  SyncScale: 0
+  SyncParent: 0
+  _autoAOIOverride: 1
+  DisableSharedModeInterpolation: 0
