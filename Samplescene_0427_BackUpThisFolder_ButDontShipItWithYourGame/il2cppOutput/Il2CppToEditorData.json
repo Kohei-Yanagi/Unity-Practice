@@ -2,10 +2,6 @@
   "Messages": [
     {
       "Type": 0,
-      "Text": "[Fusion.Unity] - System.Void Fusion.Statistics.FusionStatsGraphBase::.cctor() - Method was given it\u0027s own cpp file because it is large and costly to compile"
-    },
-    {
-      "Type": 0,
       "Text": "[Unity.TextMeshPro] - System.Void TMPro.TMP_TextParsingUtilities::.cctor() - Method was given it\u0027s own cpp file because it is large and costly to compile"
     },
     {
@@ -15,6 +11,10 @@
     {
       "Type": 0,
       "Text": "[Unity.TextMeshPro] - System.Void TMPro.TextMeshProUGUI::GenerateTextMesh() - Method was given it\u0027s own cpp file because it is large and costly to compile"
+    },
+    {
+      "Type": 0,
+      "Text": "[Fusion.Unity] - System.Void Fusion.Statistics.FusionStatsGraphBase::.cctor() - Method was given it\u0027s own cpp file because it is large and costly to compile"
     }
   ],
   "CommandLine": "@Library\\Bee\\artifacts\\rsp\\9526521924744960863.rsp"

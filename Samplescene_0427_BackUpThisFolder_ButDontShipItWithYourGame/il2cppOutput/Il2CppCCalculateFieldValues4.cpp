@@ -214,6 +214,7 @@ struct TeleportationMultiAnchorVolume_t98D1407484A7F4510AA049568E4E07D3B93B70D0;
 struct TeleportationProvider_t3FAF889EFC7631ED0DA49A1E0C4CAD650002A9E5;
 struct Terrain_t7F309492F67238DBFBC4566F47385B2A665CF667;
 struct Text_tD60B2346DAA6666BF0D822FF607F0B220C2B9E62;
+struct TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E;
 struct TextMeshProUGUI_t101091AF4B578BB534C92E9D1EEAF0611636D957;
 struct TextWriter_tA9E5461506CF806E17B6BBBF2119359DEDA3F0F3;
 struct Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4;
@@ -7327,6 +7328,7 @@ struct VRPlayer_tFC9FD32AA46450B940D66A9E1E3E4658B632AAD9  : public NetworkBehav
 	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___xrHead;
 	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___xrLeftHand;
 	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___xrRightHand;
+	TextMeshPro_t4560AB28A3EAF503895A781A9C625273D833270E* ___nameText;
 };
 struct ICurrentAssemblyLoadContext_tF382B3644CF7D70EAEF2C4812400C0AA851DF158_StaticFields
 {
@@ -9499,9 +9501,9 @@ IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable12765[3] =
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable12766[1] = 
 {
 	static_cast<int32_t>(offsetof(PlayerNameUI_t279E62ADDF760AC12EDA6E45584B5BF9BB62855F, ___nameText)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable12767[6] = 
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable12767[7] = 
 {
-	static_cast<int32_t>(offsetof(VRPlayer_tFC9FD32AA46450B940D66A9E1E3E4658B632AAD9, ___head)),static_cast<int32_t>(offsetof(VRPlayer_tFC9FD32AA46450B940D66A9E1E3E4658B632AAD9, ___leftHand)),static_cast<int32_t>(offsetof(VRPlayer_tFC9FD32AA46450B940D66A9E1E3E4658B632AAD9, ___rightHand)),static_cast<int32_t>(offsetof(VRPlayer_tFC9FD32AA46450B940D66A9E1E3E4658B632AAD9, ___xrHead)),static_cast<int32_t>(offsetof(VRPlayer_tFC9FD32AA46450B940D66A9E1E3E4658B632AAD9, ___xrLeftHand)),static_cast<int32_t>(offsetof(VRPlayer_tFC9FD32AA46450B940D66A9E1E3E4658B632AAD9, ___xrRightHand)),};
+	static_cast<int32_t>(offsetof(VRPlayer_tFC9FD32AA46450B940D66A9E1E3E4658B632AAD9, ___head)),static_cast<int32_t>(offsetof(VRPlayer_tFC9FD32AA46450B940D66A9E1E3E4658B632AAD9, ___leftHand)),static_cast<int32_t>(offsetof(VRPlayer_tFC9FD32AA46450B940D66A9E1E3E4658B632AAD9, ___rightHand)),static_cast<int32_t>(offsetof(VRPlayer_tFC9FD32AA46450B940D66A9E1E3E4658B632AAD9, ___xrHead)),static_cast<int32_t>(offsetof(VRPlayer_tFC9FD32AA46450B940D66A9E1E3E4658B632AAD9, ___xrLeftHand)),static_cast<int32_t>(offsetof(VRPlayer_tFC9FD32AA46450B940D66A9E1E3E4658B632AAD9, ___xrRightHand)),static_cast<int32_t>(offsetof(VRPlayer_tFC9FD32AA46450B940D66A9E1E3E4658B632AAD9, ___nameText)),};
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable12768[5] = 
 {
 	static_cast<int32_t>(offsetof(MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E, ___FilePathsData)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E, ___TypesData)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E, ___TotalTypes)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E, ___TotalFiles)) + static_cast<int32_t>(sizeof(RuntimeObject)),static_cast<int32_t>(offsetof(MonoScriptData_t8F50E352855B96FFFC1D9CB07EACC90C99D73A3E, ___IsEditorOnly)) + static_cast<int32_t>(sizeof(RuntimeObject)),};
