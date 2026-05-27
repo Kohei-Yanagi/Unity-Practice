@@ -72,7 +72,7 @@ public class VRPlayer : NetworkBehaviour
     if (avatarRoot != null && headTarget != null)
     {
         avatarRoot.position =
-            headTarget.position + new Vector3(0, -1.5f, 0);
+            headTarget.position + new Vector3(0, -1.5f, 0.15f); //頭の位置を調整
 
         avatarRoot.rotation =
             Quaternion.Euler(
