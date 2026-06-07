@@ -119,6 +119,30 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &1238224777 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3744818766739417602, guid: a4c10257cd7531a4ebf7a34fa030d906, type: 3}
+  m_PrefabInstance: {fileID: 465488492963205621}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1238224779
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1238224777}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 005d9abb746902649b767d180a339cf0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Desktop_Move
+  moveSpeed: 3
+  cameraTransform: {fileID: 1693473295}
+--- !u!4 &1693473295 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3084326760064340319, guid: a4c10257cd7531a4ebf7a34fa030d906, type: 3}
+  m_PrefabInstance: {fileID: 465488492963205621}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1904369098 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4742765542097050000, guid: 3b15ee9e8e7b2474b9b178666b56b1aa, type: 3}
@@ -179,7 +203,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 3744818766739417602, guid: a4c10257cd7531a4ebf7a34fa030d906, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1238224779}
   m_SourcePrefab: {fileID: 100100000, guid: a4c10257cd7531a4ebf7a34fa030d906, type: 3}
 --- !u!1001 &3217662213522300816
 PrefabInstance:
