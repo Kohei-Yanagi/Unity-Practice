@@ -2080,6 +2080,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sample
       objectReference: {fileID: 0}
+    - target: {fileID: 4429121342384880673, guid: 598799f39f27739418c89bb2786ec185, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5227148532233858449, guid: 598799f39f27739418c89bb2786ec185, type: 3}
       propertyPath: m_DirtyAABB
       value: 0
