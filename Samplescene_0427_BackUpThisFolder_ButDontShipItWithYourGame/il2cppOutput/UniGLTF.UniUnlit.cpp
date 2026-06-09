@@ -329,7 +329,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Material_DisableKeyword_mC123927EBF2F2A1
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 102646
+// Method Definition Index: 102660
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MonoScriptData_tF23E05CEE97EFCFCF76A63533D6E29AB6BF40444 UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_m048536B9E18EFD840A4AD95EE4D85B849B3B67BD (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -363,7 +363,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MonoScriptData_tF23E05CEE97EFCFCF76A63533D6E2
 		return L_6;
 	}
 }
-// Method Definition Index: 102647
+// Method Definition Index: 102661
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_m9A216B8E53C749CADFBADF411AD1F22BB6ED7C42 (UnitySourceGeneratedAssemblyMonoScriptTypes_v1_tDFFBACCAFAD0CFBF9F0D6AEA58612D277D1022D0* __this, const RuntimeMethod* method) 
 {
 	{
@@ -449,7 +449,7 @@ IL2CPP_EXTERN_C void MonoScriptData_tF23E05CEE97EFCFCF76A63533D6E29AB6BF40444_ma
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 102648
+// Method Definition Index: 102662
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* UniUnlitContext_get_Material_m5F69A134259BD54F85EA6B5B284E0FA5B3DAB2FB (UniUnlitContext_t28B04DDDEE0052CA880AFC3B55C16371A5EB691A* __this, const RuntimeMethod* method) 
 {
 	{
@@ -458,7 +458,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Material_t18053F08F347D0DCA5E1140EC7EC4533DD8
 		return L_0;
 	}
 }
-// Method Definition Index: 102649
+// Method Definition Index: 102663
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool UniUnlitContext_get_UnsafeEditMode_mF81BE5C457A0DAC8EF544B122D455F1F101B81E3 (UniUnlitContext_t28B04DDDEE0052CA880AFC3B55C16371A5EB691A* __this, const RuntimeMethod* method) 
 {
 	{
@@ -467,7 +467,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool UniUnlitContext_get_UnsafeEditMode_mF81B
 		return L_0;
 	}
 }
-// Method Definition Index: 102650
+// Method Definition Index: 102664
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UniUnlitContext_set_UnsafeEditMode_mC08591572397DC168406B7996C20F18F12753D09 (UniUnlitContext_t28B04DDDEE0052CA880AFC3B55C16371A5EB691A* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -477,7 +477,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UniUnlitContext_set_UnsafeEditMode_mC085
 		return;
 	}
 }
-// Method Definition Index: 102651
+// Method Definition Index: 102665
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UniUnlitContext__ctor_mAA3986376CD8F7531261FDA9A38D5273FDCF2311 (UniUnlitContext_t28B04DDDEE0052CA880AFC3B55C16371A5EB691A* __this, Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___0_material, const RuntimeMethod* method) 
 {
 	{
@@ -491,7 +491,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UniUnlitContext__ctor_mAA3986376CD8F7531
 		return;
 	}
 }
-// Method Definition Index: 102652
+// Method Definition Index: 102666
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UniUnlitContext_get_RenderMode_m3949145A58D1250364BB7B46BEDF5424D9F7E4BA (UniUnlitContext_t28B04DDDEE0052CA880AFC3B55C16371A5EB691A* __this, const RuntimeMethod* method) 
 {
 	{
@@ -503,7 +503,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UniUnlitContext_get_RenderMode_m39491
 		return L_1;
 	}
 }
-// Method Definition Index: 102653
+// Method Definition Index: 102667
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UniUnlitContext_set_RenderMode_m7A01E4FA780368D1376D1DD661D73ADFB11BBBB6 (UniUnlitContext_t28B04DDDEE0052CA880AFC3B55C16371A5EB691A* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -533,7 +533,7 @@ IL_0020:
 		return;
 	}
 }
-// Method Definition Index: 102654
+// Method Definition Index: 102668
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UniUnlitContext_get_CullMode_m1DB1AB869827454FA20274D3C8DF909D66D292A7 (UniUnlitContext_t28B04DDDEE0052CA880AFC3B55C16371A5EB691A* __this, const RuntimeMethod* method) 
 {
 	{
@@ -545,7 +545,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UniUnlitContext_get_CullMode_m1DB1AB8
 		return L_1;
 	}
 }
-// Method Definition Index: 102655
+// Method Definition Index: 102669
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UniUnlitContext_set_CullMode_mBFDFB8A6E0A011516061BC7E3B55923A91AB41F9 (UniUnlitContext_t28B04DDDEE0052CA880AFC3B55C16371A5EB691A* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -575,7 +575,7 @@ IL_0020:
 		return;
 	}
 }
-// Method Definition Index: 102656
+// Method Definition Index: 102670
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UniUnlitContext_get_VColBlendMode_mC0DEF3C669F3E9B067AE05E85F79EA4E6F8C7DBD (UniUnlitContext_t28B04DDDEE0052CA880AFC3B55C16371A5EB691A* __this, const RuntimeMethod* method) 
 {
 	{
@@ -587,7 +587,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UniUnlitContext_get_VColBlendMode_mC0
 		return L_1;
 	}
 }
-// Method Definition Index: 102657
+// Method Definition Index: 102671
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UniUnlitContext_set_VColBlendMode_mBEBF34F27BDDC6296B61FAABCBDCA80F385336E7 (UniUnlitContext_t28B04DDDEE0052CA880AFC3B55C16371A5EB691A* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	{
@@ -617,7 +617,7 @@ IL_0020:
 		return;
 	}
 }
-// Method Definition Index: 102658
+// Method Definition Index: 102672
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Color_tD001788D726C3A7F1379BEED0260B9591F440C1F UniUnlitContext_get_MainColorSrgb_mD09271AE0366A7B2C655DA5D9F6C9BD58B369080 (UniUnlitContext_t28B04DDDEE0052CA880AFC3B55C16371A5EB691A* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -636,7 +636,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Color_tD001788D726C3A7F1379BEED0260B9591F440C
 		return L_1;
 	}
 }
-// Method Definition Index: 102659
+// Method Definition Index: 102673
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UniUnlitContext_set_MainColorSrgb_m2FAD7F08BC3ED94F426F7F370FE2F2445E39A70D (UniUnlitContext_t28B04DDDEE0052CA880AFC3B55C16371A5EB691A* __this, Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -655,7 +655,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UniUnlitContext_set_MainColorSrgb_m2FAD7
 		return;
 	}
 }
-// Method Definition Index: 102660
+// Method Definition Index: 102674
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Texture_t791CBB51219779964E0E8A2ED7C1AA5F92A4A700* UniUnlitContext_get_MainTexture_m0F8BCA9B2D122397EF80D6CB7B1EA815B9052A22 (UniUnlitContext_t28B04DDDEE0052CA880AFC3B55C16371A5EB691A* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -674,7 +674,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Texture_t791CBB51219779964E0E8A2ED7C1AA5F92A4
 		return L_1;
 	}
 }
-// Method Definition Index: 102661
+// Method Definition Index: 102675
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UniUnlitContext_set_MainTexture_m578AA4D4F5271F7BAA3B9DA2CD6B79C1799810E5 (UniUnlitContext_t28B04DDDEE0052CA880AFC3B55C16371A5EB691A* __this, Texture_t791CBB51219779964E0E8A2ED7C1AA5F92A4A700* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -693,7 +693,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UniUnlitContext_set_MainTexture_m578AA4D
 		return;
 	}
 }
-// Method Definition Index: 102662
+// Method Definition Index: 102676
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 UniUnlitContext_get_MainTextureOffset_m15FFB3B8693C9E16EA7CA4CDA4DC2BBEEB948AC5 (UniUnlitContext_t28B04DDDEE0052CA880AFC3B55C16371A5EB691A* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -712,7 +712,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D
 		return L_1;
 	}
 }
-// Method Definition Index: 102663
+// Method Definition Index: 102677
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UniUnlitContext_set_MainTextureOffset_m064219441A5EB473D8F591535FFB5DCBEF772CF2 (UniUnlitContext_t28B04DDDEE0052CA880AFC3B55C16371A5EB691A* __this, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -731,7 +731,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UniUnlitContext_set_MainTextureOffset_m0
 		return;
 	}
 }
-// Method Definition Index: 102664
+// Method Definition Index: 102678
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 UniUnlitContext_get_MainTextureScale_m86F496ADAEC46A7F7B0DA898A3ED226C538156A7 (UniUnlitContext_t28B04DDDEE0052CA880AFC3B55C16371A5EB691A* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -750,7 +750,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D
 		return L_1;
 	}
 }
-// Method Definition Index: 102665
+// Method Definition Index: 102679
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UniUnlitContext_set_MainTextureScale_mA056AB86C4B4B2B5188AB15EC5467F533643E0A2 (UniUnlitContext_t28B04DDDEE0052CA880AFC3B55C16371A5EB691A* __this, Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -769,7 +769,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UniUnlitContext_set_MainTextureScale_mA0
 		return;
 	}
 }
-// Method Definition Index: 102666
+// Method Definition Index: 102680
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float UniUnlitContext_get_Cutoff_m8EA0C2EA113607795580666EF20019EEA3C989B6 (UniUnlitContext_t28B04DDDEE0052CA880AFC3B55C16371A5EB691A* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -788,7 +788,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float UniUnlitContext_get_Cutoff_m8EA0C2EA113
 		return L_1;
 	}
 }
-// Method Definition Index: 102667
+// Method Definition Index: 102681
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UniUnlitContext_set_Cutoff_m95B1A15478E4176001C9030149CD30082CF65C3E (UniUnlitContext_t28B04DDDEE0052CA880AFC3B55C16371A5EB691A* __this, float ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -807,7 +807,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UniUnlitContext_set_Cutoff_m95B1A15478E4
 		return;
 	}
 }
-// Method Definition Index: 102668
+// Method Definition Index: 102682
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UniUnlitContext_Validate_mE61FFBFE27B4FA34F06DB7ED4D6EDDC22FB52DE1 (UniUnlitContext_t28B04DDDEE0052CA880AFC3B55C16371A5EB691A* __this, const RuntimeMethod* method) 
 {
 	{
@@ -851,7 +851,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UniUnlitContext_Validate_mE61FFBFE27B4FA
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 102669
+// Method Definition Index: 102683
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UniUnlitUtil_SetRenderMode_m375011CB74E667270353A7F19D7D9AE867596964 (Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___0_material, int32_t ___1_mode, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -870,7 +870,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UniUnlitUtil_SetRenderMode_m375011CB74E6
 		return;
 	}
 }
-// Method Definition Index: 102670
+// Method Definition Index: 102684
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UniUnlitUtil_SetCullMode_m5D5FCEA2E05F13F5DABDF6489A64196A4498BC05 (Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___0_material, int32_t ___1_mode, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -889,7 +889,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UniUnlitUtil_SetCullMode_m5D5FCEA2E05F13
 		return;
 	}
 }
-// Method Definition Index: 102671
+// Method Definition Index: 102685
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UniUnlitUtil_SetVColBlendMode_mDACB9CF58F3DCB0F32B1A918F84C2D6C9BD36B86 (Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___0_material, int32_t ___1_mode, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -908,7 +908,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UniUnlitUtil_SetVColBlendMode_mDACB9CF58
 		return;
 	}
 }
-// Method Definition Index: 102672
+// Method Definition Index: 102686
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UniUnlitUtil_GetRenderMode_mF321D681B68A0E7DE81361696F70A59BBFCD45CD (Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___0_material, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -926,7 +926,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UniUnlitUtil_GetRenderMode_mF321D681B
 		return (int32_t)(L_1);
 	}
 }
-// Method Definition Index: 102673
+// Method Definition Index: 102687
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UniUnlitUtil_GetCullMode_m25BF5A56B38CFA302E7D6DD4570CB48DF159A25A (Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___0_material, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -944,7 +944,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UniUnlitUtil_GetCullMode_m25BF5A56B38
 		return (int32_t)(L_1);
 	}
 }
-// Method Definition Index: 102674
+// Method Definition Index: 102688
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UniUnlitUtil_GetVColBlendMode_mDB2F214F61750297947CCE09BC965C42C1BF3254 (Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___0_material, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -962,7 +962,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UniUnlitUtil_GetVColBlendMode_mDB2F21
 		return (int32_t)(L_1);
 	}
 }
-// Method Definition Index: 102675
+// Method Definition Index: 102689
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UniUnlitUtil_ValidateProperties_m633464DD277630761DA63E17E8350F2065CD3D9D (Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___0_material, bool ___1_isRenderModeChangedByUser, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -993,7 +993,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UniUnlitUtil_ValidateProperties_m633464D
 		return;
 	}
 }
-// Method Definition Index: 102676
+// Method Definition Index: 102690
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UniUnlitUtil_SetupBlendMode_mBF72B03313FBDB8ACE6AAC146F759E05082DDDEE (Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___0_material, int32_t ___1_renderMode, bool ___2_isRenderModeChangedByUser, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1156,7 +1156,7 @@ IL_0123:
 		return;
 	}
 }
-// Method Definition Index: 102677
+// Method Definition Index: 102691
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UniUnlitUtil_SetupVertexColorBlendOp_mCA132F90D88D081BA6554F6089B69D9B80E030B7 (Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___0_material, int32_t ___1_vColBlendOp, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1201,7 +1201,7 @@ IL_0015:
 		return;
 	}
 }
-// Method Definition Index: 102678
+// Method Definition Index: 102692
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UniUnlitUtil_SetKeyword_m10762C0D2C48E6440DA7F7D13E06C1B9BB340B7E (Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___0_mat, String_t* ___1_keyword, bool ___2_required, const RuntimeMethod* method) 
 {
 	{
@@ -1259,7 +1259,7 @@ IL_000b:
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-// Method Definition Index: 102648
+// Method Definition Index: 102662
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* UniUnlitContext_get_Material_m5F69A134259BD54F85EA6B5B284E0FA5B3DAB2FB_inline (UniUnlitContext_t28B04DDDEE0052CA880AFC3B55C16371A5EB691A* __this, const RuntimeMethod* method) 
 {
 	{
@@ -1268,7 +1268,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Material_t18053F08F347D0DCA5E1140
 		return L_0;
 	}
 }
-// Method Definition Index: 102649
+// Method Definition Index: 102663
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool UniUnlitContext_get_UnsafeEditMode_mF81BE5C457A0DAC8EF544B122D455F1F101B81E3_inline (UniUnlitContext_t28B04DDDEE0052CA880AFC3B55C16371A5EB691A* __this, const RuntimeMethod* method) 
 {
 	{

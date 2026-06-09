@@ -10088,7 +10088,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Memory_1_CombineHashCodes_mAF5A2B5782
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 91132
+// Method Definition Index: 91133
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MessageArray_1_get_HasNextPage_mB9584B37665BB97F4772D4A8950F48C0CECB86F5_gshared (MessageArray_1_t1751A681AAC7438BEA74C4EC6F2FE5EF88CBEEE5* __this, const RuntimeMethod* method) 
 {
 	{
@@ -10099,7 +10099,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MessageArray_1_get_HasNextPage_mB9584B37
 		return (bool)((((int32_t)L_1) == ((int32_t)0))? 1 : 0);
 	}
 }
-// Method Definition Index: 91133
+// Method Definition Index: 91134
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MessageArray_1_get_HasPreviousPage_mC9500EF51F4A451E99E19D2F6485D2E9B21448A9_gshared (MessageArray_1_t1751A681AAC7438BEA74C4EC6F2FE5EF88CBEEE5* __this, const RuntimeMethod* method) 
 {
 	{
@@ -10110,7 +10110,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MessageArray_1_get_HasPreviousPage_mC950
 		return (bool)((((int32_t)L_1) == ((int32_t)0))? 1 : 0);
 	}
 }
-// Method Definition Index: 91134
+// Method Definition Index: 91135
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MessageArray_1__ctor_m9B6627200A9DB24455505C010AE4DD7BEF61F451_gshared (MessageArray_1_t1751A681AAC7438BEA74C4EC6F2FE5EF88CBEEE5* __this, const RuntimeMethod* method) 
 {
 	{
@@ -10127,7 +10127,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MessageArray_1__ctor_m9B6627200A9DB24455
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 91132
+// Method Definition Index: 91133
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MessageArray_1_get_HasNextPage_m879137A407ED834212F6734058475D4A815C19C4_gshared (MessageArray_1_t187D8F7491F4F6E5FC1A1EECB94E69F2A20B743D* __this, const RuntimeMethod* method) 
 {
 	{
@@ -10138,7 +10138,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MessageArray_1_get_HasNextPage_m879137A4
 		return (bool)((((int32_t)L_1) == ((int32_t)0))? 1 : 0);
 	}
 }
-// Method Definition Index: 91133
+// Method Definition Index: 91134
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MessageArray_1_get_HasPreviousPage_mA8A4327EF144AF5699D2DF7CC5E69E319A972957_gshared (MessageArray_1_t187D8F7491F4F6E5FC1A1EECB94E69F2A20B743D* __this, const RuntimeMethod* method) 
 {
 	{
@@ -10149,7 +10149,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MessageArray_1_get_HasPreviousPage_mA8A4
 		return (bool)((((int32_t)L_1) == ((int32_t)0))? 1 : 0);
 	}
 }
-// Method Definition Index: 91134
+// Method Definition Index: 91135
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MessageArray_1__ctor_m34C9AF79E6AA3C3FF7FEB7C774D999C9B2E923AF_gshared (MessageArray_1_t187D8F7491F4F6E5FC1A1EECB94E69F2A20B743D* __this, const RuntimeMethod* method) 
 {
 	{
@@ -10166,7 +10166,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MessageArray_1__ctor_m34C9AF79E6AA3C3FF7
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 90693
+// Method Definition Index: 90694
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Message_1__ctor_m056394BD3411BC9FAB7FABBBF0E983B982767A08_gshared (Message_1_t460C5DB850820CE99405679A8B635099C8AB32B1* __this, intptr_t ___0_msgPointer, GetDataFromMessage_t7BABF3BF7059AC992904777B14C6EEAC9B03E617* ___1_getData, const RuntimeMethod* method) 
 {
 	{
@@ -10206,7 +10206,7 @@ IL_001c:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 90693
+// Method Definition Index: 90694
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Message_1__ctor_m3062C229F777D049167700DF20F450174CF7C63B_gshared (Message_1_t8EB1CC5139379A0C8CE73C2A114E15A5C7202F84* __this, intptr_t ___0_msgPointer, GetDataFromMessage_t7CA695D08C70EB9B32EEE2729048D12FC2BEA67B* ___1_getData, const RuntimeMethod* method) 
 {
 	{
@@ -10246,7 +10246,7 @@ IL_001c:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 90693
+// Method Definition Index: 90694
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Message_1__ctor_mE6780E960F2C3621432740A01D899B036A8C3A69_gshared (Message_1_t47786C69C81CCF313B58F96DC03070CC900D89B5* __this, intptr_t ___0_msgPointer, GetDataFromMessage_tA50DF315AEB27B1AF7AB58A28026A3FD0BDE9EDD* ___1_getData, const RuntimeMethod* method) 
 {
 	{
@@ -10286,7 +10286,7 @@ IL_001c:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 90693
+// Method Definition Index: 90694
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Message_1__ctor_m0342A60C2E1170772E5B038E99DAE692367E0955_gshared (Message_1_t05A438BE7B10E77D674EF73D8F6BCF966AE708D0* __this, intptr_t ___0_msgPointer, GetDataFromMessage_t872DAF63627BEC93B1FA1F8CCDCBAB70D3E58B01* ___1_getData, const RuntimeMethod* method) 
 {
 	{
@@ -10327,7 +10327,7 @@ IL_001c:
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 90693
+// Method Definition Index: 90694
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Message_1__ctor_m93E8596BE6322864A4EC2CA8A8160D3352C9A612_gshared (Message_1_tCBBEE92C7CC0E3366200CA75B67BB99199E3CFE9* __this, intptr_t ___0_msgPointer, GetDataFromMessage_t5C10837B5419B958CC62CE18E1B4E802F00E6598* ___1_getData, const RuntimeMethod* method) 
 {
 	const uint32_t SizeOf_T_t05A2A2AC6EE66D2F8F2685A82297526FE88D69DD = il2cpp_codegen_sizeof(il2cpp_rgctx_data_no_init(method->klass->rgctx_data, 2));
@@ -11843,7 +11843,7 @@ IL2CPP_EXTERN_C  NativeArray_1_tA250DFA6F2B09B543458A4231692763973E84C57 NativeA
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 71929
+// Method Definition Index: 71930
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeArrayStaticId_1__cctor_m67213AA7112EE9BCD68829DC44441438CB42950A_gshared (const RuntimeMethod* method) 
 {
 	{
@@ -31290,25 +31290,25 @@ IL_00b4:
 		return L_27;
 	}
 }
-// Method Definition Index: 90699
+// Method Definition Index: 90700
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool GetDataFromMessage_Invoke_mFC68BD3C2C592A93A12B158A83256297D36859C2_gshared_inline (GetDataFromMessage_t7BABF3BF7059AC992904777B14C6EEAC9B03E617* __this, intptr_t ___0_msgPointer, const RuntimeMethod* method) 
 {
 	typedef bool (*FunctionPointerType) (RuntimeObject*, intptr_t, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_msgPointer, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 90699
+// Method Definition Index: 90700
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t GetDataFromMessage_Invoke_m31A0A9F0C96B427935D2E27685D6AA11AFD4CAFF_gshared_inline (GetDataFromMessage_t7CA695D08C70EB9B32EEE2729048D12FC2BEA67B* __this, intptr_t ___0_msgPointer, const RuntimeMethod* method) 
 {
 	typedef int32_t (*FunctionPointerType) (RuntimeObject*, intptr_t, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_msgPointer, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 90699
+// Method Definition Index: 90700
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t GetDataFromMessage_Invoke_mF0F8D259710B8A871A27BB0F70775C7B5D91DE25_gshared_inline (GetDataFromMessage_tA50DF315AEB27B1AF7AB58A28026A3FD0BDE9EDD* __this, intptr_t ___0_msgPointer, const RuntimeMethod* method) 
 {
 	typedef int32_t (*FunctionPointerType) (RuntimeObject*, intptr_t, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_msgPointer, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-// Method Definition Index: 90699
+// Method Definition Index: 90700
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* GetDataFromMessage_Invoke_m0D5B4A8829D031E3A65E37F08F187D766270D35A_gshared_inline (GetDataFromMessage_t872DAF63627BEC93B1FA1F8CCDCBAB70D3E58B01* __this, intptr_t ___0_msgPointer, const RuntimeMethod* method) 
 {
 	typedef RuntimeObject* (*FunctionPointerType) (RuntimeObject*, intptr_t, const RuntimeMethod*);

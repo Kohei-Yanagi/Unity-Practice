@@ -39,8 +39,8 @@ public class GameLauncher : MonoBehaviour, INetworkRunnerCallbacks
         {
             GameMode = GameMode.Shared,
             SessionName = roomName,
-            Scene = SceneRef.FromIndex(SceneManager.GetActiveScene().buildIndex),
-            SceneManager = sceneManager
+            //Scene = SceneRef.FromIndex(SceneManager.GetActiveScene().buildIndex),
+            //SceneManager = sceneManager
         });
 
         if (result.Ok)
