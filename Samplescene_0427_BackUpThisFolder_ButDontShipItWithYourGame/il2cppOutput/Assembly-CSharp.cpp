@@ -6697,16 +6697,29 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VRPlayer_UpdateNetworkRootPosition_m071C
 
 IL_000f:
 	{
-		//<source_info:C:/Users/kyng7/Unity/Unity-Practice/Assets/src/phpton/Player.cs:185>
+		//<source_info:C:/Users/kyng7/Unity/Unity-Practice/Assets/src/phpton/Player.cs:187>
+		//<source_info:C:/Users/kyng7/Unity/Unity-Practice/Assets/src/phpton/Player.cs:188>
+		//<source_info:C:/Users/kyng7/Unity/Unity-Practice/Assets/src/phpton/Player.cs:189>
+		//<source_info:C:/Users/kyng7/Unity/Unity-Practice/Assets/src/phpton/Player.cs:190>
+		//<source_info:C:/Users/kyng7/Unity/Unity-Practice/Assets/src/phpton/Player.cs:191>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_2;
 		L_2 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_3 = __this->___headTarget;
 		NullCheck(L_3);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4;
 		L_4 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_3, NULL);
+		float L_5 = L_4.___x;
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_6 = __this->___headTarget;
+		NullCheck(L_6);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_7;
+		L_7 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_6, NULL);
+		float L_8 = L_7.___z;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_9;
+		memset((&L_9), 0, sizeof(L_9));
+		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_9), L_5, (0.0f), L_8, NULL);
 		NullCheck(L_2);
-		Transform_set_position_mA1A817124BB41B685043DED2A9BA48CDF37C4156(L_2, L_4, NULL);
-		//<source_info:C:/Users/kyng7/Unity/Unity-Practice/Assets/src/phpton/Player.cs:186>
+		Transform_set_position_mA1A817124BB41B685043DED2A9BA48CDF37C4156(L_2, L_9, NULL);
+		//<source_info:C:/Users/kyng7/Unity/Unity-Practice/Assets/src/phpton/Player.cs:192>
 		return;
 	}
 }
@@ -6722,7 +6735,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VRPlayer_AssignLookAtTargetOnce_mB3604B9
 	}
 	VRMLookAtHead_t8D66038A9A27273EBF7E871D7468F291D0553C4A* V_0 = NULL;
 	{
-		//<source_info:C:/Users/kyng7/Unity/Unity-Practice/Assets/src/phpton/Player.cs:190>
+		//<source_info:C:/Users/kyng7/Unity/Unity-Practice/Assets/src/phpton/Player.cs:196>
 		bool L_0 = __this->___m_lookAtAssigned;
 		if (L_0)
 		{
@@ -6752,19 +6765,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VRPlayer_AssignLookAtTargetOnce_mB3604B9
 
 IL_0024:
 	{
-		//<source_info:C:/Users/kyng7/Unity/Unity-Practice/Assets/src/phpton/Player.cs:192>
+		//<source_info:C:/Users/kyng7/Unity/Unity-Practice/Assets/src/phpton/Player.cs:198>
 		return;
 	}
 
 IL_0025:
 	{
-		//<source_info:C:/Users/kyng7/Unity/Unity-Practice/Assets/src/phpton/Player.cs:195>
+		//<source_info:C:/Users/kyng7/Unity/Unity-Practice/Assets/src/phpton/Player.cs:201>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_5 = __this->___avatarRoot;
 		NullCheck(L_5);
 		VRMLookAtHead_t8D66038A9A27273EBF7E871D7468F291D0553C4A* L_6;
 		L_6 = Component_GetComponentInChildren_TisVRMLookAtHead_t8D66038A9A27273EBF7E871D7468F291D0553C4A_m802121C9DBE7F7427B56A1A26DB418BE0DC92052(L_5, Component_GetComponentInChildren_TisVRMLookAtHead_t8D66038A9A27273EBF7E871D7468F291D0553C4A_m802121C9DBE7F7427B56A1A26DB418BE0DC92052_RuntimeMethod_var);
 		V_0 = L_6;
-		//<source_info:C:/Users/kyng7/Unity/Unity-Practice/Assets/src/phpton/Player.cs:197>
+		//<source_info:C:/Users/kyng7/Unity/Unity-Practice/Assets/src/phpton/Player.cs:203>
 		VRMLookAtHead_t8D66038A9A27273EBF7E871D7468F291D0553C4A* L_7 = V_0;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_8;
@@ -6775,21 +6788,21 @@ IL_0025:
 		}
 	}
 	{
-		//<source_info:C:/Users/kyng7/Unity/Unity-Practice/Assets/src/phpton/Player.cs:199>
+		//<source_info:C:/Users/kyng7/Unity/Unity-Practice/Assets/src/phpton/Player.cs:205>
 		return;
 	}
 
 IL_003b:
 	{
-		//<source_info:C:/Users/kyng7/Unity/Unity-Practice/Assets/src/phpton/Player.cs:202>
+		//<source_info:C:/Users/kyng7/Unity/Unity-Practice/Assets/src/phpton/Player.cs:208>
 		VRMLookAtHead_t8D66038A9A27273EBF7E871D7468F291D0553C4A* L_9 = V_0;
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_10 = __this->___headTarget;
 		NullCheck(L_9);
 		L_9->___Target = L_10;
 		Il2CppCodeGenWriteBarrier((void**)(&L_9->___Target), (void*)L_10);
-		//<source_info:C:/Users/kyng7/Unity/Unity-Practice/Assets/src/phpton/Player.cs:203>
+		//<source_info:C:/Users/kyng7/Unity/Unity-Practice/Assets/src/phpton/Player.cs:209>
 		__this->___m_lookAtAssigned = (bool)1;
-		//<source_info:C:/Users/kyng7/Unity/Unity-Practice/Assets/src/phpton/Player.cs:204>
+		//<source_info:C:/Users/kyng7/Unity/Unity-Practice/Assets/src/phpton/Player.cs:210>
 		return;
 	}
 }

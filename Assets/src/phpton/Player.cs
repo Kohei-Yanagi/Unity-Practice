@@ -182,7 +182,13 @@ public class VRPlayer : NetworkBehaviour
             return;
         }
 
-        transform.position = headTarget.position;
+        //transform.position = headTarget.position;
+        // 修正案: ネットワークオブジェクトのルートは、頭の位置に合わせて地面に置きます.
+        transform.position = new Vector3(
+        headTarget.position.x,
+        0f,
+        headTarget.position.z
+    );
     }
 
     private void AssignLookAtTargetOnce()
